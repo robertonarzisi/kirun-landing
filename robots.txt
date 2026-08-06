@@ -1,0 +1,3 @@
+# Crawl consentito: il no-index lo fa il meta robots nelle pagine (fase 1-2).
+User-agent: *
+Allow: /
