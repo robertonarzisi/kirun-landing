@@ -152,7 +152,11 @@ def build(dati, forza_soldout=False):
     anno = ev.get("anno") or ""
     titolo = ev["nome_evento"] if str(anno) in ev["nome_evento"] else f"{ev['nome_evento']} {anno}".strip()
 
+    slug = (ev.get("landing_slug") or "").strip() or ev["event_key"].replace("_", "-")
+
     model = {
+        "slug": slug,
+        "page_url": f"https://go.ki-run.it/eventi/{slug}/",
         "titolo": titolo,
         "eyebrow": ev.get("landing_headline") or "Viaggio e gara con KiRun",
         "strillo": ev.get("landing_intro") or "",
@@ -183,15 +187,14 @@ def render(model):
     tpl = (REPO / "templates" / "evento.html").read_text(encoding="utf-8")
 
     if model["sold_out"]:
-        cta_url, cta_label = model["contact_url"], "Sold out — scrivici per la lista d'attesa"
+        cta_url, cta_label = model["contact_url"], "Sold out — lista d'attesa"
         chiusura_titolo = "Questo viaggio è sold out"
-        chiusura_testo = ("I pettorali disponibili sono finiti. Contattaci per la lista "
+        chiusura_testo = ("I pettorali disponibili sono finiti. Scrivici per la lista "
                           "d'attesa o per la prossima edizione.")
     else:
-        cta_url, cta_label = model["cta_url"], "Richiedi la tua quota"
+        cta_url, cta_label = model["cta_url"], "Prenota"
         chiusura_titolo = "Pronto a partire?"
-        chiusura_testo = ("Compila il modulo: bastano pochi minuti. Ti rispondiamo noi, "
-                          "senza impegno, con la quota per il tuo gruppo.")
+        chiusura_testo = "La prenotazione si completa online in pochi minuti."
 
     rows = []
     for r in model["price_rows"]:
@@ -206,6 +209,8 @@ def render(model):
         for t, c in model["conditions"])
 
     valori = {
+        "slug": model["slug"],
+        "page_url": model["page_url"],
         "page_title": f"{model['titolo']} · KiRun",
         "meta_description": model["meta_description"],
         "eyebrow": model["eyebrow"],

@@ -1,4 +1,4 @@
-/* kirun.css — stile condiviso delle landing evento KiRun.
+/* kirun.css — stile condiviso delle landing evento KiRun (layout "foto magazine").
    Brand Manual: Poppins Medium/Regular · #F76716 #F8840F #203A5D #91ABBD.
    Un ritocco qui vale per tutte le pagine senza rigenerarle. */
 
@@ -21,15 +21,15 @@
   --arancio: #F76716;
   --arancio-2: #F8840F;
   --blu: #203A5D;
-  --blu-notte: #16293F;   /* blu brand scurito per gradiente hero */
+  --blu-notte: #16293F;
   --azzurro: #91ABBD;
-  --carta: #F7F9FB;       /* bianco sbiancato d'azzurro, mai grigio puro */
+  --carta: #F7F9FB;
   --bianco: #FFFFFF;
-  --inchiostro: #22334A;  /* testo corrente, derivato dal blu */
-  --secondario: #56708A;  /* azzurro portato a contrasto leggibile */
+  --inchiostro: #22334A;
+  --secondario: #56708A;
   --linea: #DDE5EC;
   --radius: 12px;
-  --misura: 44rem;        /* colonna di lettura */
+  --misura: 64rem;      /* larghezza del corpo a due colonne */
 }
 
 * { box-sizing: border-box; }
@@ -58,93 +58,61 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--blu); text-wrap: b
   font-weight: 500;
 }
 
-/* ---------- Hero ---------- */
+/* ---------- Hero fotografico ----------
+   La foto arriva da /assets/hero/<slug>.jpg via custom property --foto impostata inline.
+   Se il file non esiste resta il gradiente brand sotto: la pagina regge senza foto. */
 
-.hero {
-  background:
-    repeating-linear-gradient(115deg, rgba(247, 103, 22, 0.05) 0 2px, transparent 2px 26px),
+.hero-foto {
+  min-height: 62vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2.5rem;
+  background-image:
+    linear-gradient(180deg, rgba(22, 41, 63, 0.30) 0%, rgba(22, 41, 63, 0.85) 80%),
+    var(--foto, none),
     linear-gradient(160deg, var(--blu) 20%, var(--blu-notte) 100%);
-  color: var(--bianco);
+  background-size: cover;
+  background-position: center;
   border-top: 4px solid var(--arancio);
-  padding: 2.5rem 1.25rem 2.75rem;
+  padding: 1.5rem 1.25rem 2.25rem;
 }
 
-.hero-inner {
+.hero-foto .marchio {
   max-width: var(--misura);
   margin: 0 auto;
-  display: grid;
-  gap: 1.75rem;
-}
-
-.hero .marchio {
+  width: 100%;
   display: flex;
   align-items: baseline;
   gap: 0.5rem;
 }
 
-/* Wordmark testuale SEGNAPOSTO: sostituire con l'asset ufficiale del Brand Manual
+/* Wordmark testuale SEGNAPOSTO: sostituire con l'asset logo ufficiale del Brand Manual
    (mai ridisegnare il logo). */
-.hero .wordmark {
+.wordmark { font-weight: 500; font-size: 1.25rem; letter-spacing: 0.02em; color: var(--bianco); }
+.wordmark b { color: var(--arancio-2); font-weight: 500; }
+.sotto-marchio { font-size: 0.75rem; color: var(--azzurro); letter-spacing: 0.06em; }
+
+.hero-testo { max-width: var(--misura); margin: 0 auto; width: 100%; display: grid; gap: 0.75rem; justify-items: start; }
+
+.hero-testo .eyebrow {
+  font-size: 0.8125rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--arancio-2);
   font-weight: 500;
-  font-size: 1.25rem;
-  letter-spacing: 0.02em;
-  color: var(--bianco);
 }
-.hero .wordmark b { color: var(--arancio-2); font-weight: 500; }
-.hero .sotto-marchio { font-size: 0.75rem; color: var(--azzurro); letter-spacing: 0.06em; }
 
-.hero .etichetta { color: var(--azzurro); }
-
-.hero h1 {
+.hero-testo h1 {
   color: var(--bianco);
-  font-size: clamp(2.1rem, 6vw, 3.25rem);
+  font-size: clamp(2.4rem, 7vw, 4rem);
+  line-height: 1.05;
   letter-spacing: -0.01em;
 }
 
-.hero .strillo {
-  color: #D8E2EC;
-  max-width: 38rem;
-  margin: 0;
-}
-
-/* La data del viaggio come un pettorale di gara */
-.pettorale-data {
-  justify-self: start;
-  background: var(--bianco);
-  color: var(--blu);
-  border: 3px solid var(--arancio);
-  border-radius: 10px;
-  padding: 0.6rem 1.1rem 0.7rem;
-  display: inline-grid;
-  gap: 0.1rem;
-  box-shadow: 0 6px 24px rgba(0, 0, 0, 0.25);
-}
-.pettorale-data .gara {
-  font-size: 0.75rem;
-  letter-spacing: 0.14em;
-  text-transform: uppercase;
-  color: var(--secondario);
-  font-weight: 500;
-}
-.pettorale-data .quando {
-  font-size: 1.5rem;
-  font-weight: 500;
-  font-variant-numeric: tabular-nums;
-  white-space: nowrap;
-}
-
-.hero .chips { display: flex; flex-wrap: wrap; gap: 0.5rem; }
-.chip {
-  font-size: 0.875rem;
-  color: #E7EDF3;
-  border: 1px solid rgba(145, 171, 189, 0.45);
-  border-radius: 999px;
-  padding: 0.25rem 0.85rem;
-  white-space: nowrap;
-}
+.hero-testo .strillo { margin: 0; color: #D8E2EC; max-width: 38rem; }
 
 .badge-soldout {
-  justify-self: start;
   background: var(--arancio);
   color: var(--bianco);
   font-weight: 500;
@@ -155,106 +123,45 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--blu); text-wrap: b
   padding: 0.3rem 1rem;
 }
 
-.hero .aggancio {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 1rem 1.5rem;
+.hero-testo .meta { display: flex; flex-wrap: wrap; gap: 0.4rem 0.5rem; }
+.chip {
+  font-size: 0.875rem;
+  color: #E7EDF3;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+  border-radius: 999px;
+  padding: 0.25rem 0.85rem;
+  white-space: nowrap;
 }
-.hero .quota-da { display: grid; }
-.hero .quota-da .cifra {
-  font-size: 2rem;
-  font-weight: 500;
-  font-variant-numeric: tabular-nums;
-  color: var(--bianco);
-}
-.hero .quota-da .nota { font-size: 0.8125rem; color: var(--azzurro); }
+.chip.evidenza { border-color: var(--arancio-2); color: var(--bianco); font-weight: 500; }
 
-/* ---------- Bottoni ---------- */
+/* ---------- Corpo a due colonne: contenuto + card riepilogo ---------- */
 
-.cta {
-  display: inline-block;
-  background: linear-gradient(120deg, var(--arancio), var(--arancio-2));
-  color: var(--bianco);
-  font-weight: 500;
-  font-size: 1.0625rem;
-  text-decoration: none;
-  border-radius: 10px;
-  padding: 0.85rem 1.75rem;
-  box-shadow: 0 4px 16px rgba(247, 103, 22, 0.35);
-}
-.cta:hover { filter: brightness(1.05); }
-.cta:focus-visible { outline: 3px solid var(--bianco); outline-offset: 2px; }
-.cta.secondaria {
-  background: transparent;
-  color: var(--blu);
-  border: 2px solid var(--blu);
-  box-shadow: none;
-}
-
-/* ---------- Sezioni ---------- */
-
-main { padding: 0 1.25rem; }
-
-.sezione {
+.corpo {
   max-width: var(--misura);
   margin: 0 auto;
-  padding: 2.5rem 0 0;
+  padding: 2rem 1.25rem 5rem;
+  display: grid;
+  gap: 2rem;
+  grid-template-columns: 1fr;
+  grid-template-areas: "aside" "main";
 }
-.sezione:last-of-type { padding-bottom: 3rem; }
+@media (min-width: 940px) {
+  .corpo { grid-template-columns: 1fr 21.5rem; gap: 3rem; grid-template-areas: "main aside"; }
+}
 
-.sezione > h2 { font-size: 1.4rem; margin-bottom: 1rem; }
-.sezione .etichetta { display: block; margin-bottom: 0.35rem; }
+.contenuto { grid-area: main; min-width: 0; }
+.colonna-card { grid-area: aside; min-width: 0; }
 
-.testo p { margin: 0 0 0.75rem; max-width: 40rem; }
+.contenuto section { margin-bottom: 2.25rem; }
+.contenuto section:last-child { margin-bottom: 0; }
+.contenuto h2 { font-size: 1.35rem; margin-bottom: 0.6rem; }
+.contenuto .etichetta { display: block; margin-bottom: 0.3rem; }
+.testo p { margin: 0 0 0.6rem; max-width: 38rem; }
 .testo p:last-child { margin-bottom: 0; }
-
-/* ---------- Prezzi ---------- */
-
-.listino {
-  background: var(--bianco);
-  border: 1px solid var(--linea);
-  border-radius: var(--radius);
-  overflow: hidden;
-}
-
-.riga-prezzo {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  gap: 1rem;
-  padding: 0.8rem 1.15rem;
-  border-top: 1px solid var(--linea);
-}
-.riga-prezzo:first-child { border-top: 0; }
-.riga-prezzo .nome { min-width: 0; }
-.riga-prezzo .unita { color: var(--secondario); font-size: 0.8125rem; display: block; }
-.riga-prezzo .importo {
-  font-variant-numeric: tabular-nums;
-  font-weight: 500;
-  white-space: nowrap;
-  color: var(--blu);
-}
-
-/* la quota: riga pacchetto evidenziata, piena, brand */
-.riga-prezzo.quota {
-  background: var(--blu);
-  color: var(--bianco);
-  padding: 1.05rem 1.15rem;
-}
-.riga-prezzo.quota .nome { font-weight: 500; font-size: 1.0625rem; }
-.riga-prezzo.quota .unita { color: var(--azzurro); }
-.riga-prezzo.quota .importo { color: var(--arancio-2); font-size: 1.5rem; }
-
-.nota-listino { font-size: 0.8125rem; color: var(--secondario); margin: 0.6rem 0 0; }
 
 /* ---------- Incluso / non incluso ---------- */
 
-.due-colonne {
-  display: grid;
-  gap: 1rem;
-  grid-template-columns: 1fr;
-}
+.due-colonne { display: grid; gap: 1rem; grid-template-columns: 1fr; }
 @media (min-width: 640px) { .due-colonne { grid-template-columns: 1fr 1fr; } }
 
 .scheda {
@@ -291,31 +198,98 @@ main { padding: 0 1.25rem; }
 }
 .condizioni summary::after { content: "+"; color: var(--arancio); font-size: 1.2rem; }
 .condizioni details[open] summary::after { content: "–"; }
-.condizioni details p { margin: 0.6rem 0 0; white-space: pre-line; color: var(--inchiostro); }
+.condizioni details p { margin: 0.6rem 0 0; white-space: pre-line; }
 
-/* ---------- CTA finale ---------- */
+/* ---------- Card riepilogo (sticky su desktop) ---------- */
 
-.chiusura {
+.card-riepilogo {
   background: var(--bianco);
   border: 1px solid var(--linea);
-  border-radius: var(--radius);
-  padding: 1.75rem 1.5rem;
+  border-radius: 14px;
+  padding: 1.25rem;
   display: grid;
-  gap: 0.75rem;
-  justify-items: start;
+  gap: 0.55rem;
+  box-shadow: 0 8px 28px rgba(32, 58, 93, 0.08);
 }
-.chiusura h2 { font-size: 1.25rem; }
-.chiusura p { margin: 0; color: var(--secondario); }
+@media (min-width: 940px) { .card-riepilogo { position: sticky; top: 1.25rem; } }
+
+.card-riepilogo h3 { font-size: 0.9375rem; margin-top: 0.25rem; }
+.card-riepilogo .nota-card { font-size: 0.8125rem; color: var(--secondario); }
+.card-riepilogo .aggiornato { font-size: 0.75rem; color: var(--azzurro); margin-top: 0.35rem; }
+
+/* Righe listino dentro la card: la quota è la riga forte */
+.riga-prezzo {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 0.75rem;
+  padding: 0.5rem 0;
+  border-top: 1px solid var(--linea);
+  font-size: 0.875rem;
+}
+.riga-prezzo .nome { min-width: 0; }
+.riga-prezzo .unita { color: var(--secondario); font-size: 0.75rem; display: block; }
+.riga-prezzo .importo {
+  font-variant-numeric: tabular-nums;
+  font-weight: 500;
+  white-space: nowrap;
+  color: var(--blu);
+}
+.riga-prezzo.quota {
+  border-top: 0;
+  padding: 0 0 0.5rem;
+  font-size: 1rem;
+  align-items: center;
+}
+.riga-prezzo.quota .nome { font-weight: 500; color: var(--blu); }
+.riga-prezzo.quota .importo { color: var(--arancio); font-size: 1.6rem; }
+
+/* ---------- Bottoni ---------- */
+
+.cta {
+  display: inline-block;
+  text-align: center;
+  background: linear-gradient(120deg, var(--arancio), var(--arancio-2));
+  color: var(--bianco);
+  font-weight: 500;
+  font-size: 1.0625rem;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.85rem 1.5rem;
+  box-shadow: 0 4px 16px rgba(247, 103, 22, 0.35);
+}
+.cta:hover { filter: brightness(1.05); }
+.cta:focus-visible { outline: 3px solid var(--blu); outline-offset: 2px; }
+.card-riepilogo .cta { width: 100%; }
+
+/* ---------- Barra fissa mobile ---------- */
+
+.barra-fissa {
+  position: fixed;
+  left: 0; right: 0; bottom: 0;
+  z-index: 40;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  background: var(--blu);
+  color: #E7EDF3;
+  padding: 0.65rem 1.25rem;
+  box-shadow: 0 -6px 24px rgba(0, 0, 0, 0.25);
+}
+.barra-fissa b { color: var(--bianco); font-weight: 500; }
+.barra-fissa .cta { padding: 0.55rem 1.1rem; font-size: 0.9375rem; box-shadow: none; }
+@media (min-width: 940px) { .barra-fissa { display: none; } }
 
 /* ---------- Footer ---------- */
 
 footer {
-  margin-top: 3rem;
   background: var(--blu);
   color: var(--azzurro);
-  padding: 2rem 1.25rem;
+  padding: 2rem 1.25rem 4.5rem;
   font-size: 0.8125rem;
 }
+@media (min-width: 940px) { footer { padding-bottom: 2rem; } }
 .footer-inner { max-width: var(--misura); margin: 0 auto; display: grid; gap: 0.4rem; }
 footer a { color: #D8E2EC; }
 .footer-brand { color: var(--bianco); font-weight: 500; font-size: 0.9375rem; }

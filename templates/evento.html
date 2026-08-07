@@ -3,136 +3,119 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<!-- Fase 1-2: le landing servono la conversione da email, non l'organico. -->
+<!-- Fase 1-2: le landing servono la conversione da email e social, non l'organico. -->
 <meta name="robots" content="noindex,nofollow">
 <title>{{page_title}}</title>
 <meta name="description" content="{{meta_description}}">
 <meta property="og:title" content="{{page_title}}">
 <meta property="og:description" content="{{meta_description}}">
 <meta property="og:type" content="website">
+<meta property="og:url" content="{{page_url}}">
+<meta property="og:image" content="https://go.ki-run.it/assets/hero/{{slug}}.jpg">
 <link rel="stylesheet" href="/assets/kirun.css">
 </head>
 <body>
 
-<header class="hero">
-  <div class="hero-inner">
-    <div class="marchio">
-      <!-- SEGNAPOSTO wordmark: sostituire con l'asset logo ufficiale del Brand Manual -->
-      <span class="wordmark">Ki<b>Run</b></span>
-      <span class="sotto-marchio">RUN&nbsp;+&nbsp;TRAVEL</span>
-    </div>
+<header class="hero-foto" style="--foto: url('/assets/hero/{{slug}}.jpg')">
+  <div class="marchio">
+    <!-- SEGNAPOSTO wordmark: sostituire con l'asset logo ufficiale del Brand Manual -->
+    <span class="wordmark">Ki<b>Run</b></span>
+    <span class="sotto-marchio">RUN&nbsp;+&nbsp;TRAVEL</span>
+  </div>
 
-    <div>
-      <span class="etichetta">{{eyebrow}}</span>
-      <h1>{{titolo}}</h1>
-    </div>
-
+  <div class="hero-testo">
     <!--IF:sold_out-->
     <span class="badge-soldout">Sold out</span>
     <!--ENDIF:sold_out-->
-
-    <div class="pettorale-data">
-      <span class="gara">{{pettorale_etichetta}}</span>
-      <span class="quando">{{trip_dates}}</span>
-    </div>
-
+    <span class="eyebrow">{{eyebrow}}</span>
+    <h1>{{titolo}}</h1>
     <!--IF:strillo-->
     <p class="strillo">{{strillo}}</p>
     <!--ENDIF:strillo-->
-
-    <div class="chips">{{chips_html}}</div>
-
-    <div class="aggancio">
-      <!--IF:quota_da-->
-      <span class="quota-da">
-        <span class="cifra">da {{quota_da}}</span>
-        <span class="nota">a persona in camera doppia</span>
-      </span>
-      <!--ENDIF:quota_da-->
-      <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
+    <div class="meta">
+      <span class="chip evidenza">{{trip_dates}}</span>
+      {{chips_html}}
     </div>
   </div>
 </header>
 
-<main>
+<div class="corpo">
 
-  <section class="sezione">
-    <span class="etichetta">Il viaggio</span>
-    <h2>{{nome_pacchetto}}</h2>
-    <div class="testo">{{dettaglio_html}}</div>
-  </section>
-
-  <!--IF:prezzi-->
-  <section class="sezione">
-    <span class="etichetta">Quote e servizi</span>
-    <h2>Quanto costa</h2>
-    <div class="listino">
+  <aside class="colonna-card">
+    <div class="card-riepilogo">
+      <!--IF:prezzi-->
+      <span class="etichetta">Quote e servizi</span>
       {{price_rows_html}}
-    </div>
-    <p class="nota-listino">Prezzi e disponibilità aggiornati al {{updated_at}}. I servizi su
-    richiesta si aggiungono in fase di prenotazione.</p>
-  </section>
-  <!--ENDIF:prezzi-->
-
-  <!--IF:no_prezzi-->
-  <section class="sezione">
-    <span class="etichetta">Quote e servizi</span>
-    <h2>Quote su richiesta</h2>
-    <div class="testo"><p>Il listino di questo evento è in aggiornamento: compila il modulo e
-    ti mandiamo la quota aggiornata.</p></div>
-  </section>
-  <!--ENDIF:no_prezzi-->
-
-  <!--IF:hotel-->
-  <section class="sezione">
-    <span class="etichetta">Dove dormi</span>
-    <h2>{{hotel}}</h2>
-    <div class="testo">{{hotel_dettaglio_html}}</div>
-  </section>
-  <!--ENDIF:hotel-->
-
-  <section class="sezione">
-    <span class="etichetta">Cosa comprende</span>
-    <h2>Incluso e non incluso</h2>
-    <div class="due-colonne">
-      <div class="scheda incluso">
-        <h3>La quota include</h3>
-        <ul>{{included_html}}</ul>
-      </div>
-      <div class="scheda non-incluso">
-        <h3>Non include</h3>
-        <ul>{{excluded_html}}</ul>
-      </div>
-    </div>
-  </section>
-
-  <!--IF:programma-->
-  <section class="sezione">
-    <span class="etichetta">Come si svolge</span>
-    <h2>Il programma</h2>
-    <div class="testo">{{programma_html}}</div>
-  </section>
-  <!--ENDIF:programma-->
-
-  <!--IF:condizioni-->
-  <section class="sezione">
-    <span class="etichetta">Le cose scritte chiare</span>
-    <h2>Condizioni</h2>
-    <div class="condizioni">
-      {{conditions_html}}
-    </div>
-  </section>
-  <!--ENDIF:condizioni-->
-
-  <section class="sezione">
-    <div class="chiusura">
-      <h2>{{chiusura_titolo}}</h2>
-      <p>{{chiusura_testo}}</p>
+      <!--ENDIF:prezzi-->
+      <!--IF:no_prezzi-->
+      <span class="etichetta">Quote su richiesta</span>
+      <p class="nota-card">Il listino di questo evento è in aggiornamento: prenota e ti
+      mandiamo la quota aggiornata.</p>
+      <!--ENDIF:no_prezzi-->
       <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
+      <span class="nota-card">{{chiusura_testo}}</span>
+      <span class="aggiornato">Prezzi e disponibilità aggiornati al {{updated_at}}. I servizi
+      su richiesta si aggiungono in fase di prenotazione.</span>
     </div>
-  </section>
+  </aside>
 
-</main>
+  <main class="contenuto">
+
+    <section>
+      <span class="etichetta">Il viaggio</span>
+      <h2>{{nome_pacchetto}}</h2>
+      <div class="testo">{{dettaglio_html}}</div>
+    </section>
+
+    <section>
+      <span class="etichetta">Cosa comprende</span>
+      <h2>Incluso e non incluso</h2>
+      <div class="due-colonne">
+        <div class="scheda incluso">
+          <h3>La quota include</h3>
+          <ul>{{included_html}}</ul>
+        </div>
+        <div class="scheda non-incluso">
+          <h3>Non include</h3>
+          <ul>{{excluded_html}}</ul>
+        </div>
+      </div>
+    </section>
+
+    <!--IF:hotel-->
+    <section>
+      <span class="etichetta">Dove dormi</span>
+      <h2>{{hotel}}</h2>
+      <div class="testo">{{hotel_dettaglio_html}}</div>
+    </section>
+    <!--ENDIF:hotel-->
+
+    <!--IF:programma-->
+    <section>
+      <span class="etichetta">Come si svolge</span>
+      <h2>Il programma</h2>
+      <div class="testo">{{programma_html}}</div>
+    </section>
+    <!--ENDIF:programma-->
+
+    <!--IF:condizioni-->
+    <section>
+      <span class="etichetta">Le cose scritte chiare</span>
+      <h2>Condizioni</h2>
+      <div class="condizioni">
+        {{conditions_html}}
+      </div>
+    </section>
+    <!--ENDIF:condizioni-->
+
+  </main>
+
+</div>
+
+<div class="barra-fissa">
+  <span><!--IF:quota_da--><b>da {{quota_da}}</b> a persona<!--ENDIF:quota_da--><!--IF:sold_out--><b>Sold out</b><!--ENDIF:sold_out--></span>
+  <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
+</div>
 
 <footer>
   <div class="footer-inner">
