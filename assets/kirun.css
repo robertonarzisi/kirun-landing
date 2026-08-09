@@ -63,19 +63,19 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--blu); text-wrap: b
    Se il file non esiste resta il gradiente brand sotto: la pagina regge senza foto. */
 
 .hero-foto {
-  min-height: 62vh;
+  min-height: 74vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 2.5rem;
   background-image:
-    linear-gradient(180deg, rgba(22, 41, 63, 0.30) 0%, rgba(22, 41, 63, 0.85) 80%),
+    linear-gradient(180deg, rgba(22, 41, 63, 0.10) 0%, rgba(22, 41, 63, 0.10) 45%, rgba(22, 41, 63, 0.42) 70%, rgba(22, 41, 63, 0.82) 100%),
     var(--foto, none),
     linear-gradient(160deg, var(--blu) 20%, var(--blu-notte) 100%);
   background-size: cover;
-  background-position: center;
+  background-position: center 58%;
   border-top: 4px solid var(--arancio);
-  padding: 1.5rem 1.25rem 2.25rem;
+  padding: 1.5rem 1.25rem 2rem;
 }
 
 .hero-foto .marchio {
@@ -84,10 +84,15 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--blu); text-wrap: b
   width: 100%;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   gap: 0.65rem;
 }
 
-.logo-hero { height: 42px; width: auto; }
+.marchio-kirun { display: flex; align-items: center; gap: 0.65rem; }
+
+/* Il logo in alto resta leggibile anche su foto chiare, senza scurire tutta l'immagine */
+.logo-hero { height: 42px; width: auto; filter: drop-shadow(0 1px 6px rgba(22, 41, 63, 0.55)); }
+.badge-superhalfs { height: 72px; width: auto; filter: drop-shadow(0 1px 6px rgba(22, 41, 63, 0.55)); }
 .logo-footer { height: 24px; width: auto; }
 
 /* Wordmark testuale SEGNAPOSTO: sostituire con l'asset logo ufficiale del Brand Manual
@@ -113,7 +118,14 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--blu); text-wrap: b
   letter-spacing: -0.01em;
 }
 
-.hero-testo .strillo { margin: 0; color: #D8E2EC; max-width: 38rem; }
+.hero-testo .strillo {
+  margin: 0;
+  color: #E7EDF3;
+  max-width: 38rem;
+  text-shadow: 0 1px 8px rgba(22, 41, 63, 0.6);
+}
+
+.hero-testo h1 { text-shadow: 0 2px 12px rgba(22, 41, 63, 0.55); }
 
 .badge-soldout {
   background: var(--arancio);

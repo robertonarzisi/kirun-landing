@@ -159,6 +159,7 @@ def build(dati, forza_soldout=False):
     model = {
         "slug": slug,
         "page_url": f"https://go.ki-run.it/eventi/{slug}/",
+        "superhalfs": bool(ev.get("superhalfs")),
         "titolo": titolo,
         "eyebrow": ev.get("landing_headline") or "Viaggio e gara con KiRun",
         "strillo": ev.get("landing_intro") or "",
@@ -248,6 +249,7 @@ def render(model):
         "hotel": bool(model["hotel"]),
         "programma": bool(model["programma"].strip()),
         "condizioni": bool(model["conditions"]),
+        "superhalfs": bool(model.get("superhalfs")),
     }
     for nome, attivo in blocchi.items():
         pattern = re.compile(rf"<!--IF:{nome}-->(.*?)<!--ENDIF:{nome}-->", re.DOTALL)
