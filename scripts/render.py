@@ -144,7 +144,9 @@ def build(dati, forza_soldout=False):
     cond("Polizza medico/bagaglio", ev.get("polizza_medica_testo"))
     if ev.get("documenti_richiesti"):
         etichette = {"carta_identita": "carta d'identità valida per l'espatrio",
-                     "passaporto": "passaporto", "visto": "visto d'ingresso",
+                     "passaporto": "passaporto",
+                     "visto": "visto o autorizzazione d'ingresso elettronica (es. ETA), "
+                              "da ottenere prima della partenza",
                      "vaccinazioni": "vaccinazioni"}
         voci = [etichette.get(d, d) for d in ev["documenti_richiesti"]]
         cond("Documenti richiesti", "Per questo viaggio serve: " + ", ".join(voci) + ".")
