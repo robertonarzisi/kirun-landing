@@ -83,9 +83,12 @@ h1, h2, h3 { font-weight: 500; line-height: 1.2; color: var(--blu); text-wrap: b
   margin: 0 auto;
   width: 100%;
   display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
+  align-items: center;
+  gap: 0.65rem;
 }
+
+.logo-hero { height: 42px; width: auto; }
+.logo-footer { height: 24px; width: auto; }
 
 /* Wordmark testuale SEGNAPOSTO: sostituire con l'asset logo ufficiale del Brand Manual
    (mai ridisegnare il logo). */
@@ -292,7 +295,14 @@ footer {
 @media (min-width: 940px) { footer { padding-bottom: 2rem; } }
 .footer-inner { max-width: var(--misura); margin: 0 auto; display: grid; gap: 0.4rem; }
 footer a { color: #D8E2EC; }
-.footer-brand { color: var(--bianco); font-weight: 500; font-size: 0.9375rem; }
+.footer-brand {
+  color: var(--bianco);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
 .footer-brand b { color: var(--arancio-2); font-weight: 500; }
 
 @media (prefers-reduced-motion: reduce) {
