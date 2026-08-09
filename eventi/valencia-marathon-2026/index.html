@@ -111,6 +111,25 @@ Saldo entro il 4 ottobre 2026.</p></details><details><summary>Assicurazione annu
   <a class="cta" href="https://ki-run.it">Sold out — lista d'attesa</a>
 </div>
 
+<script>
+/* Inoltra al bottone Prenota i parametri arrivati con il link personalizzato dell'email
+   (ref, pratica, nome...), senza duplicare quelli gia presenti (es. event_key).
+   Nessun cookie, nessun tracciamento: i dati restano nell'URL. */
+(function () {
+  var arrivo = new URLSearchParams(window.location.search);
+  if (![].concat.apply([], [Array.from(arrivo.keys())]).length) { return; }
+  document.querySelectorAll('a.cta').forEach(function (a) {
+    var href = a.getAttribute('href');
+    if (!href || href.indexOf('tally.so') === -1) { return; }
+    var url = new URL(href);
+    arrivo.forEach(function (valore, chiave) {
+      if (!url.searchParams.has(chiave)) { url.searchParams.set(chiave, valore); }
+    });
+    a.setAttribute('href', url.toString());
+  });
+})();
+</script>
+
 <footer>
   <div class="footer-inner">
     <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun"> entra nella community</span>
