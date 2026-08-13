@@ -23,6 +23,14 @@ REPO = Path(__file__).resolve().parent.parent
 MESI = ["", "gennaio", "febbraio", "marzo", "aprile", "maggio", "giugno",
         "luglio", "agosto", "settembre", "ottobre", "novembre", "dicembre"]
 
+GIORNI = ["lunedì", "martedì", "mercoledì", "giovedì", "venerdì", "sabato", "domenica"]
+
+
+def data_gara_it(iso):
+    """'2027-02-21' -> 'domenica 21 febbraio' (l'anno lo dicono già le date del viaggio)."""
+    y, m, d = (int(x) for x in iso.split("-"))
+    return f"{GIORNI[date(y, m, d).weekday()]} {d} {MESI[m]}"
+
 UNITA = {
     "numero_partecipanti": "a persona",
     "numero_runner": "per runner",
@@ -121,6 +129,8 @@ def build(dati, forza_soldout=False):
 
     # --- chips: solo dati presenti ---
     chips = []
+    if ev.get("data_gara"):
+        chips.append(f"Gara: {data_gara_it(ev['data_gara'])}")
     if ev.get("durata"):
         chips.append(ev["durata"])
     if ev.get("hotel"):
