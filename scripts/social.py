@@ -34,6 +34,16 @@ EVENTS = {
         "cta": "Prenota",
         "superhalfs": True,
     },
+    "sevilla-marathon-2027": {
+        "kicker": "RUN + TRAVEL · MARATONA",
+        "title": ["Sevilla", "Marathon 2027"],
+        "info1": "19–22 febbraio 2027 · 4 giorni / 3 notti",
+        "info2": "Catalonia Santa Justa · staff KiRun al seguito",
+        "ribbon": None,
+        "ribbon_style": None,
+        "cta": "Prenota",
+        "superhalfs": False,
+    },
     "valencia-marathon-2026": {
         "kicker": "RUN + TRAVEL · MARATONA",
         "title": ["Valencia", "Marathon 2026"],
