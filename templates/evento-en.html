@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="it">
+<html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -52,39 +52,39 @@
   <aside class="colonna-card">
     <div class="card-riepilogo">
       <!--IF:prezzi-->
-      <span class="etichetta">Quote e servizi</span>
+      <span class="etichetta">Rates &amp; services</span>
       {{price_rows_html}}
       <!--ENDIF:prezzi-->
       <!--IF:no_prezzi-->
-      <span class="etichetta">Quote su richiesta</span>
-      <p class="nota-card">Il listino di questo evento è in aggiornamento: prenota e ti
-      mandiamo la quota aggiornata.</p>
+      <span class="etichetta">Rates on request</span>
+      <p class="nota-card">The price list for this event is being updated: book now and we'll
+      send you the updated quote.</p>
       <!--ENDIF:no_prezzi-->
       <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
       <span class="nota-card">{{chiusura_testo}}</span>
-      <span class="aggiornato">Prezzi e disponibilità aggiornati al {{updated_at}}. I servizi
-      su richiesta si aggiungono in fase di prenotazione.</span>
+      <span class="aggiornato">Prices and availability updated on {{updated_at}}. On-request
+      services are added at the booking stage.</span>
     </div>
   </aside>
 
   <main class="contenuto">
 
     <section>
-      <span class="etichetta">Il viaggio</span>
+      <span class="etichetta">The trip</span>
       <h2>{{nome_pacchetto}}</h2>
       <div class="testo">{{dettaglio_html}}</div>
     </section>
 
     <section>
-      <span class="etichetta">Cosa comprende</span>
-      <h2>Incluso e non incluso</h2>
+      <span class="etichetta">What's covered</span>
+      <h2>Included &amp; not included</h2>
       <div class="due-colonne">
         <div class="scheda incluso">
-          <h3>La quota include</h3>
+          <h3>The package includes</h3>
           <ul>{{included_html}}</ul>
         </div>
         <div class="scheda non-incluso">
-          <h3>Non include</h3>
+          <h3>Not included</h3>
           <ul>{{excluded_html}}</ul>
         </div>
       </div>
@@ -92,7 +92,7 @@
 
     <!--IF:hotel-->
     <section>
-      <span class="etichetta">Dove dormi</span>
+      <span class="etichetta">Where you stay</span>
       <h2>{{hotel}}</h2>
       <div class="testo">{{hotel_dettaglio_html}}</div>
     </section>
@@ -100,16 +100,16 @@
 
     <!--IF:programma-->
     <section>
-      <span class="etichetta">Come si svolge</span>
-      <h2>Il programma</h2>
+      <span class="etichetta">How it works</span>
+      <h2>The programme</h2>
       <div class="testo">{{programma_html}}</div>
     </section>
     <!--ENDIF:programma-->
 
     <!--IF:condizioni-->
     <section>
-      <span class="etichetta">Le cose scritte chiare</span>
-      <h2>Condizioni</h2>
+      <span class="etichetta">The fine print, written clearly</span>
+      <h2>Terms &amp; conditions</h2>
       <div class="condizioni">
         {{conditions_html}}
       </div>
@@ -121,7 +121,7 @@
 </div>
 
 <div class="barra-fissa">
-  <span><!--IF:quota_da--><b>da {{quota_da}}</b> a persona<!--ENDIF:quota_da--><!--IF:sold_out--><b>Sold out</b><!--ENDIF:sold_out--></span>
+  <span><!--IF:quota_da--><b>from {{quota_da}}</b> per person<!--ENDIF:quota_da--><!--IF:sold_out--><b>Sold out</b><!--ENDIF:sold_out--></span>
   <a class="cta" href="{{cta_url}}">{{cta_label}}</a>
 </div>
 
@@ -146,10 +146,10 @@
 
 <footer>
   <div class="footer-inner">
-    <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun"> entra nella community</span>
+    <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun"> join the community</span>
     <span>KiRun is a KiboTours brand · <a href="https://ki-run.it">ki-run.it</a></span>
-    <span>Prezzi e disponibilità aggiornati al {{updated_at}}. Il contratto di viaggio con le
-    condizioni complete viene inviato prima della conferma.</span>
+    <span>Prices and availability updated on {{updated_at}}. The travel contract with the
+    full terms and conditions is sent before confirmation.</span>
   </div>
 </footer>
 
