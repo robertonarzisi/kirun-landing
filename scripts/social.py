@@ -54,6 +54,36 @@ EVENTS = {
         "cta": None,
         "superhalfs": False,
     },
+    "valencia-half-marathon-2026": {
+        "kicker": "RUN + TRAVEL · MEZZA MARATONA",
+        "title": ["Valencia Half", "Marathon 2026"],
+        "info1": "23–26 ottobre 2026 · 4 giorni / 3 notti",
+        "info2": "Holiday Inn Ciudad de las Ciencias · staff KiRun",
+        "ribbon": None,
+        "ribbon_style": None,
+        "cta": "Prenota",
+        "superhalfs": True,
+    },
+    "lisbon-half-marathon-2027": {
+        "kicker": "RUN + TRAVEL · MEZZA MARATONA",
+        "title": ["Lisbona Half", "Marathon 2027"],
+        "info1": "5–8 marzo 2027 · 4 giorni / 3 notti",
+        "info2": "Hotel 3K Barcelona · staff KiRun al seguito",
+        "ribbon": None,
+        "ribbon_style": None,
+        "cta": "Prenota",
+        "superhalfs": True,
+    },
+    "prague-half-marathon-2027": {
+        "kicker": "RUN + TRAVEL · MEZZA MARATONA",
+        "title": ["Prague Half", "Marathon 2027"],
+        "info1": "2–5 aprile 2027 · 4 giorni / 3 notti",
+        "info2": "B&B Hotel Prague City 3* · staff KiRun al seguito",
+        "ribbon": None,
+        "ribbon_style": None,
+        "cta": "Prenota",
+        "superhalfs": True,
+    },
 }
 
 def ensure_fonts():
@@ -226,6 +256,8 @@ def compose(slug, fmt):
     print(out)
 
 ensure_fonts()
-for slug in EVENTS:
+import sys
+slugs = sys.argv[1:] or list(EVENTS)
+for slug in slugs:
     for fmt in ("post", "story"):
         compose(slug, fmt)
