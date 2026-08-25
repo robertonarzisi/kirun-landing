@@ -255,9 +255,10 @@ def compose(slug, fmt):
     canvas.convert("RGB").save(out, quality=92, optimize=True)
     print(out)
 
-ensure_fonts()
-import sys
-slugs = sys.argv[1:] or list(EVENTS)
-for slug in slugs:
-    for fmt in ("post", "story"):
-        compose(slug, fmt)
+if __name__ == "__main__":
+    ensure_fonts()
+    import sys
+    slugs = sys.argv[1:] or list(EVENTS)
+    for slug in slugs:
+        for fmt in ("post", "story"):
+            compose(slug, fmt)
