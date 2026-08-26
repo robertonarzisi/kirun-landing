@@ -2,7 +2,7 @@
    Il pixel parte SOLO dopo «Accetta». La scelta vive in localStorage per 365 giorni
    e si cambia dalla pagina /cookie/ (window.kirunConsenso.reset()). */
 (function () {
-  var PIXEL = '2838135509904960';
+  var PIXEL = '990831093973383';
   var KEY = 'kirun_consenso_meta';
   var GIORNI = 365;
   var lang = (document.documentElement.lang || 'it').slice(0, 2);
