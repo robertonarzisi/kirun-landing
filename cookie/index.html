@@ -28,7 +28,7 @@
   <h2>A cosa serve il pixel</h2>
   <ul>
     <li>capire se le nostre inserzioni su Facebook e Instagram portano visite a queste pagine (evento «PageView»);</li>
-    <li>contare i clic sul bottone «Prenota» (evento «Lead»); il modulo di prenotazione è su un altro sito (Tally) e non è tracciato dal pixel;</li>
+    <li>contare i clic sul bottone «Prenota» (evento «ClickPrenota»); il modulo di prenotazione è su un altro sito (Tally) e non è tracciato dal pixel. Quando una prenotazione viene effettivamente inviata, il nostro server comunica a Meta un evento «Lead» con il tuo indirizzo email in forma cifrata (hash SHA-256), per misurare l'annuncio che ti ha portato qui;</li>
     <li>mostrare annunci KiRun più pertinenti a chi ha già visitato queste pagine.</li>
   </ul>
   <p>Il pixel imposta cookie di Meta sul tuo browser (tra cui <code>_fbp</code>) e trasmette a Meta l'indirizzo della
@@ -48,7 +48,7 @@
   <h2>What the pixel is for</h2>
   <ul>
     <li>understanding whether our Facebook and Instagram ads bring visits to these pages («PageView» event);</li>
-    <li>counting clicks on the «Book» button («Lead» event); the booking form lives on another site (Tally) and is not tracked by the pixel;</li>
+    <li>counting clicks on the «Book» button («ClickPrenota» event); the booking form lives on another site (Tally) and is not tracked by the pixel. When a booking is actually submitted, our server sends Meta a «Lead» event with your e-mail address in hashed (SHA-256) form, so that the ad that brought you here can be measured;</li>
     <li>showing more relevant KiRun ads to people who have already visited these pages.</li>
   </ul>
   <p>The pixel sets Meta cookies in your browser (including <code>_fbp</code>) and sends Meta the page address, the time,

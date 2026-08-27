@@ -1,4 +1,6 @@
-/* KiRun — banner cookie e caricamento condizionato del Meta Pixel «Cora».
+/* KiRun — banner cookie e caricamento condizionato del Meta Pixel «KiRun Landing».
+   Eventi browser: PageView e ClickPrenota (custom). Il Lead vero (prenotazione) arriva
+   dal server via Conversions API (n8n Booking Landing), cosi non si contano due volte.
    Il pixel parte SOLO dopo «Accetta». La scelta vive in localStorage per 365 giorni
    e si cambia dalla pagina /cookie/ (window.kirunConsenso.reset()). */
 (function () {
@@ -35,7 +37,7 @@
     fbq('track', 'PageView');
     var nome = slug();
     document.querySelectorAll('a.cta').forEach(function (a) {
-      a.addEventListener('click', function () { fbq('track', 'Lead', { content_name: nome }); });
+      a.addEventListener('click', function () { fbq('trackCustom', 'ClickPrenota', { content_name: nome }); });
     });
   }
   function stile() {
