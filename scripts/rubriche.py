@@ -18,7 +18,7 @@ CARDS = {
         "kicker": "CONSIGLI PER RUNNER",
         "title": ["Il lungo che fa", "la differenza"],
         "info1": "Meno di sei settimane alla Cardiff Half",
-        "info2": "Un lungo a settimana, ritmo comodo, testa alla gara",
+        "info2": "È il momento del lungo, ritmo comodo, testa alla gara",
     },
     "rubrica-allenamento-valencia-half-2026": {
         "template": "tip",
