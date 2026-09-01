@@ -57,6 +57,7 @@
       
       
       <a class="cta" href="https://tally.so/r/WOqJLR?event_key=Valencia_half_marathon_2026">Prenota</a>
+      <a class="cta-secondaria" href="#richiedi-info">Richiedi informazioni</a>
       <span class="nota-card">La prenotazione si completa online in pochi minuti.</span>
       <span class="aggiornato">Prezzi e disponibilità aggiornati al 1 settembre 2026. I servizi
       su richiesta si aggiungono in fase di prenotazione.</span>
@@ -106,6 +107,24 @@
     </section>
     
 
+
+    <section id="richiedi-info">
+      <span class="etichetta">Non sei ancora pronto a prenotare?</span>
+      <h2>Richiedi informazioni</h2>
+      <p>Lascia la tua email e l'eventuale domanda: ti confermiamo subito la ricezione e ti
+      rispondiamo personalmente, di solito entro poche ore.</p>
+      <form class="form-info" data-endpoint="https://vmi3312062.contaboserver.net/webhook/kirun-richiesta-info" data-label-invia="Invia richiesta">
+        <input type="text" name="azienda" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label>Nome<input type="text" name="nome" required maxlength="80"></label>
+        <label>Email<input type="email" name="email" required maxlength="120"></label>
+        <label>La tua domanda (facoltativa)<textarea name="domanda" rows="3" maxlength="1500"></textarea></label>
+        <label class="consenso"><input type="checkbox" name="consenso_marketing"><span>Autorizzo KiRun a inviarmi comunicazioni su futuri viaggi ed eventi running e a usare i miei dati per misurare le proprie campagne (facoltativo).</span></label>
+        <p class="privacy-nota">Usiamo i tuoi dati solo per gestire la richiesta e risponderti. <a href="/cookie/">Informativa</a>.</p>
+        <button type="submit" class="cta">Invia richiesta</button>
+        <p class="esito" hidden></p>
+      </form>
+    </section>
+
   </main>
 
 </div>
@@ -143,5 +162,6 @@
   </div>
 </footer>
 
+<script src="/assets/richiesta-info.js" defer></script>
 </body>
 </html>

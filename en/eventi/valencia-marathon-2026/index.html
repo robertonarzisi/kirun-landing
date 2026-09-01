@@ -55,6 +55,7 @@
       
       
       <a class="cta" href="https://tally.so/r/WOqJLR?event_key=valencia_marathon_2026">Book now</a>
+      <a class="cta-secondaria" href="#richiedi-info">Request more information</a>
       <span class="nota-card">Booking takes just a few minutes online.</span>
       <span class="aggiornato">Prices and availability updated on 1 September 2026. On-request
       services are added at the booking stage.</span>
@@ -105,6 +106,24 @@ Balance due by 4 October 2026.</p></details><details><summary>Trip cancellation 
     </section>
     
 
+
+    <section id="richiedi-info">
+      <span class="etichetta">Not ready to book yet?</span>
+      <h2>Request more information</h2>
+      <p>Leave your email and your question, if any: we confirm right away and reply
+      personally, usually within a few hours.</p>
+      <form class="form-info" data-endpoint="https://vmi3312062.contaboserver.net/webhook/kirun-richiesta-info" data-label-invia="Send request">
+        <input type="text" name="azienda" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <label>Name<input type="text" name="nome" required maxlength="80"></label>
+        <label>Email<input type="email" name="email" required maxlength="120"></label>
+        <label>Your question (optional)<textarea name="domanda" rows="3" maxlength="1500"></textarea></label>
+        <label class="consenso"><input type="checkbox" name="consenso_marketing"><span>I allow KiRun to send me updates about future trips and running events and to use my data to measure its campaigns (optional).</span></label>
+        <p class="privacy-nota">We use your data only to handle and answer your request. <a href="/cookie/#en">Privacy</a>.</p>
+        <button type="submit" class="cta">Send request</button>
+        <p class="esito" hidden></p>
+      </form>
+    </section>
+
   </main>
 
 </div>
@@ -142,5 +161,6 @@ Balance due by 4 October 2026.</p></details><details><summary>Trip cancellation 
   </div>
 </footer>
 
+<script src="/assets/richiesta-info.js" defer></script>
 </body>
 </html>

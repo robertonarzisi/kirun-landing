@@ -320,3 +320,33 @@ footer a { color: #D8E2EC; }
 @media (prefers-reduced-motion: reduce) {
   * { transition: none !important; animation: none !important; }
 }
+
+/* ---------- Richiedi informazioni (mini-form) ---------- */
+
+.cta-secondaria {
+  display: inline-block;
+  text-align: center;
+  margin-top: 0.6rem;
+  width: 100%;
+  background: transparent;
+  color: var(--blu);
+  border: 2px solid var(--blu);
+  font-weight: 500;
+  font-size: 0.9375rem;
+  text-decoration: none;
+  border-radius: 10px;
+  padding: 0.55rem 1.1rem;
+}
+.cta-secondaria:hover { background: var(--carta); }
+#richiedi-info form { display: grid; gap: 0.8rem; max-width: 30rem; margin-top: 0.5rem; }
+#richiedi-info label { display: grid; gap: 0.3rem; font-size: 0.875rem; color: var(--secondario); }
+#richiedi-info input[type="text"], #richiedi-info input[type="email"], #richiedi-info textarea {
+  font: inherit; color: var(--inchiostro); background: var(--bianco);
+  border: 1px solid var(--linea); border-radius: 8px; padding: 0.55rem 0.7rem;
+}
+#richiedi-info .consenso { grid-template-columns: auto 1fr; align-items: start; font-size: 0.8125rem; }
+#richiedi-info .consenso input { margin-top: 0.2rem; }
+#richiedi-info .privacy-nota { font-size: 0.8125rem; color: var(--secondario); margin: 0; }
+#richiedi-info .esito { font-weight: 500; color: var(--blu); }
+#richiedi-info .hp { position: absolute; left: -9999px; height: 1px; width: 1px; opacity: 0; }
+#richiedi-info button.cta { justify-self: start; }
