@@ -26,7 +26,11 @@
     ev.preventDefault();
     var esito = form.querySelector('.esito');
     var bottone = form.querySelector('button[type="submit"]');
-    if (form.querySelector('[name="azienda"]').value) { return; }
+    /* Honeypot anti-bot: solo il campo kr_extra (invisibile, mai compilato dall'autofill).
+       Il vecchio nome «azienda» veniva riempito dall'autofill del browser (= organization)
+       e l'invio moriva qui in silenzio. Fallback su azienda per le pagine ancora in cache. */
+    var hp = form.querySelector('[name="kr_extra"]') || form.querySelector('input[type="text"][name="azienda"]');
+    if (hp && hp.value) { return; }
     var dati = {
       rid: 'ri-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8),
       nome: form.querySelector('[name="nome"]').value.trim(),
