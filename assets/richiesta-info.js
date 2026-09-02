@@ -26,11 +26,11 @@
     ev.preventDefault();
     var esito = form.querySelector('.esito');
     var bottone = form.querySelector('button[type="submit"]');
-    /* Honeypot anti-bot: solo il campo kr_extra (invisibile, mai compilato dall'autofill).
-       Il vecchio nome «azienda» veniva riempito dall'autofill del browser (= organization)
-       e l'invio moriva qui in silenzio. Fallback su azienda per le pagine ancora in cache. */
-    var hp = form.querySelector('[name="kr_extra"]') || form.querySelector('input[type="text"][name="azienda"]');
-    if (hp && hp.value) { return; }
+    /* NIENTE controllo honeypot lato client: l'autofill del browser può riempire anche
+       campi invisibili (successo due volte, con «azienda» e col nome neutro) e un return
+       muto qui butta via la richiesta di un cliente vero senza che nessuno se ne accorga.
+       Il honeypot resta nel form SOLO per i bot che postano i campi grezzi al webhook:
+       lo giudica il server, questo script non lo manda mai nel payload. */
     var dati = {
       rid: 'ri-' + Date.now() + '-' + Math.random().toString(36).slice(2, 8),
       nome: form.querySelector('[name="nome"]').value.trim(),
