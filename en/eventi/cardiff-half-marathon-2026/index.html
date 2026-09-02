@@ -114,7 +114,10 @@
       <p>Leave your email and your question, if any: we confirm right away and reply
       personally, usually within a few hours.</p>
       <form class="form-info" data-endpoint="https://vmi3312062.contaboserver.net/webhook/kirun-richiesta-info" data-label-invia="Send request">
-        <input type="text" name="azienda" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <!-- honeypot: nome senza semantica, l'autofill compilava «azienda» (organization) e lo script scartava l'invio in silenzio -->
+        <input type="text" name="kr_extra" class="hp" tabindex="-1" autocomplete="off" aria-hidden="true">
+        <!-- dummy per lo script ancora in cache che cerca [name="azienda"]; type=hidden: l'autofill non lo tocca -->
+        <input type="hidden" name="azienda" value="">
         <label>Name<input type="text" name="nome" required maxlength="80"></label>
         <label>Email<input type="email" name="email" required maxlength="120"></label>
         <label>Your question (optional)<textarea name="domanda" rows="3" maxlength="1500"></textarea></label>
