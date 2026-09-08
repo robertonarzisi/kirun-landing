@@ -350,3 +350,96 @@ footer a { color: #D8E2EC; }
 #richiedi-info .esito { font-weight: 500; color: var(--blu); }
 #richiedi-info .hp { position: absolute; left: -9999px; height: 1px; width: 1px; opacity: 0; }
 #richiedi-info button.cta { justify-self: start; }
+
+/* ---------- Guide evento (guide/<slug>/) ----------
+   Stessa griglia delle landing, senza prezzi né CTA: la card laterale diventa
+   «in breve + indice + link ufficiali + assistenza». Contenuti lunghi, tabelle e timeline. */
+
+.hero-guida { min-height: 62vh; }
+.hero-guida .hero-testo h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); }
+
+.guida .contenuto section { margin-bottom: 2.75rem; scroll-margin-top: 1.25rem; }
+.guida .testo p, .guida .testo li { max-width: 42rem; }
+.guida .testo h3 { font-size: 1.05rem; margin: 1.25rem 0 0.4rem; }
+.guida .testo ul.lista, .guida .testo ol.lista { margin: 0 0 0.8rem; padding-left: 1.3rem; display: grid; gap: 0.3rem; }
+.guida .testo ul.lista li::marker { color: var(--arancio); }
+
+.card-guida { gap: 0.75rem; }
+.card-guida .etichetta { margin-top: 0.5rem; }
+.card-guida .etichetta:first-child { margin-top: 0; }
+@media (min-width: 940px) { .card-guida { max-height: calc(100vh - 2.5rem); overflow-y: auto; } }
+
+/* Fatti chiave (definizioni) */
+.fatti { margin: 0; display: grid; gap: 0.5rem; }
+.fatti > div { display: grid; grid-template-columns: 7.5rem 1fr; gap: 0.6rem; align-items: baseline; }
+.fatti dt { font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; color: var(--secondario); font-weight: 500; }
+.fatti dd { margin: 0; font-size: 0.9rem; color: var(--inchiostro); }
+.fatti-card > div { grid-template-columns: 5.5rem 1fr; border-top: 1px solid var(--linea); padding-top: 0.45rem; }
+.fatti-card > div:first-child { border-top: 0; padding-top: 0; }
+.fatti-card dd { font-size: 0.875rem; }
+.fatti-card dd b { color: var(--blu); font-weight: 500; }
+
+/* Indice e link nella card */
+.indice, .link-card { margin: 0; padding: 0; list-style: none; display: grid; gap: 0.3rem; font-size: 0.875rem; }
+.indice { counter-reset: voce; }
+.indice li { counter-increment: voce; display: flex; gap: 0.5rem; align-items: baseline; }
+.indice li::before { content: counter(voce, decimal-leading-zero); color: var(--arancio); font-size: 0.75rem; font-weight: 500; font-variant-numeric: tabular-nums; }
+.indice a, .link-card a { color: var(--blu); text-decoration: none; }
+.indice a:hover, .link-card a:hover { color: var(--arancio); }
+.link-card li { padding-left: 1.1rem; position: relative; }
+.link-card li::before { content: "↗"; position: absolute; left: 0; color: var(--arancio); font-size: 0.8rem; }
+
+/* Box informativi */
+.box { background: var(--bianco); border: 1px solid var(--linea); border-left: 4px solid var(--azzurro); border-radius: var(--radius); padding: 0.9rem 1.15rem; margin: 0.9rem 0; max-width: 42rem; }
+.box p { margin: 0 0 0.45rem; }
+.box p:last-child, .box ul:last-child { margin-bottom: 0; }
+.box ul { margin: 0.3rem 0 0; padding-left: 1.2rem; }
+.box-titolo { display: block; color: var(--blu); font-weight: 500; margin-bottom: 0.3rem; }
+.box-kirun { border-left-color: var(--arancio); background: #FFF7F2; }
+.box-attenzione { border-left-color: var(--blu); background: #F1F5F9; }
+.box-card { margin: 0.25rem 0 0; font-size: 0.875rem; max-width: none; }
+.box-card a { color: var(--blu); font-weight: 500; }
+
+/* Tabelle (gruppi di partenza, orari) */
+.tabella-scroll { overflow-x: auto; margin: 0.75rem 0 0.4rem; border: 1px solid var(--linea); border-radius: var(--radius); background: var(--bianco); max-width: 42rem; }
+.guida table { border-collapse: collapse; width: 100%; font-size: 0.875rem; }
+.guida th, .guida td { text-align: left; padding: 0.55rem 0.8rem; border-top: 1px solid var(--linea); vertical-align: top; }
+.guida th { border-top: 0; background: var(--carta); color: var(--secondario); font-weight: 500; font-size: 0.75rem; letter-spacing: 0.06em; text-transform: uppercase; white-space: nowrap; }
+.guida td b { color: var(--blu); font-weight: 500; font-variant-numeric: tabular-nums; }
+.tabella-nota { font-size: 0.8125rem; color: var(--secondario); margin: 0 0 0.8rem; }
+.pallino { display: inline-block; width: 0.75rem; height: 0.75rem; border-radius: 50%; border: 1px solid rgba(0,0,0,0.15); vertical-align: -1px; margin-right: 0.4rem; }
+
+/* Timeline del weekend */
+.timeline { list-style: none; margin: 0.75rem 0 0.5rem; padding: 0; display: grid; gap: 0; max-width: 42rem; }
+.timeline li { display: grid; grid-template-columns: 7rem 1fr; gap: 0.9rem; padding: 0.75rem 0; border-top: 1px solid var(--linea); }
+.timeline li:first-child { border-top: 0; }
+.timeline .quando { color: var(--arancio); font-weight: 500; font-size: 0.875rem; font-variant-numeric: tabular-nums; }
+.timeline strong { display: block; color: var(--blu); font-weight: 500; margin-bottom: 0.2rem; }
+.timeline p { margin: 0 0 0.35rem; }
+@media (max-width: 480px) { .timeline li { grid-template-columns: 1fr; gap: 0.15rem; } }
+
+/* Link ufficiali nel corpo */
+.link-ufficiali { list-style: none; margin: 0.5rem 0 0.8rem; padding: 0; display: grid; gap: 0.5rem; max-width: 42rem; }
+.link-ufficiali li { background: var(--bianco); border: 1px solid var(--linea); border-radius: 10px; padding: 0.65rem 0.9rem; display: grid; gap: 0.15rem; }
+.link-ufficiali a { color: var(--blu); font-weight: 500; text-decoration: none; }
+.link-ufficiali a::after { content: " ↗"; color: var(--arancio); }
+.link-ufficiali span { font-size: 0.8125rem; color: var(--secondario); }
+
+/* Schede (mini guida) */
+.schede { display: grid; gap: 1rem; grid-template-columns: 1fr; margin: 0.75rem 0; }
+@media (min-width: 640px) { .schede { grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr)); } }
+.schede .scheda h3 { margin: 0 0 0.4rem; }
+.schede .scheda p { margin: 0; font-size: 0.9375rem; }
+
+footer .credit { font-size: 0.75rem; }
+footer .credit a { color: var(--azzurro); }
+
+/* Stampa: solo per le guide (le landing restano com'erano) */
+@media print {
+  .guida .hero-guida { min-height: auto; border-top: 0; background-image: none !important; background: var(--blu) !important; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  .guida .corpo { display: block; padding: 1rem 0; }
+  .guida .card-riepilogo { position: static; box-shadow: none; max-height: none; overflow: visible; }
+  .guida .indice { display: none; }
+  .guida .testo a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.75rem; color: var(--secondario); }
+  .guida section { break-inside: avoid; }
+}

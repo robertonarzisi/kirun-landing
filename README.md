@@ -19,6 +19,7 @@ Landing page pubbliche degli eventi KiRun, pubblicate su **https://go.ki-run.it*
 | `eventi/`, `anteprima/` | **Solo n8n** (output del builder — non editare a mano) |
 | `templates/`, `assets/`, `docs/` | Persone (Roberto + Claude Code) |
 | `scripts/` | Implementazione di riferimento del renderer (la stessa logica del Code node n8n) |
+| `guide/`, `en/guide/` | Persone: guide del runner per evento, generate da `scripts/guida.py` dai JSON in `scripts/guide-data/` (vedi sotto). n8n non le tocca |
 
 ## Regole
 
@@ -35,3 +36,25 @@ Landing page pubbliche degli eventi KiRun, pubblicate su **https://go.ki-run.it*
 ```bash
 python3 scripts/render.py scripts/sample-data/valencia-marathon-2026.json anteprima/valencia-marathon-2026/index.html
 ```
+
+## Guide del runner (`guide/<slug>/`)
+
+La guida è la pagina che accompagna il voucher dell'hotel: niente prezzi né CTA, solo
+informazioni pratiche per chi ha già prenotato (hotel, Expo, gruppi di partenza, percorso,
+mini guida della città). Bilingue: `/guide/<slug>/` (IT) e `/en/guide/<slug>/` (EN), con
+selettore lingua nell'hero. Tutte `noindex`: il link lo manda KiRun al cliente.
+
+```bash
+python3 scripts/guida.py scripts/guide-data/copenhagen-half-marathon-2026.json   # IT + EN
+```
+
+- Contenuti in `scripts/guide-data/<slug>.json` (un file, due lingue, blocchi tipizzati:
+  p, h3, ul/ol, box, tabella, timeline, link, fatti, schede). L'HTML inline è fidato.
+- Layout in `templates/guida.html`, stili nel blocco «Guide evento» di `assets/kirun.css`.
+- Foto hero: stessa convenzione delle landing, `assets/hero/<slug>.jpg`, con credito in
+  `hero_credit` se la licenza lo richiede (Copenaghen 2026: Nyhavn, Jorge Láscar, CC BY 2.0).
+- Le informazioni di gara vanno verificate sul sito ufficiale prima di ogni invio e la data
+  in `updated_at` aggiornata di conseguenza.
+
+Prima guida: **Copenhagen Half Marathon 2026** (mezza dei WRRC Copenhagen 26, 20/09/2026).
+

@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="{{lang}}">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- Guida riservata ai partecipanti: arriva con il voucher, non deve stare in Google. -->
+<meta name="robots" content="noindex,nofollow">
+<title>{{page_title}}</title>
+<meta name="description" content="{{meta_description}}">
+<meta property="og:title" content="{{page_title}}">
+<meta property="og:description" content="{{meta_description}}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="{{page_url}}">
+<meta property="og:image" content="https://go.ki-run.it/assets/hero/{{slug}}.jpg">
+<link rel="icon" type="image/png" href="/assets/brand/pittogramma.png">
+<link rel="stylesheet" href="/assets/kirun.css">
+</head>
+<body class="guida">
+
+<header class="hero-foto hero-guida" style="--foto: url('/assets/hero/{{slug}}.jpg')">
+  <div class="marchio">
+    <div class="marchio-kirun">
+      <img class="logo-hero" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun">
+      <span class="sotto-marchio">RUN&nbsp;+&nbsp;TRAVEL</span>
+    </div>
+    <!--IF:superhalfs-->
+    <img class="badge-superhalfs" src="/assets/brand/superhalfs-bianco.png" alt="SuperHalfs" onerror="this.style.display='none'">
+    <!--ENDIF:superhalfs-->
+  </div>
+
+  <div class="hero-testo">
+    <span class="eyebrow">{{eyebrow}}</span>
+    <h1>{{titolo}}</h1>
+    <p class="strillo">{{strillo}}</p>
+    <div class="meta">
+      {{chips_html}}
+      <!--IF:has_alt-->
+      <a class="chip" href="{{alt_lang_url}}">{{alt_lang_label}}</a>
+      <!--ENDIF:has_alt-->
+    </div>
+  </div>
+</header>
+
+<div class="corpo">
+
+  <aside class="colonna-card">
+    <div class="card-riepilogo card-guida">
+      {{aside_html}}
+    </div>
+  </aside>
+
+  <main class="contenuto">
+    {{sezioni_html}}
+  </main>
+
+</div>
+
+<footer>
+  <div class="footer-inner">
+    <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun"> {{community}}</span>
+    <span>KiRun is a KiboTours brand · <a href="https://ki-run.it">ki-run.it</a> · <a href="mailto:info@ki-run.it">info@ki-run.it</a></span>
+    <span>{{aggiornato_label}} {{updated_at}}. {{disclaimer}}</span>
+    <!--IF:credit-->
+    <span class="credit">{{credit_label}}: {{credit_html}}</span>
+    <!--ENDIF:credit-->
+  </div>
+</footer>
+
+</body>
+</html>
