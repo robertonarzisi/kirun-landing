@@ -170,7 +170,7 @@
           {"tipo": "tabella", "intestazione": ["Orario", "Gara", "Dove vederla"], "righe": [
             ["<b>10:10</b> / <b>10:30</b>", "Miglio · finali donne e uomini", "Østerbrogade, Trianglen (metro M3) e arrivo a Parken"],
             ["<b>10:36</b>", "Miglio · partenza di massa", "Stesso tracciato a V lungo Østerbrogade"],
-            ["<b>14:10</b> / <b>14:40</b>", "5 km · finali donne e uomini", "Centro città, partenza di massa alle 14:42"]
+            ["<b>14:10</b> / <b>14:40</b>", "5 km · finali donne e uomini", "Percorso in città (vedi mappa interattiva), partenza di massa alle 14:42"]
           ], "nota": "Attenzione alle chiusure: il tracciato del miglio è chiuso al traffico dalle 7:00 alle 19:30, quello dei 5 km dalle 12:00 alle 19:30. Metro e piedi sono il modo migliore per muoversi."},
           {"tipo": "p", "html": "<b>Consiglio KiRun</b>: alla vigilia bastano 20–30 minuti di corsa lenta con qualche allungo. Il giro migliore dall'hotel è verso il <b>Kastellet</b> e il lungomare di <b>Langelinie</b> (Sirenetta inclusa), tutto pianeggiante e a un chilometro dalla porta. Poi cammina poco, mangia presto e con cose semplici, e prepara tutto per la mattina."}
         ]
@@ -398,7 +398,7 @@
           {"tipo": "tabella", "intestazione": ["Time", "Race", "Where to watch"], "righe": [
             ["<b>10:10</b> / <b>10:30</b>", "One mile · women's and men's finals", "Østerbrogade, Trianglen (Metro M3) and finish at Parken"],
             ["<b>10:36</b>", "One mile · mass start", "Same V-shaped course along Østerbrogade"],
-            ["<b>14:10</b> / <b>14:40</b>", "5 km · women's and men's finals", "City centre, mass start at 14:42"]
+            ["<b>14:10</b> / <b>14:40</b>", "5 km · women's and men's finals", "City course (see the interactive map), mass start at 14:42"]
           ], "nota": "Mind the closures: the one mile course is closed to traffic from 7:00 to 19:30, the 5 km course from 12:00 to 19:30. Metro and walking are the best ways to get around."},
           {"tipo": "p", "html": "<b>KiRun tip</b>: the day before, 20–30 minutes of easy running with a few strides is plenty. The best loop from the hotel is towards the <b>Kastellet</b> and the <b>Langelinie</b> waterfront (Little Mermaid included), all flat and one kilometre from the door. Then walk little, eat early and simple, and get everything ready for the morning."}
         ]

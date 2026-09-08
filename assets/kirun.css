@@ -355,7 +355,15 @@ footer a { color: #D8E2EC; }
    Stessa griglia delle landing, senza prezzi né CTA: la card laterale diventa
    «in breve + indice + link ufficiali + assistenza». Contenuti lunghi, tabelle e timeline. */
 
-.hero-guida { min-height: 62vh; }
+.hero-guida {
+  min-height: 62vh;
+  /* Velatura più decisa delle landing: la foto di città è chiara e piena di dettagli, il testo deve restare leggibile anche a metà hero su mobile */
+  background-image:
+    linear-gradient(180deg, rgba(22, 41, 63, 0.28) 0%, rgba(22, 41, 63, 0.34) 30%, rgba(22, 41, 63, 0.70) 62%, rgba(22, 41, 63, 0.90) 100%),
+    var(--foto, none),
+    linear-gradient(160deg, var(--blu) 20%, var(--blu-notte) 100%);
+}
+.hero-guida .eyebrow { text-shadow: 0 1px 8px rgba(22, 41, 63, 0.9); }
 .hero-guida .hero-testo h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); }
 
 .guida .contenuto section { margin-bottom: 2.75rem; scroll-margin-top: 1.25rem; }
@@ -367,7 +375,8 @@ footer a { color: #D8E2EC; }
 .card-guida { gap: 0.75rem; }
 .card-guida .etichetta { margin-top: 0.5rem; }
 .card-guida .etichetta:first-child { margin-top: 0; }
-@media (min-width: 940px) { .card-guida { max-height: calc(100vh - 2.5rem); overflow-y: auto; } }
+/* La card della guida è lunga (in breve + indice + link): non sticky, scorre con la pagina */
+@media (min-width: 940px) { .card-guida { position: static; } }
 
 /* Fatti chiave (definizioni) */
 .fatti { margin: 0; display: grid; gap: 0.5rem; }
