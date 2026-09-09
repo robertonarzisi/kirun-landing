@@ -6,13 +6,24 @@ di prenotazione, i contenuti sono scritti a mano in un JSON bilingue e la pagina
 committata in guide/<slug>/ e en/guide/<slug>/ (fuori dai percorsi scritti da n8n).
 
 Uso:
-    python3 scripts/guida.py scripts/guide-data/<slug>.json          # IT + EN
-    python3 scripts/guida.py scripts/guide-data/<slug>.json --lang it
+    python3 scripts/guida.py scripts/guide-data/<evento>.json                 # tutti gli hotel, tutte le lingue
+    python3 scripts/guida.py scripts/guide-data/<evento>.json --hotel scandic --lang en
 
-Il JSON ha la forma {"slug": ..., "updated_at": ..., "hero_credit": ..., "it": {...}, "en": {...}}.
-Ogni lingua: hero (eyebrow, titolo, strillo, chips[]), aside (in_breve[], link_ufficiali[],
-assistenza), sezioni[] fatte di blocchi tipizzati (p, h3, ul, ol, box, tabella, timeline,
-link, fatti, schede). L'HTML inline nei testi è fidato: viene dal repo, non da utenti.
+Struttura del JSON:
+    {
+      "slug": "<slug base>", "updated_at": {...}, "hero_credit": "...", "superhalfs": true,
+      "hotels": {
+        "<chiave>": {"slug": "<slug pagina>", "lingue": ["it","en"], "hero_slug": "<opz.>",
+                     "it": {<snippet e blocchi dell'hotel>}, "en": {...}}
+      },
+      "it": {<contenuto condiviso>}, "en": {...}
+    }
+
+Il contenuto condiviso può contenere segnaposto `{{hotel:chiave}}` dentro le stringhe
+(sostituiti con lo snippet dell'hotel nella stessa lingua) e blocchi
+`{"tipo": "hotel_blocchi", "chiave": "..."}` che si espandono nella lista di blocchi
+definita dall'hotel. Un segnaposto senza snippet fa fallire il build: ogni hotel deve
+dichiarare tutte le chiavi, anche vuote. L'HTML inline è fidato: viene dal repo.
 """
 
 import html
@@ -36,6 +47,8 @@ ETICHETTE = {
            "community": "join the community", "credit": "Photo"},
 }
 
+RE_TOKEN = re.compile(r"{{hotel:(\w+)}}")
+
 
 def esc(s):
     return html.escape(str(s or ""), quote=True)
@@ -45,14 +58,38 @@ def url_pagina(slug, lang):
     return f"https://go.ki-run.it/{'en/' if lang == 'en' else ''}guide/{slug}/"
 
 
-def blocco(b):
+def sostituisci(valore, snippet):
+    """Applica i segnaposto {{hotel:chiave}} ricorsivamente a stringhe, liste e dict."""
+    if isinstance(valore, str):
+        def rep(m):
+            k = m.group(1)
+            if k not in snippet:
+                raise SystemExit(f"snippet hotel mancante: '{k}'")
+            v = snippet[k]
+            if not isinstance(v, str):
+                raise SystemExit(f"lo snippet '{k}' non è una stringa (usa hotel_blocchi per i blocchi)")
+            return v
+        return RE_TOKEN.sub(rep, valore)
+    if isinstance(valore, list):
+        return [sostituisci(v, snippet) for v in valore]
+    if isinstance(valore, dict):
+        return {k: sostituisci(v, snippet) for k, v in valore.items()}
+    return valore
+
+
+def blocco(b, snippet):
     t = b["tipo"]
+    if t == "hotel_blocchi":
+        lista = snippet.get(b["chiave"])
+        if not isinstance(lista, list):
+            raise SystemExit(f"hotel_blocchi '{b['chiave']}' non definito dall'hotel")
+        return "".join(blocco(sostituisci(x, snippet), snippet) for x in lista)
     if t == "p":
         return f"<p>{b['html']}</p>"
     if t == "h3":
         return f"<h3>{esc(b['testo'])}</h3>"
     if t in ("ul", "ol"):
-        voci = "".join(f"<li>{v}</li>" for v in b["voci"])
+        voci = "".join(f"<li>{v}</li>" for v in b["voci"] if v.strip())
         return f"<{t} class='lista'>{voci}</{t}>"
     if t == "box":
         stile = b.get("stile", "nota")
@@ -76,7 +113,7 @@ def blocco(b):
             for v in b["voci"])
         return f"<ul class='link-ufficiali'>{voci}</ul>"
     if t == "fatti":
-        voci = "".join(f"<div><dt>{esc(v['k'])}</dt><dd>{v['v']}</dd></div>" for v in b["voci"])
+        voci = "".join(f"<div><dt>{esc(v['k'])}</dt><dd>{v['v']}</dd></div>" for v in b["voci"] if v["v"].strip())
         return f"<dl class='fatti'>{voci}</dl>"
     if t == "schede":
         voci = "".join(f"<div class='scheda'><h3>{esc(v['titolo'])}</h3>{v['html']}</div>" for v in b["voci"])
@@ -84,8 +121,8 @@ def blocco(b):
     raise SystemExit(f"tipo di blocco sconosciuto: {t}")
 
 
-def sezione(s):
-    corpo = "".join(blocco(b) for b in s["blocchi"])
+def sezione(s, snippet):
+    corpo = "".join(blocco(b, snippet) for b in s["blocchi"])
     etichetta = f"<span class='etichetta'>{esc(s['etichetta'])}</span>" if s.get("etichetta") else ""
     return f"<section id='{esc(s['id'])}'>{etichetta}<h2>{esc(s['titolo'])}</h2><div class='testo'>{corpo}</div></section>"
 
@@ -105,15 +142,17 @@ def aside(d, lang, sezioni):
     )
 
 
-def render(dati, lang):
-    d = dati[lang]
+def render(dati, hotel, lang):
+    snippet = hotel[lang]
+    d = sostituisci(dati[lang], snippet)
     L = ETICHETTE[lang]
     tpl = (REPO / "templates" / "guida.html").read_text(encoding="utf-8")
-    slug = dati["slug"]
+    slug = hotel["slug"]
     alt_lang = L["alt_lang"]
+    has_alt = alt_lang in hotel["lingue"]
     valori = {
         "lang": lang,
-        "slug": slug,
+        "hero_slug": hotel.get("hero_slug") or dati["slug"],
         "page_url": url_pagina(slug, lang),
         "page_title": f"{d['hero']['titolo']} · {d['hero']['eyebrow']} · KiRun",
         "meta_description": d["meta_description"],
@@ -122,10 +161,10 @@ def render(dati, lang):
         "strillo": d["hero"]["strillo"],
         "chips_html": "".join(f"<span class='chip{' evidenza' if i == 0 else ''}'>{esc(c)}</span>"
                               for i, c in enumerate(d["hero"]["chips"])),
-        "alt_lang_url": url_pagina(slug, alt_lang).replace("https://go.ki-run.it", ""),
+        "alt_lang_url": url_pagina(slug, alt_lang).replace("https://go.ki-run.it", "") if has_alt else "",
         "alt_lang_label": L["alt"],
         "aside_html": aside(d, lang, d["sezioni"]),
-        "sezioni_html": "".join(sezione(s) for s in d["sezioni"]),
+        "sezioni_html": "".join(sezione(s, snippet) for s in d["sezioni"]),
         "aggiornato_label": L["aggiornato"],
         "updated_at": dati["updated_at"][lang] if isinstance(dati["updated_at"], dict) else dati["updated_at"],
         "disclaimer": L["disclaimer"],
@@ -133,13 +172,13 @@ def render(dati, lang):
         "credit_label": L["credit"],
         "credit_html": dati.get("hero_credit", ""),
     }
-    blocchi = {"has_alt": alt_lang in dati, "superhalfs": bool(dati.get("superhalfs")),
+    blocchi = {"has_alt": has_alt, "superhalfs": bool(dati.get("superhalfs")),
                "credit": bool(dati.get("hero_credit"))}
     for nome, attivo in blocchi.items():
         tpl = re.compile(rf"<!--IF:{nome}-->(.*?)<!--ENDIF:{nome}-->", re.DOTALL).sub(r"\1" if attivo else "", tpl)
     for k, v in valori.items():
         tpl = tpl.replace("{{" + k + "}}", v)
-    residui = re.findall(r"{{\w+}}", tpl)
+    residui = re.findall(r"{{[\w:]+}}", tpl)
     if residui:
         raise SystemExit(f"segnaposto non sostituiti: {residui}")
     return tpl
@@ -147,19 +186,24 @@ def render(dati, lang):
 
 def main():
     argv = sys.argv[1:]
-    lingue = ["it", "en"]
-    if "--lang" in argv:
-        i = argv.index("--lang")
-        lingue = [argv[i + 1]]
-        del argv[i:i + 2]
+    filtro = {}
+    for opt in ("--lang", "--hotel"):
+        if opt in argv:
+            i = argv.index(opt)
+            filtro[opt] = argv[i + 1]
+            del argv[i:i + 2]
     dati = json.loads(Path(argv[0]).read_text(encoding="utf-8"))
-    for lang in lingue:
-        if lang not in dati:
+    hotels = dati.get("hotels") or {"_": {"slug": dati["slug"], "lingue": [l for l in ("it", "en") if l in dati], "it": {}, "en": {}}}
+    for chiave, hotel in hotels.items():
+        if filtro.get("--hotel") and chiave != filtro["--hotel"]:
             continue
-        out = REPO / ("en/guide" if lang == "en" else "guide") / dati["slug"] / "index.html"
-        out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(render(dati, lang), encoding="utf-8")
-        print(f"OK: {out.relative_to(REPO)}")
+        for lang in hotel["lingue"]:
+            if filtro.get("--lang") and lang != filtro["--lang"]:
+                continue
+            out = REPO / ("en/guide" if lang == "en" else "guide") / hotel["slug"] / "index.html"
+            out.parent.mkdir(parents=True, exist_ok=True)
+            out.write_text(render(dati, hotel, lang), encoding="utf-8")
+            print(f"OK: {out.relative_to(REPO)}")
 
 
 if __name__ == "__main__":

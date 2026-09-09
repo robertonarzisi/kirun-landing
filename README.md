@@ -48,8 +48,14 @@ selettore lingua nell'hero. Tutte `noindex`: il link lo manda KiRun al cliente.
 python3 scripts/guida.py scripts/guide-data/copenhagen-half-marathon-2026.json   # IT + EN
 ```
 
-- Contenuti in `scripts/guide-data/<slug>.json` (un file, due lingue, blocchi tipizzati:
+- Contenuti in `scripts/guide-data/<evento>.json` (un file, due lingue, blocchi tipizzati:
   p, h3, ul/ol, box, tabella, timeline, link, fatti, schede). L'HTML inline è fidato.
+- **Più hotel per lo stesso evento**: la chiave `hotels` elenca le varianti (slug della
+  pagina, lingue, `hero_slug` per riusare la foto). Il contenuto condiviso usa segnaposto
+  `{{hotel:chiave}}` nelle stringhe e blocchi `hotel_blocchi` (sezione hotel, assistenza);
+  ogni hotel dichiara tutti gli snippet nelle sue lingue, anche vuoti, altrimenti il build
+  fallisce. Copenaghen 2026: Wakeup Borgergade (IT+EN, slug base), Scandic Palace (solo EN,
+  `-scandic-palace`), Bob W Østerbro (solo IT, `-bob-w-osterbro`).
 - Layout in `templates/guida.html`, stili nel blocco «Guide evento» di `assets/kirun.css`.
 - Foto hero: stessa convenzione delle landing, `assets/hero/<slug>.jpg`, con credito in
   `hero_credit` se la licenza lo richiede (Copenaghen 2026: Nyhavn, Jorge Láscar, CC BY 2.0).
