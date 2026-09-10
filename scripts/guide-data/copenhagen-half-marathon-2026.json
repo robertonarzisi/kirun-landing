@@ -2,19 +2,19 @@
   "slug": "copenhagen-half-marathon-2026",
   "superhalfs": true,
   "updated_at": {
-    "it": "9 settembre 2026",
-    "en": "9 September 2026"
+    "it": "10 settembre 2026",
+    "en": "10 September 2026"
   },
   "hero_credit": "<a href='https://commons.wikimedia.org/wiki/File:Panorama_of_Nyhavn_(24047322088).jpg' target='_blank' rel='noopener'>Nyhavn</a> · Jorge Láscar · <a href='https://creativecommons.org/licenses/by/2.0/' target='_blank' rel='noopener'>CC BY 2.0</a>",
   "it": {
-    "meta_description": "La guida KiRun per la Copenhagen Half Marathon 2026, la mezza dei Mondiali su strada WRRC Copenhagen 26: {{hotel:nome}}, assistenza KiRun, Expo, gruppi di partenza, percorso e consigli per il weekend del 18–21 settembre.",
+    "meta_description": "La guida KiRun per la Copenhagen Half Marathon 2026, la mezza dei Mondiali su strada WRRC Copenhagen 26: {{hotel:nome}}, assistenza KiRun, Expo, gruppi di partenza, percorso e consigli per il weekend del {{hotel:date_viaggio}}.",
     "hero": {
       "eyebrow": "Guida del runner · WRRC Copenhagen 26",
       "titolo": "Copenhagen Half Marathon 2026",
       "strillo": "Quest'anno la mezza di Copenaghen è la gara dei Campionati del Mondo di corsa su strada: partirai sulle stesse strade dei migliori al mondo. Qui trovi tutto quello che serve per viverla bene, dall'arrivo in hotel al traguardo.",
       "chips": [
         "Gara: domenica 20 settembre",
-        "Viaggio: 18–21 settembre",
+        "Viaggio: {{hotel:date_viaggio}}",
         "{{hotel:nome}}",
         "21,0975 km"
       ]
@@ -114,35 +114,12 @@
         "titolo": "Il programma dei quattro giorni",
         "blocchi": [
           {
-            "tipo": "timeline",
-            "voci": [
-              {
-                "quando": "Ven 18",
-                "titolo": "Arrivo e ritiro pettorale",
-                "html": "{{hotel:timeline_ven}}"
-              },
-              {
-                "quando": "Sab 19",
-                "titolo": "Scarico gambe e Mondiali da vedere",
-                "html": "{{hotel:timeline_sab}}"
-              },
-              {
-                "quando": "Dom 20",
-                "titolo": "La gara",
-                "html": "{{hotel:timeline_dom}}"
-              },
-              {
-                "quando": "Lun 21",
-                "titolo": "Rientro",
-                "html": "{{hotel:timeline_lun}}"
-              }
-            ]
+            "tipo": "hotel_blocchi",
+            "chiave": "timeline_blocchi"
           },
           {
-            "tipo": "box",
-            "stile": "attenzione",
-            "titolo": "Arrivi sabato?",
-            "html": "<p>L'Expo chiude alle 18:00 di sabato e la domenica in Runners Area c'è solo il ritiro d'emergenza, con code. Organizza l'arrivo in modo da passare dal Forum entro sabato pomeriggio. {{hotel:expo_da_hotel}}</p>"
+            "tipo": "hotel_blocchi",
+            "chiave": "avviso_arrivo_blocchi"
           }
         ]
       },
@@ -591,14 +568,14 @@
     ]
   },
   "en": {
-    "meta_description": "The KiRun guide to the Copenhagen Half Marathon 2026, the half marathon of the WRRC Copenhagen 26 World Road Running Championships: {{hotel:nome}}, KiRun support, Expo, start groups, course and tips for the 18–21 September weekend.",
+    "meta_description": "The KiRun guide to the Copenhagen Half Marathon 2026, the half marathon of the WRRC Copenhagen 26 World Road Running Championships: {{hotel:nome}}, KiRun support, Expo, start groups, course and tips for the {{hotel:date_viaggio}} weekend.",
     "hero": {
       "eyebrow": "Runner's guide · WRRC Copenhagen 26",
       "titolo": "Copenhagen Half Marathon 2026",
       "strillo": "This year the Copenhagen half is the World Road Running Championships race: you will start on the same streets as the best runners on the planet. Here is everything you need to enjoy it, from hotel check-in to the finish line.",
       "chips": [
         "Race: Sunday 20 September",
-        "Trip: 18–21 September",
+        "Trip: {{hotel:date_viaggio}}",
         "{{hotel:nome}}",
         "21.0975 km"
       ]
@@ -698,35 +675,12 @@
         "titolo": "The four-day programme",
         "blocchi": [
           {
-            "tipo": "timeline",
-            "voci": [
-              {
-                "quando": "Fri 18",
-                "titolo": "Arrival and bib collection",
-                "html": "{{hotel:timeline_ven}}"
-              },
-              {
-                "quando": "Sat 19",
-                "titolo": "Shakeout run and World Championships to watch",
-                "html": "{{hotel:timeline_sab}}"
-              },
-              {
-                "quando": "Sun 20",
-                "titolo": "Race day",
-                "html": "{{hotel:timeline_dom}}"
-              },
-              {
-                "quando": "Mon 21",
-                "titolo": "Departure",
-                "html": "{{hotel:timeline_lun}}"
-              }
-            ]
+            "tipo": "hotel_blocchi",
+            "chiave": "timeline_blocchi"
           },
           {
-            "tipo": "box",
-            "stile": "attenzione",
-            "titolo": "Arriving on Saturday?",
-            "html": "<p>The Expo closes at 18:00 on Saturday and on Sunday only emergency bib collection is available in Runners Area, with queues. Plan your arrival so you can get to Forum by Saturday afternoon. {{hotel:expo_da_hotel}}</p>"
+            "tipo": "hotel_blocchi",
+            "chiave": "avviso_arrivo_blocchi"
           }
         ]
       },
@@ -1229,10 +1183,6 @@
             "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"
           }
         ],
-        "timeline_ven": "<p>Dall'aeroporto in metro M2 fino a Kongens Nytorv, poi 5 minuti a piedi. Le camere sono pronte dalle 15:00; se arrivi prima puoi lasciare il bagaglio negli armadietti dell'hotel.</p><p><b>Dalle 14:30 alle 15:30 lo staff KiRun è nella hall</b>: ci si conosce, si ricevono le ultime informazioni e a seguire <b>si va tutti insieme al Forum per il ritiro del pettorale</b> (l'Expo è aperta fino alle 19:00). Se arrivi più tardi, puoi ritirarlo per conto tuo: le indicazioni sono nella sezione Expo.</p>",
-        "timeline_sab": "<p>Mattina: 20–30 minuti di corsa leggera (Kastellet e Langelinie sono a un chilometro dall'hotel). Alle 10:10 e alle 10:30 partono le finali mondiali del <b>miglio</b> su Østerbrogade, tra Trianglen e lo stadio Parken; alle 14:10 e 14:40 quelle dei <b>5 km</b>. Se non hai ancora il pettorale, l'Expo chiude alle 18:00.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, sacca gara e abbigliamento.</p>",
-        "timeline_dom": "<p>Colazione in hotel. <b>Alle 7:30 ritrovo facoltativo nella hall</b> e spostamento insieme verso l'area di partenza: metro M3 da Kongens Nytorv a Trianglen (deposito sacca) o Vibenshus Runddel (direttamente al gruppo). Chi parte in un gruppo più tardo può muoversi per conto suo: la Runners Area apre alle 7:30, entra nel tuo gruppo 10–15 minuti prima dell'orario in tabella. Il pomeriggio è tuo; <b>dalle 18:30 alle 19:30 lo staff è di nuovo nella hall</b>.</p>",
-        "timeline_lun": "<p>Check-out entro le 11:00. Se il volo è nel pomeriggio, lascia il bagaglio negli armadietti dell'hotel e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>",
         "expo_da_hotel": "Da Kongens Nytorv sono due fermate (M1 o M2 direzione Vanløse, fermata Forum), 5 minuti.",
         "gara_metro": "<b>In metro</b>: da Kongens Nytorv prendi la <b>M3 Cityringen</b> (direzione Østerport/Trianglen). Scendi a <b>Trianglen</b> se devi depositare la sacca in Runners Area (3 fermate, poi 5 minuti a piedi), oppure a <b>Vibenshus Runddel</b> per andare direttamente al tuo gruppo di partenza. In tutto circa 20 minuti. Dal 2026 esiste l'<b>Event Ticket</b>: 12 ore di mezzi pubblici illimitati nell'app Rejsebillet.",
         "gara_piedi": "<b>A piedi</b>: circa 30–35 minuti (3 km) lungo Store Kongensgade e Østerbrogade. Un buon riscaldamento camminato, se il meteo aiuta.",
@@ -1288,7 +1238,43 @@
               "La colazione è a buffet. L'orario di apertura della domenica te lo confermiamo in loco: se vuoi mangiare prima, tieni in camera qualcosa di collaudato (pane, banana, barretta)."
             ]
           }
-        ]
+        ],
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Ven 18",
+                "titolo": "Arrivo e ritiro pettorale",
+                "html": "<p>Dall'aeroporto in metro M2 fino a Kongens Nytorv, poi 5 minuti a piedi. Le camere sono pronte dalle 15:00; se arrivi prima puoi lasciare il bagaglio negli armadietti dell'hotel.</p><p><b>Dalle 14:30 alle 15:30 lo staff KiRun è nella hall</b>: ci si conosce, si ricevono le ultime informazioni e a seguire <b>si va tutti insieme al Forum per il ritiro del pettorale</b> (l'Expo è aperta fino alle 19:00). Se arrivi più tardi, puoi ritirarlo per conto tuo: le indicazioni sono nella sezione Expo.</p>"
+              },
+              {
+                "quando": "Sab 19",
+                "titolo": "Scarico gambe e Mondiali da vedere",
+                "html": "<p>Mattina: 20–30 minuti di corsa leggera (Kastellet e Langelinie sono a un chilometro dall'hotel). Alle 10:10 e alle 10:30 partono le finali mondiali del <b>miglio</b> su Østerbrogade, tra Trianglen e lo stadio Parken; alle 14:10 e 14:40 quelle dei <b>5 km</b>. Se non hai ancora il pettorale, l'Expo chiude alle 18:00.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, sacca gara e abbigliamento.</p>"
+              },
+              {
+                "quando": "Dom 20",
+                "titolo": "La gara",
+                "html": "<p>Colazione in hotel. <b>Alle 7:30 ritrovo facoltativo nella hall</b> e spostamento insieme verso l'area di partenza: metro M3 da Kongens Nytorv a Trianglen (deposito sacca) o Vibenshus Runddel (direttamente al gruppo). Chi parte in un gruppo più tardo può muoversi per conto suo: la Runners Area apre alle 7:30, entra nel tuo gruppo 10–15 minuti prima dell'orario in tabella. Il pomeriggio è tuo; <b>dalle 18:30 alle 19:30 lo staff è di nuovo nella hall</b>.</p>"
+              },
+              {
+                "quando": "Lun 21",
+                "titolo": "Rientro",
+                "html": "<p>Check-out entro le 11:00. Se il volo è nel pomeriggio, lascia il bagaglio negli armadietti dell'hotel e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"
+              }
+            ]
+          }
+        ],
+        "avviso_arrivo_blocchi": [
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Arrivi sabato?",
+            "html": "<p>L'Expo chiude alle 18:00 di sabato e la domenica in Runners Area c'è solo il ritiro d'emergenza, con code. Organizza l'arrivo in modo da passare dal Forum entro sabato pomeriggio. {{hotel:expo_da_hotel}}</p>"
+          }
+        ],
+        "date_viaggio": "18–21 settembre"
       },
       "en": {
         "nome": "Wakeup Copenhagen Borgergade",
@@ -1338,10 +1324,6 @@
             "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"
           }
         ],
-        "timeline_ven": "<p>From the airport take Metro M2 to Kongens Nytorv, then a 5-minute walk. Rooms are ready from 15:00; if you arrive earlier you can leave your luggage in the hotel lockers.</p><p><b>From 14:30 to 15:30 the KiRun staff is in the lobby</b>: we meet, hand over the latest information and then <b>go all together to Forum to collect the bibs</b> (the Expo is open until 19:00). If you arrive later you can collect it on your own: directions are in the Expo section.</p>",
-        "timeline_sab": "<p>Morning: 20–30 minutes of easy running (Kastellet and Langelinie are one kilometre from the hotel). At 10:10 and 10:30 the <b>one mile</b> world finals start on Østerbrogade, between Trianglen and Parken stadium; at 14:10 and 14:40 the <b>5 km</b> finals. If you still need your bib, the Expo closes at 18:00.</p><p><b>From 18:00 to 19:00 the staff is in the lobby</b> for the pre-race briefing and any last questions. Then an early, carb-based dinner and get your bib, race bag and kit ready.</p>",
-        "timeline_dom": "<p>Breakfast at the hotel. <b>At 7:30 optional meet-up in the lobby</b> and transfer together to the start area: Metro M3 from Kongens Nytorv to Trianglen (bag drop) or Vibenshus Runddel (straight to your group). If you start in a later group you can make your own way: Runners Area opens at 7:30, join your start group 10–15 minutes before the time in the table. The afternoon is yours; <b>from 18:30 to 19:30 the staff is back in the lobby</b>.</p>",
-        "timeline_lun": "<p>Check-out by 11:00. If your flight is in the afternoon, leave your luggage in the hotel lockers and enjoy your last hours in the city. The staff remains available by phone all day.</p>",
         "expo_da_hotel": "From Kongens Nytorv it is two stops (M1 or M2 towards Vanløse, Forum station), 5 minutes.",
         "gara_metro": "<b>By Metro</b>: from Kongens Nytorv take the <b>M3 Cityringen</b> (towards Østerport/Trianglen). Get off at <b>Trianglen</b> if you need to drop your bag in Runners Area (3 stops, then a 5-minute walk), or at <b>Vibenshus Runddel</b> to go straight to your start group. About 20 minutes in total. New for 2026, the <b>Event Ticket</b> gives you 12 hours of unlimited public transport in the Rejsebillet app.",
         "gara_piedi": "<b>On foot</b>: about 30–35 minutes (3 km) along Store Kongensgade and Østerbrogade. A good walking warm-up, weather permitting.",
@@ -1397,7 +1379,43 @@
               "Breakfast is a buffet. We will confirm Sunday's opening time on site: if you want to eat earlier, keep something tried and tested in your room (bread, banana, energy bar)."
             ]
           }
-        ]
+        ],
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Fri 18",
+                "titolo": "Arrival and bib collection",
+                "html": "<p>From the airport take Metro M2 to Kongens Nytorv, then a 5-minute walk. Rooms are ready from 15:00; if you arrive earlier you can leave your luggage in the hotel lockers.</p><p><b>From 14:30 to 15:30 the KiRun staff is in the lobby</b>: we meet, hand over the latest information and then <b>go all together to Forum to collect the bibs</b> (the Expo is open until 19:00). If you arrive later you can collect it on your own: directions are in the Expo section.</p>"
+              },
+              {
+                "quando": "Sat 19",
+                "titolo": "Shakeout run and World Championships to watch",
+                "html": "<p>Morning: 20–30 minutes of easy running (Kastellet and Langelinie are one kilometre from the hotel). At 10:10 and 10:30 the <b>one mile</b> world finals start on Østerbrogade, between Trianglen and Parken stadium; at 14:10 and 14:40 the <b>5 km</b> finals. If you still need your bib, the Expo closes at 18:00.</p><p><b>From 18:00 to 19:00 the staff is in the lobby</b> for the pre-race briefing and any last questions. Then an early, carb-based dinner and get your bib, race bag and kit ready.</p>"
+              },
+              {
+                "quando": "Sun 20",
+                "titolo": "Race day",
+                "html": "<p>Breakfast at the hotel. <b>At 7:30 optional meet-up in the lobby</b> and transfer together to the start area: Metro M3 from Kongens Nytorv to Trianglen (bag drop) or Vibenshus Runddel (straight to your group). If you start in a later group you can make your own way: Runners Area opens at 7:30, join your start group 10–15 minutes before the time in the table. The afternoon is yours; <b>from 18:30 to 19:30 the staff is back in the lobby</b>.</p>"
+              },
+              {
+                "quando": "Mon 21",
+                "titolo": "Departure",
+                "html": "<p>Check-out by 11:00. If your flight is in the afternoon, leave your luggage in the hotel lockers and enjoy your last hours in the city. The staff remains available by phone all day.</p>"
+              }
+            ]
+          }
+        ],
+        "avviso_arrivo_blocchi": [
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Arriving on Saturday?",
+            "html": "<p>The Expo closes at 18:00 on Saturday and on Sunday only emergency bib collection is available in Runners Area, with queues. Plan your arrival so you can get to Forum by Saturday afternoon. {{hotel:expo_da_hotel}}</p>"
+          }
+        ],
+        "date_viaggio": "18–21 September"
       }
     },
     "scandic": {
@@ -1454,10 +1472,6 @@
             "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"
           }
         ],
-        "timeline_ven": "<p>From the airport take Metro M2 to Kongens Nytorv and change to the M3 for two stops to Rådhuspladsen: the hotel is on the square. Rooms are ready from 16:00; if you arrive earlier you can leave your luggage at the hotel.</p><p>The <b>Expo at Forum</b> is open until 19:00 and is 20 minutes on foot from the hotel: collect your bib in the afternoon if you can. <b>From 17:30 to 18:30 the KiRun staff is in the lobby</b> to welcome you and hand over the latest race information.</p>",
-        "timeline_sab": "<p>Morning: 20–30 minutes of easy running around the Lakes, ten minutes from the hotel. At 10:10 and 10:30 the <b>one mile</b> world finals start on Østerbrogade, between Trianglen and Parken stadium; at 14:10 and 14:40 the <b>5 km</b> finals. If you still need your bib, the Expo closes at 18:00.</p><p><b>From 17:30 to 18:15 the staff is in the lobby</b> for the pre-race briefing and any last questions. Then an early, carb-based dinner and get your bib, race bag and kit ready.</p>",
-        "timeline_dom": "<p>Breakfast at the hotel, then Metro M3 from Rådhuspladsen to Trianglen (bag drop) or Vibenshus Runddel (straight to your start group): about 25 minutes door to door. Runners Area opens at 7:30; join your start group 10–15 minutes before the time shown in the table. The afternoon is yours; <b>from 17:30 to 18:15 the staff is back in the lobby</b>.</p>",
-        "timeline_lun": "<p>Check-out by 12:00. If your flight is in the afternoon, leave your luggage at the hotel and enjoy your last hours in the city. The staff remains available by phone all day.</p>",
         "expo_da_hotel": "From the hotel it is a 20-minute walk (1.5 km along the Lakes), or Metro M3 to Frederiksberg and one stop on M1/M2 to Forum.",
         "gara_metro": "<b>By Metro</b>: from <b>Rådhuspladsen</b>, on the square, take the <b>M3 Cityringen</b> towards Kongens Nytorv/Østerport. Get off at <b>Trianglen</b> if you need to drop your bag in Runners Area (5 stops, about 9 minutes, then a 5-minute walk), or at <b>Vibenshus Runddel</b> to go straight to your start group. About 25 minutes door to door. New for 2026, the <b>Event Ticket</b> gives you 12 hours of unlimited public transport in the Rejsebillet app.",
         "gara_piedi": "<b>On foot</b>: about 4 km, 50 minutes. Better kept for the way back, if you still have legs.",
@@ -1514,7 +1528,43 @@
               "Breakfast is a buffet. We will confirm Sunday's opening time on site: if you want to eat earlier, keep something tried and tested in your room (bread, banana, energy bar)."
             ]
           }
-        ]
+        ],
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Fri 18",
+                "titolo": "Arrival and bib collection",
+                "html": "<p>From the airport take Metro M2 to Kongens Nytorv and change to the M3 for two stops to Rådhuspladsen: the hotel is on the square. Rooms are ready from 16:00; if you arrive earlier you can leave your luggage at the hotel.</p><p>The <b>Expo at Forum</b> is open until 19:00 and is 20 minutes on foot from the hotel: collect your bib in the afternoon if you can. <b>From 17:30 to 18:30 the KiRun staff is in the lobby</b> to welcome you and hand over the latest race information.</p>"
+              },
+              {
+                "quando": "Sat 19",
+                "titolo": "Shakeout run and World Championships to watch",
+                "html": "<p>Morning: 20–30 minutes of easy running around the Lakes, ten minutes from the hotel. At 10:10 and 10:30 the <b>one mile</b> world finals start on Østerbrogade, between Trianglen and Parken stadium; at 14:10 and 14:40 the <b>5 km</b> finals. If you still need your bib, the Expo closes at 18:00.</p><p><b>From 17:30 to 18:15 the staff is in the lobby</b> for the pre-race briefing and any last questions. Then an early, carb-based dinner and get your bib, race bag and kit ready.</p>"
+              },
+              {
+                "quando": "Sun 20",
+                "titolo": "Race day",
+                "html": "<p>Breakfast at the hotel, then Metro M3 from Rådhuspladsen to Trianglen (bag drop) or Vibenshus Runddel (straight to your start group): about 25 minutes door to door. Runners Area opens at 7:30; join your start group 10–15 minutes before the time shown in the table. The afternoon is yours; <b>from 17:30 to 18:15 the staff is back in the lobby</b>.</p>"
+              },
+              {
+                "quando": "Mon 21",
+                "titolo": "Departure",
+                "html": "<p>Check-out by 12:00. If your flight is in the afternoon, leave your luggage at the hotel and enjoy your last hours in the city. The staff remains available by phone all day.</p>"
+              }
+            ]
+          }
+        ],
+        "avviso_arrivo_blocchi": [
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Arriving on Saturday?",
+            "html": "<p>The Expo closes at 18:00 on Saturday and on Sunday only emergency bib collection is available in Runners Area, with queues. Plan your arrival so you can get to Forum by Saturday afternoon. {{hotel:expo_da_hotel}}</p>"
+          }
+        ],
+        "date_viaggio": "18–21 September"
       }
     },
     "bobw": {
@@ -1571,10 +1621,6 @@
             "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"
           }
         ],
-        "timeline_ven": "<p>Dall'aeroporto in metro M2 fino a Kongens Nytorv, poi M3 fino a Vibenshus Runddel e 5 minuti a piedi. Il check-in si fa online prima di arrivare e la porta si apre con il telefono; il deposito bagagli al piano terra è disponibile dalle 5:00 del giorno di arrivo.</p><p>L'<b>Expo al Forum</b> è aperta fino alle 19:00: il pomeriggio del venerdì è il momento migliore per ritirare il pettorale con calma (25 minuti in metro, indicazioni nella sezione Expo). Oggi lo staff KiRun è raggiungibile al telefono per qualsiasi cosa.</p>",
-        "timeline_sab": "<p>Mattina: 20–30 minuti di corsa leggera dentro Fælledparken, a cinque minuti dall'hotel. Alle 10:10 e alle 10:30 partono le finali mondiali del <b>miglio</b> su Østerbrogade, tra Trianglen e lo stadio Parken; alle 14:10 e 14:40 quelle dei <b>5 km</b>. Se non hai ancora il pettorale, l'Expo chiude alle 18:00.</p><p><b>Dalle 17:00 alle 17:30 lo staff è all'ingresso dell'hotel</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, sacca gara e abbigliamento.</p>",
-        "timeline_dom": "<p>Colazione con calma: la partenza è a dieci minuti a piedi. Vai in Runners Area a Fælledparken per il deposito sacca (15 minuti a piedi, apre alle 7:30) oppure direttamente al tuo gruppo su Jagtvej, a partire da Vibenshus Runddel; entra nel gruppo 10–15 minuti prima dell'orario in tabella. Il pomeriggio è tuo; <b>dalle 17:00 alle 17:30 lo staff è di nuovo all'ingresso dell'hotel</b>.</p>",
-        "timeline_lun": "<p>Check-out secondo quanto indicato sul voucher; il deposito bagagli al piano terra resta disponibile fino alle 23:00 del giorno di partenza. Lo staff è raggiungibile al telefono per tutta la giornata.</p>",
         "expo_da_hotel": "Dall'hotel: metro M3 da Vibenshus Runddel fino a Kongens Nytorv (5 fermate), poi M1 o M2 direzione Vanløse per due fermate fino a Forum; circa 25 minuti.",
         "gara_metro": "<b>A piedi</b>: sei già nel quartiere della gara. Le griglie di partenza su Jagtvej cominciano a <b>Vibenshus Runddel</b>, a circa 10 minuti dall'hotel; la <b>Runners Area</b> a Fælledparken (deposito sacca) è a circa 15 minuti. Niente metro, niente code.",
         "gara_piedi": "<b>Dopo l'arrivo</b>: dal traguardo su Øster Allé all'hotel sono 15–20 minuti a piedi lungo Østerbrogade e Jagtvej, o una fermata di M3 da Trianglen a Vibenshus Runddel.",
@@ -1630,7 +1676,192 @@
               "Ogni appartamento ha la <b>cucina</b>: comoda per la colazione della domenica all'orario che preferisci, senza dipendere da nessuno. Fai la spesa il sabato: i supermercati della zona sono aperti anche la domenica."
             ]
           }
-        ]
+        ],
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Ven 18",
+                "titolo": "Arrivo e ritiro pettorale",
+                "html": "<p>Dall'aeroporto in metro M2 fino a Kongens Nytorv, poi M3 fino a Vibenshus Runddel e 5 minuti a piedi. Il check-in si fa online prima di arrivare e la porta si apre con il telefono; il deposito bagagli al piano terra è disponibile dalle 5:00 del giorno di arrivo.</p><p>L'<b>Expo al Forum</b> è aperta fino alle 19:00: il pomeriggio del venerdì è il momento migliore per ritirare il pettorale con calma (25 minuti in metro, indicazioni nella sezione Expo). Oggi lo staff KiRun è raggiungibile al telefono per qualsiasi cosa.</p>"
+              },
+              {
+                "quando": "Sab 19",
+                "titolo": "Scarico gambe e Mondiali da vedere",
+                "html": "<p>Mattina: 20–30 minuti di corsa leggera dentro Fælledparken, a cinque minuti dall'hotel. Alle 10:10 e alle 10:30 partono le finali mondiali del <b>miglio</b> su Østerbrogade, tra Trianglen e lo stadio Parken; alle 14:10 e 14:40 quelle dei <b>5 km</b>. Se non hai ancora il pettorale, l'Expo chiude alle 18:00.</p><p><b>Dalle 17:00 alle 17:30 lo staff è all'ingresso dell'hotel</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, sacca gara e abbigliamento.</p>"
+              },
+              {
+                "quando": "Dom 20",
+                "titolo": "La gara",
+                "html": "<p>Colazione con calma: la partenza è a dieci minuti a piedi. Vai in Runners Area a Fælledparken per il deposito sacca (15 minuti a piedi, apre alle 7:30) oppure direttamente al tuo gruppo su Jagtvej, a partire da Vibenshus Runddel; entra nel gruppo 10–15 minuti prima dell'orario in tabella. Il pomeriggio è tuo; <b>dalle 17:00 alle 17:30 lo staff è di nuovo all'ingresso dell'hotel</b>.</p>"
+              },
+              {
+                "quando": "Lun 21",
+                "titolo": "Rientro",
+                "html": "<p>Check-out secondo quanto indicato sul voucher; il deposito bagagli al piano terra resta disponibile fino alle 23:00 del giorno di partenza. Lo staff è raggiungibile al telefono per tutta la giornata.</p>"
+              }
+            ]
+          }
+        ],
+        "avviso_arrivo_blocchi": [
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Arrivi sabato?",
+            "html": "<p>L'Expo chiude alle 18:00 di sabato e la domenica in Runners Area c'è solo il ritiro d'emergenza, con code. Organizza l'arrivo in modo da passare dal Forum entro sabato pomeriggio. {{hotel:expo_da_hotel}}</p>"
+          }
+        ],
+        "date_viaggio": "18–21 settembre"
+      }
+    },
+    "scandic_19_22": {
+      "slug": "copenhagen-half-marathon-2026-scandic-palace-19-22",
+      "lingue": [
+        "en"
+      ],
+      "hero_slug": "copenhagen-half-marathon-2026",
+      "en": {
+        "nome": "Scandic Palace Hotel",
+        "indirizzo": "Rådhuspladsen 57, 1550 København V",
+        "in_breve": "Scandic Palace Hotel, Rådhuspladsen 57 · 19–22 September · check-in 16:00, check-out 12:00",
+        "pacchetto_riga": "3 nights with breakfast at the <b>Scandic Palace Hotel</b>, 19 to 22 September (if you booked a different number of nights, your voucher applies).",
+        "assistenza_card": "<p>The KiRun staff is in the hotel lobby: <b>Saturday 17:30–18:15</b> and <b>Sunday 17:30–18:15</b>; Monday and Tuesday by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+        "assistenza_blocchi": [
+          {
+            "tipo": "p",
+            "html": "The KiRun staff is with you all weekend: you will find us <b>in the hotel lobby</b> at the times below and, at any other time, by phone or WhatsApp."
+          },
+          {
+            "tipo": "tabella",
+            "intestazione": [
+              "Day",
+              "Where",
+              "Time"
+            ],
+            "righe": [
+              [
+                "<b>Saturday 19</b>",
+                "Hotel lobby",
+                "<b>17:30–18:15</b>"
+              ],
+              [
+                "<b>Sunday 20</b>",
+                "Hotel lobby",
+                "<b>17:30–18:15</b>"
+              ],
+              [
+                "<b>Monday 21</b>",
+                "By phone",
+                "Phone support all day"
+              ],
+              [
+                "<b>Tuesday 22</b>",
+                "By phone",
+                "Phone support all day"
+              ]
+            ]
+          },
+          {
+            "tipo": "box",
+            "stile": "kirun",
+            "titolo": "Staff phone number",
+            "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"
+          }
+        ],
+        "expo_da_hotel": "From the hotel it is a 20-minute walk (1.5 km along the Lakes), or Metro M3 to Frederiksberg and one stop on M1/M2 to Forum.",
+        "gara_metro": "<b>By Metro</b>: from <b>Rådhuspladsen</b>, on the square, take the <b>M3 Cityringen</b> towards Kongens Nytorv/Østerport. Get off at <b>Trianglen</b> if you need to drop your bag in Runners Area (5 stops, about 9 minutes, then a 5-minute walk), or at <b>Vibenshus Runddel</b> to go straight to your start group. About 25 minutes door to door. New for 2026, the <b>Event Ticket</b> gives you 12 hours of unlimited public transport in the Rejsebillet app.",
+        "gara_piedi": "<b>On foot</b>: about 4 km, 50 minutes. Better kept for the way back, if you still have legs.",
+        "sveglia": "Alarm set according to your start group: hotel to Runners Area takes about 25 minutes plus the bag drop.",
+        "nota_km_0_2": "",
+        "nota_km_5_8": "",
+        "nota_km_9_10": " The course runs right past your hotel here: your supporters can cheer from the doorstep, roughly 10 km into your race.",
+        "nota_km_20_21": "",
+        "dopo_gara": "in the hotel lobby from 17:30 to 18:15",
+        "scarico": "The best loop from the hotel is around the <b>Lakes</b> (Søerne), ten minutes away: flat gravel paths and the classic Copenhagen running scenery.",
+        "nyhavn": "The colourful harbour, a 15-minute walk from the hotel along Strøget",
+        "torvehallerne": "(12 minutes' walk from the hotel)",
+        "tivoli": " It is right across the square from your hotel.",
+        "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> (phone and WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. In the hotel lobby at the times in the Support section, Monday and Tuesday by phone.",
+        "sezione_hotel": [
+          {
+            "tipo": "p",
+            "html": "Your stay is at the <b>Scandic Palace Hotel</b>, Rådhuspladsen 57, 1550 København V: a historic hotel from 1910 on <b>City Hall Square</b>, in the very heart of Copenhagen. <b>Tivoli Gardens</b> are across the square, the <b>Strøget</b> shopping street starts around the corner and the central station is a 7-minute walk. Rooms have free Wi-Fi and TV; the reception is open 24 hours, breakfast is a buffet and luggage storage is available for early arrivals and late departures."
+          },
+          {
+            "tipo": "p",
+            "html": "Its strength is the location: <b>Rådhuspladsen</b> Metro station (M3) is 100 metres from the entrance, and the race course itself passes the square around km 10."
+          },
+          {
+            "tipo": "link",
+            "voci": [
+              {
+                "label": "Scandic Palace Hotel – official website",
+                "url": "https://www.scandichotels.com/hotels/denmark/copenhagen/scandic-palace-hotel"
+              }
+            ]
+          },
+          {
+            "tipo": "h3",
+            "testo": "From the airport to the hotel"
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>By Metro</b>: from Terminal 3 follow the signs to the Metro and take the <b>M2 towards Vanløse</b> to <b>Kongens Nytorv</b> (about 15 minutes), then change to the <b>M3</b> for two stops to <b>Rådhuspladsen</b>. The hotel is on the square. Total about 25 minutes. You need a 3-zone ticket, from the machines or the DOT Tickets app.",
+              "<b>By train</b>: regional trains from Terminal 3 reach <b>København H</b> (central station) in about 15 minutes; from there the hotel is a 7-minute walk past Tivoli.",
+              "<b>By taxi</b>: 25–30 minutes depending on traffic; cards accepted."
+            ]
+          },
+          {
+            "tipo": "h3",
+            "testo": "Check-in, check-out and luggage storage"
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>Check-in</b> from 16:00, <b>check-out</b> by 12:00 (your voucher applies if it says otherwise).",
+              "The 24-hour reception stores your luggage before check-in and after check-out.",
+              "Breakfast is a buffet. We will confirm Sunday's opening time on site: if you want to eat earlier, keep something tried and tested in your room (bread, banana, energy bar)."
+            ]
+          }
+        ],
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Sat 19",
+                "titolo": "Arrival and bib collection",
+                "html": "<p>From the airport take Metro M2 to Kongens Nytorv and change to the M3 for two stops to Rådhuspladsen: the hotel is on the square. Rooms are ready from 16:00; leave your luggage at the hotel if you arrive earlier.</p><p><b>Go to the Expo at Forum the same afternoon</b>: it closes at 18:00 on Saturday and does not reopen, so this is your only chance to collect your bib without queuing at the emergency desk on race morning. Forum is 20 minutes on foot from the hotel (or Metro M3 to Frederiksberg and one stop on M1/M2). At 10:10 and 10:30 the <b>one mile</b> world finals start on Østerbrogade, between Trianglen and Parken stadium; at 14:10 and 14:40 the <b>5 km</b> finals. <b>From 17:30 to 18:15 the KiRun staff is in the lobby</b> to welcome you, hand over the latest race information and answer your last questions. Then an early, carb-based dinner and get your bib, race bag and kit ready.</p>"
+              },
+              {
+                "quando": "Sun 20",
+                "titolo": "Race day",
+                "html": "<p>Breakfast at the hotel, then Metro M3 from Rådhuspladsen to Trianglen (bag drop) or Vibenshus Runddel (straight to your start group): about 25 minutes door to door. Runners Area opens at 7:30; join your start group 10–15 minutes before the time shown in the table. The afternoon is yours; <b>from 17:30 to 18:15 the staff is back in the lobby</b>.</p>"
+              },
+              {
+                "quando": "Mon 21",
+                "titolo": "Your day in Copenhagen",
+                "html": "<p>A full day to enjoy the city with your medal in the bag: Tivoli is across the square, Nyhavn and the canal boats are a 15-minute walk away, and the Lakes are perfect for a gentle recovery jog. Ideas in the mini guide below. The staff remains available by phone all day.</p>"
+              },
+              {
+                "quando": "Tue 22",
+                "titolo": "Departure",
+                "html": "<p>Check-out by 12:00. If your flight is in the afternoon, leave your luggage at the hotel and enjoy your last hours in the city. Regional trains to the airport leave from the central station, 7 minutes on foot; the Metro M3 from Rådhuspladsen connects at Kongens Nytorv with the M2 to the airport. The staff remains available by phone.</p>"
+              }
+            ]
+          }
+        ],
+        "avviso_arrivo_blocchi": [
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Saturday is bib collection day",
+            "html": "<p>You arrive on the last Expo day: Forum closes at 18:00 on Saturday and on Sunday only emergency bib collection is available in Runners Area, with queues and an early start. Plan your journey so you can get to Forum by late afternoon. {{hotel:expo_da_hotel}}</p>"
+          }
+        ],
+        "date_viaggio": "19–22 September"
       }
     }
   }
