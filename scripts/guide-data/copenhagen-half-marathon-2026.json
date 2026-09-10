@@ -1421,6 +1421,7 @@
     "scandic": {
       "slug": "copenhagen-half-marathon-2026-scandic-palace",
       "lingue": [
+        "it",
         "en"
       ],
       "hero_slug": "copenhagen-half-marathon-2026",
@@ -1565,6 +1566,148 @@
           }
         ],
         "date_viaggio": "18–21 September"
+      },
+      "it": {
+        "nome": "Scandic Palace Hotel",
+        "indirizzo": "Rådhuspladsen 57, 1550 København V",
+        "date_viaggio": "18–21 settembre",
+        "in_breve": "Scandic Palace Hotel, Rådhuspladsen 57 · check-in 16:00, check-out 12:00",
+        "pacchetto_riga": "3 notti in pernottamento e prima colazione allo <b>Scandic Palace Hotel</b>, dal 18 al 21 settembre (se hai prenotato notti diverse, fa fede il voucher).",
+        "assistenza_card": "<p>Lo staff KiRun è nella hall dell'hotel: <b>venerdì 17:30–18:30</b>, <b>sabato 17:30–18:15</b>, <b>domenica 17:30–18:15</b>; lunedì al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+        "assistenza_blocchi": [
+          {
+            "tipo": "p",
+            "html": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'hotel</b> negli orari qui sotto e, in qualsiasi altro momento, al telefono o su WhatsApp."
+          },
+          {
+            "tipo": "tabella",
+            "intestazione": [
+              "Giorno",
+              "Dove",
+              "Orario"
+            ],
+            "righe": [
+              [
+                "<b>Venerdì 18</b>",
+                "Hall dell'hotel",
+                "<b>17:30–18:30</b>"
+              ],
+              [
+                "<b>Sabato 19</b>",
+                "Hall dell'hotel",
+                "<b>17:30–18:15</b>"
+              ],
+              [
+                "<b>Domenica 20</b>",
+                "Hall dell'hotel",
+                "<b>17:30–18:15</b>"
+              ],
+              [
+                "<b>Lunedì 21</b>",
+                "Al telefono",
+                "Assistenza telefonica per tutta la giornata"
+              ]
+            ]
+          },
+          {
+            "tipo": "box",
+            "stile": "kirun",
+            "titolo": "I numeri dello staff",
+            "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"
+          }
+        ],
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Ven 18",
+                "titolo": "Arrivo e ritiro pettorale",
+                "html": "<p>Dall'aeroporto in metro M2 fino a Kongens Nytorv, poi M3 per due fermate fino a Rådhuspladsen: l'hotel è sulla piazza. Le camere sono pronte dalle 16:00; se arrivi prima puoi lasciare il bagaglio in hotel.</p><p>L'<b>Expo al Forum</b> è aperta fino alle 19:00 ed è a 20 minuti a piedi dall'hotel: se puoi, ritira il pettorale nel pomeriggio. <b>Dalle 17:30 alle 18:30 lo staff KiRun è nella hall</b> per darti il benvenuto e le ultime informazioni sulla gara.</p>"
+              },
+              {
+                "quando": "Sab 19",
+                "titolo": "Scarico gambe e Mondiali da vedere",
+                "html": "<p>Mattina: 20–30 minuti di corsa leggera intorno ai Laghi, a dieci minuti dall'hotel. Alle 10:10 e alle 10:30 partono le finali mondiali del <b>miglio</b> su Østerbrogade, tra Trianglen e lo stadio Parken; alle 14:10 e 14:40 quelle dei <b>5 km</b>. Se non hai ancora il pettorale, l'Expo chiude alle 18:00.</p><p><b>Dalle 17:30 alle 18:15 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, sacca gara e abbigliamento.</p>"
+              },
+              {
+                "quando": "Dom 20",
+                "titolo": "La gara",
+                "html": "<p>Colazione in hotel, poi metro M3 da Rådhuspladsen a Trianglen (deposito sacca) o Vibenshus Runddel (direttamente al gruppo di partenza): circa 25 minuti porta a porta. La Runners Area apre alle 7:30; entra nel tuo gruppo 10–15 minuti prima dell'orario in tabella. Il pomeriggio è tuo; <b>dalle 17:30 alle 18:15 lo staff è di nuovo nella hall</b>.</p>"
+              },
+              {
+                "quando": "Lun 21",
+                "titolo": "Rientro",
+                "html": "<p>Check-out entro le 12:00. Se il volo è nel pomeriggio, lascia il bagaglio in hotel e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"
+              }
+            ]
+          }
+        ],
+        "avviso_arrivo_blocchi": [
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Arrivi sabato?",
+            "html": "<p>L'Expo chiude alle 18:00 di sabato e la domenica in Runners Area c'è solo il ritiro d'emergenza, con code. Organizza l'arrivo in modo da passare dal Forum entro sabato pomeriggio. {{hotel:expo_da_hotel}}</p>"
+          }
+        ],
+        "expo_da_hotel": "Dall'hotel sono 20 minuti a piedi (1,5 km lungo i Laghi), oppure metro M3 fino a Frederiksberg e una fermata di M1/M2 fino a Forum.",
+        "gara_metro": "<b>In metro</b>: da <b>Rådhuspladsen</b>, sulla piazza, prendi la <b>M3 Cityringen</b> direzione Kongens Nytorv/Østerport. Scendi a <b>Trianglen</b> se devi depositare la sacca in Runners Area (5 fermate, circa 9 minuti, poi 5 minuti a piedi), oppure a <b>Vibenshus Runddel</b> per andare direttamente al tuo gruppo di partenza. Circa 25 minuti porta a porta. Dal 2026 esiste l'<b>Event Ticket</b>: 12 ore di mezzi pubblici illimitati nell'app Rejsebillet.",
+        "gara_piedi": "<b>A piedi</b>: circa 4 km, 50 minuti. Meglio tenerli per il ritorno, se hai ancora gambe.",
+        "sveglia": "Sveglia in base al tuo gruppo di partenza: dall'hotel alla Runners Area servono circa 25 minuti più il deposito sacca.",
+        "nota_km_0_2": "",
+        "nota_km_5_8": "",
+        "nota_km_9_10": " Qui il percorso passa proprio davanti al tuo hotel: chi ti accompagna può tifare dalla porta, più o meno al km 10 della tua gara.",
+        "nota_km_20_21": "",
+        "dopo_gara": "nella hall dell'hotel dalle 17:30 alle 18:15",
+        "scarico": "Il giro migliore dall'hotel è intorno ai <b>Laghi</b> (Søerne), a dieci minuti: sterrato piano e il classico scenario della corsa a Copenaghen.",
+        "nyhavn": "Il porto colorato, a un quarto d'ora a piedi dall'hotel lungo Strøget",
+        "torvehallerne": "(12 minuti a piedi dall'hotel)",
+        "tivoli": " È proprio dall'altra parte della piazza rispetto al tuo hotel.",
+        "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel negli orari della sezione Assistenza, lunedì al telefono.",
+        "sezione_hotel": [
+          {
+            "tipo": "p",
+            "html": "Il tuo soggiorno è allo <b>Scandic Palace Hotel</b>, Rådhuspladsen 57, 1550 København V: un hotel storico del 1910 affacciato sulla <b>piazza del Municipio</b>, nel cuore di Copenaghen. I giardini di <b>Tivoli</b> sono dall'altra parte della piazza, la via dello shopping <b>Strøget</b> comincia dietro l'angolo e la stazione centrale è a 7 minuti a piedi. Le camere hanno Wi-Fi gratuito e TV; la reception è aperta 24 ore su 24, la colazione è a buffet e c'è il deposito bagagli per chi arriva presto o parte tardi."
+          },
+          {
+            "tipo": "p",
+            "html": "Il punto di forza è la posizione: la fermata della metro <b>Rådhuspladsen</b> (M3) è a 100 metri dall'ingresso, e il percorso di gara passa sulla piazza intorno al km 10."
+          },
+          {
+            "tipo": "link",
+            "voci": [
+              {
+                "label": "Scandic Palace Hotel – sito ufficiale",
+                "url": "https://www.scandichotels.com/hotels/denmark/copenhagen/scandic-palace-hotel"
+              }
+            ]
+          },
+          {
+            "tipo": "h3",
+            "testo": "Dall'aeroporto all'hotel"
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>In metro</b>: dal terminal 3 segui le indicazioni per la Metro e prendi la <b>M2 direzione Vanløse</b> fino a <b>Kongens Nytorv</b> (circa 15 minuti), poi cambia sulla <b>M3</b> per due fermate fino a <b>Rådhuspladsen</b>. L'hotel è sulla piazza. In tutto circa 25 minuti. Il biglietto è da 3 zone, si compra alle macchine automatiche o nell'app DOT Tickets.",
+              "<b>In treno</b>: i treni regionali dal terminal 3 arrivano alla stazione centrale (<b>København H</b>) in circa 15 minuti; da lì l'hotel è a 7 minuti a piedi costeggiando Tivoli.",
+              "<b>In taxi</b>: 25–30 minuti a seconda del traffico; si paga con carta."
+            ]
+          },
+          {
+            "tipo": "h3",
+            "testo": "Check-in, check-out e deposito bagagli"
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00 (se il voucher indica orari diversi, fa fede il voucher).",
+              "La reception, aperta 24 ore, custodisce i bagagli prima del check-in e dopo il check-out.",
+              "La colazione è a buffet. L'orario di apertura della domenica te lo confermiamo in loco: se vuoi mangiare prima, tieni in camera qualcosa di collaudato (pane, banana, barretta)."
+            ]
+          }
+        ]
       }
     },
     "bobw": {
