@@ -1,6 +1,6 @@
 /* KiRun — mini-form «Richiedi informazioni» sulle landing evento.
    Invia la richiesta al webhook n8n kirun-richiesta-info; la pratica nasce in Airtable e
-   la persona riceve subito l'email di conferma. Nessun cookie: dati usati solo per rispondere. */
+   la persona riceve subito l'email di conferma. Nessun cookie proprio; se il visitatore ha accettato il pixel, inoltra anche _fbp/_fbc\n   per l'abbinamento CAPI (coperto dal consenso marketing, senza il quale il Lead non parte). */
 (function () {
   var form = document.querySelector('#richiedi-info form');
   if (!form) { return; }
@@ -14,6 +14,16 @@
     err: 'Qualcosa non ha funzionato. Scrivici direttamente a info@ki-run.it',
     wait: 'Invio…'
   };
+  function cookie(nome) {
+    var m = document.cookie.match(new RegExp('(?:^|; )' + nome + '=([^;]+)'));
+    return m ? decodeURIComponent(m[1]) : '';
+  }
+  function fbcDaUrl() {
+    try {
+      var id = new URL(location.href).searchParams.get('fbclid');
+      return id ? 'fb.1.' + Date.now() + '.' + id : '';
+    } catch (e) { return ''; }
+  }
   function eventKey() {
     var a = document.querySelector('a.cta[href*="tally.so"]');
     if (a) {
@@ -39,7 +49,9 @@
       consenso_marketing: form.querySelector('[name="consenso_marketing"]').checked,
       event_key: eventKey(),
       lang: lang.toUpperCase(),
-      page_url: location.href.split('#')[0]
+      page_url: location.href.split('#')[0],
+      fbp: cookie('_fbp'),
+      fbc: cookie('_fbc') || fbcDaUrl()
     };
     bottone.disabled = true;
     bottone.textContent = T.wait;
