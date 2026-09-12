@@ -63,4 +63,6 @@ python3 scripts/guida.py scripts/guide-data/copenhagen-half-marathon-2026.json  
   in `updated_at` aggiornata di conseguenza.
 
 Prima guida: **Copenhagen Half Marathon 2026** (mezza dei WRRC Copenhagen 26, 20/09/2026).
+Seconda guida: **Cardiff Half Marathon 2026** (04/10/2026, Clayton Hotel Cardiff), solo IT,
+`scripts/guide-data/cardiff-half-marathon-2026.json` → `/guide/cardiff-half-marathon-2026/`.
 

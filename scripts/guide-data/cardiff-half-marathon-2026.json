@@ -1,0 +1,266 @@
+{
+  "slug": "cardiff-half-marathon-2026",
+  "superhalfs": true,
+  "updated_at": "12 settembre 2026",
+  "hero_credit": "Run 4 Wales · media kit ufficiale della Cardiff Half Marathon",
+  "it": {
+    "meta_description": "La guida KiRun per la Cardiff Half Marathon 2026: Clayton Hotel Cardiff, assistenza KiRun, Event Village e ritiro del pettorale, griglie di partenza, percorso e consigli per il weekend dal 2 al 5 ottobre.",
+    "hero": {
+      "eyebrow": "Guida del runner · SuperHalfs",
+      "titolo": "Cardiff Half Marathon 2026",
+      "strillo": "Una delle mezze più partecipate d'Europa, un percorso piatto e veloce dal Castello alla Baia e un pubblico che non ti lascia mai solo. Qui trovi tutto quello che serve per vivere bene il weekend, dall'arrivo in hotel al traguardo.",
+      "chips": [
+        "Gara: domenica 4 ottobre",
+        "Viaggio: 2–5 ottobre",
+        "Clayton Hotel Cardiff",
+        "21,0975 km"
+      ]
+    },
+    "aside": {
+      "in_breve": [
+        {"k": "Gara", "v": "<b>Domenica 4 ottobre 2026</b>, partenze alle 10:00 e alle 10:10 in base al colore del pettorale"},
+        {"k": "Partenza", "v": "Castle Street, davanti al Cardiff Castle"},
+        {"k": "Arrivo", "v": "King Edward VII Avenue, nel Civic Centre"},
+        {"k": "Villaggio", "v": "Event Village sui prati della City Hall · ven 2 – dom 4 ottobre"},
+        {"k": "Hotel", "v": "Clayton Hotel Cardiff, St Mary Street · check-in 15:00, check-out 11:00"},
+        {"k": "Tempo max", "v": "4 ore"}
+      ],
+      "link_ufficiali": [
+        {"label": "Sito ufficiale Cardiff Half Marathon", "url": "https://www.cardiffhalfmarathon.co.uk/"},
+        {"label": "Informazioni per il giorno della gara", "url": "https://www.cardiffhalfmarathon.co.uk/get-race-ready-fast/race-info/"},
+        {"label": "Percorso e profilo altimetrico", "url": "https://www.cardiffhalfmarathon.co.uk/event-info/route/"},
+        {"label": "Mappa interattiva", "url": "https://www.cardiffhalfmarathon.co.uk/map/"},
+        {"label": "FAQ dell'organizzatore", "url": "https://www.cardiffhalfmarathon.co.uk/event-info/faqs/"},
+        {"label": "SuperHalfs", "url": "https://www.superhalfs.com/"}
+      ],
+      "assistenza": "<p>Lo staff KiRun è nella hall del Clayton Hotel <b>venerdì, sabato e domenica dalle 18:00 alle 19:00</b>; lunedì al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>"
+    },
+    "sezioni": [
+      {
+        "id": "introduzione",
+        "etichetta": "Benvenuto a Cardiff",
+        "titolo": "La mezza più amata del Galles",
+        "blocchi": [
+          {"tipo": "p", "html": "La <b>Cardiff Half Marathon</b> è l'evento sportivo di massa più grande del Galles e una delle mezze maratone più partecipate d'Europa: nata nel 2003 con 1.500 iscritti, oggi porta al via circa 27.500 runner da 70 nazioni, e i pettorali vanno esauriti ogni anno, tanto che dal 2026 si entra per sorteggio. Ha la <b>Elite Label</b> di World Athletics ed è una tappa del circuito <b>SuperHalfs</b>: il risultato conta per il tuo SuperPassport."},
+          {"tipo": "p", "html": "Il percorso è <b>piatto e veloce</b>, perfetto sia per chi cerca il record personale sia per chi corre la prima mezza: parte davanti al <b>Cardiff Castle</b>, passa accanto al Principality Stadium, attraversa la marina di Penarth e la diga della Baia, entra nel cuore di <b>Cardiff Bay</b> e risale verso il lago di <b>Roath Park</b> prima dell'arrivo in tribuna al Civic Centre. Lungo la strada band, punti musica e decine di migliaia di spettatori."},
+          {"tipo": "p", "html": "In questa guida trovi le informazioni pratiche per organizzare il weekend: hotel, ritiro del pettorale, griglie di partenza, percorso, cosa fare dopo l'arrivo e una mini guida alla città. Gli orari sono quelli pubblicati dall'organizzatore al 12 settembre; la guida ufficiale 2026 con gli ultimi dettagli arriverà per email nelle settimane prima della gara. Controlla sempre i <b>link ufficiali</b> nel riquadro a lato."},
+          {"tipo": "box", "stile": "kirun", "titolo": "Il tuo pacchetto KiRun Smart", "html": "<ul><li>3 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 2 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).</li><li>Pettorale garantito per la Cardiff Half Marathon.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Assicurazione medico-bagaglio di base.</li></ul>"}
+        ]
+      },
+      {
+        "id": "programma",
+        "etichetta": "Il weekend in sintesi",
+        "titolo": "Il programma dei quattro giorni",
+        "blocchi": [
+          {"tipo": "timeline", "voci": [
+            {"quando": "Ven 2", "titolo": "Arrivo e ritiro pettorale", "html": "<p>Dall'aeroporto di Cardiff in navetta e treno fino a Cardiff Central, poi due minuti a piedi; da Bristol in pullman fino al centro. Le camere sono pronte dalle 15:00; se arrivi prima, lascia il bagaglio in reception.</p><p>Il pettorale si ritira all'<b>Event Village</b> sui prati della City Hall, aperto <b>dalle 12:00 alle 18:00</b>: dall'hotel sono 15–20 minuti a piedi. <b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>: ci si conosce e si ricevono le ultime informazioni.</p>"},
+            {"quando": "Sab 3", "titolo": "Scarico gambe e vigilia", "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo a <b>Bute Park</b>, il parco dietro il Castello a cinque minuti dall'hotel. Se non hai ancora il pettorale, il Villaggio è aperto dalle 8:00 alle 17:00: evita la fascia 8:00–12:00, quando si corrono le gare dei bambini. Alle 13:00, 15:00 e 17:00 partono dal Villaggio le <b>HIGH5 Shake Out Run</b>, corsette di gruppo aperte a tutti.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, borsa e abbigliamento.</p>"},
+            {"quando": "Dom 4", "titolo": "La gara", "html": "<p>Colazione in hotel. La partenza è a <b>cinque minuti a piedi</b>: se non devi depositare la borsa puoi uscire alle 9:00 e andare dritto alla tua griglia (aperta dalle 9:15 o dalle 9:40 in base al colore del pettorale). Se usi il deposito borse di Museum Avenue, esci entro le 8:30: sono 15–20 minuti a piedi, poi altri 10 fino alla partenza. Partenze alle <b>10:00 e 10:10</b>, arrivo al Civic Centre. Il pomeriggio è tuo; <b>dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"},
+            {"quando": "Lun 5", "titolo": "Rientro", "html": "<p>Check-out entro le 11:00. Se il volo è nel pomeriggio, lascia il bagaglio in reception e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"}
+          ]},
+          {"tipo": "box", "stile": "attenzione", "titolo": "Arrivi sabato?", "html": "<p>Il Villaggio chiude alle 17:00 di sabato. La domenica il ritiro è possibile dalle 7:00 fino alla partenza, ma con code: se arrivi sabato sera, avvisaci e organizza la domenica mattina con largo anticipo.</p>"}
+        ]
+      },
+      {
+        "id": "assistenza",
+        "etichetta": "Siamo con te",
+        "titolo": "L'assistenza KiRun a Cardiff",
+        "blocchi": [
+          {"tipo": "p", "html": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall del Clayton Hotel</b> negli orari qui sotto e, in qualsiasi altro momento, al telefono o su WhatsApp. Cerca l'arancione: non avrai difficoltà a trovarci."},
+          {"tipo": "tabella", "intestazione": ["Giorno", "Dove", "Orario"], "righe": [
+            ["<b>Venerdì 2</b>", "Hall dell'hotel", "<b>18:00–19:00</b>"],
+            ["<b>Sabato 3</b>", "Hall dell'hotel", "<b>18:00–19:00</b>"],
+            ["<b>Domenica 4</b>", "Hall dell'hotel", "<b>18:00–19:00</b>"],
+            ["<b>Lunedì 5</b>", "Al telefono", "Assistenza telefonica per tutta la giornata"]
+          ]},
+          {"tipo": "box", "stile": "kirun", "titolo": "I numeri dello staff", "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"}
+        ]
+      },
+      {
+        "id": "hotel",
+        "etichetta": "Dove dormi",
+        "titolo": "L'hotel e come arrivare",
+        "blocchi": [
+          {"tipo": "p", "html": "Il tuo soggiorno è al <b>Clayton Hotel Cardiff</b>, St Mary Street, Cardiff CF10 1GD: un quattro stelle moderno nel pieno centro, sulla via dei pub e delle gallerie vittoriane, accanto alla stazione di <b>Cardiff Central</b>. Camere ampie e silenziose, Wi-Fi gratuito, ristorante e bar al piano terra."},
+          {"tipo": "p", "html": "Il punto di forza è la posizione: il <b>Cardiff Castle</b> e la linea di partenza sono a 5 minuti a piedi, il Civic Centre con il Villaggio e l'arrivo a 15–20 minuti, la stazione a due passi per arrivare dall'aeroporto e per andare a Cardiff Bay."},
+          {"tipo": "link", "voci": [
+            {"label": "Clayton Hotel Cardiff – sito ufficiale", "url": "https://www.claytonhotelcardiff.com/"},
+            {"label": "Apri in Google Maps", "url": "https://maps.app.goo.gl/br7JdRo2WEL8fMYQ9"}
+          ]},
+          {"tipo": "h3", "testo": "Dagli aeroporti all'hotel"},
+          {"tipo": "ul", "voci": [
+            "<b>Da Cardiff (CWL)</b>, 20 km a ovest della città: la soluzione più comoda è la <b>navetta 905</b> (1 £) fino alla stazione di Rhoose, in coincidenza con il treno per <b>Cardiff Central</b> (circa 5,40 £): in tutto meno di un'ora, una corsa all'ora (la domenica dalle 8:51). In alternativa il bus diretto dal terminal (circa 75 minuti, 3 £) o il taxi dal piazzale arrivi, 30–40 minuti.",
+            "<b>Da Bristol (BRS)</b>: pullman <b>National Express</b> o <b>FlixBus</b> diretti per Cardiff, tra 1 ora e 10 e 1 ora e 25, più corse al giorno. National Express arriva alla stazione dei bus accanto a Cardiff Central, FlixBus a North Road (Friary Gardens), 10 minuti a piedi dall'hotel. Prenota in anticipo online.",
+            "<b>Da Londra Heathrow</b>: pullman National Express diretto per Cardiff (circa 3 ore) oppure RailAir fino a Reading e treno GWR per Cardiff Central (circa 2 ore e mezza in tutto)."
+          ]},
+          {"tipo": "h3", "testo": "Check-in, check-out e colazione"},
+          {"tipo": "ul", "voci": [
+            "<b>Check-in</b> dalle 15:00, <b>check-out</b> entro le 11:00; prima e dopo il bagaglio si lascia in reception.",
+            "La colazione è inclusa. L'orario di apertura della domenica te lo confermiamo in loco: se vuoi mangiare prima, tieni in camera qualcosa di collaudato (pane, banana, barretta)."
+          ]}
+        ]
+      },
+      {
+        "id": "expo",
+        "etichetta": "Prima della gara",
+        "titolo": "L'Event Village e il ritiro del pettorale",
+        "blocchi": [
+          {"tipo": "p", "html": "Tutto comincia all'<b>Event Village</b>, il villaggio della gara allestito sui prati della <b>City Hall</b>, nel Civic Centre: qui i runner dall'estero ritirano il pacco gara (ai residenti in Gran Bretagna viene spedito a casa, a te no), ma è anche il posto dove trovi gli stand, lo street food, i massaggi gratuiti, le corsette di riscaldamento HIGH5 e, il sabato, le gare dei bambini. Il Villaggio è a due passi dalla partenza e dall'arrivo."},
+          {"tipo": "fatti", "voci": [
+            {"k": "Dove", "v": "<b>City Hall Lawns</b>, i prati davanti alla Cardiff City Hall, Cathays Park · <a href='https://www.google.com/maps/search/?api=1&query=Cardiff+City+Hall+Lawns' target='_blank' rel='noopener'>apri in Google Maps</a>"},
+            {"k": "Come", "v": "Dall'hotel a piedi: St Mary Street e High Street fino al Castello, poi North Road fino al Civic Centre, <b>15–20 minuti</b>."},
+            {"k": "Orari", "v": "Venerdì 2 ottobre <b>12:00–18:00</b> · sabato 3 ottobre <b>8:00–17:00</b> · domenica 4 ottobre <b>dalle 7:00</b> fino alla partenza (il Villaggio resta aperto fino alle 15:00)"}
+          ]},
+          {"tipo": "h3", "testo": "Il pacco gara"},
+          {"tipo": "p", "html": "Nel pacco gara trovi il <b>pettorale con chip</b> integrato per il cronometraggio, con in fondo la linguetta staccabile per il deposito borse, e le informazioni per il giorno della gara. La <b>maglia da finisher</b> e la medaglia le ricevi al traguardo."},
+          {"tipo": "ul", "voci": [
+            "Nei giorni prima della gara riceverai dall'organizzatore un'<b>email o un SMS</b> con nome, numero di pettorale e il banco (da 1 a 4) a cui presentarti: tienilo sul telefono e controlla anche lo spam. Se non lo trovi, avvisaci subito.",
+            "Al Villaggio vai all'<b>International Pack Collection</b>, sul lato sinistro del tendone informazioni (Event Information Marquee), con un <b>documento d'identità</b>.",
+            "<b>Ogni runner ritira il proprio pettorale</b>: non si può ritirare per altri, nemmeno per lo staff KiRun.",
+            "L'organizzatore consiglia di evitare la fascia <b>8:00–12:00 di sabato</b>, la più affollata per le gare junior: il venerdì pomeriggio dopo il check-in è il momento migliore.",
+            "Compila subito i <b>dati di emergenza sul retro del pettorale</b>: è obbligatorio. Il colore dello sfondo indica la tua griglia e l'orario di partenza."
+          ]}
+        ]
+      },
+      {
+        "id": "gara",
+        "etichetta": "Domenica 4 ottobre",
+        "titolo": "Il giorno della gara",
+        "blocchi": [
+          {"tipo": "p", "html": "Si parte da <b>Castle Street</b>, davanti al Cardiff Castle, e si arriva su <b>King Edward VII Avenue</b>, nel Civic Centre, a poche centinaia di metri dalla partenza: tutta la logistica (Villaggio, deposito borse, punti d'incontro, spogliatoi) è concentrata lì. Il Villaggio apre alle <b>7:00</b> e chiude alle 15:00."},
+          {"tipo": "h3", "testo": "Come arrivare dall'hotel"},
+          {"tipo": "ul", "voci": [
+            "<b>A piedi</b>: la partenza è a 5 minuti, risalendo St Mary Street e High Street fino al Castello. Segui le indicazioni e le bandiere del tuo colore ed entra dal fondo della tua griglia.",
+            "<b>Se devi depositare la borsa</b>, passa prima da Museum Avenue nel Civic Centre (15–20 minuti a piedi dall'hotel), poi torna verso il Castello: altri 10 minuti. Il deposito apre alle 8:30."
+          ]},
+          {"tipo": "h3", "testo": "Deposito borse"},
+          {"tipo": "p", "html": "Il deposito è su <b>Museum Avenue</b>, accanto all'Event Village, aperto dalle <b>8:30</b>. Si può lasciare <b>una sola borsa</b>, non più grande di uno zainetto, con l'<b>etichetta staccabile</b> che trovi in fondo al pettorale; gli oggetti di valore restano a tuo rischio. Nei tendoni del deposito ci sono anche gli spogliatoi. Evita di abbandonare indumenti alla partenza: l'organizzatore chiede di non farlo (quelli lasciati vengono donati a Cancer Research Wales)."},
+          {"tipo": "h3", "testo": "Griglie di partenza e pacer"},
+          {"tipo": "p", "html": "La partenza è scaglionata in due ondate e la tua griglia dipende dal <b>colore di sfondo del pettorale</b>, assegnato in base al tempo finale previsto dichiarato all'iscrizione. Sistemati <b>in fondo alla griglia del tuo colore</b>, indicata dalle bandiere: per sicurezza puoi arretrare di griglia, mai avanzare. La griglia bianca la mattina della gara viene divisa tra élite e «sub 1:30». Bagni nel Villaggio, lungo la strada verso la partenza e vicino alle griglie. Il tempo ufficiale è quello <b>netto</b>: parte quando passi sotto l'arco."},
+          {"tipo": "tabella", "intestazione": ["Colore del pettorale", "Griglie aperte", "Partenza"], "righe": [
+            ["Carrozzine élite", "—", "<b>09:57</b>"],
+            ["<span class='pallino' style='background:#fff;border:1px solid #999'></span>Bianco (élite e sub 1:30)", "09:15", "<b>10:00</b>"],
+            ["<span class='pallino' style='background:#2EAA5B'></span>Verde", "09:15", "<b>10:00</b>"],
+            ["<span class='pallino' style='background:#D8322B'></span>Rosso", "09:15", "<b>10:00</b>"],
+            ["<span class='pallino' style='background:#2E7DD1'></span>Blu", "09:40", "<b>10:10</b>"],
+            ["<span class='pallino' style='background:#F27DAF'></span>Rosa", "09:40", "<b>10:10</b>"],
+            ["<span class='pallino' style='background:#8E44AD'></span>Viola", "09:40", "<b>10:10</b>"],
+            ["<span class='pallino' style='background:#F5C518'></span>Giallo", "09:40", "<b>10:10</b>"]
+          ], "nota": "Orari pubblicati dall'organizzatore al 12 settembre 2026. Nel 2026 c'è una griglia in più (rosa): la mappa di riempimento aggiornata sarà sulla <a href='https://www.cardiffhalfmarathon.co.uk/get-race-ready-fast/race-info/' target='_blank' rel='noopener'>pagina ufficiale del giorno di gara</a> e nella guida che l'organizzatore manda per email."},
+          {"tipo": "p", "html": "In ogni griglia ci sono i <b>pacer</b>, riconoscibili dalle bandiere a vela con il tempo finale: 1:30, 1:40, 1:50, 2:00, 2:10, 2:20, 2:30, 2:45 e 3:00. Non serve iscriversi: mettiti dietro la bandiera del tuo obiettivo e lasciati portare. Il <b>tempo massimo</b> è di 4 ore: chi resta indietro viene raccolto dal veicolo scopa mentre le strade riaprono."},
+          {"tipo": "box", "stile": "kirun", "titolo": "Checklist della vigilia", "html": "<ul><li>Pettorale fissato sul davanti della maglia, dati di emergenza compilati sul retro, chip integrato: non piegarlo.</li><li>Scarpe e calze già usate in allenamento; abbigliamento a strati per l'attesa in griglia, a ottobre la mattina fa fresco.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, gel HIGH5 e Powerade.</li><li>Zainetto per il deposito con il necessario per il dopo: maglia asciutta, giacca, qualcosa da mangiare.</li><li>Documento, carta di pagamento, telefono carico.</li><li>Sveglia: se non usi il deposito puoi uscire dall'hotel alle 9:00; se lo usi, entro le 8:30.</li></ul>"}
+        ]
+      },
+      {
+        "id": "percorso",
+        "etichetta": "21,0975 km",
+        "titolo": "Il percorso",
+        "blocchi": [
+          {"tipo": "p", "html": "La distanza ufficiale è <b>21,0975 km</b>, misurata da un misuratore certificato, su un tracciato quasi interamente piatto: gli unici dislivelli degni di nota sono il tratto verso Penarth e la diga e la risalita graduale verso Roath Park. I chilometri qui sotto sono indicativi, ricavati dalla mappa ufficiale."},
+          {"tipo": "ul", "voci": [
+            "<b>km 0–3</b> · Partenza da Castle Street, sotto le mura del Castello, poi giù verso il fiume Taff passando accanto al <b>Principality Stadium</b> e al Cardiff City Stadium, attraverso i quartieri di Riverside e Grangetown.",
+            "<b>km 3–7</b> · Si costeggia la <b>marina di Penarth</b> (primo ristoro d'acqua intorno al km 5) e si attraversa la <b>Cardiff Bay Barrage</b>, la diga che chiude la baia: è il tratto più aperto e ventoso, con vista sull'acqua e sul canale di Bristol.",
+            "<b>km 7–11</b> · Il Cardiff International Sports Village e poi il cuore di <b>Cardiff Bay</b>: la Chiesa Norvegese, il <b>Senedd</b> (il parlamento gallese), il Wales Millennium Centre e la piazza Roald Dahl Plass, zona di tifo delle associazioni benefiche. Ristoro con acqua e <b>gel HIGH5</b> intorno al km 10.",
+            "<b>km 11–15</b> · Risalita verso nord attraverso Butetown e il centro, poi Roath: rettilinei lunghi e il pubblico dei quartieri residenziali. Bevanda energetica intorno al km 14–15.",
+            "<b>km 15–18</b> · Il giro del lago di <b>Roath Park</b>, il tratto più bello: viali alberati, il faro dedicato al capitano Scott e il «Rainbow Roundabout» con la musica. Attenzione ai <b>dossi stradali</b> in questa zona. Ristoro d'acqua intorno al km 17–18.",
+            "<b>km 18–21</b> · Discesa verso Cathays, il punto «pump-up» di Corbett Road per la spinta finale e l'ingresso nel Civic Centre, con l'arrivo in tribuna su <b>King Edward VII Avenue</b>."
+          ]},
+          {"tipo": "ul", "voci": [
+            "<b>Ristori</b> con acqua Brecon Carreg, gel HIGH5 e Powerade nei punti indicati sulla mappa ufficiale; bagni al primo miglio e a ogni ristoro. Prova in allenamento il gel che troverai in gara.",
+            "<b>Miglia e chilometri</b>: i cartelli sono in miglia (da 1 a 13) con i marker dei chilometri ogni 5 km. Un miglio sono 1,609 km: 10 miglia = 16,1 km.",
+            "<b>Foto e tracking</b>: Marathon Photos scatta lungo il percorso e le foto sono online quasi in tempo reale su marathonphotos.live; con l'app ufficiale di live tracking chi ti aspetta a casa ti segue sulla mappa."
+          ]},
+          {"tipo": "link", "voci": [
+            {"label": "Percorso ufficiale e profilo altimetrico", "url": "https://www.cardiffhalfmarathon.co.uk/event-info/route/"},
+            {"label": "Mappa interattiva", "url": "https://www.cardiffhalfmarathon.co.uk/map/"}
+          ]}
+        ]
+      },
+      {
+        "id": "arrivo",
+        "etichetta": "Dopo il traguardo",
+        "titolo": "L'arrivo e il dopo gara",
+        "blocchi": [
+          {"tipo": "ul", "voci": [
+            "Continua a camminare oltre la linea: nell'area post-arrivo ritiri <b>medaglia</b>, acqua, la <b>maglia da finisher</b> (taglie da XS a 3XL, nella taglia richiesta all'iscrizione) e qualcosa da mangiare. Non fermarti subito dopo l'arco, per non creare ingorghi.",
+            "<b>Punti d'incontro A–Z</b> su King Edward VII Avenue, davanti alla Crown Court accanto alla City Hall: dai appuntamento a chi ti aspetta alla lettera del tuo cognome.",
+            "Recupera la borsa allo stesso deposito di Museum Avenue; nei tendoni ci sono gli spogliatoi. Le <b>docce</b> sono a Sport Wales, a Sophia Gardens dietro il Castello, con un'offerta di 1 £ per la NSPCC.",
+            "<b>Massaggio gratuito</b> per tutti i partecipanti nell'area fisioterapia della City Hall, a cura del Cardiff University Inspire Programme.",
+            "<b>SuperHalfs</b>: il risultato di Cardiff vale per il tuo SuperPassport; se non compare, puoi reclamarlo dal tuo profilo su superhalfs.com. Se è la tua sesta tappa, la <b>SuperMedal</b> ti aspetta.",
+            "Alle 11:30 la <b>premiazione élite</b> vicino al traguardo. Il Villaggio con street food e musica dal vivo resta aperto fino alle <b>15:00</b>.",
+            "L'<b>iTab</b>, la targhetta con nome e tempo da applicare sulla medaglia, arriva per posta dopo la gara a chi l'ha ordinata: non si incide sul posto. Risultati ufficiali sul sito dell'organizzatore.",
+            "Lo staff KiRun ti aspetta <b>nella hall dell'hotel dalle 18:00 alle 19:00</b>: per un problema, una foto con la medaglia o solo per raccontare la gara."
+          ]}
+        ]
+      },
+      {
+        "id": "sabato",
+        "etichetta": "Sabato 3 ottobre",
+        "titolo": "Il sabato a Cardiff",
+        "blocchi": [
+          {"tipo": "p", "html": "Il sabato è il giorno delle <b>gare junior</b> davanti alla City Hall (Toddler Dash, Future Challengers e Fun Run tra le 10:30 e le 12:00) e delle <b>HIGH5 Shake Out Run</b>, corsette di riscaldamento di gruppo che partono dal Villaggio alle 13:00, 15:00 e 17:00, aperte a tutti. Il Villaggio è aperto dalle 8:00 alle 17:00."},
+          {"tipo": "p", "html": "<b>Consiglio KiRun</b>: alla vigilia bastano 20–30 minuti di corsa lenta con qualche allungo. Il posto giusto è <b>Bute Park</b>, il grande parco dietro il Castello a cinque minuti dall'hotel: sentieri piatti lungo il fiume Taff fino a Blackweir e ritorno. Poi pomeriggio leggero, cena presto e a base di carboidrati (prenota: il sabato sera il centro è pieno) e preparazione di pettorale, borsa e abbigliamento."}
+        ]
+      },
+      {
+        "id": "citta",
+        "etichetta": "Oltre la gara",
+        "titolo": "Mini guida di Cardiff",
+        "blocchi": [
+          {"tipo": "h3", "testo": "Come muoversi"},
+          {"tipo": "ul", "voci": [
+            "<b>A piedi</b>: il centro è compatto e tutto è a 5–20 minuti dall'hotel: Castello, gallerie vittoriane, Civic Centre, Bute Park, Principality Stadium.",
+            "<b>Cardiff Bay</b>: treno da Cardiff Queen Street a Cardiff Bay (4 minuti) o bus 6 «Baycar» dal centro; a piedi sono 30–35 minuti lungo Lloyd George Avenue.",
+            "<b>Bus e treni</b> si pagano a bordo o ai tornelli con la carta contactless; i treni locali di Transport for Wales collegano centro, Baia e la stazione dell'aeroporto.",
+            "<b>Taxi</b>: sul piazzale davanti a Cardiff Central e con le app (Uber, Veezu)."
+          ]},
+          {"tipo": "h3", "testo": "Tre luoghi da non perdere"},
+          {"tipo": "schede", "voci": [
+            {"titolo": "Cardiff Castle", "html": "<p>Il simbolo della città, a cinque minuti dall'hotel: mura romane, la fortezza normanna sul tumulo e gli interni vittoriani sfarzosi voluti dal marchese di Bute. Dalle mura si vede la zona di partenza della gara.</p>"},
+            {"titolo": "Cardiff Bay", "html": "<p>L'antico porto del carbone trasformato in lungomare: il Wales Millennium Centre, il Senedd, la Chiesa Norvegese e i locali di Mermaid Quay. La domenica pomeriggio è il posto giusto per la passeggiata di scarico.</p>"},
+            {"titolo": "Gallerie vittoriane e Cardiff Market", "html": "<p>Le arcades ottocentesche accanto all'hotel (Castle Arcade, Morgan Arcade, Royal Arcade) con caffè, librerie e botteghe, e il mercato coperto del 1891 per una Welsh cake calda.</p>"}
+          ]},
+          {"tipo": "p", "html": "Se hai ancora tempo: il <b>National Museum Cardiff</b> nel Civic Centre (ingresso gratuito, con una bella collezione di impressionisti), il tour del <b>Principality Stadium</b>, il tempio del rugby gallese, e <b>St Fagans</b>, il museo all'aperto della vita gallese a 20 minuti di bus dal centro."},
+          {"tipo": "h3", "testo": "Tre piatti e un souvenir"},
+          {"tipo": "ul", "voci": [
+            "<b>Welsh rarebit</b>: toast con formaggio fuso, birra e senape, il comfort food gallese.",
+            "<b>Cawl</b>: zuppa di agnello e verdure, il piatto nazionale, perfetta la sera della vigilia.",
+            "<b>Welsh cakes</b> e <b>bara brith</b>: i dolcetti cotti sulla piastra e il pane dolce con uvetta e tè, ideali dopo la gara.",
+            "Souvenir: un <b>love spoon</b>, il cucchiaio d'amore in legno intagliato, o qualcosa con il drago rosso."
+          ]}
+        ]
+      },
+      {
+        "id": "pratiche",
+        "etichetta": "Prima di partire",
+        "titolo": "Informazioni pratiche per il Regno Unito",
+        "blocchi": [
+          {"tipo": "fatti", "voci": [
+            {"k": "Documenti", "v": "Serve il <b>passaporto</b> valido: la carta d'identità non è accettata. Per i cittadini UE è obbligatoria l'<b>ETA</b> (Electronic Travel Authorisation): si richiede online o con l'app «UK ETA» prima della partenza, costa 16 £, vale due anni e ogni viaggiatore, anche minorenne, deve avere la propria."},
+            {"k": "Valuta", "v": "Sterlina britannica (GBP, £): 1 € ≈ 0,86 £, cioè 1 £ ≈ 1,17 € (cambio BCE di settembre). Le carte contactless sono accettate ovunque, anche su bus e treni: di contanti ne servono pochissimi."},
+            {"k": "Lingua", "v": "Inglese e gallese (la segnaletica è bilingue). Basta l'inglese."},
+            {"k": "Elettricità", "v": "Prese di tipo <b>G</b> a tre poli rettangolari, 230 V / 50 Hz: serve l'<b>adattatore UK</b>."},
+            {"k": "Telefono", "v": "Prefisso +44 (senza lo 0 iniziale del numero locale). Dopo la Brexit il roaming nel Regno Unito <b>non è più incluso</b> da molti operatori italiani: controlla le condizioni della tua offerta prima di partire o valuta una eSIM."},
+            {"k": "Fuso orario", "v": "Un'ora <b>indietro</b> rispetto all'Italia (ora legale britannica fino al 25 ottobre). Sposta l'orologio all'arrivo."},
+            {"k": "Meteo", "v": "A inizio ottobre le temperature vanno in media da 9 a 15 °C, con pioggia e vento frequenti: porta una giacca antipioggia leggera e uno strato in più per l'attesa in griglia. Il 4 ottobre il sole sorge alle 7:16 e tramonta alle 18:46."},
+            {"k": "Emergenze", "v": "<b>999</b> o <b>112</b> per polizia, ambulanza e vigili del fuoco. Per problemi medici non urgenti il numero del servizio sanitario è il <b>111</b>. Farmacie: Boots in Queen Street, a 10 minuti dall'hotel."},
+            {"k": "Acqua e mance", "v": "L'acqua del rubinetto è ottima, riempi la borraccia. Al ristorante la mancia è del 10–12,5% e spesso è già in conto come «service charge»; al pub non si lascia."}
+          ]}
+        ]
+      },
+      {
+        "id": "contatti",
+        "etichetta": "Chi chiamare",
+        "titolo": "Contatti utili",
+        "blocchi": [
+          {"tipo": "fatti", "voci": [
+            {"k": "KiRun", "v": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel venerdì, sabato e domenica dalle 18:00 alle 19:00, lunedì al telefono."},
+            {"k": "Organizzatore", "v": "Run 4 Wales · <a href='mailto:cardiffhalfmarathon@run4wales.org'>cardiffhalfmarathon@run4wales.org</a> · chat di assistenza sul sito ufficiale"},
+            {"k": "Social ufficiali", "v": "@cardiffhalf su Facebook, @run4wales su Instagram e TikTok, hashtag #CardiffHalf per gli aggiornamenti dell'ultima ora"},
+            {"k": "Hotel", "v": "Clayton Hotel Cardiff, St Mary Street, Cardiff CF10 1GD · <a href='tel:+442920668866'>+44 29 2066 8866</a>"}
+          ]}
+        ]
+      }
+    ]
+  }
+}
