@@ -1,7 +1,7 @@
 {
   "slug": "cardiff-half-marathon-2026",
   "superhalfs": true,
-  "updated_at": "15 settembre 2026",
+  "updated_at": "17 settembre 2026",
   "hero_credit": "Run 4 Wales · media kit ufficiale della Cardiff Half Marathon",
   "it": {
     "meta_description": "La guida KiRun per la Cardiff Half Marathon 2026: Clayton Hotel Cardiff, assistenza KiRun, Event Village e ritiro del pettorale, griglie di partenza, percorso e consigli per il weekend dal 2 al 5 ottobre.",
@@ -13,7 +13,7 @@
         "Gara: domenica 4 ottobre",
         "Viaggio: 2–5 ottobre",
         "Clayton Hotel Cardiff",
-        "21,0975 km"
+        "{{hotel:chip4}}"
       ]
     },
     "aside": {
@@ -37,6 +37,14 @@
         {
           "k": "Hotel",
           "v": "Clayton Hotel Cardiff, St Mary Street · check-in 15:00, check-out 11:00"
+        },
+        {
+          "k": "Voli",
+          "v": "{{hotel:ib_voli}}"
+        },
+        {
+          "k": "Transfer",
+          "v": "{{hotel:ib_transfer}}"
         },
         {
           "k": "Ingresso UK",
@@ -107,7 +115,7 @@
             "tipo": "box",
             "stile": "kirun",
             "titolo": "Il tuo pacchetto KiRun Smart",
-            "html": "<ul><li>3 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 2 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).</li><li>Pettorale garantito per la Cardiff Half Marathon.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Assicurazione medico-bagaglio di base.</li></ul>"
+            "html": "<ul><li>3 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 2 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).</li>{{hotel:pacchetto_extra}}<li>Pettorale garantito per la Cardiff Half Marathon.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Assicurazione medico-bagaglio di base.</li></ul>"
           }
         ]
       },
@@ -186,35 +194,8 @@
         "titolo": "Il programma dei quattro giorni",
         "blocchi": [
           {
-            "tipo": "timeline",
-            "voci": [
-              {
-                "quando": "Ven 2",
-                "titolo": "Arrivo e ritiro pettorale",
-                "html": "<p>Dall'aeroporto di Cardiff in navetta e treno fino a Cardiff Central, poi due minuti a piedi; da Bristol in pullman fino al centro. Le camere sono pronte dalle 15:00; se arrivi prima, lascia il bagaglio in reception.</p><p>Il pettorale si ritira all'<b>Event Village</b> sui prati della City Hall, aperto <b>dalle 12:00 alle 18:00</b>: dall'hotel sono 15–20 minuti a piedi. <b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>: ci si conosce e si ricevono le ultime informazioni.</p>"
-              },
-              {
-                "quando": "Sab 3",
-                "titolo": "Scarico gambe e vigilia",
-                "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo a <b>Bute Park</b>, il parco dietro il Castello a cinque minuti dall'hotel. Se non hai ancora il pettorale, il Villaggio è aperto dalle 8:00 alle 17:00: evita la fascia 8:00–12:00, quando si corrono le gare dei bambini. Alle 13:00, 15:00 e 17:00 partono dal Villaggio le <b>HIGH5 Shake Out Run</b>, 3,5 km di gruppo aperti a tutti, su prenotazione online.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, borsa e abbigliamento.</p>"
-              },
-              {
-                "quando": "Dom 4",
-                "titolo": "La gara",
-                "html": "<p>Colazione in hotel. La partenza è a <b>cinque minuti a piedi</b>: se non devi depositare la borsa puoi uscire alle 9:00 e andare dritto alla tua griglia (griglie aperte dalle 9:15 per bianca, verde, rossa e rosa, dalle 9:40 per blu, viola e gialla). Se usi il deposito borse di Museum Avenue, esci entro le 8:30: sono 15–20 minuti a piedi, poi altri 10 fino alla partenza. Partenze alle <b>10:00 e 10:10</b>, arrivo al Civic Centre. Il pomeriggio è tuo; <b>dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
-              },
-              {
-                "quando": "Lun 5",
-                "titolo": "Rientro",
-                "html": "<p>Check-out entro le 11:00. Se il volo è nel pomeriggio, lascia il bagaglio in reception e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"
-              }
-            ]
-          },
-          {
-            "tipo": "box",
-            "stile": "attenzione",
-            "titolo": "Arrivi sabato?",
-            "html": "<p>Il Villaggio chiude alle 17:00 di sabato. La domenica il ritiro è possibile dalle 7:00 fino alla partenza, ma con code: se arrivi sabato sera, avvisaci e organizza la domenica mattina con largo anticipo.</p>"
+            "tipo": "hotel_blocchi",
+            "chiave": "timeline_blocchi"
           }
         ]
       },
@@ -268,7 +249,7 @@
       {
         "id": "hotel",
         "etichetta": "Dove dormi",
-        "titolo": "L'hotel e come arrivare",
+        "titolo": "{{hotel:titolo_hotel}}",
         "blocchi": [
           {
             "tipo": "p",
@@ -292,16 +273,8 @@
             ]
           },
           {
-            "tipo": "h3",
-            "testo": "Dagli aeroporti all'hotel"
-          },
-          {
-            "tipo": "ul",
-            "voci": [
-              "<b>Da Cardiff (CWL)</b>, 20 km a ovest della città: la soluzione più comoda è la <b>navetta 905</b> (1 £) fino alla stazione di Rhoose, in coincidenza con il treno per <b>Cardiff Central</b> (circa 5,40 £): in tutto meno di un'ora, una corsa all'ora (la domenica dalle 8:51). In alternativa il bus diretto dal terminal (circa 75 minuti, 3 £) o il taxi dal piazzale arrivi, 30–40 minuti.",
-              "<b>Da Bristol (BRS)</b>: pullman <b>National Express</b> o <b>FlixBus</b> diretti per Cardiff, tra 1 ora e 10 e 1 ora e 25, più corse al giorno. National Express arriva alla stazione dei bus accanto a Cardiff Central, FlixBus a North Road (Friary Gardens), 10 minuti a piedi dall'hotel. Prenota in anticipo online.",
-              "<b>Da Londra Heathrow</b>: pullman National Express diretto per Cardiff (circa 3 ore) oppure RailAir fino a Reading e treno GWR per Cardiff Central (circa 2 ore e mezza in tutto)."
-            ]
+            "tipo": "hotel_blocchi",
+            "chiave": "arrivo_blocchi"
           },
           {
             "tipo": "h3",
@@ -457,7 +430,7 @@
             "tipo": "box",
             "stile": "kirun",
             "titolo": "Checklist della vigilia",
-            "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b> (portale da casa), dati di emergenza compilati sul retro, chip integrato: non piegarlo.</li><li>Scarpe e calze già usate in allenamento; abbigliamento a strati per l'attesa in griglia, a ottobre la mattina fa fresco.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, gel HIGH5 e Powerade.</li><li>Zainetto per il deposito con il necessario per il dopo: maglia asciutta, giacca, qualcosa da mangiare.</li><li>Passaporto (con l'ETA già confermata), carta di pagamento, telefono carico.</li><li>Sveglia: se non usi il deposito puoi uscire dall'hotel alle 9:00; se lo usi, entro le 8:30.</li></ul>"
+            "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b> (portale da casa), dati di emergenza compilati sul retro, chip integrato: non piegarlo.</li><li>Scarpe e calze già usate in allenamento; abbigliamento a strati per l'attesa in griglia, a ottobre la mattina fa fresco.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, gel HIGH5 e Powerade.</li><li>Zainetto per il deposito con il necessario per il dopo: maglia asciutta, giacca, qualcosa da mangiare.</li><li>Passaporto (con l'ETA già confermata), carta di pagamento, telefono carico.</li>{{hotel:checklist_extra}}<li>Sveglia: se non usi il deposito puoi uscire dall'hotel alle 9:00; se lo usi, entro le 8:30.</li></ul>"
           }
         ]
       },
@@ -674,5 +647,166 @@
         ]
       }
     ]
+  },
+  "hotels": {
+    "base": {
+      "slug": "cardiff-half-marathon-2026",
+      "lingue": [
+        "it"
+      ],
+      "it": {
+        "chip4": "21,0975 km",
+        "pacchetto_extra": "",
+        "ib_voli": "",
+        "ib_transfer": "",
+        "titolo_hotel": "L'hotel e come arrivare",
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Ven 2",
+                "titolo": "Arrivo e ritiro pettorale",
+                "html": "<p>Dall'aeroporto di Cardiff in navetta e treno fino a Cardiff Central, poi due minuti a piedi; da Bristol in pullman fino al centro. Le camere sono pronte dalle 15:00; se arrivi prima, lascia il bagaglio in reception.</p><p>Il pettorale si ritira all'<b>Event Village</b> sui prati della City Hall, aperto <b>dalle 12:00 alle 18:00</b>: dall'hotel sono 15–20 minuti a piedi. <b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>: ci si conosce e si ricevono le ultime informazioni.</p>"
+              },
+              {
+                "quando": "Sab 3",
+                "titolo": "Scarico gambe e vigilia",
+                "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo a <b>Bute Park</b>, il parco dietro il Castello a cinque minuti dall'hotel. Se non hai ancora il pettorale, il Villaggio è aperto dalle 8:00 alle 17:00: evita la fascia 8:00–12:00, quando si corrono le gare dei bambini. Alle 13:00, 15:00 e 17:00 partono dal Villaggio le <b>HIGH5 Shake Out Run</b>, 3,5 km di gruppo aperti a tutti, su prenotazione online.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, borsa e abbigliamento.</p>"
+              },
+              {
+                "quando": "Dom 4",
+                "titolo": "La gara",
+                "html": "<p>Colazione in hotel. La partenza è a <b>cinque minuti a piedi</b>: se non devi depositare la borsa puoi uscire alle 9:00 e andare dritto alla tua griglia (griglie aperte dalle 9:15 per bianca, verde, rossa e rosa, dalle 9:40 per blu, viola e gialla). Se usi il deposito borse di Museum Avenue, esci entro le 8:30: sono 15–20 minuti a piedi, poi altri 10 fino alla partenza. Partenze alle <b>10:00 e 10:10</b>, arrivo al Civic Centre. Il pomeriggio è tuo; <b>dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
+              },
+              {
+                "quando": "Lun 5",
+                "titolo": "Rientro",
+                "html": "<p>Check-out entro le 11:00. Se il volo è nel pomeriggio, lascia il bagaglio in reception e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"
+              }
+            ]
+          },
+          {
+            "tipo": "box",
+            "stile": "attenzione",
+            "titolo": "Arrivi sabato?",
+            "html": "<p>Il Villaggio chiude alle 17:00 di sabato. La domenica il ritiro è possibile dalle 7:00 fino alla partenza, ma con code: se arrivi sabato sera, avvisaci e organizza la domenica mattina con largo anticipo.</p>"
+          }
+        ],
+        "arrivo_blocchi": [
+          {
+            "tipo": "h3",
+            "testo": "Dagli aeroporti all'hotel"
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>Da Cardiff (CWL)</b>, 20 km a ovest della città: la soluzione più comoda è la <b>navetta 905</b> (1 £) fino alla stazione di Rhoose, in coincidenza con il treno per <b>Cardiff Central</b> (circa 5,40 £): in tutto meno di un'ora, una corsa all'ora (la domenica dalle 8:51). In alternativa il bus diretto dal terminal (circa 75 minuti, 3 £) o il taxi dal piazzale arrivi, 30–40 minuti.",
+              "<b>Da Bristol (BRS)</b>: pullman <b>National Express</b> o <b>FlixBus</b> diretti per Cardiff, tra 1 ora e 10 e 1 ora e 25, più corse al giorno. National Express arriva alla stazione dei bus accanto a Cardiff Central, FlixBus a North Road (Friary Gardens), 10 minuti a piedi dall'hotel. Prenota in anticipo online.",
+              "<b>Da Londra Heathrow</b>: pullman National Express diretto per Cardiff (circa 3 ore) oppure RailAir fino a Reading e treno GWR per Cardiff Central (circa 2 ore e mezza in tutto)."
+            ]
+          }
+        ],
+        "checklist_extra": ""
+      },
+      "en": {}
+    },
+    "voli": {
+      "slug": "cardiff-half-marathon-2026-con-voli",
+      "lingue": [
+        "it"
+      ],
+      "hero_slug": "cardiff-half-marathon-2026",
+      "it": {
+        "chip4": "Voli Ryanair da Bergamo",
+        "pacchetto_extra": "<li>Voli Ryanair Milano Bergamo–Birmingham (FR5102 il 2 ottobre, FR5103 il 5 ottobre) e <b>trasferimento privato</b> aeroporto–hotel e ritorno.</li>",
+        "ib_voli": "Ryanair FR5102 ven 2/10 Bergamo 11:00 → Birmingham 12:05 · FR5103 lun 5/10 Birmingham 13:25 → Bergamo 16:30",
+        "ib_transfer": "Privato aeroporto di Birmingham ⇄ Clayton Hotel, circa 2 h 15",
+        "titolo_hotel": "L'hotel, i voli e il trasferimento",
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Ven 2",
+                "titolo": "Volo, trasferimento e ritiro pettorale",
+                "html": "<p>Ritrovo all'aeroporto di <b>Bergamo Orio al Serio</b> almeno due ore prima: il volo Ryanair <b>FR5102</b> parte alle <b>11:00</b> e atterra a <b>Birmingham alle 12:05</b> ora locale (in Italia sono le 13:05). All'uscita degli arrivi ti aspetta l'autista del <b>trasferimento privato</b> con il cartello KiRun: circa due ore e un quarto di strada, arrivo al Clayton Hotel intorno alle <b>15:00</b>, quando le camere sono pronte.</p><p>Nel pomeriggio si va all'<b>Event Village</b> (15–20 minuti a piedi) per il ritiro del pettorale: è aperto fino alle 18:00. <b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>: ci si conosce e si ricevono le ultime informazioni.</p>"
+              },
+              {
+                "quando": "Sab 3",
+                "titolo": "Scarico gambe e vigilia",
+                "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo a <b>Bute Park</b>, il parco dietro il Castello a cinque minuti dall'hotel. Se non hai ancora il pettorale, il Villaggio è aperto dalle 8:00 alle 17:00: evita la fascia 8:00–12:00, quando si corrono le gare dei bambini. Alle 13:00, 15:00 e 17:00 partono dal Villaggio le <b>HIGH5 Shake Out Run</b>, 3,5 km di gruppo aperti a tutti, su prenotazione online.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, borsa e abbigliamento.</p>"
+              },
+              {
+                "quando": "Dom 4",
+                "titolo": "La gara",
+                "html": "<p>Colazione in hotel. La partenza è a <b>cinque minuti a piedi</b>: se non devi depositare la borsa puoi uscire alle 9:00 e andare dritto alla tua griglia (griglie aperte dalle 9:15 per bianca, verde, rossa e rosa, dalle 9:40 per blu, viola e gialla). Se usi il deposito borse di Museum Avenue, esci entro le 8:30: sono 15–20 minuti a piedi, poi altri 10 fino alla partenza. Partenze alle <b>10:00 e 10:10</b>, arrivo al Civic Centre. Il pomeriggio è tuo; <b>dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
+              },
+              {
+                "quando": "Lun 5",
+                "titolo": "Trasferimento e volo di rientro",
+                "html": "<p>Colazione con calma e check-out. Il <b>trasferimento privato</b> riparte dall'hotel intorno alle <b>8:45</b> (l'orario esatto te lo confermiamo il giorno prima): due ore e un quarto fino a Birmingham, così sei in aeroporto con oltre due ore di anticipo sul volo Ryanair <b>FR5103</b> delle <b>13:25</b>, che atterra a <b>Bergamo alle 16:30</b>. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"
+              }
+            ]
+          }
+        ],
+        "arrivo_blocchi": [
+          {
+            "tipo": "h3",
+            "testo": "I tuoi voli"
+          },
+          {
+            "tipo": "tabella",
+            "intestazione": [
+              "Data",
+              "Volo",
+              "Partenza",
+              "Arrivo"
+            ],
+            "righe": [
+              [
+                "<b>Venerdì 2 ottobre</b>",
+                "Ryanair <b>FR5102</b>",
+                "Milano Bergamo <b>11:00</b>",
+                "Birmingham <b>12:05</b>"
+              ],
+              [
+                "<b>Lunedì 5 ottobre</b>",
+                "Ryanair <b>FR5103</b>",
+                "Birmingham <b>13:25</b>",
+                "Milano Bergamo <b>16:30</b>"
+              ]
+            ],
+            "nota": "Orari locali: nel Regno Unito è un'ora indietro rispetto all'Italia. Durata del volo 2 ore e 5 minuti."
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "Fai il <b>check-in online</b> su ryanair.com o nell'app Ryanair (apre 24 ore prima se non hai il posto assegnato) e tieni la carta d'imbarco sul telefono; per il ritorno fallo dall'Italia o in hotel.",
+              "Controlla nella prenotazione il <b>bagaglio incluso</b>: con la tariffa base viaggia solo la borsa piccola sotto il sedile (40×20×25 cm). Scarpe da gara e maglia KiRun nel bagaglio a mano, sempre.",
+              "Presentati a Bergamo <b>almeno due ore prima</b> con il <b>passaporto</b>: al gate Ryanair controlla anche l'ETA, che è collegata al passaporto (vedi la sezione ETA)."
+            ]
+          },
+          {
+            "tipo": "h3",
+            "testo": "Il trasferimento privato Birmingham–Cardiff"
+          },
+          {
+            "tipo": "p",
+            "html": "L'aeroporto di Birmingham è a circa 190 km da Cardiff: il <b>trasferimento privato KiRun</b> ti porta direttamente al Clayton Hotel e ti riporta in aeroporto il lunedì, senza cambi e senza pensieri. Il viaggio dura <b>circa due ore e un quarto</b> lungo le autostrade M42, M5, M50 e M4, tra le colline del confine inglese-gallese; c'è una sosta se serve."
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>All'arrivo</b>: dopo il controllo passaporti e il ritiro bagagli, esci nella hall degli arrivi: l'autista ti aspetta con il <b>cartello KiRun</b>. Se non lo vedi, chiama lo staff (numeri in fondo alla guida) e non allontanarti dagli arrivi.",
+              "<b>Al ritorno</b>: ritrovo nella hall dell'hotel all'orario che ti confermiamo domenica sera (indicativamente le <b>8:45</b>), bagagli già fatti e check-out completato.",
+              "Il trasferimento è collettivo per il gruppo KiRun: chi cambia volo o programma deve avvisarci in anticipo."
+            ]
+          }
+        ],
+        "checklist_extra": "<li>Carta d'imbarco Ryanair del ritorno già sul telefono (check-in online dal sabato).</li>"
+      },
+      "en": {}
+    }
   }
 }

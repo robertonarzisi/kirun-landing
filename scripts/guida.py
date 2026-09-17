@@ -130,7 +130,7 @@ def sezione(s, snippet):
 def aside(d, lang, sezioni):
     L = ETICHETTE[lang]
     a = d["aside"]
-    fatti = "".join(f"<div><dt>{esc(v['k'])}</dt><dd>{v['v']}</dd></div>" for v in a["in_breve"])
+    fatti = "".join(f"<div><dt>{esc(v['k'])}</dt><dd>{v['v']}</dd></div>" for v in a["in_breve"] if v["v"].strip())
     toc = "".join(f"<li><a href='#{esc(s['id'])}'>{esc(s['titolo'])}</a></li>" for s in sezioni)
     link = "".join(f"<li><a href='{esc(v['url'])}' target='_blank' rel='noopener'>{esc(v['label'])}</a></li>"
                    for v in a["link_ufficiali"])
