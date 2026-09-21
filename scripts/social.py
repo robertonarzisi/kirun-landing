@@ -84,6 +84,16 @@ EVENTS = {
         "cta": "Prenota",
         "superhalfs": True,
     },
+    "maratona-ravenna-2026": {
+        "kicker": "RUN + TRAVEL · 42K · 21K · 10K",
+        "title": ["Maratona di", "Ravenna 2026"],
+        "info1": "7–8 novembre 2026 · 2 giorni / 1 notte",
+        "info2": "Hotel Cube Ravenna 4* · staff KiRun al seguito",
+        "ribbon": "BUS DA BIELLA · SCEGLI LA TUA DISTANZA",
+        "ribbon_style": "evidenza",
+        "cta": "Prenota",
+        "superhalfs": False,
+    },
 }
 
 def ensure_fonts():
