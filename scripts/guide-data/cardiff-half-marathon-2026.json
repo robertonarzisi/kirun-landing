@@ -4,14 +4,14 @@
   "updated_at": "17 settembre 2026",
   "hero_credit": "Run 4 Wales · media kit ufficiale della Cardiff Half Marathon",
   "it": {
-    "meta_description": "La guida KiRun per la Cardiff Half Marathon 2026: Clayton Hotel Cardiff, assistenza KiRun, Event Village e ritiro del pettorale, griglie di partenza, percorso e consigli per il weekend dal 2 al 5 ottobre.",
+    "meta_description": "La guida KiRun per la Cardiff Half Marathon 2026: Clayton Hotel Cardiff, assistenza KiRun, Event Village e ritiro del pettorale, griglie di partenza, percorso e consigli per il weekend {{hotel:date_estese}}.",
     "hero": {
       "eyebrow": "Guida del runner · SuperHalfs",
       "titolo": "Cardiff Half Marathon 2026",
       "strillo": "Una delle mezze più partecipate d'Europa, un percorso piatto e veloce dal Castello alla Baia e un pubblico che non ti lascia mai solo. Qui trovi tutto quello che serve per vivere bene il weekend, dall'arrivo in hotel al traguardo.",
       "chips": [
         "Gara: domenica 4 ottobre",
-        "Viaggio: 2–5 ottobre",
+        "Viaggio: {{hotel:date_viaggio}}",
         "Clayton Hotel Cardiff",
         "{{hotel:chip4}}"
       ]
@@ -85,7 +85,7 @@
           "url": "https://www.superhalfs.com/"
         }
       ],
-      "assistenza": "<p>Lo staff KiRun è nella hall del Clayton Hotel <b>venerdì, sabato e domenica dalle 18:00 alle 19:00</b>; lunedì al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>"
+      "assistenza": "<p>Lo staff KiRun è nella hall del Clayton Hotel <b>{{hotel:giorni_hall}}</b>; lunedì al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>"
     },
     "sezioni": [
       {
@@ -115,7 +115,7 @@
             "tipo": "box",
             "stile": "kirun",
             "titolo": "Il tuo pacchetto KiRun Smart",
-            "html": "<ul><li>3 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 2 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).</li>{{hotel:pacchetto_extra}}<li>Pettorale garantito per la Cardiff Half Marathon.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Assicurazione medico-bagaglio di base.</li></ul>"
+            "html": "<ul><li>{{hotel:pacchetto_notti}}</li>{{hotel:pacchetto_extra}}<li>Pettorale garantito per la Cardiff Half Marathon.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Assicurazione medico-bagaglio di base.</li></ul>"
           }
         ]
       },
@@ -191,7 +191,7 @@
       {
         "id": "programma",
         "etichetta": "Il weekend in sintesi",
-        "titolo": "Il programma dei quattro giorni",
+        "titolo": "{{hotel:titolo_programma}}",
         "blocchi": [
           {
             "tipo": "hotel_blocchi",
@@ -209,34 +209,8 @@
             "html": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall del Clayton Hotel</b> negli orari qui sotto e, in qualsiasi altro momento, al telefono o su WhatsApp. Cerca l'arancione: non avrai difficoltà a trovarci."
           },
           {
-            "tipo": "tabella",
-            "intestazione": [
-              "Giorno",
-              "Dove",
-              "Orario"
-            ],
-            "righe": [
-              [
-                "<b>Venerdì 2</b>",
-                "Hall dell'hotel",
-                "<b>18:00–19:00</b>"
-              ],
-              [
-                "<b>Sabato 3</b>",
-                "Hall dell'hotel",
-                "<b>18:00–19:00</b>"
-              ],
-              [
-                "<b>Domenica 4</b>",
-                "Hall dell'hotel",
-                "<b>18:00–19:00</b>"
-              ],
-              [
-                "<b>Lunedì 5</b>",
-                "Al telefono",
-                "Assistenza telefonica per tutta la giornata"
-              ]
-            ]
+            "tipo": "hotel_blocchi",
+            "chiave": "assistenza_tabella"
           },
           {
             "tipo": "box",
@@ -329,7 +303,7 @@
               "Nei giorni prima della gara riceverai dall'organizzatore un'<b>email o un SMS</b> con nome, numero di pettorale e il banco (da 1 a 4) a cui presentarti: tienilo sul telefono e controlla anche lo spam. Se non lo trovi, avvisaci subito.",
               "Al Villaggio vai all'<b>International Pack Collection</b>, sul lato sinistro del tendone informazioni (Event Information Marquee), con un <b>documento d'identità</b>.",
               "<b>Ogni runner ritira il proprio pettorale</b>: non si può ritirare per altri, nemmeno per lo staff KiRun.",
-              "L'organizzatore consiglia di evitare la fascia <b>8:00–12:00 di sabato</b>, la più affollata per le gare junior: il venerdì pomeriggio dopo il check-in è il momento migliore.",
+              "L'organizzatore consiglia di evitare la fascia <b>8:00–12:00 di sabato</b>, la più affollata per le gare junior: {{hotel:expo_consiglio}}",
               "Compila subito i <b>dati di emergenza sul retro del pettorale</b>: è obbligatorio. Il colore dello sfondo indica la tua griglia e l'orario di partenza."
             ]
           }
@@ -628,7 +602,7 @@
             "voci": [
               {
                 "k": "KiRun",
-                "v": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel venerdì, sabato e domenica dalle 18:00 alle 19:00, lunedì al telefono."
+                "v": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel {{hotel:giorni_hall}}, lunedì al telefono."
               },
               {
                 "k": "Organizzatore",
@@ -707,7 +681,45 @@
             ]
           }
         ],
-        "checklist_extra": ""
+        "checklist_extra": "",
+        "date_viaggio": "2–5 ottobre",
+        "date_estese": "dal 2 al 5 ottobre",
+        "pacchetto_notti": "3 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 2 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).",
+        "giorni_hall": "venerdì, sabato e domenica dalle 18:00 alle 19:00",
+        "assistenza_tabella": [
+          {
+            "tipo": "tabella",
+            "intestazione": [
+              "Giorno",
+              "Dove",
+              "Orario"
+            ],
+            "righe": [
+              [
+                "<b>Venerdì 2</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Sabato 3</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Domenica 4</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Lunedì 5</b>",
+                "Al telefono",
+                "Assistenza telefonica per tutta la giornata"
+              ]
+            ]
+          }
+        ],
+        "expo_consiglio": "il venerdì pomeriggio dopo il check-in è il momento migliore.",
+        "titolo_programma": "Il programma dei quattro giorni"
       },
       "en": {}
     },
@@ -804,9 +816,131 @@
             ]
           }
         ],
-        "checklist_extra": "<li>Carta d'imbarco Ryanair del ritorno già sul telefono (check-in online dal sabato).</li>"
+        "checklist_extra": "<li>Carta d'imbarco Ryanair del ritorno già sul telefono (check-in online dal sabato).</li>",
+        "date_viaggio": "2–5 ottobre",
+        "date_estese": "dal 2 al 5 ottobre",
+        "pacchetto_notti": "3 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 2 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).",
+        "giorni_hall": "venerdì, sabato e domenica dalle 18:00 alle 19:00",
+        "assistenza_tabella": [
+          {
+            "tipo": "tabella",
+            "intestazione": [
+              "Giorno",
+              "Dove",
+              "Orario"
+            ],
+            "righe": [
+              [
+                "<b>Venerdì 2</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Sabato 3</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Domenica 4</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Lunedì 5</b>",
+                "Al telefono",
+                "Assistenza telefonica per tutta la giornata"
+              ]
+            ]
+          }
+        ],
+        "expo_consiglio": "il venerdì pomeriggio dopo il check-in è il momento migliore.",
+        "titolo_programma": "Il programma dei quattro giorni"
       },
       "en": {}
+    },
+    "due_notti": {
+      "slug": "cardiff-half-marathon-2026-3-5-ottobre",
+      "lingue": [
+        "it"
+      ],
+      "hero_slug": "cardiff-half-marathon-2026",
+      "it": {
+        "chip4": "21,0975 km",
+        "pacchetto_extra": "",
+        "ib_voli": "",
+        "ib_transfer": "",
+        "titolo_hotel": "L'hotel e come arrivare",
+        "timeline_blocchi": [
+          {
+            "tipo": "timeline",
+            "voci": [
+              {
+                "quando": "Sab 3",
+                "titolo": "Arrivo, pettorale e vigilia",
+                "html": "<p>Dall'aeroporto di Cardiff in navetta e treno fino a Cardiff Central, poi due minuti a piedi; da Bristol in pullman fino al centro. Le camere sono pronte dalle 15:00; se arrivi prima, lascia il bagaglio in reception.</p><p>Il pettorale si ritira all'<b>Event Village</b> sui prati della City Hall, 15–20 minuti a piedi dall'hotel, aperto il sabato <b>dalle 8:00 alle 17:00</b>: vai nel primo pomeriggio, la mattina fino alle 12:00 c'è la ressa delle gare dei bambini. Ritiralo oggi: la domenica il Villaggio apre alle 7:00, ma faresti la fila a ridosso della partenza. Alle 13:00, 15:00 e 17:00 partono dal Villaggio le <b>HIGH5 Shake Out Run</b>, 3,5 km di gruppo su prenotazione online: un buon modo per sciogliere le gambe dopo il viaggio, altrimenti bastano 20 minuti di corsa lenta a <b>Bute Park</b>, dietro il Castello.</p><p><b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>: ci si conosce, si fa il punto della vigilia e si risponde alle ultime domande. Poi cena presto, a base di carboidrati (prenota: il sabato sera il centro è pieno), e preparazione di pettorale, borsa e abbigliamento.</p>"
+              },
+              {
+                "quando": "Dom 4",
+                "titolo": "La gara",
+                "html": "<p>Colazione in hotel. La partenza è a <b>cinque minuti a piedi</b>: se non devi depositare la borsa puoi uscire alle 9:00 e andare dritto alla tua griglia (griglie aperte dalle 9:15 per bianca, verde, rossa e rosa, dalle 9:40 per blu, viola e gialla). Se usi il deposito borse di Museum Avenue, esci entro le 8:30: sono 15–20 minuti a piedi, poi altri 10 fino alla partenza. Partenze alle <b>10:00 e 10:10</b>, arrivo al Civic Centre. Il pomeriggio è tuo; <b>dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
+              },
+              {
+                "quando": "Lun 5",
+                "titolo": "Rientro",
+                "html": "<p>Check-out entro le 11:00. Se il volo è nel pomeriggio, lascia il bagaglio in reception e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"
+              }
+            ]
+          }
+        ],
+        "arrivo_blocchi": [
+          {
+            "tipo": "h3",
+            "testo": "Dagli aeroporti all'hotel"
+          },
+          {
+            "tipo": "ul",
+            "voci": [
+              "<b>Da Cardiff (CWL)</b>, 20 km a ovest della città: la soluzione più comoda è la <b>navetta 905</b> (1 £) fino alla stazione di Rhoose, in coincidenza con il treno per <b>Cardiff Central</b> (circa 5,40 £): in tutto meno di un'ora, una corsa all'ora (la domenica dalle 8:51). In alternativa il bus diretto dal terminal (circa 75 minuti, 3 £) o il taxi dal piazzale arrivi, 30–40 minuti.",
+              "<b>Da Bristol (BRS)</b>: pullman <b>National Express</b> o <b>FlixBus</b> diretti per Cardiff, tra 1 ora e 10 e 1 ora e 25, più corse al giorno. National Express arriva alla stazione dei bus accanto a Cardiff Central, FlixBus a North Road (Friary Gardens), 10 minuti a piedi dall'hotel. Prenota in anticipo online.",
+              "<b>Da Londra Heathrow</b>: pullman National Express diretto per Cardiff (circa 3 ore) oppure RailAir fino a Reading e treno GWR per Cardiff Central (circa 2 ore e mezza in tutto)."
+            ]
+          }
+        ],
+        "checklist_extra": "",
+        "date_viaggio": "3–5 ottobre",
+        "date_estese": "dal 3 al 5 ottobre",
+        "pacchetto_notti": "2 notti con prima colazione al <b>Clayton Hotel Cardiff</b>, dal 3 al 5 ottobre (se hai prenotato notti diverse, fa fede il voucher).",
+        "giorni_hall": "sabato e domenica dalle 18:00 alle 19:00",
+        "assistenza_tabella": [
+          {
+            "tipo": "tabella",
+            "intestazione": [
+              "Giorno",
+              "Dove",
+              "Orario"
+            ],
+            "righe": [
+              [
+                "<b>Sabato 3</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Domenica 4</b>",
+                "Hall dell'hotel",
+                "<b>18:00–19:00</b>"
+              ],
+              [
+                "<b>Lunedì 5</b>",
+                "Al telefono",
+                "Assistenza telefonica per tutta la giornata"
+              ]
+            ]
+          }
+        ],
+        "expo_consiglio": "arrivando il sabato, passa dal Villaggio nel <b>primo pomeriggio</b>, dopo le 12:00 e comunque prima della chiusura delle 17:00. In alternativa resta la domenica mattina dalle 7:00, ma con largo anticipo sulla partenza.",
+        "titolo_programma": "Il programma dei tre giorni"
+      }
     }
   }
 }
