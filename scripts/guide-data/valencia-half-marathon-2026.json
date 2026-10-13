@@ -1,0 +1,540 @@
+{
+ "slug": "valencia-half-marathon-2026",
+ "superhalfs": true,
+ "updated_at": {"it": "13 ottobre 2026", "en": "13 October 2026"},
+ "hero_credit": "Medio Maratón Valencia Trinidad Alfonso Zurich · foto ufficiale dell'organizzatore",
+ "it": {
+  "meta_description": "La guida KiRun per la Valencia Half Marathon 2026: Holiday Inn Express Ciudad de las Ciencias, assistenza KiRun, Expo 21K e ritiro del pettorale, cajones di partenza, percorso e consigli per il weekend dal 23 al 26 ottobre.",
+  "hero": {
+   "eyebrow": "Guida del runner · SuperHalfs",
+   "titolo": "Valencia Half Marathon 2026",
+   "strillo": "La mezza più veloce del mondo: un percorso piatto che attraversa la Città delle Arti e delle Scienze, il centro storico e il mare, con 25.000 runner e un pubblico che spinge fino all'ultimo metro. Qui trovi tutto quello che serve per vivere bene il weekend, dall'arrivo in hotel al traguardo.",
+   "chips": [
+    "Gara: domenica 25 ottobre",
+    "Viaggio: 23–26 ottobre",
+    "Holiday Inn Express Ciudad de las Ciencias",
+    "21,0975 km"
+   ]
+  },
+  "aside": {
+   "in_breve": [
+    {"k": "Gara", "v": "<b>Domenica 25 ottobre 2026</b>, partenze a ondate dalle 8:25 (cajones 1–3) alle 9:27 (cajón 9)"},
+    {"k": "Partenza e arrivo", "v": "Avinguda dels Tarongers, zona universitaria: partenza vicino alla Universitat Politècnica, arrivo poco più avanti, vicino alla Universitat de València"},
+    {"k": "Expo", "v": "Expo 21K, Feria Valencia (Hall 5) · ven 23 e sab 24 ottobre, 9:00–21:00 · niente ritiro la domenica"},
+    {"k": "Hotel", "v": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22 · check-in 16:00, check-out 12:00"},
+    {"k": "Transfer gara", "v": "Trasferimento dedicato KiRun dall'hotel alla zona di partenza e ritorno: orari comunicati dallo staff"},
+    {"k": "Tempo max", "v": "2 ore e 45 minuti (tempo netto); al km 10 entro le 11:00"},
+    {"k": "Cambio ora", "v": "Nella notte tra sabato e domenica le lancette tornano indietro di un'ora: <a href='#gara'>leggi qui</a>"},
+    {"k": "Documenti", "v": "Carta d'identità valida per l'espatrio"}
+   ],
+   "link_ufficiali": [
+    {"label": "Sito ufficiale Valencia Half Marathon", "url": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/"},
+    {"label": "Regolamento 2026", "url": "https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/"},
+    {"label": "Expo 21K e ritiro pettorale", "url": "https://www.valenciaciudaddelrunning.com/en/half/expo21k/"},
+    {"label": "Mappa ufficiale del percorso 2026 (PDF)", "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf"},
+    {"label": "Servizi al corridore", "url": "https://www.valenciaciudaddelrunning.com/en/half/race-services/"},
+    {"label": "Area del corridore (delega, cambio cajón)", "url": "https://tickets.valenciaciudaddelrunning.com/#/EN/servicios"},
+    {"label": "Trasporti e chiusure stradali", "url": "https://www.valenciaciudaddelrunning.com/en/half/citizen-info-21k/"},
+    {"label": "SuperHalfs", "url": "https://www.superhalfs.com/"}
+   ],
+   "assistenza": "<p>Lo staff KiRun è nella hall dell'Holiday Inn Express <b>venerdì, sabato e domenica dalle 18:00 alle 19:00</b>; negli altri momenti al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>"
+  },
+  "sezioni": [
+   {
+    "id": "introduzione",
+    "etichetta": "Benvenuto a Valencia",
+    "titolo": "La mezza più veloce del mondo",
+    "blocchi": [
+     {"tipo": "p", "html": "La <b>Valencia Half Marathon Trinidad Alfonso Zurich</b>, organizzata dalla S.D. Correcaminos, è alla sua 35ª edizione ed è la mezza maratona su cui sono caduti i record del mondo: qui Letesenbet Gidey ha corso in 1:02:52 e Yomif Kejelcha in 57:30. Ha la <b>Gold Label</b> di World Athletics, è una tappa del circuito <b>SuperHalfs</b> (il risultato conta per il tuo SuperPassport) e porta al via circa 25.000 runner da tutto il mondo, con pettorali assegnati per sorteggio."},
+     {"tipo": "p", "html": "Il percorso è <b>piatto e scorrevole</b>, con poche curve e appena 16,7 metri di dislivello tra il punto più basso e il più alto: parte dall'<b>Avinguda dels Tarongers</b>, nella zona delle università, sfiora l'Horta Nord, costeggia il lato alto dei <b>Giardini del Turia</b>, entra nel <b>centro storico</b> tra le torri medievali e il Mercato Centrale, passa davanti alla <b>Città delle Arti e delle Scienze</b> (a due passi dal tuo hotel), arriva alla Marina e torna all'arrivo attraverso il quartiere marinaro del <b>Cabanyal</b>. Clima mite, musica e più di sessanta punti di animazione lungo la strada."},
+     {"tipo": "p", "html": "In questa guida trovi le informazioni pratiche per organizzare il weekend: hotel, ritiro del pettorale, cajones di partenza, percorso, cosa fare dopo l'arrivo e una mini guida alla città. Gli orari sono quelli pubblicati dall'organizzatore al 13 ottobre; la guida ufficiale della gara («Race Guide») non è ancora uscita e arriverà nei giorni prima della partenza. Controlla sempre i <b>link ufficiali</b> nel riquadro a lato."},
+     {"tipo": "box", "stile": "kirun", "titolo": "Il tuo pacchetto KiRun Smart", "html": "<ul><li>3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 23 al 26 ottobre (se hai prenotato notti diverse, fa fede il voucher).</li><li><b>Colazione anticipata</b> la mattina della gara.</li><li><b>Trasferimento dedicato</b> dall'hotel alla zona di partenza e ritorno il giorno della gara.</li><li>Desk KiRun in hotel e assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Assicurazione medico-bagaglio di base.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li></ul>"}
+    ]
+   },
+   {
+    "id": "programma",
+    "etichetta": "Il weekend in sintesi",
+    "titolo": "Il programma dei quattro giorni",
+    "blocchi": [
+     {"tipo": "timeline", "voci": [
+      {"quando": "Ven 23", "titolo": "Arrivo e ritiro pettorale", "html": "<p>Dall'aeroporto all'hotel in taxi (20–25 minuti) o in metro con un cambio. Le camere sono pronte dalle 16:00; se arrivi prima, lascia il bagaglio in reception.</p><p>Il pettorale si ritira all'<b>Expo 21K di Feria Valencia</b>, aperta <b>dalle 9:00 alle 21:00</b>. Per risparmiare tempo, dall'aeroporto puoi andare <b>direttamente all'Expo in taxi</b> (circa 10 minuti: la fiera è vicina all'aeroporto) e poi proseguire verso l'hotel. Evita la fascia 18:00–20:00, la più affollata. <b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>: ci si conosce e si ricevono le ultime informazioni.</p>"},
+      {"quando": "Sab 24", "titolo": "Scarico gambe e vigilia", "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che iniziano a cinque minuti dall'hotel. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia, l'orario del trasferimento di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"},
+      {"quando": "Dom 25", "titolo": "La gara", "html": "<p>Colazione anticipata in hotel, poi il <b>trasferimento KiRun</b> verso la zona di partenza all'orario comunicato dallo staff. Partenze a ondate dalle <b>8:25</b> (cajones 1–3) alle <b>9:27</b> (cajón 9), arrivo sull'Avinguda dels Tarongers e rientro in hotel con il trasferimento dedicato. Il pomeriggio è tuo: paella, mare o Città delle Arti. <b>Dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"},
+      {"quando": "Lun 26", "titolo": "Rientro", "html": "<p>Check-out entro le 12:00. Se il volo è nel pomeriggio, lascia il bagaglio in reception e goditi le ultime ore in città. Lo staff resta raggiungibile al telefono per tutta la giornata.</p>"}
+     ]}
+    ]
+   },
+   {
+    "id": "assistenza",
+    "etichetta": "Siamo con te",
+    "titolo": "L'assistenza KiRun a Valencia",
+    "blocchi": [
+     {"tipo": "p", "html": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'Holiday Inn Express</b> negli orari qui sotto e, in qualsiasi altro momento, al telefono o su WhatsApp. Cerca l'arancione: non avrai difficoltà a trovarci."},
+     {"tipo": "tabella", "intestazione": ["Giorno", "Dove", "Orario"], "righe": [
+      ["<b>Venerdì 23</b>", "Hall dell'hotel", "<b>18:00–19:00</b>"],
+      ["<b>Sabato 24</b>", "Hall dell'hotel", "<b>18:00–19:00</b>"],
+      ["<b>Domenica 25</b>", "Hall dell'hotel", "<b>18:00–19:00</b>"],
+      ["<b>Lunedì 26</b>", "Al telefono", "Assistenza telefonica per tutta la giornata"]
+     ], "nota": "Il giorno della gara lo staff ti accompagna con il trasferimento dedicato: orari e punto di ritrovo te li diciamo sabato sera."},
+     {"tipo": "box", "stile": "kirun", "titolo": "I numeri dello staff", "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"}
+    ]
+   },
+   {
+    "id": "hotel",
+    "etichetta": "Dove dormi",
+    "titolo": "L'hotel e come arrivare",
+    "blocchi": [
+     {"tipo": "p", "html": "Il tuo soggiorno è all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: un tre stelle moderno e funzionale a cinque minuti a piedi dalla <b>Città delle Arti e delle Scienze</b>, con camere climatizzate, Wi-Fi gratuito, colazione a buffet inclusa e una piscina esterna stagionale. La zona è tranquilla, con ristoranti e caffè nei dintorni e i Giardini del Turia a due passi per la corsa di scarico."},
+     {"tipo": "p", "html": "Il percorso della gara passa proprio qui davanti, intorno al <b>km 15–16</b>, tra il Palau de les Arts e l'Oceanogràfic: il posto ideale per chi viene a fare il tifo."},
+     {"tipo": "link", "voci": [
+      {"label": "Holiday Inn Express Valencia Ciudad de las Ciencias – scheda su Visit Valencia", "url": "https://www.visitvalencia.com/it/pianificate-il-vostro-viaggio-a-valencia/dove-alloggiare-a-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"},
+      {"label": "Apri in Google Maps", "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"}
+     ]},
+     {"tipo": "h3", "testo": "Dall'aeroporto all'hotel"},
+     {"tipo": "ul", "voci": [
+      "<b>Taxi</b>: dal piazzale degli arrivi, 20–25 minuti fino all'hotel; è la soluzione più semplice con i bagagli. Se vuoi ritirare subito il pettorale, chiedi all'autista di passare prima da <b>Feria Valencia</b> (vedi la sezione Expo).",
+      "<b>Metro</b>: linee <b>3 o 5</b> dalla stazione Aeroport fino a <b>Xàtiva</b> (circa 25 minuti), poi a piedi fino alla vicina stazione <b>Alacant</b> e linea <b>10</b> fino alla fermata <b>Oceanogràfic</b>, a pochi minuti a piedi dall'hotel. Biglietti alle macchinette o con carta contactless ai tornelli.",
+      "<b>Dal centro</b>: la linea 10 della metro collega Alacant (accanto alla stazione ferroviaria del Nord) alla fermata Oceanogràfic in una decina di minuti."
+     ]},
+     {"tipo": "h3", "testo": "Check-in, check-out e colazione"},
+     {"tipo": "ul", "voci": [
+      "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception.",
+      "La colazione a buffet è inclusa. La mattina della gara è prevista la <b>colazione anticipata</b>: l'orario te lo confermiamo in loco. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+     ]}
+    ]
+   },
+   {
+    "id": "expo",
+    "etichetta": "Prima della gara",
+    "titolo": "L'Expo 21K e il ritiro del pettorale",
+    "blocchi": [
+     {"tipo": "p", "html": "Tutto comincia all'<b>Expo 21K</b>, allestita nell'Hall 5 di <b>Feria Valencia</b>, il centro fieristico a nord-ovest della città: qui ritiri pettorale, chip, sacca del corridore e il <b>braccialetto identificativo</b> che serve per entrare nel tuo cajón di partenza. Ci sono gli stand degli sponsor e dei marchi, aree per mangiare e <b>La Placeta</b>, lo spazio con talk gratuiti sul running e la presentazione degli atleti élite."},
+     {"tipo": "fatti", "voci": [
+      {"k": "Dove", "v": "<b>Feria Valencia, Hall 5</b> · Avinguda de les Fires s/n, 46035 Valencia · <a href='https://www.google.com/maps/search/39.503102,+-0.427055' target='_blank' rel='noopener'>apri in Google Maps</a>"},
+      {"k": "Orari", "v": "Venerdì 23 e sabato 24 ottobre <b>9:00–21:00</b>, orario continuato. <b>Nessun ritiro la domenica.</b> Fasce da evitare: 12:00–14:00 e 18:00–20:00."},
+      {"k": "Dall'aeroporto", "v": "In <b>taxi circa 10 minuti</b> (7 km): se arrivi venerdì, il modo più rapido è andare all'Expo direttamente dall'aeroporto e poi all'hotel. In metro: linee 3 o 5 fino ad Àngel Guimerà, poi linea 2 fino a <b>Carolines/Fira</b>, a 600 metri dall'ingresso."},
+      {"k": "Dall'hotel", "v": "In <b>taxi circa 20–25 minuti</b>. In metro circa 50 minuti con due cambi: linea 10 da Oceanogràfic ad Alacant, linee 3/5/9 da Xàtiva ad Àngel Guimerà, linea 2 fino a Carolines/Fira. In alternativa il bus EMT 62 dalla stazione del Nord."}
+     ]},
+     {"tipo": "h3", "testo": "Il ritiro del pettorale"},
+     {"tipo": "ul", "voci": [
+      "Porta un <b>documento d'identità originale</b> e tieni sul telefono la <b>conferma d'iscrizione</b> (negli anni scorsi l'organizzatore ha mandato per email un QR code nei giorni prima della gara: controlla anche lo spam). Se non trovi nulla, avvisaci subito.",
+      "Con il pettorale ricevi il <b>braccialetto</b> per accedere al cajón e la <b>sacca del corridore</b> con i prodotti degli sponsor. Il <b>chip</b> è sul retro del pettorale: il regolamento chiede di <b>verificarlo allo stand di controllo</b> dell'Expo prima di uscire.",
+      "<b>Non puoi venire all'Expo?</b> Il ritiro per delega è possibile: dal 1º ottobre, dall'<a href='https://tickets.valenciaciudaddelrunning.com/#/EN/servicios' target='_blank' rel='noopener'>Area del corridore</a>, si autorizza un'altra persona inserendo i suoi dati. Se ne hai bisogno, <b>contattaci</b>: ti diciamo noi chi delegare.",
+      "Hai migliorato il tempo? Il <b>cambio di cajón</b> è possibile dall'Area del corridore fino al <b>18 ottobre</b> con un costo di 25 €; dopo non si cambia più.",
+      "Se vieni all'Expo con il bagaglio direttamente dall'aeroporto: nel 2025 c'era un piccolo deposito bagagli a pagamento all'ingresso dell'Hall 5 (contanti). Per il 2026 non è ancora confermato: nel dubbio viaggia leggero o passa prima dall'hotel.",
+      "Porta da casa <b>quattro spille</b> per il pettorale."
+     ]}
+    ]
+   },
+   {
+    "id": "gara",
+    "etichetta": "Domenica 25 ottobre",
+    "titolo": "Il giorno della gara",
+    "blocchi": [
+     {"tipo": "box", "stile": "attenzione", "titolo": "Stanotte cambia l'ora", "html": "<p>Nella notte tra sabato 24 e domenica 25 ottobre finisce l'ora legale: alle <b>3:00 le lancette tornano alle 2:00</b>, in Spagna come in Italia. Si dorme un'ora in più. Il telefono si aggiorna da solo: controlla che la sveglia sia impostata e non fidarti di orologi che non si regolano automaticamente.</p>"},
+     {"tipo": "p", "html": "Si parte e si arriva sull'<b>Avinguda dels Tarongers</b>, il grande viale della zona universitaria a nord-est della città: la partenza è vicino alla Universitat Politècnica, l'arrivo poco più avanti, vicino alla Universitat de València. Dall'hotel sono circa 4 km: ci pensa il <b>trasferimento dedicato KiRun</b>, che ti porta alla zona di partenza e ti riporta in hotel dopo l'arrivo."},
+     {"tipo": "h3", "testo": "Come si arriva alla partenza"},
+     {"tipo": "ul", "voci": [
+      "<b>Trasferimento KiRun</b>: ritrovo nella hall dell'hotel all'orario che ti comunichiamo sabato sera, in base al tuo cajón. Arriva puntuale: la mattina della gara molte strade sono chiuse.",
+      "Se ti muovi per conto tuo, tieni presente che nelle scorse edizioni le linee tram <b>4 e 6</b> della zona universitaria sono rimaste ferme fino a mezzogiorno e diversi bus sono stati deviati: controlla gli avvisi di Metrovalencia ed EMT nella pagina <a href='https://www.valenciaciudaddelrunning.com/en/half/citizen-info-21k/' target='_blank' rel='noopener'>Info cittadini</a>.",
+      "I cajones aprono circa un'ora prima della partenza (nel 2025 alle 7:30); si entra mostrando il <b>pettorale e il braccialetto</b> ricevuti all'Expo. Chi arriva dopo la chiusura del proprio cajón parte con l'ondata successiva."
+     ]},
+     {"tipo": "h3", "testo": "Deposito borse"},
+     {"tipo": "p", "html": "Il <b>guardaroba</b> alla partenza è riservato a chi lo ha prenotato in fase d'iscrizione (il servizio è <b>esaurito</b>) ed è segnalato con il simbolo dell'appendino sul pettorale. Con il trasferimento KiRun non ti serve: lascia tutto in camera e porta con te solo l'essenziale. Per l'attesa in griglia va bene una vecchia felpa da lasciare nei contenitori per la raccolta."},
+     {"tipo": "h3", "testo": "Cajones di partenza e pacer"},
+     {"tipo": "p", "html": "La partenza è scaglionata in <b>sette ondate</b> e il tuo cajón, da 1 a 9, dipende dal tempo previsto dichiarato all'iscrizione: è stampato sul pettorale e corrisponde al colore del braccialetto. Sistemati nel tuo cajón: si può arretrare, mai avanzare. Gli atleti in carrozzina partono in anticipo nella quarta ondata; chi è ipovedente può partire in testa alla propria ondata. Il tempo ufficiale è quello <b>netto</b>: parte quando passi sotto l'arco. Bagni nella zona di partenza, dentro le griglie e a ogni ristoro."},
+     {"tipo": "tabella", "intestazione": ["Cajón", "Tempo previsto", "Partenza"], "righe": [
+      ["<span class='pallino' style='background:#F2E32B'></span>1 giallo · <span class='pallino' style='background:#1FA83A'></span>2 verde · <span class='pallino' style='background:#22B5E6'></span>3 azzurro", "fino a 1h19:59", "<b>8:25</b>"],
+      ["<span class='pallino' style='background:#E6007E'></span>4 fucsia", "1h20:00 – 1h25:59", "<b>8:30</b>"],
+      ["<span class='pallino' style='background:#F28C00'></span>5 arancione", "1h26:00 – 1h33:59", "<b>8:35</b>"],
+      ["<span class='pallino' style='background:#7A4BA6'></span>6 viola", "1h34:00 – 1h42:59", "<b>8:48</b>"],
+      ["<span class='pallino' style='background:#8B5A2B'></span>7 marrone", "1h43:00 – 1h49:59", "<b>9:01</b>"],
+      ["<span class='pallino' style='background:#9A9A9A'></span>8 grigio", "1h50:00 – 1h54:59", "<b>9:14</b>"],
+      ["<span class='pallino' style='background:#E30613'></span>9 rosso", "oltre 1h55:00", "<b>9:27</b>"]
+     ], "nota": "Orari e fasce dal <a href='https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/' target='_blank' rel='noopener'>regolamento 2026</a>; colori dalla <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf' target='_blank' rel='noopener'>mappa ufficiale 2026</a>. Fa fede la guida ufficiale della gara, in uscita nei giorni prima della partenza."},
+     {"tipo": "p", "html": "In gara ci sono i <b>pacer MSC</b> («Prácticos»), riconoscibili dalla bandierina con il tempo finale, per i principali tempi obiettivo: mettiti dietro quello del tuo e lasciati portare. Il <b>tempo massimo</b> è di 2 ore e 45 minuti dal tuo passaggio sulla linea di partenza; chi arriva al <b>km 10 dopo le 11:00</b> deve consegnare il pettorale e salire sul veicolo scopa. L'arrivo chiude alle 12:20."},
+     {"tipo": "box", "stile": "kirun", "titolo": "Checklist della vigilia", "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b>, chip integrato: non piegarlo. <b>Braccialetto</b> al polso: senza non entri nel cajón.</li><li>Scarpe e calze già usate in allenamento; a fine ottobre la mattina ci sono 13–15 gradi: uno strato vecchio da lasciare in griglia e poi via.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, Aquarius e i gel Enervit al km 15.</li><li>Carta d'identità, carta di pagamento e telefono carico, se non li lasci in hotel.</li><li>Sveglia controllata dopo il <b>cambio dell'ora</b>; orario del trasferimento KiRun segnato.</li></ul>"}
+    ]
+   },
+   {
+    "id": "percorso",
+    "etichetta": "21,0975 km",
+    "titolo": "Il percorso",
+    "blocchi": [
+     {"tipo": "p", "html": "La distanza ufficiale è <b>21,0975 km</b>, omologata AIMS e RFEA, su un tracciato quasi perfettamente piatto: il punto più basso è a 1,6 metri sul mare e il più alto a 18,3, con <b>16,7 metri di dislivello</b> in tutto. Poche curve, strade larghe e un giro ad anello in senso antiorario che tocca tutti i simboli della città. I chilometri qui sotto sono indicativi, ricavati dalla mappa ufficiale 2026."},
+     {"tipo": "ul", "voci": [
+      "<b>km 0–3</b> · Partenza dall'Avinguda dels Tarongers verso nord, ai margini dell'<b>Horta Nord</b> e dei campi di chufa, poi curva verso l'interno all'altezza dello stadio Ciutat de València.",
+      "<b>km 3–5</b> · Lunghi rettilinei verso il centro passando accanto ai <b>Jardins del Real</b> (Viveros) e al Museo di Belle Arti; al km 5 il primo ristoro e, subito dopo, le <b>Torres de Serranos</b>, la porta medievale della città.",
+      "<b>km 5–9</b> · Il giro largo del centro lungo il lato alto dei <b>Giardini del Turia</b>, tra il Jardí Botànic e la Plaça d'Espanya: è il tratto più aperto, dove si trova il ritmo.",
+      "<b>km 9–13</b> · Il cuore storico: le <b>Torres de Quart</b>, la zona della Cattedrale e del Palau de la Generalitat, il <b>Mercato Centrale</b> e la Lonja, la Plaza de Toros e la Stazione del Nord. Ristoro intorno al km 10.",
+      "<b>km 13–16</b> · Dal Palau de la Música lungo il Turia fino alla <b>Città delle Arti e delle Scienze</b>: il Palau de les Arts, l'Hemisfèric, il Museo delle Scienze e l'Oceanogràfic. Qui c'è il <b>Red Point Enervit</b> con i gel (km 15,2), l'assistenza rapida (km 15,1) e un ristoro (km 15,5). <b>Il tuo hotel è a due passi</b>: il punto giusto per chi ti aspetta.",
+      "<b>km 16–19</b> · Verso il mare attraverso il Grau fino alla <b>Marina de València</b> con l'edificio Veles e Vents, assistenza rapida al km 18,5 e ultimo ristoro al km 19,4.",
+      "<b>km 19–21</b> · Il rientro attraverso le vie del <b>Cabanyal</b>, il quartiere marinaro, e l'ultimo rettilineo sull'Avinguda dels Tarongers fino alla «pasarela azul», la passerella blu dell'arrivo."
+     ]},
+     {"tipo": "ul", "voci": [
+      "<b>Ristori</b> ai km 5,4 · 10,4 · 15,5 · 19,4 con acqua Aquabona in bottiglia e Aquarius in bicchiere, bagni a ogni ristoro; <b>gel Enervit</b> con e senza caffeina al km 15,2; punti di assistenza rapida con vaselina e spray antidolorifico ai km 15,1 e 18,5. All'arrivo acqua, Aquarius e frutta.",
+      "<b>Foto, tracking e app</b>: Marathon Photos scatta lungo il percorso e le foto si cercano per numero di pettorale su marathonphotos.live; con l'<b>app ufficiale</b> (Medio Maratón Valencia, su App Store e Google Play) chi ti aspetta a casa ti segue in tempo reale e tu scarichi gratis il diploma.",
+      "<b>Tifo e musica</b>: band, DJ, batucade e gruppi delle falle lungo tutto il percorso, con il pubblico più fitto in centro, alla Città delle Arti e sul rettilineo finale."
+     ]},
+     {"tipo": "link", "voci": [
+      {"label": "Mappa ufficiale del percorso 2026 con ristori e profilo (PDF)", "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf"},
+      {"label": "App ufficiale per Android", "url": "https://play.google.com/store/apps/details?id=nl.meetmijntijd.valencia21k"},
+      {"label": "App ufficiale per iPhone", "url": "https://apps.apple.com/es/app/medio-marat%C3%B3n-valencia/id1113381205"}
+     ]}
+    ]
+   },
+   {
+    "id": "arrivo",
+    "etichetta": "Dopo il traguardo",
+    "titolo": "L'arrivo e il dopo gara",
+    "blocchi": [
+     {"tipo": "ul", "voci": [
+      "Continua a camminare oltre la linea: nell'area post-arrivo ricevi la <b>medaglia</b> e la <b>sacca del finisher</b> con acqua Aquabona, Aquarius, banana, kaki e una barretta Enervit. Non fermarti subito dopo l'arco.",
+      "<b>Incisione della medaglia</b> con nome e tempo ufficiale: nella zona del guardaroba, accanto alla partenza. Se l'hai acquistata con l'iscrizione è segnalato sul pettorale; altrimenti si paga sul posto.",
+      "<b>Docce</b> per tutti i runner dalle 10:00 alle 14:00 al centro sportivo di Benimaclet, vicino alla zona di arrivo. La farmacia Ribera presta assistenza anche nell'area post-arrivo.",
+      "<b>Rientro in hotel</b> con il trasferimento dedicato KiRun: punto di ritrovo e orario te li dà lo staff. Il late check-out della domenica non serve, sei in hotel fino a lunedì.",
+      "<b>SuperHalfs</b>: il risultato di Valencia vale per il tuo SuperPassport; se non compare, puoi reclamarlo dal tuo profilo su superhalfs.com. Se è la tua sesta tappa, informati allo stand SuperHalfs dell'Expo sulla consegna della SuperMedal.",
+      "Risultati ufficiali e diploma sul sito dell'organizzatore e nell'app; foto su marathonphotos.live.",
+      "Lo staff KiRun ti aspetta <b>nella hall dell'hotel dalle 18:00 alle 19:00</b>: per un problema, una foto con la medaglia o solo per raccontare la gara."
+     ]}
+    ]
+   },
+   {
+    "id": "sabato",
+    "etichetta": "Sabato 24 ottobre",
+    "titolo": "Il sabato a Valencia",
+    "blocchi": [
+     {"tipo": "p", "html": "<b>Consiglio KiRun</b>: alla vigilia bastano 20–30 minuti di corsa lenta con qualche allungo. Il posto giusto è il <b>Jardí del Túria</b>, il parco di 9 km nell'antico letto del fiume, che inizia proprio alla Città delle Arti: fondo piatto, ombra e nessun semaforo. Un'ottima alternativa è il lungomare della <b>Malvarrosa</b>."},
+     {"tipo": "p", "html": "Se non hai ancora il pettorale, l'Expo è aperta fino alle 21:00 (evita 12:00–14:00 e 18:00–20:00); vale la pena fermarsi a <b>La Placeta</b> per i talk e la presentazione degli élite. Poi pomeriggio leggero, <b>cena presto</b> e a base di carboidrati (prenota: il sabato sera della mezza i ristoranti sono pieni; la paella a Valencia si mangia a pranzo, non a cena) e preparazione di pettorale, braccialetto e abbigliamento. Prima di dormire, un'occhiata alla sveglia: <b>stanotte si torna all'ora solare</b>."}
+    ]
+   },
+   {
+    "id": "citta",
+    "etichetta": "Oltre la gara",
+    "titolo": "Mini guida di Valencia",
+    "blocchi": [
+     {"tipo": "h3", "testo": "Come muoversi"},
+     {"tipo": "ul", "voci": [
+      "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
+      "<b>Autobus EMT</b>: rete fitta, si paga a bordo con carta contactless; l'app EMT València mostra orari in tempo reale.",
+      "<b>A piedi e in bici</b>: il centro storico si gira a piedi; i Giardini del Turia collegano la Città delle Arti al centro in 30–40 minuti di passeggiata, e la città è piena di piste ciclabili (bici condivise Valenbisi).",
+      "<b>Taxi</b> alle fermate e con le app (Cabify, Uber, FREE NOW); tariffe contenute."
+     ]},
+     {"tipo": "h3", "testo": "Cinque luoghi da non perdere"},
+     {"tipo": "schede", "voci": [
+      {"titolo": "Città delle Arti e delle Scienze", "html": "<p>Il simbolo moderno di Valencia, firmato da Santiago Calatrava, a cinque minuti dall'hotel: il Palau de les Arts, l'Hemisfèric, il Museo delle Scienze, l'Umbracle e l'<b>Oceanogràfic</b>, il più grande acquario d'Europa. Da vedere anche la sera, illuminata.</p>"},
+      {"titolo": "Centro storico", "html": "<p>La Cattedrale con la torre del <b>Miguelete</b> (207 gradini e la vista migliore sulla città), la Plaza de la Virgen, la <b>Lonja de la Seda</b> patrimonio UNESCO e le torri medievali di Serranos e Quart, che in gara passerai di corsa.</p>"},
+      {"titolo": "Mercado Central", "html": "<p>Uno dei mercati coperti più grandi d'Europa, in un edificio modernista del 1928: oltre mille banchi di frutta, pesce, jamón e spezie. Perfetto per la colazione del lunedì, prima del volo.</p>"},
+      {"titolo": "Giardini del Turia", "html": "<p>Nove chilometri di parco nell'antico letto del fiume, dal Parco di Cabecera alla Città delle Arti: il posto giusto per la corsa di scarico del sabato e la passeggiata del lunedì.</p>"},
+      {"titolo": "Malvarrosa e Cabanyal", "html": "<p>La spiaggia cittadina di sabbia fine e il quartiere marinaro con le facciate di ceramica: dopo la gara, un pranzo vista mare sul Paseo Marítimo è il modo giusto di chiudere il weekend.</p>"}
+     ]},
+     {"tipo": "h3", "testo": "Tre piatti e una bevanda"},
+     {"tipo": "ul", "voci": [
+      "<b>Paella valenciana</b>: quella originale, con pollo, coniglio, fagiolini e garrofó, nata proprio qui. Si mangia <b>a pranzo</b>, mai la sera: perfetta la domenica dopo la gara.",
+      "<b>Esgarraet</b>: peperoni arrostiti, baccalà e olio d'oliva, la tapa valenciana per eccellenza.",
+      "<b>Fideuà</b>: la «paella» di pasta corta con il pesce, nata nel porto del Grau, che attraverserai al km 17.",
+      "<b>Horchata con fartons</b>: la bevanda fredda di chufa, il tubero dei campi dell'Horta Nord che sfiori nei primi chilometri, con i dolci allungati da inzuppare. Da provare in una horchatería storica del centro o ad Alboraia."
+     ]}
+    ]
+   },
+   {
+    "id": "pratiche",
+    "etichetta": "Prima di partire",
+    "titolo": "Informazioni pratiche per la Spagna",
+    "blocchi": [
+     {"tipo": "fatti", "voci": [
+      {"k": "Documenti", "v": "Basta la <b>carta d'identità valida per l'espatrio</b> (o il passaporto). Nessun visto né autorizzazione. Per la gara l'organizzatore richiede ai runner stranieri la maggiore età."},
+      {"k": "Valuta", "v": "Euro. Le carte contactless sono accettate ovunque, anche su metro e bus: di contanti ne servono pochissimi."},
+      {"k": "Lingua", "v": "Spagnolo e valenciano (la segnaletica è bilingue). Nei luoghi turistici l'inglese è compreso; con l'italiano ci si intende quasi sempre."},
+      {"k": "Elettricità", "v": "Prese di tipo <b>C/F</b>, 230 V: come in Italia, <b>non serve l'adattatore</b> (le spine italiane a tre poli piatti possono non entrare: porta una spina schuko o a due poli)."},
+      {"k": "Telefono", "v": "Prefisso +34. Il roaming nell'Unione Europea è incluso nelle offerte italiane: chiamate e dati come a casa."},
+      {"k": "Fuso orario", "v": "Lo stesso dell'Italia. Attenzione al <b>cambio dell'ora</b>: nella notte tra sabato 24 e domenica 25 alle 3:00 le lancette tornano alle 2:00, in Spagna come in Italia."},
+      {"k": "Meteo", "v": "A fine ottobre a Valencia la giornata va in media da 14 a 23 °C: fresco al mattino presto, mite e spesso soleggiato di giorno, con qualche possibilità di pioggia. Domenica 25, dopo il cambio dell'ora, il sole sorge intorno alle 7:30 e tramonta intorno alle 18:10."},
+      {"k": "Emergenze", "v": "<b>112</b> per polizia, ambulanza e vigili del fuoco. Con la tessera sanitaria italiana (TEAM) hai diritto alle cure del servizio pubblico spagnolo. Farmacie segnalate dalla croce verde, molte aperte 24 ore."},
+      {"k": "Acqua e mance", "v": "L'acqua del rubinetto è potabile ma molto calcarea: quasi tutti bevono quella in bottiglia. Al ristorante la mancia non è obbligatoria; si lascia qualche euro se il servizio è piaciuto."}
+     ]}
+    ]
+   },
+   {
+    "id": "contatti",
+    "etichetta": "Chi chiamare",
+    "titolo": "Contatti utili",
+    "blocchi": [
+     {"tipo": "fatti", "voci": [
+      {"k": "KiRun", "v": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel venerdì, sabato e domenica dalle 18:00 alle 19:00, lunedì al telefono."},
+      {"k": "Organizzatore", "v": "S.D. Correcaminos · <a href='https://www.valenciaciudaddelrunning.com/en/contact/' target='_blank' rel='noopener'>modulo di contatto sul sito ufficiale</a>"},
+      {"k": "Social ufficiali", "v": "@mediomaratonvlc su Instagram, @MedioMaratonVLC su X, Medio Maratón Valencia su Facebook e YouTube per gli aggiornamenti dell'ultima ora"},
+      {"k": "Hotel", "v": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>"}
+     ]}
+    ]
+   }
+  ]
+ },
+ "en": {
+  "meta_description": "The KiRun guide to the Valencia Half Marathon 2026: Holiday Inn Express Ciudad de las Ciencias, KiRun support, Expo 21K and bib collection, start boxes, course and tips for the 23–26 October weekend.",
+  "hero": {
+   "eyebrow": "Runner's guide · SuperHalfs",
+   "titolo": "Valencia Half Marathon 2026",
+   "strillo": "The fastest half marathon in the world: a flat course through the City of Arts and Sciences, the old town and the seafront, with 25,000 runners and crowds that push you to the very last metre. Here is everything you need to enjoy the weekend, from hotel check-in to the finish line.",
+   "chips": [
+    "Race: Sunday 25 October",
+    "Trip: 23–26 October",
+    "Holiday Inn Express Ciudad de las Ciencias",
+    "21.0975 km"
+   ]
+  },
+  "aside": {
+   "in_breve": [
+    {"k": "Race", "v": "<b>Sunday 25 October 2026</b>, wave starts from 8:25 (boxes 1–3) to 9:27 (box 9)"},
+    {"k": "Start & finish", "v": "Avinguda dels Tarongers, university district: start next to the Universitat Politècnica, finish a little further on, next to the Universitat de València"},
+    {"k": "Expo", "v": "Expo 21K, Feria Valencia (Hall 5) · Fri 23 and Sat 24 October, 9:00–21:00 · no collection on Sunday"},
+    {"k": "Hotel", "v": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22 · check-in 16:00, check-out 12:00"},
+    {"k": "Race transfer", "v": "Dedicated KiRun transfer from the hotel to the start area and back: times from our staff"},
+    {"k": "Time limit", "v": "2 hours 45 minutes (net time); km 10 by 11:00"},
+    {"k": "Clock change", "v": "On Saturday night the clocks go back one hour: <a href='#race-day'>read here</a>"},
+    {"k": "Documents", "v": "EU identity card or passport"}
+   ],
+   "link_ufficiali": [
+    {"label": "Official Valencia Half Marathon website", "url": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/"},
+    {"label": "2026 regulations", "url": "https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/"},
+    {"label": "Expo 21K and bib collection", "url": "https://www.valenciaciudaddelrunning.com/en/half/expo21k/"},
+    {"label": "Official 2026 course map (PDF)", "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf"},
+    {"label": "Race services", "url": "https://www.valenciaciudaddelrunning.com/en/half/race-services/"},
+    {"label": "Runner's Area (authorisation, box change)", "url": "https://tickets.valenciaciudaddelrunning.com/#/EN/servicios"},
+    {"label": "Transport and road closures", "url": "https://www.valenciaciudaddelrunning.com/en/half/citizen-info-21k/"},
+    {"label": "SuperHalfs", "url": "https://www.superhalfs.com/"}
+   ],
+   "assistenza": "<p>The KiRun staff are in the lobby of the Holiday Inn Express <b>on Friday, Saturday and Sunday from 18:00 to 19:00</b>; at any other time by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>"
+  },
+  "sezioni": [
+   {
+    "id": "introduction",
+    "etichetta": "Welcome to Valencia",
+    "titolo": "The fastest half marathon in the world",
+    "blocchi": [
+     {"tipo": "p", "html": "The <b>Valencia Half Marathon Trinidad Alfonso Zurich</b>, organised by S.D. Correcaminos, reaches its 35th edition and is the half marathon where world records fall: Letesenbet Gidey ran 1:02:52 here and Yomif Kejelcha 57:30. It holds the World Athletics <b>Gold Label</b>, it is a stage of the <b>SuperHalfs</b> series (your result counts towards your SuperPassport) and it brings around 25,000 runners from all over the world to the start line, with bibs allocated by ballot."},
+     {"tipo": "p", "html": "The course is <b>flat and smooth</b>, with few turns and just 16.7 metres between its lowest and highest points: it starts on <b>Avinguda dels Tarongers</b>, in the university district, brushes past the Horta Nord, follows the upper side of the <b>Turia Gardens</b>, enters the <b>old town</b> between the medieval towers and the Central Market, passes in front of the <b>City of Arts and Sciences</b> (a stone's throw from your hotel), reaches the Marina and returns to the finish through the seaside district of <b>El Cabanyal</b>. Mild weather, music and more than sixty entertainment points along the way."},
+     {"tipo": "p", "html": "In this guide you will find the practical information to organise your weekend: hotel, bib collection, start boxes, course, what happens after the finish and a mini guide to the city. Times are those published by the organiser as of 13 October; the official Race Guide is not out yet and will arrive in the days before the race. Always check the <b>official links</b> in the side panel."},
+     {"tipo": "box", "stile": "kirun", "titolo": "Your KiRun Smart package", "html": "<ul><li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 23 to 26 October (if you booked different nights, your voucher applies).</li><li><b>Early breakfast</b> on race morning.</li><li><b>Dedicated transfer</b> from the hotel to the start area and back on race day.</li><li>KiRun desk at the hotel and support from our staff at the hotel and by phone throughout the weekend (times in the Support section).</li><li>KiRun training programme up to race day.</li><li>Basic medical and luggage insurance.</li><li>Race bib, if you requested it with your package.</li></ul>"}
+    ]
+   },
+   {
+    "id": "programme",
+    "etichetta": "The weekend at a glance",
+    "titolo": "The four-day programme",
+    "blocchi": [
+     {"tipo": "timeline", "voci": [
+      {"quando": "Fri 23", "titolo": "Arrival and bib collection", "html": "<p>From the airport to the hotel by taxi (20–25 minutes) or by metro with one change. Rooms are ready from 16:00; if you arrive earlier, leave your luggage at reception.</p><p>Bibs are collected at the <b>Expo 21K at Feria Valencia</b>, open <b>from 9:00 to 21:00</b>. To save time, you can go <b>straight from the airport to the Expo by taxi</b> (about 10 minutes: the exhibition centre is close to the airport) and then carry on to the hotel. Avoid 18:00–20:00, the busiest slot. <b>From 18:00 to 19:00 the KiRun staff are in the lobby</b>: we meet each other and you get the latest information.</p>"},
+      {"quando": "Sat 24", "titolo": "Shake-out and race eve", "html": "<p>Morning: 20–30 minutes of easy running with a few strides in the <b>Turia Gardens</b>, which begin five minutes from the hotel. If you do not have your bib yet, the Expo is open from 9:00 to 21:00: avoid 12:00–14:00 and 18:00–20:00. The Expo also hosts <b>La Placeta</b>, with running talks and the presentation of the elite athletes.</p><p><b>From 18:00 to 19:00 the staff are in the lobby</b> for the race-eve briefing, Sunday's transfer time and your last questions. Then an early, carb-based dinner and get your bib, wristband and kit ready. <b>Tonight daylight saving time ends</b>: at 3:00 the clocks go back to 2:00 and you get an extra hour of sleep.</p>"},
+      {"quando": "Sun 25", "titolo": "Race day", "html": "<p>Early breakfast at the hotel, then the <b>KiRun transfer</b> to the start area at the time given by our staff. Wave starts from <b>8:25</b> (boxes 1–3) to <b>9:27</b> (box 9), finish on Avinguda dels Tarongers and back to the hotel with the dedicated transfer. The afternoon is yours: paella, the beach or the City of Arts. <b>From 18:00 to 19:00 the staff are in the lobby again</b> to celebrate with you.</p>"},
+      {"quando": "Mon 26", "titolo": "Journey home", "html": "<p>Check-out by 12:00. If your flight is in the afternoon, leave your luggage at reception and enjoy your last hours in the city. The staff remain available by phone all day.</p>"}
+     ]}
+    ]
+   },
+   {
+    "id": "support",
+    "etichetta": "We are with you",
+    "titolo": "KiRun support in Valencia",
+    "blocchi": [
+     {"tipo": "p", "html": "The KiRun staff are with you all weekend: you will find us <b>in the lobby of the Holiday Inn Express</b> at the times below and, at any other time, by phone or WhatsApp. Look for the orange: you will have no trouble finding us."},
+     {"tipo": "tabella", "intestazione": ["Day", "Where", "Time"], "righe": [
+      ["<b>Friday 23</b>", "Hotel lobby", "<b>18:00–19:00</b>"],
+      ["<b>Saturday 24</b>", "Hotel lobby", "<b>18:00–19:00</b>"],
+      ["<b>Sunday 25</b>", "Hotel lobby", "<b>18:00–19:00</b>"],
+      ["<b>Monday 26</b>", "By phone", "Phone support all day"]
+     ], "nota": "On race day the staff go with you on the dedicated transfer: times and meeting point will be given on Saturday evening."},
+     {"tipo": "box", "stile": "kirun", "titolo": "Staff numbers", "html": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>"}
+    ]
+   },
+   {
+    "id": "hotel",
+    "etichetta": "Where you stay",
+    "titolo": "The hotel and how to get there",
+    "blocchi": [
+     {"tipo": "p", "html": "You are staying at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: a modern, practical three-star hotel five minutes' walk from the <b>City of Arts and Sciences</b>, with air-conditioned rooms, free Wi-Fi, buffet breakfast included and a seasonal outdoor pool. The area is quiet, with restaurants and cafés nearby and the Turia Gardens a few steps away for your shake-out run."},
+     {"tipo": "p", "html": "The race course passes right in front, around <b>km 15–16</b>, between the Palau de les Arts and the Oceanogràfic: the ideal spot for anyone coming to cheer you on."},
+     {"tipo": "link", "voci": [
+      {"label": "Holiday Inn Express Valencia Ciudad de las Ciencias – on Visit Valencia", "url": "https://www.visitvalencia.com/en/plan-your-trip-to-valencia/accommodation-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"},
+      {"label": "Open in Google Maps", "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"}
+     ]},
+     {"tipo": "h3", "testo": "From the airport to the hotel"},
+     {"tipo": "ul", "voci": [
+      "<b>Taxi</b>: from the rank outside arrivals, 20–25 minutes to the hotel; the easiest option with luggage. If you want to collect your bib straight away, ask the driver to stop at <b>Feria Valencia</b> first (see the Expo section).",
+      "<b>Metro</b>: lines <b>3 or 5</b> from Aeroport station to <b>Xàtiva</b> (about 25 minutes), then walk to the nearby <b>Alacant</b> station and take line <b>10</b> to <b>Oceanogràfic</b>, a few minutes' walk from the hotel. Tickets from the machines or tap a contactless card at the gates.",
+      "<b>From the city centre</b>: metro line 10 links Alacant (next to the Estació del Nord railway station) to Oceanogràfic in about ten minutes."
+     ]},
+     {"tipo": "h3", "testo": "Check-in, check-out and breakfast"},
+     {"tipo": "ul", "voci": [
+      "<b>Check-in</b> from 16:00, <b>check-out</b> by 12:00; before and after, luggage can be left at reception.",
+      "Buffet breakfast is included. On race morning there is an <b>early breakfast</b>: we will confirm the time on site. Keep something tried and tested in your room anyway (bread, banana, energy bar)."
+     ]}
+    ]
+   },
+   {
+    "id": "expo",
+    "etichetta": "Before the race",
+    "titolo": "The Expo 21K and bib collection",
+    "blocchi": [
+     {"tipo": "p", "html": "Everything starts at the <b>Expo 21K</b>, set up in Hall 5 of <b>Feria Valencia</b>, the exhibition centre north-west of the city: this is where you collect your bib, chip, runner's bag and the <b>identification wristband</b> you need to enter your start box. There are sponsor and brand stands, food areas and <b>La Placeta</b>, the space with free running talks and the presentation of the elite athletes."},
+     {"tipo": "fatti", "voci": [
+      {"k": "Where", "v": "<b>Feria Valencia, Hall 5</b> · Avinguda de les Fires s/n, 46035 Valencia · <a href='https://www.google.com/maps/search/39.503102,+-0.427055' target='_blank' rel='noopener'>open in Google Maps</a>"},
+      {"k": "Hours", "v": "Friday 23 and Saturday 24 October <b>9:00–21:00</b>, no break. <b>No collection on Sunday.</b> Slots to avoid: 12:00–14:00 and 18:00–20:00."},
+      {"k": "From the airport", "v": "By <b>taxi about 10 minutes</b> (7 km): if you arrive on Friday, the quickest option is to go to the Expo straight from the airport and then on to the hotel. By metro: lines 3 or 5 to Àngel Guimerà, then line 2 to <b>Carolines/Fira</b>, 600 metres from the entrance."},
+      {"k": "From the hotel", "v": "By <b>taxi about 20–25 minutes</b>. By metro about 50 minutes with two changes: line 10 from Oceanogràfic to Alacant, lines 3/5/9 from Xàtiva to Àngel Guimerà, line 2 to Carolines/Fira. Alternatively EMT bus 62 from the Estació del Nord."}
+     ]},
+     {"tipo": "h3", "testo": "Collecting your bib"},
+     {"tipo": "ul", "voci": [
+      "Bring an <b>original ID document</b> and keep your <b>registration confirmation</b> on your phone (in past years the organiser emailed a QR code in the days before the race: check your spam folder too). If you cannot find anything, tell us right away.",
+      "With your bib you receive the <b>wristband</b> to enter your box and the <b>runner's bag</b> with sponsor products. The <b>chip</b> is on the back of the bib: the regulations ask you to <b>check it at the chip-control stand</b> at the Expo before you leave.",
+      "<b>Cannot make it to the Expo?</b> Collection by a third party is possible: from 1 October, in the <a href='https://tickets.valenciaciudaddelrunning.com/#/EN/servicios' target='_blank' rel='noopener'>Runner's Area</a>, you can authorise another person by entering their details. If you need this, <b>contact us</b>: we will tell you who to authorise.",
+      "Improved your time? You can <b>change box</b> in the Runner's Area until <b>18 October</b> for a €25 fee; after that no changes are possible.",
+      "If you come to the Expo with your luggage straight from the airport: in 2025 there was a small paid left-luggage service at the entrance to Hall 5 (cash only). It is not yet confirmed for 2026: if in doubt, travel light or go to the hotel first.",
+      "Bring <b>four safety pins</b> from home for your bib."
+     ]}
+    ]
+   },
+   {
+    "id": "race-day",
+    "etichetta": "Sunday 25 October",
+    "titolo": "Race day",
+    "blocchi": [
+     {"tipo": "box", "stile": "attenzione", "titolo": "The clocks change tonight", "html": "<p>On the night between Saturday 24 and Sunday 25 October daylight saving time ends: at <b>3:00 the clocks go back to 2:00</b>, in Spain as in the rest of the EU and the UK. You get an extra hour of sleep. Your phone updates by itself: make sure your alarm is set and do not rely on clocks that do not adjust automatically.</p>"},
+     {"tipo": "p", "html": "The race starts and finishes on <b>Avinguda dels Tarongers</b>, the wide avenue of the university district in the north-east of the city: the start is next to the Universitat Politècnica, the finish a little further on, next to the Universitat de València. It is about 4 km from the hotel: the <b>dedicated KiRun transfer</b> takes you to the start area and brings you back to the hotel after the finish."},
+     {"tipo": "h3", "testo": "Getting to the start"},
+     {"tipo": "ul", "voci": [
+      "<b>KiRun transfer</b>: meet in the hotel lobby at the time we give you on Saturday evening, based on your box. Be on time: on race morning many roads are closed.",
+      "If you travel on your own, bear in mind that in past editions tram lines <b>4 and 6</b> in the university district did not run until midday and several buses were diverted: check the Metrovalencia and EMT notices on the <a href='https://www.valenciaciudaddelrunning.com/en/half/citizen-info-21k/' target='_blank' rel='noopener'>Citizen info</a> page.",
+      "The boxes open about an hour before the start (at 7:30 in 2025); you enter by showing the <b>bib and wristband</b> you received at the Expo. Anyone arriving after their box has closed starts with the following wave."
+     ]},
+     {"tipo": "h3", "testo": "Bag drop"},
+     {"tipo": "p", "html": "The <b>bag drop</b> at the start is reserved for those who booked it at registration (the service is <b>sold out</b>) and is marked with the hanger symbol on the bib. With the KiRun transfer you do not need it: leave everything in your room and take only the essentials. For the wait in the box an old sweatshirt to leave in the collection bins is fine."},
+     {"tipo": "h3", "testo": "Start boxes and pacers"},
+     {"tipo": "p", "html": "The start is staggered in <b>seven waves</b> and your box, from 1 to 9, depends on the expected finish time you gave at registration: it is printed on your bib and matches the colour of your wristband. Line up in your own box: you may move back, never forward. Wheelchair athletes start early in the fourth wave; visually impaired runners may start at the front of their wave. The official time is <b>net time</b>: it starts when you cross the start line. Toilets in the start area, inside the boxes and at every aid station."},
+     {"tipo": "tabella", "intestazione": ["Box", "Expected time", "Start"], "righe": [
+      ["<span class='pallino' style='background:#F2E32B'></span>1 yellow · <span class='pallino' style='background:#1FA83A'></span>2 green · <span class='pallino' style='background:#22B5E6'></span>3 light blue", "up to 1h19:59", "<b>8:25</b>"],
+      ["<span class='pallino' style='background:#E6007E'></span>4 pink", "1h20:00 – 1h25:59", "<b>8:30</b>"],
+      ["<span class='pallino' style='background:#F28C00'></span>5 orange", "1h26:00 – 1h33:59", "<b>8:35</b>"],
+      ["<span class='pallino' style='background:#7A4BA6'></span>6 purple", "1h34:00 – 1h42:59", "<b>8:48</b>"],
+      ["<span class='pallino' style='background:#8B5A2B'></span>7 brown", "1h43:00 – 1h49:59", "<b>9:01</b>"],
+      ["<span class='pallino' style='background:#9A9A9A'></span>8 grey", "1h50:00 – 1h54:59", "<b>9:14</b>"],
+      ["<span class='pallino' style='background:#E30613'></span>9 red", "over 1h55:00", "<b>9:27</b>"]
+     ], "nota": "Times and brackets from the <a href='https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/' target='_blank' rel='noopener'>2026 regulations</a>; colours from the <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf' target='_blank' rel='noopener'>official 2026 map</a>. The official Race Guide, due in the days before the race, takes precedence."},
+     {"tipo": "p", "html": "There are <b>MSC pacers</b> («Prácticos») in the race, recognisable by the flag with the finish time, for the main target times: line up behind yours and let them carry you. The <b>time limit</b> is 2 hours 45 minutes from your crossing of the start line; anyone reaching <b>km 10 after 11:00</b> must hand in their bib and board the sweeper vehicle. The finish closes at 12:20."},
+     {"tipo": "box", "stile": "kirun", "titolo": "Race-eve checklist", "html": "<ul><li>Bib pinned to the front of your shirt with <b>four safety pins</b>, chip integrated: do not fold it. <b>Wristband</b> on: without it you cannot enter the box.</li><li>Shoes and socks already worn in training; in late October it is 13–15 °C in the morning: an old layer to leave in the box and off you go.</li><li>Gels or nutrition you have already tested: on the course you will find water, Aquarius and Enervit gels at km 15.</li><li>ID card, payment card and a charged phone, unless you leave them at the hotel.</li><li>Alarm checked after the <b>clock change</b>; KiRun transfer time noted.</li></ul>"}
+    ]
+   },
+   {
+    "id": "course",
+    "etichetta": "21.0975 km",
+    "titolo": "The course",
+    "blocchi": [
+     {"tipo": "p", "html": "The official distance is <b>21.0975 km</b>, certified by AIMS and the RFEA, on an almost perfectly flat course: the lowest point is 1.6 metres above sea level and the highest 18.3, with <b>16.7 metres of elevation difference</b> in total. Few turns, wide roads and an anticlockwise loop that touches all the city's landmarks. The kilometres below are approximate, taken from the official 2026 map."},
+     {"tipo": "ul", "voci": [
+      "<b>km 0–3</b> · Start on Avinguda dels Tarongers heading north, on the edge of the <b>Horta Nord</b> and its tiger-nut fields, then a turn inland by the Ciutat de València stadium.",
+      "<b>km 3–5</b> · Long straights towards the centre past the <b>Jardins del Real</b> (Viveros) and the Fine Arts Museum; at km 5 the first aid station and, just after it, the <b>Torres de Serranos</b>, the city's medieval gate.",
+      "<b>km 5–9</b> · The wide loop around the centre along the upper side of the <b>Turia Gardens</b>, between the Botanical Garden and Plaça d'Espanya: the most open stretch, where you settle into your rhythm.",
+      "<b>km 9–13</b> · The historic heart: the <b>Torres de Quart</b>, the Cathedral and Palau de la Generalitat area, the <b>Central Market</b> and the Lonja, the bullring and the Estació del Nord. Aid station around km 10.",
+      "<b>km 13–16</b> · From the Palau de la Música along the Turia to the <b>City of Arts and Sciences</b>: the Palau de les Arts, the Hemisfèric, the Science Museum and the Oceanogràfic. Here you find the <b>Enervit Red Point</b> with gels (km 15.2), fast assistance (km 15.1) and an aid station (km 15.5). <b>Your hotel is a stone's throw away</b>: the right spot for anyone waiting for you.",
+      "<b>km 16–19</b> · Towards the sea through El Grau to the <b>Marina de València</b> with the Veles e Vents building, fast assistance at km 18.5 and the last aid station at km 19.4.",
+      "<b>km 19–21</b> · Back through the streets of <b>El Cabanyal</b>, the old fishermen's district, and the final straight on Avinguda dels Tarongers to the «pasarela azul», the blue finish walkway."
+     ]},
+     {"tipo": "ul", "voci": [
+      "<b>Aid stations</b> at km 5.4 · 10.4 · 15.5 · 19.4 with bottled Aquabona water and Aquarius in cups, toilets at every station; <b>Enervit gels</b> with and without caffeine at km 15.2; fast-assistance points with vaseline and pain-relief spray at km 15.1 and 18.5. At the finish water, Aquarius and fruit.",
+      "<b>Photos, tracking and app</b>: Marathon Photos shoots along the course and you search your photos by bib number on marathonphotos.live; with the <b>official app</b> (Medio Maratón Valencia, on the App Store and Google Play) your people at home follow you live and you download your certificate for free.",
+      "<b>Crowds and music</b>: bands, DJs, batucadas and falla groups all along the course, with the thickest crowds in the centre, at the City of Arts and on the final straight."
+     ]},
+     {"tipo": "link", "voci": [
+      {"label": "Official 2026 course map with aid stations and profile (PDF)", "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf"},
+      {"label": "Official app for Android", "url": "https://play.google.com/store/apps/details?id=nl.meetmijntijd.valencia21k"},
+      {"label": "Official app for iPhone", "url": "https://apps.apple.com/es/app/medio-marat%C3%B3n-valencia/id1113381205"}
+     ]}
+    ]
+   },
+   {
+    "id": "finish",
+    "etichetta": "After the finish line",
+    "titolo": "The finish and after the race",
+    "blocchi": [
+     {"tipo": "ul", "voci": [
+      "Keep walking past the line: in the post-finish area you receive your <b>medal</b> and the <b>finisher's bag</b> with Aquabona water, Aquarius, a banana, a persimmon and an Enervit bar. Do not stop right after the arch.",
+      "<b>Medal engraving</b> with your name and official time: in the bag-drop area, next to the start. If you bought it with your registration it is marked on your bib; otherwise you pay on the spot.",
+      "<b>Showers</b> for all runners from 10:00 to 14:00 at the Benimaclet sports centre, near the finish area. Farmacia Ribera also provides assistance in the post-finish area.",
+      "<b>Back to the hotel</b> with the dedicated KiRun transfer: our staff will give you the meeting point and time. No need for a late check-out on Sunday, you are at the hotel until Monday.",
+      "<b>SuperHalfs</b>: your Valencia result counts towards your SuperPassport; if it does not appear, you can claim it from your profile on superhalfs.com. If this is your sixth race, ask at the SuperHalfs stand at the Expo about collecting your SuperMedal.",
+      "Official results and certificate on the organiser's website and in the app; photos on marathonphotos.live.",
+      "The KiRun staff are waiting for you <b>in the hotel lobby from 18:00 to 19:00</b>: for a problem, a photo with your medal or just to tell us about your race."
+     ]}
+    ]
+   },
+   {
+    "id": "saturday",
+    "etichetta": "Saturday 24 October",
+    "titolo": "Saturday in Valencia",
+    "blocchi": [
+     {"tipo": "p", "html": "<b>KiRun tip</b>: on race eve 20–30 minutes of easy running with a few strides is enough. The right place is the <b>Jardí del Túria</b>, the 9 km park in the old riverbed, which begins right at the City of Arts: flat surface, shade and no traffic lights. The <b>Malvarrosa</b> seafront is a great alternative."},
+     {"tipo": "p", "html": "If you do not have your bib yet, the Expo is open until 21:00 (avoid 12:00–14:00 and 18:00–20:00); it is worth stopping at <b>La Placeta</b> for the talks and the elite presentation. Then an easy afternoon, an <b>early, carb-based dinner</b> (book ahead: restaurants are full on half-marathon Saturday; in Valencia paella is a lunch dish, not a dinner one) and get your bib, wristband and kit ready. Before bed, check your alarm: <b>the clocks go back tonight</b>."}
+    ]
+   },
+   {
+    "id": "city",
+    "etichetta": "Beyond the race",
+    "titolo": "Mini guide to Valencia",
+    "blocchi": [
+     {"tipo": "h3", "testo": "Getting around"},
+     {"tipo": "ul", "voci": [
+      "<b>Metro and tram</b> (Metrovalencia): from the hotel, line 10 from Oceanogràfic takes you to Alacant in the centre in about ten minutes; from there Xàtiva station serves the other lines. Pay with a contactless card at the gates or with a rechargeable travel card.",
+      "<b>EMT buses</b>: a dense network, pay on board with a contactless card; the EMT València app shows real-time timetables.",
+      "<b>On foot and by bike</b>: the old town is best explored on foot; the Turia Gardens link the City of Arts to the centre in a 30–40 minute walk, and the city is full of cycle paths (Valenbisi shared bikes).",
+      "<b>Taxis</b> at ranks and via apps (Cabify, Uber, FREE NOW); fares are reasonable."
+     ]},
+     {"tipo": "h3", "testo": "Five places not to miss"},
+     {"tipo": "schede", "voci": [
+      {"titolo": "City of Arts and Sciences", "html": "<p>Valencia's modern landmark, designed by Santiago Calatrava, five minutes from the hotel: the Palau de les Arts, the Hemisfèric, the Science Museum, the Umbracle and the <b>Oceanogràfic</b>, Europe's largest aquarium. Worth seeing lit up at night too.</p>"},
+      {"titolo": "Old town", "html": "<p>The Cathedral with the <b>Miguelete</b> tower (207 steps and the best view of the city), Plaza de la Virgen, the UNESCO-listed <b>Lonja de la Seda</b> and the medieval Serranos and Quart towers, which you will run past on race day.</p>"},
+      {"titolo": "Central Market", "html": "<p>One of Europe's largest covered markets, in a 1928 modernist building: more than a thousand stalls of fruit, fish, jamón and spices. Perfect for Monday breakfast before your flight.</p>"},
+      {"titolo": "Turia Gardens", "html": "<p>Nine kilometres of park in the old riverbed, from the Parque de Cabecera to the City of Arts: the right place for Saturday's shake-out run and Monday's stroll.</p>"},
+      {"titolo": "Malvarrosa and El Cabanyal", "html": "<p>The city beach with its fine sand and the fishermen's district with tiled façades: after the race, lunch overlooking the sea on the Paseo Marítimo is the right way to round off the weekend.</p>"}
+     ]},
+     {"tipo": "h3", "testo": "Three dishes and a drink"},
+     {"tipo": "ul", "voci": [
+      "<b>Paella valenciana</b>: the original one, with chicken, rabbit, green beans and garrofó beans, born right here. Eaten <b>at lunch</b>, never in the evening: perfect on Sunday after the race.",
+      "<b>Esgarraet</b>: roasted peppers, salt cod and olive oil, the Valencian tapa par excellence.",
+      "<b>Fideuà</b>: the short-pasta «paella» with seafood, born in the port district of El Grau, which you will run through at km 17.",
+      "<b>Horchata with fartons</b>: the cold drink made from tiger nuts, grown in the Horta Nord fields you brush past in the first kilometres, with the long sweet buns to dip. Try it in a historic horchatería in the centre or in Alboraia."
+     ]}
+    ]
+   },
+   {
+    "id": "practical",
+    "etichetta": "Before you leave",
+    "titolo": "Practical information for Spain",
+    "blocchi": [
+     {"tipo": "fatti", "voci": [
+      {"k": "Documents", "v": "EU citizens need only a valid <b>identity card</b> or passport; no visa or authorisation. Travellers from outside the EU (including the UK) need a passport: check the entry rules for your nationality before you travel. The organiser requires foreign runners to be over 18."},
+      {"k": "Currency", "v": "Euro. Contactless cards are accepted everywhere, including on the metro and buses: you need very little cash."},
+      {"k": "Language", "v": "Spanish and Valencian (signs are bilingual). English is understood in tourist areas."},
+      {"k": "Electricity", "v": "Type <b>C/F</b> sockets, 230 V: travellers from the UK and Ireland need an adapter; continental European plugs fit."},
+      {"k": "Phone", "v": "Country code +34. EU roaming applies for EU SIM cards; UK and other travellers should check their roaming plan or consider an eSIM."},
+      {"k": "Time zone", "v": "Central European Time (one hour ahead of the UK). Mind the <b>clock change</b>: on the night between Saturday 24 and Sunday 25 at 3:00 the clocks go back to 2:00, in Spain as in the UK."},
+      {"k": "Weather", "v": "In late October Valencia averages 14 to 23 °C: cool early in the morning, mild and often sunny during the day, with some chance of rain. On Sunday 25, after the clock change, the sun rises at about 7:30 and sets at about 18:10."},
+      {"k": "Emergencies", "v": "<b>112</b> for police, ambulance and fire brigade. EU citizens with the EHIC card are entitled to public healthcare. Pharmacies are marked by a green cross, many open 24 hours."},
+      {"k": "Water and tipping", "v": "Tap water is drinkable but very hard: almost everyone drinks bottled water. Tipping in restaurants is not expected; leave a few euros if you enjoyed the service."}
+     ]}
+    ]
+   },
+   {
+    "id": "contacts",
+    "etichetta": "Who to call",
+    "titolo": "Useful contacts",
+    "blocchi": [
+     {"tipo": "fatti", "voci": [
+      {"k": "KiRun", "v": "<a href='tel:+393384154242'>+39 338 415 4242</a> (phone and WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. In the hotel lobby on Friday, Saturday and Sunday from 18:00 to 19:00, on Monday by phone."},
+      {"k": "Organiser", "v": "S.D. Correcaminos · <a href='https://www.valenciaciudaddelrunning.com/en/contact/' target='_blank' rel='noopener'>contact form on the official website</a>"},
+      {"k": "Official social media", "v": "@mediomaratonvlc on Instagram, @MedioMaratonVLC on X, Medio Maratón Valencia on Facebook and YouTube for last-minute updates"},
+      {"k": "Hotel", "v": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>"}
+     ]}
+    ]
+   }
+  ]
+ }
+}
