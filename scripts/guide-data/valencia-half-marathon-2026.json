@@ -2,8 +2,8 @@
  "slug": "valencia-half-marathon-2026",
  "superhalfs": true,
  "updated_at": {
-  "it": "14 ottobre 2026",
-  "en": "14 October 2026"
+  "it": "17 ottobre 2026",
+  "en": "17 October 2026"
  },
  "hero_credit": "Medio Maratón Valencia Trinidad Alfonso Zurich · foto ufficiale dell'organizzatore",
  "it": {
@@ -56,6 +56,10 @@
    ],
    "link_ufficiali": [
     {
+     "label": "Race Guide ufficiale 2026",
+     "url": "https://www.valenciaciudaddelrunning.com/en/half/race-guide/"
+    },
+    {
      "label": "Sito ufficiale Valencia Half Marathon",
      "url": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/"
     },
@@ -102,11 +106,11 @@
      },
      {
       "tipo": "p",
-      "html": "Il percorso è <b>piatto e scorrevole</b>, con poche curve e appena 16,7 metri di dislivello tra il punto più basso e il più alto: parte dall'<b>Avinguda dels Tarongers</b>, nella zona delle università, sfiora l'Horta Nord, costeggia il lato alto dei <b>Giardini del Turia</b>, entra nel <b>centro storico</b> tra le torri medievali e il Mercato Centrale, passa davanti alla <b>Città delle Arti e delle Scienze</b> (a due passi dal tuo hotel), arriva alla Marina e torna all'arrivo attraverso il quartiere marinaro del <b>Cabanyal</b>. Clima mite, musica e più di sessanta punti di animazione lungo la strada."
+      "html": "Il percorso è <b>piatto e scorrevole</b>, con poche curve e appena 16,7 metri di dislivello tra il punto più basso e il più alto: parte dall'<b>Avinguda dels Tarongers</b>, nella zona delle università, sfiora l'Horta Nord, costeggia il lato alto dei <b>Giardini del Turia</b>, entra nel <b>centro storico</b> tra le torri medievali e il Mercato Centrale, passa davanti alla <b>Città delle Arti e delle Scienze</b> (a due passi dal tuo hotel), arriva alla Marina e torna all'arrivo attraverso il quartiere marinaro del <b>Cabanyal</b>. Clima mite, musica e più di settanta punti di animazione lungo la strada."
      },
      {
       "tipo": "p",
-      "html": "In questa guida trovi le informazioni pratiche per organizzare il weekend: hotel, ritiro del pettorale, cajones di partenza, percorso, cosa fare dopo l'arrivo e una mini guida alla città. Gli orari sono quelli pubblicati dall'organizzatore al 13 ottobre; la guida ufficiale della gara («Race Guide») non è ancora uscita e arriverà nei giorni prima della partenza. Controlla sempre i <b>link ufficiali</b> nel riquadro a lato."
+      "html": "In questa guida trovi le informazioni pratiche per organizzare il weekend: hotel, ritiro del pettorale, cajones di partenza, percorso, cosa fare dopo l'arrivo e una mini guida alla città. Orari e regole sono quelli della <b>Race Guide ufficiale 2026</b>, letta il 17 ottobre. Controlla sempre i <b>link ufficiali</b> nel riquadro a lato."
      },
      {
       "tipo": "box",
@@ -196,12 +200,12 @@
      {
       "tipo": "ul",
       "voci": [
-       "Porta un <b>documento d'identità originale</b> e tieni sul telefono la <b>conferma d'iscrizione</b> (negli anni scorsi l'organizzatore ha mandato per email un QR code nei giorni prima della gara: controlla anche lo spam). Se non trovi nulla, avvisaci subito.",
-       "Con il pettorale ricevi il <b>braccialetto</b> per accedere al cajón e la <b>sacca del corridore</b> con i prodotti degli sponsor. Il <b>chip</b> è sul retro del pettorale: il regolamento chiede di <b>verificarlo allo stand di controllo</b> dell'Expo prima di uscire.",
-       "<b>Non puoi venire all'Expo?</b> Il ritiro per delega è possibile: dal 1º ottobre, dall'<a href='https://tickets.valenciaciudaddelrunning.com/#/EN/servicios' target='_blank' rel='noopener'>Area del corridore</a>, si autorizza un'altra persona inserendo i suoi dati. Se ne hai bisogno, <b>contattaci</b>: ti diciamo noi chi delegare.",
+       "Servono il <b>QR code</b> che l'organizzatore manda per email <b>giovedì 22 ottobre</b> (controlla anche lo spam) e un <b>documento d'identità originale</b>. Se giovedì sera il QR non è arrivato, avvisaci subito.",
+       "Con il pettorale ricevi il <b>braccialetto</b> (obbligatorio per entrare nel cajón <b>e per ritirare la medaglia</b>: non toglierlo), la <b>sacca del corridore</b> con i prodotti degli sponsor e la <b>maglia ufficiale Oysho</b>, da ritirare allo stand delle magliette: la taglia è quella scelta all'iscrizione, ma davanti allo stand c'è un punto cambio. Il <b>chip</b> è sul retro del pettorale, già attivo; se vuoi puoi verificarlo al punto di controllo vicino all'ingresso.",
+       "<b>Non puoi venire all'Expo?</b> Il ritiro per delega è possibile: si autorizza un'altra persona dal link nella <a href='https://www.valenciaciudaddelrunning.com/en/half/race-guide/' target='_blank' rel='noopener'>Race Guide ufficiale</a> (sezione Expo). Se ne hai bisogno, <b>contattaci</b>: ti diciamo noi chi delegare.",
        "Hai migliorato il tempo? Il <b>cambio di cajón</b> è possibile dall'Area del corridore fino al <b>18 ottobre</b> con un costo di 25 €; dopo non si cambia più.",
-       "Se vieni all'Expo con il bagaglio direttamente dall'aeroporto: all'ingresso dell'Hall 5 c'è un <b>deposito bagagli</b> a pagamento (si paga in contanti), così giri l'Expo a mani libere e poi prosegui verso l'hotel.",
-       "Porta da casa <b>quattro spille</b> per il pettorale."
+       "Se vieni all'Expo con il bagaglio direttamente dall'aeroporto: all'ingresso dell'Hall 5 c'è un <b>deposito bagagli</b> a 3 €, così giri l'Expo a mani libere e poi prosegui verso l'hotel. All'uscita c'è anche un punto di raccolta per donare il cibo della sacca che non usi (Casa Caridad).",
+       "Le <b>spille</b> per il pettorale le trovi allo stand delle magliette; portane comunque quattro da casa, per sicurezza."
       ]
      }
     ]
@@ -229,8 +233,8 @@
       "tipo": "ul",
       "voci": [
        "<b>Trasferimento KiRun</b>: ritrovo nella hall dell'hotel all'orario che ti comunichiamo sabato sera, in base al tuo cajón. Arriva puntuale: la mattina della gara molte strade sono chiuse.",
-       "Se ti muovi per conto tuo, tieni presente che nelle scorse edizioni le linee tram <b>4 e 6</b> della zona universitaria sono rimaste ferme fino a mezzogiorno e diversi bus sono stati deviati: controlla gli avvisi di Metrovalencia ed EMT nella pagina <a href='https://www.valenciaciudaddelrunning.com/en/half/citizen-info-21k/' target='_blank' rel='noopener'>Info cittadini</a>.",
-       "I cajones aprono circa un'ora prima della partenza (nel 2025 alle 7:30); si entra mostrando il <b>pettorale e il braccialetto</b> ricevuti all'Expo. Chi arriva dopo la chiusura del proprio cajón parte con l'ondata successiva."
+       "Se ti muovi per conto tuo: in metro le fermate più vicine sono <b>Aragón</b> (linee 5 e 7, 1,3 km a piedi), <b>Facultats</b> (linee 3 e 9, 1,4 km), <b>Benimaclet</b> (linea 3) e le linee tram 4 e 6; i bus EMT C3, 71 e 99 la mattina sono deviati. Dalle 4:30 è chiuso il Bulevar Norte, dalle 7:30 la rotonda del Cactus: in taxi fatti lasciare a distanza.",
+       "I cajones aprono alle <b>7:30</b>; si entra mostrando il <b>pettorale e il braccialetto</b> ricevuti all'Expo, dall'ingresso del tuo colore e numero: il primo controllo può essere fino a <b>900 metri</b> dal tuo cajón, quindi guarda la mappa dei cajones nella Race Guide e calcola i minuti. Chi arriva dopo la chiusura del proprio cajón parte con l'ondata successiva."
       ]
      },
      {
@@ -239,7 +243,7 @@
      },
      {
       "tipo": "p",
-      "html": "Il <b>guardaroba</b> alla partenza è riservato a chi lo ha prenotato in fase d'iscrizione (il servizio è <b>esaurito</b>) ed è segnalato con il simbolo dell'appendino sul pettorale. Con il trasferimento KiRun non ti serve: lascia tutto in camera e porta con te solo l'essenziale. Per l'attesa in griglia va bene una vecchia felpa da lasciare nei contenitori per la raccolta."
+      "html": "Il <b>guardaroba</b> alla partenza è riservato a chi lo ha prenotato in fase d'iscrizione (il servizio è <b>esaurito</b>): è nelle tende all'inizio dell'Avinguda dels Tarongers, vicino alla rotonda del Miramar, aperto dalle <b>7:00 alle 13:00</b>, una sola borsa o trolley da cabina a testa, con l'adesivo che trovi nella busta del pettorale. Con il trasferimento KiRun non ti serve: lascia tutto in camera e porta con te solo l'essenziale. Per l'attesa in griglia va bene una vecchia felpa da lasciare nei contenitori per la raccolta."
      },
      {
       "tipo": "h3",
@@ -247,7 +251,7 @@
      },
      {
       "tipo": "p",
-      "html": "La partenza è scaglionata in <b>sette ondate</b> e il tuo cajón, da 1 a 9, dipende dal tempo previsto dichiarato all'iscrizione: è stampato sul pettorale e corrisponde al colore del braccialetto. Sistemati nel tuo cajón: si può arretrare, mai avanzare. Gli atleti in carrozzina partono in anticipo nella quarta ondata; chi è ipovedente può partire in testa alla propria ondata. Il tempo ufficiale è quello <b>netto</b>: parte quando passi sotto l'arco. Bagni nella zona di partenza, dentro le griglie e a ogni ristoro."
+      "html": "La partenza è scaglionata in <b>sette ondate</b> e il tuo cajón, da 1 a 9, dipende dal tempo previsto dichiarato all'iscrizione: è stampato sul pettorale e corrisponde al colore del braccialetto. Sistemati nel tuo cajón: si può arretrare, mai avanzare. Gli atleti in carrozzina partono in anticipo nella quarta ondata; chi è ipovedente può partire in testa alla propria ondata. Il tempo ufficiale è quello <b>netto</b>: parte quando passi sotto l'arco. Bagni nella zona del guardaroba, prima dei cajones, a ogni ristoro e all'arrivo: usarli è obbligatorio, chi fa i bisogni altrove viene squalificato."
      },
      {
       "tipo": "tabella",
@@ -293,7 +297,7 @@
         "<b>9:27</b>"
        ]
       ],
-      "nota": "Orari e fasce dal <a href='https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/' target='_blank' rel='noopener'>regolamento 2026</a>; colori dalla <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf' target='_blank' rel='noopener'>mappa ufficiale 2026</a>. Fa fede la guida ufficiale della gara, in uscita nei giorni prima della partenza."
+      "nota": "Orari e fasce dal <a href='https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/' target='_blank' rel='noopener'>regolamento 2026</a>; colori dalla <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf' target='_blank' rel='noopener'>mappa ufficiale 2026</a>. Confermati dalla Race Guide ufficiale 2026."
      },
      {
       "tipo": "p",
@@ -303,7 +307,7 @@
       "tipo": "box",
       "stile": "kirun",
       "titolo": "Checklist della vigilia",
-      "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b>, chip integrato: non piegarlo. <b>Braccialetto</b> al polso: senza non entri nel cajón.</li><li>Scarpe e calze già usate in allenamento; a fine ottobre la mattina ci sono 13–15 gradi: uno strato vecchio da lasciare in griglia e poi via.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, Aquarius e i gel Enervit al km 15.</li><li>Carta d'identità, carta di pagamento e telefono carico, se non li lasci in hotel.</li><li>Sveglia controllata dopo il <b>cambio dell'ora</b>; orario del trasferimento KiRun segnato.</li></ul>"
+      "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b>, chip integrato: non piegarlo. Sul retro scrivi il tuo <b>numero di telefono</b>. <b>Braccialetto</b> al polso: senza non entri nel cajón e non ritiri la medaglia.</li><li>Scarpe e calze già usate in allenamento; a fine ottobre la mattina ci sono 13–15 gradi: uno strato vecchio da lasciare in griglia e poi via.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, Aquarius e i gel Enervit al km 15.</li><li>Carta d'identità, carta di pagamento e telefono carico, se non li lasci in hotel.</li><li>Sveglia controllata dopo il <b>cambio dell'ora</b>; orario del trasferimento KiRun segnato.</li></ul>"
      }
     ]
    },
@@ -324,16 +328,16 @@
        "<b>km 5–9</b> · Il giro largo del centro lungo il lato alto dei <b>Giardini del Turia</b>, tra il Jardí Botànic e la Plaça d'Espanya: è il tratto più aperto, dove si trova il ritmo.",
        "<b>km 9–13</b> · Il cuore storico: le <b>Torres de Quart</b>, la zona della Cattedrale e del Palau de la Generalitat, il <b>Mercato Centrale</b> e la Lonja, la Plaza de Toros e la Stazione del Nord. Ristoro intorno al km 10.",
        "<b>km 13–16</b> · Dal Palau de la Música lungo il Turia fino alla <b>Città delle Arti e delle Scienze</b>: il Palau de les Arts, l'Hemisfèric, il Museo delle Scienze e l'Oceanogràfic. Qui c'è il <b>Red Point Enervit</b> con i gel (km 15,2), l'assistenza rapida (km 15,1) e un ristoro (km 15,5). {{hotel:percorso_hotel}}",
-       "<b>km 16–19</b> · Verso il mare attraverso il Grau fino alla <b>Marina de València</b> con l'edificio Veles e Vents, assistenza rapida al km 18,5 e ultimo ristoro al km 19,4.",
+       "<b>km 16–19</b> · Verso il mare attraverso il Grau fino alla <b>Marina de València</b> con l'edificio Veles e Vents, assistenza rapida al km 19 e ultimo ristoro al km 19,4.",
        "<b>km 19–21</b> · Il rientro attraverso le vie del <b>Cabanyal</b>, il quartiere marinaro, e l'ultimo rettilineo sull'Avinguda dels Tarongers fino alla «pasarela azul», la passerella blu dell'arrivo."
       ]
      },
      {
       "tipo": "ul",
       "voci": [
-       "<b>Ristori</b> ai km 5,4 · 10,4 · 15,5 · 19,4 con acqua Aquabona in bottiglia e Aquarius in bicchiere, bagni a ogni ristoro; <b>gel Enervit</b> con e senza caffeina al km 15,2; punti di assistenza rapida con vaselina e spray antidolorifico ai km 15,1 e 18,5. All'arrivo acqua, Aquarius e frutta.",
+       "<b>Ristori</b> ai km 5,4 · 10,4 · 15,5 · 19,4 con acqua Aquabona in bottiglia e Aquarius in bicchiere, bagni a ogni ristoro; <b>gel Enervit</b> al km 15,2, alternati sui due lati della strada: arancione senza caffeina, giallo agli agrumi con caffeina; punti di assistenza rapida con vaselina e spray antidolorifico ai km 15,1 e 19 e all'arrivo. All'arrivo acqua, Aquarius in lattina e frutta.",
        "<b>Foto, tracking e app</b>: Marathon Photos scatta lungo il percorso e le foto si cercano per numero di pettorale su marathonphotos.live; con l'<b>app ufficiale</b> (Medio Maratón Valencia, su App Store e Google Play) chi ti aspetta a casa ti segue in tempo reale e tu scarichi gratis il diploma.",
-       "<b>Tifo e musica</b>: band, DJ, batucade e gruppi delle falle lungo tutto il percorso, con il pubblico più fitto in centro, alla Città delle Arti e sul rettilineo finale."
+       "<b>Tifo e musica</b>: band, DJ, batucade e gruppi delle falle lungo tutto il percorso, con il pubblico più fitto in centro, alla Città delle Arti e sul rettilineo finale; la gara è in diretta TV su À Punt."
       ]
      },
      {
@@ -363,12 +367,13 @@
      {
       "tipo": "ul",
       "voci": [
-       "Continua a camminare oltre la linea: nell'area post-arrivo ricevi la <b>medaglia</b> e la <b>sacca del finisher</b> con acqua Aquabona, Aquarius, banana, kaki e una barretta Enervit. Non fermarti subito dopo l'arco.",
-       "<b>Incisione della medaglia</b> con nome e tempo ufficiale: nella zona del guardaroba, accanto alla partenza. Se l'hai acquistata con l'iscrizione è segnalato sul pettorale; altrimenti si paga sul posto.",
+       "Continua a camminare oltre la linea: nell'area post-arrivo ricevi la <b>medaglia</b> (mostra il <b>braccialetto</b>) e la <b>sacca del finisher</b> con acqua Aquabona, Aquarius, banana, kaki e una barretta Enervit. Non fermarti subito dopo l'arco e non tornare sul percorso: è motivo di squalifica.",
+       "<b>Incisione della medaglia</b> con nome e tempo ufficiale: nella zona del guardaroba, accanto alla partenza, 20 €. Se l'hai acquistata con l'iscrizione è segnalato sul pettorale; altrimenti si paga sul posto, contanti o carta.",
        "<b>Docce</b> per tutti i runner dalle 10:00 alle 14:00 al centro sportivo di Benimaclet, vicino alla zona di arrivo. La farmacia Ribera presta assistenza anche nell'area post-arrivo.",
        "<b>Rientro in hotel</b> con il trasferimento dedicato KiRun: punto di ritrovo e orario te li dà lo staff. Se ti serve, la domenica l'hotel concede il late check-out fino alle 16:00.",
        "<b>SuperHalfs</b>: il risultato di Valencia vale per il tuo SuperPassport; se non compare, puoi reclamarlo dal tuo profilo su superhalfs.com. Se è la tua sesta tappa, informati allo stand SuperHalfs dell'Expo sulla consegna della SuperMedal.",
-       "Risultati ufficiali e diploma sul sito dell'organizzatore e nell'app; foto su marathonphotos.live.",
+       "<b>Vuoi tornare nel 2027?</b> Chi corre nel 2026 ha una finestra di fedeltà dal 5 al 9 novembre (fino alle 11:00) per iscriversi senza passare dal sorteggio: segnatelo, e se vuoi il pacchetto KiRun scrivici.",
+       "Risultati ufficiali e classifiche sul sito dell'organizzatore e nell'app dal pomeriggio di domenica; foto su marathonphotos.live, diploma gratuito. Alle 18:00 all'Umbracle della Città delle Arti c'è il <b>21K Medal Party</b>, con biglietto a parte dal sito ufficiale.",
        "{{hotel:arrivo_staff}}"
       ]
      }
@@ -579,6 +584,10 @@
    ],
    "link_ufficiali": [
     {
+     "label": "Official 2026 Race Guide",
+     "url": "https://www.valenciaciudaddelrunning.com/en/half/race-guide/"
+    },
+    {
      "label": "Official Valencia Half Marathon website",
      "url": "https://www.valenciaciudaddelrunning.com/en/half/half-marathon/"
     },
@@ -625,11 +634,11 @@
      },
      {
       "tipo": "p",
-      "html": "The course is <b>flat and smooth</b>, with few turns and just 16.7 metres between its lowest and highest points: it starts on <b>Avinguda dels Tarongers</b>, in the university district, brushes past the Horta Nord, follows the upper side of the <b>Turia Gardens</b>, enters the <b>old town</b> between the medieval towers and the Central Market, passes in front of the <b>City of Arts and Sciences</b> (a stone's throw from your hotel), reaches the Marina and returns to the finish through the seaside district of <b>El Cabanyal</b>. Mild weather, music and more than sixty entertainment points along the way."
+      "html": "The course is <b>flat and smooth</b>, with few turns and just 16.7 metres between its lowest and highest points: it starts on <b>Avinguda dels Tarongers</b>, in the university district, brushes past the Horta Nord, follows the upper side of the <b>Turia Gardens</b>, enters the <b>old town</b> between the medieval towers and the Central Market, passes in front of the <b>City of Arts and Sciences</b> (a stone's throw from your hotel), reaches the Marina and returns to the finish through the seaside district of <b>El Cabanyal</b>. Mild weather, music and more than seventy entertainment points along the way."
      },
      {
       "tipo": "p",
-      "html": "In this guide you will find the practical information to organise your weekend: hotel, bib collection, start boxes, course, what happens after the finish and a mini guide to the city. Times are those published by the organiser as of 13 October; the official Race Guide is not out yet and will arrive in the days before the race. Always check the <b>official links</b> in the side panel."
+      "html": "In this guide you will find the practical information to organise your weekend: hotel, bib collection, start boxes, course, what happens after the finish and a mini guide to the city. Times and rules are those of the <b>official 2026 Race Guide</b>, read on 17 October. Always check the <b>official links</b> in the side panel."
      },
      {
       "tipo": "box",
@@ -719,12 +728,12 @@
      {
       "tipo": "ul",
       "voci": [
-       "Bring an <b>original ID document</b> and keep your <b>registration confirmation</b> on your phone (in past years the organiser emailed a QR code in the days before the race: check your spam folder too). If you cannot find anything, tell us right away.",
-       "With your bib you receive the <b>wristband</b> to enter your box and the <b>runner's bag</b> with sponsor products. The <b>chip</b> is on the back of the bib: the regulations ask you to <b>check it at the chip-control stand</b> at the Expo before you leave.",
-       "<b>Cannot make it to the Expo?</b> Collection by a third party is possible: from 1 October, in the <a href='https://tickets.valenciaciudaddelrunning.com/#/EN/servicios' target='_blank' rel='noopener'>Runner's Area</a>, you can authorise another person by entering their details. If you need this, <b>contact us</b>: we will tell you who to authorise.",
+       "You need the <b>QR code</b> the organiser emails on <b>Thursday 22 October</b> (check your spam folder too) and an <b>original ID document</b>. If the QR code has not arrived by Thursday evening, tell us right away.",
+       "With your bib you receive the <b>wristband</b> (mandatory to enter your box <b>and to collect your medal</b>: do not take it off), the <b>runner's bag</b> with sponsor products and the <b>official Oysho T-shirt</b>, collected at the T-shirt stand: the size is the one chosen at registration, but there is a swap point in front of the stand. The <b>chip</b> is on the back of the bib and already active; if you wish, you can check it at the control point near the entrance.",
+       "<b>Cannot make it to the Expo?</b> Collection by a third party is possible: you authorise another person through the link in the <a href='https://www.valenciaciudaddelrunning.com/en/half/race-guide/' target='_blank' rel='noopener'>official Race Guide</a> (Expo section). If you need this, <b>contact us</b>: we will tell you who to authorise.",
        "Improved your time? You can <b>change box</b> in the Runner's Area until <b>18 October</b> for a €25 fee; after that no changes are possible.",
-       "If you come to the Expo with your luggage straight from the airport: there is a paid <b>left-luggage service</b> at the entrance to Hall 5 (cash only), so you can walk around the Expo hands-free and then carry on to the hotel.",
-       "Bring <b>four safety pins</b> from home for your bib."
+       "If you come to the Expo with your luggage straight from the airport: there is a <b>left-luggage service</b> at the entrance to Hall 5 for €3, so you can walk around the Expo hands-free and then carry on to the hotel. At the exit there is also a collection point to donate any food from the race bag you will not use (Casa Caridad).",
+       "<b>Safety pins</b> are available at the T-shirt stand; bring four from home anyway, to be safe."
       ]
      }
     ]
@@ -752,8 +761,8 @@
       "tipo": "ul",
       "voci": [
        "<b>KiRun transfer</b>: meet in the hotel lobby at the time we give you on Saturday evening, based on your box. Be on time: on race morning many roads are closed.",
-       "If you travel on your own, bear in mind that in past editions tram lines <b>4 and 6</b> in the university district did not run until midday and several buses were diverted: check the Metrovalencia and EMT notices on the <a href='https://www.valenciaciudaddelrunning.com/en/half/citizen-info-21k/' target='_blank' rel='noopener'>Citizen info</a> page.",
-       "The boxes open about an hour before the start (at 7:30 in 2025); you enter by showing the <b>bib and wristband</b> you received at the Expo. Anyone arriving after their box has closed starts with the following wave."
+       "If you travel on your own: the nearest metro stops are <b>Aragón</b> (lines 5 and 7, 1.3 km on foot), <b>Facultats</b> (lines 3 and 9, 1.4 km), <b>Benimaclet</b> (line 3) and tram lines 4 and 6; EMT buses C3, 71 and 99 are diverted in the morning. The Bulevar Norte is closed from 4:30 and the Cactus roundabout from 7:30: by taxi, get dropped off at a distance.",
+       "The boxes open at <b>7:30</b>; you enter by showing the <b>bib and wristband</b> you received at the Expo, through the entrance for your colour and number: the first checkpoint can be up to <b>900 metres</b> from your box, so look at the box map in the Race Guide and allow the extra minutes. Anyone arriving after their box has closed starts with the following wave."
       ]
      },
      {
@@ -762,7 +771,7 @@
      },
      {
       "tipo": "p",
-      "html": "The <b>bag drop</b> at the start is reserved for those who booked it at registration (the service is <b>sold out</b>) and is marked with the hanger symbol on the bib. With the KiRun transfer you do not need it: leave everything in your room and take only the essentials. For the wait in the box an old sweatshirt to leave in the collection bins is fine."
+      "html": "The <b>bag drop</b> at the start is reserved for those who booked it at registration (the service is <b>sold out</b>): it is in the tents at the beginning of Avinguda dels Tarongers, next to the Miramar roundabout, open from <b>7:00 to 13:00</b>, one bag or cabin trolley per runner, labelled with the sticker from the bib envelope. With the KiRun transfer you do not need it: leave everything in your room and take only the essentials. For the wait in the box an old sweatshirt to leave in the collection bins is fine."
      },
      {
       "tipo": "h3",
@@ -770,7 +779,7 @@
      },
      {
       "tipo": "p",
-      "html": "The start is staggered in <b>seven waves</b> and your box, from 1 to 9, depends on the expected finish time you gave at registration: it is printed on your bib and matches the colour of your wristband. Line up in your own box: you may move back, never forward. Wheelchair athletes start early in the fourth wave; visually impaired runners may start at the front of their wave. The official time is <b>net time</b>: it starts when you cross the start line. Toilets in the start area, inside the boxes and at every aid station."
+      "html": "The start is staggered in <b>seven waves</b> and your box, from 1 to 9, depends on the expected finish time you gave at registration: it is printed on your bib and matches the colour of your wristband. Line up in your own box: you may move back, never forward. Wheelchair athletes start early in the fourth wave; visually impaired runners may start at the front of their wave. The official time is <b>net time</b>: it starts when you cross the start line. Toilets in the bag-drop area, before the boxes, at every aid station and at the finish: using them is mandatory, relieving yourself elsewhere means disqualification."
      },
      {
       "tipo": "tabella",
@@ -816,7 +825,7 @@
         "<b>9:27</b>"
        ]
       ],
-      "nota": "Times and brackets from the <a href='https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/' target='_blank' rel='noopener'>2026 regulations</a>; colours from the <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf' target='_blank' rel='noopener'>official 2026 map</a>. The official Race Guide, due in the days before the race, takes precedence."
+      "nota": "Times and brackets from the <a href='https://www.valenciaciudaddelrunning.com/en/half/regulations-valencia-half-marathon/' target='_blank' rel='noopener'>2026 regulations</a>; colours from the <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/10/plano-recorrido-21k-2026.pdf' target='_blank' rel='noopener'>official 2026 map</a>. Confirmed by the official 2026 Race Guide."
      },
      {
       "tipo": "p",
@@ -826,7 +835,7 @@
       "tipo": "box",
       "stile": "kirun",
       "titolo": "Race-eve checklist",
-      "html": "<ul><li>Bib pinned to the front of your shirt with <b>four safety pins</b>, chip integrated: do not fold it. <b>Wristband</b> on: without it you cannot enter the box.</li><li>Shoes and socks already worn in training; in late October it is 13–15 °C in the morning: an old layer to leave in the box and off you go.</li><li>Gels or nutrition you have already tested: on the course you will find water, Aquarius and Enervit gels at km 15.</li><li>ID card, payment card and a charged phone, unless you leave them at the hotel.</li><li>Alarm checked after the <b>clock change</b>; KiRun transfer time noted.</li></ul>"
+      "html": "<ul><li>Bib pinned to the front of your shirt with <b>four safety pins</b>, chip integrated: do not fold it. Write your <b>phone number</b> on the back. <b>Wristband</b> on: without it you cannot enter the box or collect your medal.</li><li>Shoes and socks already worn in training; in late October it is 13–15 °C in the morning: an old layer to leave in the box and off you go.</li><li>Gels or nutrition you have already tested: on the course you will find water, Aquarius and Enervit gels at km 15.</li><li>ID card, payment card and a charged phone, unless you leave them at the hotel.</li><li>Alarm checked after the <b>clock change</b>; KiRun transfer time noted.</li></ul>"
      }
     ]
    },
@@ -847,16 +856,16 @@
        "<b>km 5–9</b> · The wide loop around the centre along the upper side of the <b>Turia Gardens</b>, between the Botanical Garden and Plaça d'Espanya: the most open stretch, where you settle into your rhythm.",
        "<b>km 9–13</b> · The historic heart: the <b>Torres de Quart</b>, the Cathedral and Palau de la Generalitat area, the <b>Central Market</b> and the Lonja, the bullring and the Estació del Nord. Aid station around km 10.",
        "<b>km 13–16</b> · From the Palau de la Música along the Turia to the <b>City of Arts and Sciences</b>: the Palau de les Arts, the Hemisfèric, the Science Museum and the Oceanogràfic. Here you find the <b>Enervit Red Point</b> with gels (km 15.2), fast assistance (km 15.1) and an aid station (km 15.5). {{hotel:percorso_hotel}}",
-       "<b>km 16–19</b> · Towards the sea through El Grau to the <b>Marina de València</b> with the Veles e Vents building, fast assistance at km 18.5 and the last aid station at km 19.4.",
+       "<b>km 16–19</b> · Towards the sea through El Grau to the <b>Marina de València</b> with the Veles e Vents building, fast assistance at km 19 and the last aid station at km 19.4.",
        "<b>km 19–21</b> · Back through the streets of <b>El Cabanyal</b>, the old fishermen's district, and the final straight on Avinguda dels Tarongers to the «pasarela azul», the blue finish walkway."
       ]
      },
      {
       "tipo": "ul",
       "voci": [
-       "<b>Aid stations</b> at km 5.4 · 10.4 · 15.5 · 19.4 with bottled Aquabona water and Aquarius in cups, toilets at every station; <b>Enervit gels</b> with and without caffeine at km 15.2; fast-assistance points with vaseline and pain-relief spray at km 15.1 and 18.5. At the finish water, Aquarius and fruit.",
+       "<b>Aid stations</b> at km 5.4 · 10.4 · 15.5 · 19.4 with bottled Aquabona water and Aquarius in cups, toilets at every station; <b>Enervit gels</b> at km 15.2, alternating on both sides of the road: orange without caffeine, yellow citrus with caffeine; fast-assistance points with vaseline and pain-relief spray at km 15.1 and 19 and at the finish. At the finish water, canned Aquarius and fruit.",
        "<b>Photos, tracking and app</b>: Marathon Photos shoots along the course and you search your photos by bib number on marathonphotos.live; with the <b>official app</b> (Medio Maratón Valencia, on the App Store and Google Play) your people at home follow you live and you download your certificate for free.",
-       "<b>Crowds and music</b>: bands, DJs, batucadas and falla groups all along the course, with the thickest crowds in the centre, at the City of Arts and on the final straight."
+       "<b>Crowds and music</b>: bands, DJs, batucadas and falla groups all along the course, with the thickest crowds in the centre, at the City of Arts and on the final straight; the race is broadcast live on À Punt TV."
       ]
      },
      {
@@ -886,12 +895,13 @@
      {
       "tipo": "ul",
       "voci": [
-       "Keep walking past the line: in the post-finish area you receive your <b>medal</b> and the <b>finisher's bag</b> with Aquabona water, Aquarius, a banana, a persimmon and an Enervit bar. Do not stop right after the arch.",
-       "<b>Medal engraving</b> with your name and official time: in the bag-drop area, next to the start. If you bought it with your registration it is marked on your bib; otherwise you pay on the spot.",
+       "Keep walking past the line: in the post-finish area you receive your <b>medal</b> (show your <b>wristband</b>) and the <b>finisher's bag</b> with Aquabona water, Aquarius, a banana, a persimmon and an Enervit bar. Do not stop right after the arch and do not go back onto the course: it is grounds for disqualification.",
+       "<b>Medal engraving</b> with your name and official time: in the bag-drop area, next to the start, €20. If you bought it with your registration it is marked on your bib; otherwise you pay on the spot, cash or card.",
        "<b>Showers</b> for all runners from 10:00 to 14:00 at the Benimaclet sports centre, near the finish area. Farmacia Ribera also provides assistance in the post-finish area.",
        "<b>Back to the hotel</b> with the dedicated KiRun transfer: our staff will give you the meeting point and time. If you need it, the hotel allows a late check-out until 16:00 on Sunday.",
        "<b>SuperHalfs</b>: your Valencia result counts towards your SuperPassport; if it does not appear, you can claim it from your profile on superhalfs.com. If this is your sixth race, ask at the SuperHalfs stand at the Expo about collecting your SuperMedal.",
-       "Official results and certificate on the organiser's website and in the app; photos on marathonphotos.live.",
+       "<b>Coming back in 2027?</b> 2026 runners have a loyalty window from 5 to 9 November (until 11:00) to register without the ballot: make a note, and if you want the KiRun package, write to us.",
+       "Official results and rankings on the organiser's website and in the app from Sunday afternoon; photos on marathonphotos.live, free certificate. At 18:00 the <b>21K Medal Party</b> takes place at the Umbracle in the City of Arts, with separate tickets from the official website.",
        "{{hotel:arrivo_staff}}"
       ]
      }
