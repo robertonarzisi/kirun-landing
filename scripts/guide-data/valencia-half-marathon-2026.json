@@ -39,7 +39,7 @@
     },
     {
      "k": "Transfer gara",
-     "v": "Trasferimento dedicato KiRun dall'hotel alla zona di partenza e ritorno: orari comunicati dallo staff"
+     "v": "{{hotel:ib_transfer}}"
     },
     {
      "k": "Tempo max",
@@ -232,7 +232,7 @@
      {
       "tipo": "ul",
       "voci": [
-       "<b>Trasferimento KiRun</b>: ritrovo nella hall dell'hotel all'orario che ti comunichiamo sabato sera, in base al tuo cajón. Arriva puntuale: la mattina della gara molte strade sono chiuse.",
+       "{{hotel:navetta_andata}}",
        "Se ti muovi per conto tuo: in metro le fermate più vicine sono <b>Aragón</b> (linee 5 e 7, 1,3 km a piedi), <b>Facultats</b> (linee 3 e 9, 1,4 km), <b>Benimaclet</b> (linea 3) e le linee tram 4 e 6; i bus EMT C3, 71 e 99 la mattina sono deviati. Dalle 4:30 è chiuso il Bulevar Norte, dalle 7:30 la rotonda del Cactus: in taxi fatti lasciare a distanza.",
        "I cajones aprono alle <b>7:30</b>; si entra mostrando il <b>pettorale e il braccialetto</b> ricevuti all'Expo, dall'ingresso del tuo colore e numero: il primo controllo può essere fino a <b>900 metri</b> dal tuo cajón, quindi guarda la mappa dei cajones nella Race Guide e calcola i minuti. Chi arriva dopo la chiusura del proprio cajón parte con l'ondata successiva."
       ]
@@ -307,7 +307,7 @@
       "tipo": "box",
       "stile": "kirun",
       "titolo": "Checklist della vigilia",
-      "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b>, chip integrato: non piegarlo. Sul retro scrivi il tuo <b>numero di telefono</b>. <b>Braccialetto</b> al polso: senza non entri nel cajón e non ritiri la medaglia.</li><li>Scarpe e calze già usate in allenamento; a fine ottobre la mattina ci sono 13–15 gradi: uno strato vecchio da lasciare in griglia e poi via.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, Aquarius e i gel Enervit al km 15.</li><li>Carta d'identità, carta di pagamento e telefono carico, se non li lasci in hotel.</li><li>Sveglia controllata dopo il <b>cambio dell'ora</b>; orario del trasferimento KiRun segnato.</li></ul>"
+      "html": "<ul><li>Pettorale fissato sul davanti della maglia con <b>quattro spille</b>, chip integrato: non piegarlo. Sul retro scrivi il tuo <b>numero di telefono</b>. <b>Braccialetto</b> al polso: senza non entri nel cajón e non ritiri la medaglia.</li><li>Scarpe e calze già usate in allenamento; a fine ottobre la mattina ci sono 13–15 gradi: uno strato vecchio da lasciare in griglia e poi via.</li><li>Gel o integrazione che hai già provato: sul percorso trovi acqua, Aquarius e i gel Enervit al km 15.</li><li>Carta d'identità, carta di pagamento e telefono carico, se non li lasci in hotel.</li><li>Sveglia controllata dopo il <b>cambio dell'ora</b>: {{hotel:checklist_navetta}}.</li></ul>"
      }
     ]
    },
@@ -370,7 +370,7 @@
        "Continua a camminare oltre la linea: nell'area post-arrivo ricevi la <b>medaglia</b> (mostra il <b>braccialetto</b>) e la <b>sacca del finisher</b> con acqua Aquabona, Aquarius, banana, kaki e una barretta Enervit. Non fermarti subito dopo l'arco e non tornare sul percorso: è motivo di squalifica.",
        "<b>Incisione della medaglia</b> con nome e tempo ufficiale: nella zona del guardaroba, accanto alla partenza, 20 €. Se l'hai acquistata con l'iscrizione è segnalato sul pettorale; altrimenti si paga sul posto, contanti o carta.",
        "<b>Docce</b> per tutti i runner dalle 10:00 alle 14:00 al centro sportivo di Benimaclet, vicino alla zona di arrivo. La farmacia Ribera presta assistenza anche nell'area post-arrivo.",
-       "<b>Rientro in hotel</b> con il trasferimento dedicato KiRun: punto di ritrovo e orario te li dà lo staff. Se ti serve, la domenica l'hotel concede il late check-out fino alle 16:00.",
+       "{{hotel:navetta_ritorno}} Se ti serve, la domenica l'hotel concede il late check-out fino alle 16:00.",
        "<b>SuperHalfs</b>: il risultato di Valencia vale per il tuo SuperPassport; se non compare, puoi reclamarlo dal tuo profilo su superhalfs.com. Se è la tua sesta tappa, informati allo stand SuperHalfs dell'Expo sulla consegna della SuperMedal.",
        "<b>Vuoi tornare nel 2027?</b> Chi corre nel 2026 ha una finestra di fedeltà dal 5 al 9 novembre (fino alle 11:00) per iscriversi senza passare dal sorteggio: segnatelo, e se vuoi il pacchetto KiRun scrivici.",
        "Risultati ufficiali e classifiche sul sito dell'organizzatore e nell'app dal pomeriggio di domenica; foto su marathonphotos.live, diploma gratuito. Alle 18:00 all'Umbracle della Città delle Arti c'è il <b>21K Medal Party</b>, con biglietto a parte dal sito ufficiale.",
@@ -521,6 +521,10 @@
         "v": "S.D. Correcaminos · <a href='https://www.valenciaciudaddelrunning.com/en/contact/' target='_blank' rel='noopener'>modulo di contatto sul sito ufficiale</a>"
        },
        {
+        "k": "Navetta gara",
+        "v": "Transvia Sport (organizzatore delle navette dagli hotel) · <a href='tel:+34636104924'>+34 636 104 924</a> · <a href='tel:+34669893851'>+34 669 893 851</a>"
+       },
+       {
         "k": "Social ufficiali",
         "v": "@mediomaratonvlc su Instagram, @MedioMaratonVLC su X, Medio Maratón Valencia su Facebook e YouTube per gli aggiornamenti dell'ultima ora"
        },
@@ -567,7 +571,7 @@
     },
     {
      "k": "Race transfer",
-     "v": "Dedicated KiRun transfer from the hotel to the start area and back: times from our staff"
+     "v": "{{hotel:ib_transfer}}"
     },
     {
      "k": "Time limit",
@@ -760,7 +764,7 @@
      {
       "tipo": "ul",
       "voci": [
-       "<b>KiRun transfer</b>: meet in the hotel lobby at the time we give you on Saturday evening, based on your box. Be on time: on race morning many roads are closed.",
+       "{{hotel:navetta_andata}}",
        "If you travel on your own: the nearest metro stops are <b>Aragón</b> (lines 5 and 7, 1.3 km on foot), <b>Facultats</b> (lines 3 and 9, 1.4 km), <b>Benimaclet</b> (line 3) and tram lines 4 and 6; EMT buses C3, 71 and 99 are diverted in the morning. The Bulevar Norte is closed from 4:30 and the Cactus roundabout from 7:30: by taxi, get dropped off at a distance.",
        "The boxes open at <b>7:30</b>; you enter by showing the <b>bib and wristband</b> you received at the Expo, through the entrance for your colour and number: the first checkpoint can be up to <b>900 metres</b> from your box, so look at the box map in the Race Guide and allow the extra minutes. Anyone arriving after their box has closed starts with the following wave."
       ]
@@ -835,7 +839,7 @@
       "tipo": "box",
       "stile": "kirun",
       "titolo": "Race-eve checklist",
-      "html": "<ul><li>Bib pinned to the front of your shirt with <b>four safety pins</b>, chip integrated: do not fold it. Write your <b>phone number</b> on the back. <b>Wristband</b> on: without it you cannot enter the box or collect your medal.</li><li>Shoes and socks already worn in training; in late October it is 13–15 °C in the morning: an old layer to leave in the box and off you go.</li><li>Gels or nutrition you have already tested: on the course you will find water, Aquarius and Enervit gels at km 15.</li><li>ID card, payment card and a charged phone, unless you leave them at the hotel.</li><li>Alarm checked after the <b>clock change</b>; KiRun transfer time noted.</li></ul>"
+      "html": "<ul><li>Bib pinned to the front of your shirt with <b>four safety pins</b>, chip integrated: do not fold it. Write your <b>phone number</b> on the back. <b>Wristband</b> on: without it you cannot enter the box or collect your medal.</li><li>Shoes and socks already worn in training; in late October it is 13–15 °C in the morning: an old layer to leave in the box and off you go.</li><li>Gels or nutrition you have already tested: on the course you will find water, Aquarius and Enervit gels at km 15.</li><li>ID card, payment card and a charged phone, unless you leave them at the hotel.</li><li>Alarm checked after the <b>clock change</b>: {{hotel:checklist_navetta}}.</li></ul>"
      }
     ]
    },
@@ -898,7 +902,7 @@
        "Keep walking past the line: in the post-finish area you receive your <b>medal</b> (show your <b>wristband</b>) and the <b>finisher's bag</b> with Aquabona water, Aquarius, a banana, a persimmon and an Enervit bar. Do not stop right after the arch and do not go back onto the course: it is grounds for disqualification.",
        "<b>Medal engraving</b> with your name and official time: in the bag-drop area, next to the start, €20. If you bought it with your registration it is marked on your bib; otherwise you pay on the spot, cash or card.",
        "<b>Showers</b> for all runners from 10:00 to 14:00 at the Benimaclet sports centre, near the finish area. Farmacia Ribera also provides assistance in the post-finish area.",
-       "<b>Back to the hotel</b> with the dedicated KiRun transfer: our staff will give you the meeting point and time. If you need it, the hotel allows a late check-out until 16:00 on Sunday.",
+       "{{hotel:navetta_ritorno}} If you need it, the hotel allows a late check-out until 16:00 on Sunday.",
        "<b>SuperHalfs</b>: your Valencia result counts towards your SuperPassport; if it does not appear, you can claim it from your profile on superhalfs.com. If this is your sixth race, ask at the SuperHalfs stand at the Expo about collecting your SuperMedal.",
        "<b>Coming back in 2027?</b> 2026 runners have a loyalty window from 5 to 9 November (until 11:00) to register without the ballot: make a note, and if you want the KiRun package, write to us.",
        "Official results and rankings on the organiser's website and in the app from Sunday afternoon; photos on marathonphotos.live, free certificate. At 18:00 the <b>21K Medal Party</b> takes place at the Umbracle in the City of Arts, with separate tickets from the official website.",
@@ -1049,6 +1053,10 @@
         "v": "S.D. Correcaminos · <a href='https://www.valenciaciudaddelrunning.com/en/contact/' target='_blank' rel='noopener'>contact form on the official website</a>"
        },
        {
+        "k": "Race shuttle",
+        "v": "Transvia Sport (organiser's hotel shuttles) · <a href='tel:+34636104924'>+34 636 104 924</a> · <a href='tel:+34669893851'>+34 669 893 851</a>"
+       },
+       {
         "k": "Official social media",
         "v": "@mediomaratonvlc on Instagram, @MedioMaratonVLC on X, Medio Maratón Valencia on Facebook and YouTube for last-minute updates"
        },
@@ -1076,7 +1084,7 @@
     "pacchetto_notti": "3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 23 al 26 ottobre (se hai prenotato notti diverse, fa fede il voucher).",
     "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'Holiday Inn Express</b> negli orari qui sotto e, in qualsiasi altro momento, al telefono o su WhatsApp. Cerca l'arancione: non avrai difficoltà a trovarci.",
     "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
-    "gara_distanza": "Dall'hotel sono circa 4 km: ci pensa il <b>trasferimento dedicato KiRun</b>, che ti porta alla zona di partenza e ti riporta in hotel dopo l'arrivo.",
+    "gara_distanza": "Dall'hotel sono circa 4 km: ci pensa la <b>navetta della gara</b>, inclusa nel pacchetto, che parte davanti all'hotel alle 7:00 e ti riporta indietro dopo l'arrivo.",
     "expo_da_hotel": "In <b>taxi circa 20–25 minuti</b>. In metro circa 50 minuti con due cambi: linea 10 da Oceanogràfic ad Alacant, linee 3/5/9 da Xàtiva ad Àngel Guimerà, linea 2 fino a Carolines/Fira. In alternativa il bus EMT 62 dalla stazione del Nord.",
     "percorso_hotel": "<b>Il tuo hotel è a due passi</b>: il punto giusto per chi ti aspetta.",
     "arrivo_staff": "Lo staff KiRun ti aspetta <b>nella hall dell'hotel dalle 18:00 alle 19:00</b>: per un problema, una foto con la medaglia o solo per raccontare la gara.",
@@ -1097,12 +1105,12 @@
        {
         "quando": "Sab 24",
         "titolo": "Scarico gambe e vigilia",
-        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che iniziano {{hotel:cac_distanza}}. Corsa di gruppo facoltativa con lo staff: ritrovo alle <b>8:00 nella hall</b> o alle 8:10 davanti all'Hemisfèric. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia, l'orario del trasferimento di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
+        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che iniziano {{hotel:cac_distanza}}. Corsa di gruppo facoltativa con lo staff: ritrovo alle <b>8:00 nella hall</b> o alle 8:10 davanti all'Hemisfèric. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia, gli accrediti della navetta di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
        },
        {
         "quando": "Dom 25",
         "titolo": "La gara",
-        "html": "<p>Colazione in hotel dalle 5:30, poi il <b>trasferimento KiRun</b> verso la zona di partenza all'orario comunicato dallo staff. Partenze a ondate dalle <b>8:25</b> (cajones 1–3) alle <b>9:27</b> (cajón 9), arrivo sull'Avinguda dels Tarongers e rientro in hotel con il trasferimento dedicato. Il pomeriggio è tuo: paella, mare o Città delle Arti. <b>Dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
+        "html": "<p>Colazione in hotel dalle 5:30, poi alle <b>7:00 la navetta della gara</b> davanti all'hotel (sii fuori alle 6:50), che ti lascia in Calle Clariano vicino ai cajones. Partenze a ondate dalle <b>8:25</b> (cajones 1–3) alle <b>9:27</b> (cajón 9), arrivo sull'Avinguda dels Tarongers e rientro con la navetta da Calle Clariano (corse ogni 15 minuti dalle 11:45 alle 13:15). Il pomeriggio è tuo: paella, mare o Città delle Arti. <b>Dalle 18:00 alle 19:00 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
        },
        {
         "quando": "Lun 26",
@@ -1142,7 +1150,7 @@
         "Assistenza telefonica per tutta la giornata"
        ]
       ],
-      "nota": "Il giorno della gara lo staff ti accompagna con il trasferimento dedicato: orari e punto di ritrovo te li diciamo sabato sera."
+      "nota": "{{hotel:nota_assistenza}}"
      }
     ],
     "sezione_hotel": [
@@ -1191,7 +1199,12 @@
       ]
      }
     ],
-    "corsa_sabato": "Se vuoi correre in compagnia, lo staff KiRun ti aspetta sabato alle <b>8:00 nella hall dell'hotel</b> (oppure alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti) per la corsa facoltativa di scarico nei Giardini del Turia: 20–30 minuti lenti, poi ognuno per sé."
+    "corsa_sabato": "Se vuoi correre in compagnia, lo staff KiRun ti aspetta sabato alle <b>8:00 nella hall dell'hotel</b> (oppure alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti) per la corsa facoltativa di scarico nei Giardini del Turia: 20–30 minuti lenti, poi ognuno per sé.",
+    "ib_transfer": "Navetta dell'organizzatore: <b>partenza alle 7:00 davanti all'hotel</b>, arrivo in Calle Clariano vicino ai cajones; ritorno dallo stesso punto con corse ogni 15 minuti dalle 11:45 alle 13:15",
+    "navetta_andata": "<b>Navetta della gara</b> (linea verde dell'organizzatore, inclusa nel pacchetto): parte alle <b>7:00 davanti all'hotel</b>, dall'ingresso su Calle Antonio Ferrandis, e ti lascia in <b>Calle Clariano</b>, a pochi minuti dai cajones. Sii fuori alle <b>6:50</b>: il bus non aspetta e chi non c'è va per conto suo. Per salire serve l'<b>accredito della navetta</b> del Welcome Pack: se non lo hai, chiedilo allo staff KiRun sabato. Possibili ritardi per le chiusure stradali; numeri della navetta <a href='tel:+34636104924'>+34 636 104 924</a> · <a href='tel:+34669893851'>+34 669 893 851</a>.",
+    "navetta_ritorno": "<b>Rientro in hotel</b> con la navetta: da <b>Calle Clariano</b>, lo stesso punto della mattina, sette corse alle <b>11:45, 12:00, 12:15, 12:30, 12:45, 13:00 e 13:15</b>, fino davanti all'hotel. Mostra l'accredito; se l'autobus è pieno si prende il successivo.",
+    "checklist_navetta": "la <b>navetta parte alle 7:00</b> davanti all'hotel: sii fuori alle 6:50",
+    "nota_assistenza": "Il giorno della gara la navetta dell'organizzatore parte alle <b>7:00 davanti all'hotel</b>: lo staff KiRun è lì con te."
    },
    "en": {
     "assistenza_card": "<p>The KiRun staff are in the lobby of the Holiday Inn Express <b>on Friday, Saturday and Sunday from 18:00 to 19:00</b>; at any other time by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
@@ -1200,7 +1213,7 @@
     "pacchetto_notti": "3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 23 to 26 October (if you booked different nights, your voucher applies).",
     "assistenza_intro": "The KiRun staff are with you all weekend: you will find us <b>in the lobby of the Holiday Inn Express</b> at the times below and, at any other time, by phone or WhatsApp. Look for the orange: you will have no trouble finding us.",
     "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
-    "gara_distanza": "It is about 4 km from the hotel: the <b>dedicated KiRun transfer</b> takes you to the start area and brings you back to the hotel after the finish.",
+    "gara_distanza": "It is about 4 km from the hotel: the <b>race shuttle</b>, included in your package, leaves from the hotel door at 7:00 and brings you back after the finish.",
     "expo_da_hotel": "By <b>taxi about 20–25 minutes</b>. By metro about 50 minutes with two changes: line 10 from Oceanogràfic to Alacant, lines 3/5/9 from Xàtiva to Àngel Guimerà, line 2 to Carolines/Fira. Alternatively EMT bus 62 from the Estació del Nord.",
     "percorso_hotel": "<b>Your hotel is a stone's throw away</b>: the right spot for anyone waiting for you.",
     "arrivo_staff": "The KiRun staff are waiting for you <b>in the hotel lobby from 18:00 to 19:00</b>: for a problem, a photo with your medal or just to tell us about your race.",
@@ -1221,12 +1234,12 @@
        {
         "quando": "Sat 24",
         "titolo": "Shake-out and race eve",
-        "html": "<p>Morning: 20–30 minutes of easy running with a few strides in the <b>Turia Gardens</b>, which begin {{hotel:cac_distanza}}. Optional group run with the staff: meet at <b>8:00 in the lobby</b> or at 8:10 in front of the Hemisfèric. If you do not have your bib yet, the Expo is open from 9:00 to 21:00: avoid 12:00–14:00 and 18:00–20:00. The Expo also hosts <b>La Placeta</b>, with running talks and the presentation of the elite athletes.</p><p><b>From 18:00 to 19:00 the staff are in the lobby</b> for the race-eve briefing, Sunday's transfer time and your last questions. Then an early, carb-based dinner and get your bib, wristband and kit ready. <b>Tonight daylight saving time ends</b>: at 3:00 the clocks go back to 2:00 and you get an extra hour of sleep.</p>"
+        "html": "<p>Morning: 20–30 minutes of easy running with a few strides in the <b>Turia Gardens</b>, which begin {{hotel:cac_distanza}}. Optional group run with the staff: meet at <b>8:00 in the lobby</b> or at 8:10 in front of the Hemisfèric. If you do not have your bib yet, the Expo is open from 9:00 to 21:00: avoid 12:00–14:00 and 18:00–20:00. The Expo also hosts <b>La Placeta</b>, with running talks and the presentation of the elite athletes.</p><p><b>From 18:00 to 19:00 the staff are in the lobby</b> for the race-eve briefing, Sunday's shuttle accreditations and your last questions. Then an early, carb-based dinner and get your bib, wristband and kit ready. <b>Tonight daylight saving time ends</b>: at 3:00 the clocks go back to 2:00 and you get an extra hour of sleep.</p>"
        },
        {
         "quando": "Sun 25",
         "titolo": "Race day",
-        "html": "<p>Breakfast at the hotel from 5:30, then the <b>KiRun transfer</b> to the start area at the time given by our staff. Wave starts from <b>8:25</b> (boxes 1–3) to <b>9:27</b> (box 9), finish on Avinguda dels Tarongers and back to the hotel with the dedicated transfer. The afternoon is yours: paella, the beach or the City of Arts. <b>From 18:00 to 19:00 the staff are in the lobby again</b> to celebrate with you.</p>"
+        "html": "<p>Breakfast at the hotel from 5:30, then at <b>7:00 the race shuttle</b> from the hotel door (be outside at 6:50), which drops you in Calle Clariano next to the boxes. Wave starts from <b>8:25</b> (boxes 1–3) to <b>9:27</b> (box 9), finish on Avinguda dels Tarongers and back by shuttle from Calle Clariano (every 15 minutes from 11:45 to 13:15). The afternoon is yours: paella, the beach or the City of Arts. <b>From 18:00 to 19:00 the staff are in the lobby again</b> to celebrate with you.</p>"
        },
        {
         "quando": "Mon 26",
@@ -1266,7 +1279,7 @@
         "Phone support all day"
        ]
       ],
-      "nota": "On race day the staff go with you on the dedicated transfer: times and meeting point will be given on Saturday evening."
+      "nota": "{{hotel:nota_assistenza}}"
      }
     ],
     "sezione_hotel": [
@@ -1315,7 +1328,12 @@
       ]
      }
     ],
-    "corsa_sabato": "If you would like company, the KiRun staff will be waiting on Saturday at <b>8:00 in the hotel lobby</b> (or at <b>8:10 in front of the Hemisfèric</b>, in the City of Arts) for the optional shake-out run in the Turia Gardens: 20–30 easy minutes, then everyone on their own."
+    "corsa_sabato": "If you would like company, the KiRun staff will be waiting on Saturday at <b>8:00 in the hotel lobby</b> (or at <b>8:10 in front of the Hemisfèric</b>, in the City of Arts) for the optional shake-out run in the Turia Gardens: 20–30 easy minutes, then everyone on their own.",
+    "ib_transfer": "Organiser's shuttle: <b>departure at 7:00 from the hotel door</b>, arrival in Calle Clariano next to the boxes; return from the same point every 15 minutes from 11:45 to 13:15",
+    "navetta_andata": "<b>Race shuttle</b> (the organiser's green line, included in your package): it leaves at <b>7:00 from the hotel door</b>, on the Calle Antonio Ferrandis side, and drops you in <b>Calle Clariano</b>, a few minutes from the boxes. Be outside at <b>6:50</b>: the bus does not wait and anyone missing travels on their own. To board you need the <b>shuttle accreditation</b> from the Welcome Pack: if you do not have it, ask the KiRun staff on Saturday. Delays are possible because of road closures; shuttle numbers <a href='tel:+34636104924'>+34 636 104 924</a> · <a href='tel:+34669893851'>+34 669 893 851</a>.",
+    "navetta_ritorno": "<b>Back to the hotel</b> by shuttle: from <b>Calle Clariano</b>, the same point as in the morning, seven departures at <b>11:45, 12:00, 12:15, 12:30, 12:45, 13:00 and 13:15</b>, right to the hotel door. Show your accreditation; if the bus is full, take the next one.",
+    "checklist_navetta": "the <b>shuttle leaves at 7:00</b> from the hotel door: be outside at 6:50",
+    "nota_assistenza": "On race day the organiser's shuttle leaves at <b>7:00 from the hotel door</b>: the KiRun staff are there with you."
    }
   },
   "hospes": {
@@ -1331,7 +1349,7 @@
     "pacchetto_notti": "3 notti con prima colazione all'<b>Hospes Palau de la Mar</b>, dal 23 al 26 ottobre (se hai prenotato notti diverse, fa fede il voucher).",
     "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'Hospes Palau de la Mar</b> sabato e domenica negli orari qui sotto; venerdì e lunedì, e in qualsiasi altro momento, Paolo è al telefono o su WhatsApp. Cerca l'arancione: non avrai difficoltà a trovarci.",
     "numeri_staff": "<p>Paolo: <a href='tel:+393397150369'>+39 339 715 0369</a><br>Staff KiRun: <a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
-    "gara_distanza": "Dall'hotel sono circa 3,5 km: ci pensa la <b>navetta gratuita del giorno della gara</b>, inclusa nella tua prenotazione, che parte dall'Hospes e ti riporta indietro dopo l'arrivo.",
+    "gara_distanza": "Dall'hotel sono circa 3,5 km: ci pensa la <b>navetta della gara</b>, inclusa nella prenotazione, che parte davanti all'Hospes alle 6:50 e ti riporta in centro dopo l'arrivo.",
     "expo_da_hotel": "In <b>taxi circa 15 minuti</b>. In metro circa 35 minuti con un cambio: linee 3, 5 o 9 da Colón (o Alameda) ad Àngel Guimerà, poi linea 2 fino a Carolines/Fira. In alternativa il bus EMT 62 dalla stazione del Nord.",
     "percorso_hotel": "<b>L'Hospes è a due passi dal Palau de la Música</b>: chi ti aspetta può tifare qui, intorno al km 13–14.",
     "arrivo_staff": "Lo staff KiRun ti aspetta <b>nella hall dell'Hospes dalle 17:00 alle 17:30</b>: per un problema, una foto con la medaglia o solo per raccontare la gara.",
@@ -1352,12 +1370,12 @@
        {
         "quando": "Sab 24",
         "titolo": "Scarico gambe e vigilia",
-        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che passano proprio accanto all'hotel. Corsa di gruppo facoltativa con lo staff: ritrovo alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 17:00 alle 17:30 lo staff KiRun è nella hall dell'Hospes</b> per il punto della vigilia, l'orario della navetta di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
+        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che passano proprio accanto all'hotel. Corsa di gruppo facoltativa con lo staff: ritrovo alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 17:00 alle 17:30 lo staff KiRun è nella hall dell'Hospes</b> per il punto della vigilia, gli accrediti della navetta di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
        },
        {
         "quando": "Dom 25",
         "titolo": "La gara",
-        "html": "<p>Colazione in hotel dalle 5:30, poi la <b>navetta gratuita</b> dall'Hospes verso la zona di partenza, all'orario comunicato dallo staff. Partenze a ondate dalle <b>8:25</b> (cajones 1–3) alle <b>9:27</b> (cajón 9), arrivo sull'Avinguda dels Tarongers e rientro in hotel con la navetta. Il pomeriggio è tuo: paella, mare o Città delle Arti. <b>Dalle 17:00 alle 17:30 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
+        "html": "<p>Colazione in hotel dalle 5:30, poi alle <b>6:50 la navetta della gara</b> davanti all'Hospes (sii fuori alle 6:40), che ti lascia in Calle Clariano vicino ai cajones. Partenze a ondate dalle <b>8:25</b> (cajones 1–3) alle <b>9:27</b> (cajón 9), arrivo sull'Avinguda dels Tarongers e rientro con la navetta da Calle Clariano (corse ogni 15 minuti dalle 11:45 alle 13:15). Il pomeriggio è tuo: paella, mare o Città delle Arti. <b>Dalle 17:00 alle 17:30 lo staff è di nuovo nella hall</b> per festeggiare con te.</p>"
        },
        {
         "quando": "Lun 26",
@@ -1397,7 +1415,7 @@
         "Assistenza telefonica e WhatsApp per tutta la giornata"
        ]
       ],
-      "nota": "Il giorno della gara la navetta parte dall'Hospes: orario e punto di ritrovo te li diciamo sabato pomeriggio."
+      "nota": "{{hotel:nota_assistenza}}"
      }
     ],
     "sezione_hotel": [
@@ -1445,7 +1463,12 @@
       ]
      }
     ],
-    "corsa_sabato": "Se vuoi correre in compagnia, lo staff KiRun ti aspetta sabato alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti (20–25 minuti a piedi lungo il Turia dall'hotel, o linea 10 da Alacant), per la corsa facoltativa di scarico nei Giardini del Turia: 20–30 minuti lenti, poi ognuno per sé."
+    "corsa_sabato": "Se vuoi correre in compagnia, lo staff KiRun ti aspetta sabato alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti (20–25 minuti a piedi lungo il Turia dall'hotel, o linea 10 da Alacant), per la corsa facoltativa di scarico nei Giardini del Turia: 20–30 minuti lenti, poi ognuno per sé.",
+    "ib_transfer": "Navetta dell'organizzatore: <b>partenza alle 6:50 davanti all'hotel</b>, arrivo in Calle Clariano vicino ai cajones; ritorno dallo stesso punto con corse ogni 15 minuti dalle 11:45 alle 13:15, discesa in Gran Vía Marqués del Turia 77",
+    "navetta_andata": "<b>Navetta della gara</b> (linea arancione dell'organizzatore, inclusa nella prenotazione): parte alle <b>6:50 davanti all'Hospes</b>, Avinguda Navarro Reverter 14, e ti lascia in <b>Calle Clariano</b>, a pochi minuti dai cajones. Sii fuori alle <b>6:40</b>: il bus non aspetta e chi non c'è va per conto suo. Per salire serve l'<b>accredito della navetta</b> del Welcome Pack: se non lo hai, chiedilo a Paolo. Possibili ritardi per le chiusure stradali; numeri della navetta <a href='tel:+34636104924'>+34 636 104 924</a> · <a href='tel:+34669893851'>+34 669 893 851</a>.",
+    "navetta_ritorno": "<b>Rientro in hotel</b> con la navetta: da <b>Calle Clariano</b>, lo stesso punto della mattina, sette corse alle <b>11:45, 12:00, 12:15, 12:30, 12:45, 13:00 e 13:15</b>; la discesa è in <b>Gran Vía Marqués del Turia 77</b>, a cinque minuti a piedi dall'Hospes. Mostra l'accredito; se l'autobus è pieno si prende il successivo.",
+    "checklist_navetta": "la <b>navetta parte alle 6:50</b> davanti all'hotel: sii fuori alle 6:40",
+    "nota_assistenza": "Il giorno della gara la navetta dell'organizzatore parte alle <b>6:50 davanti all'Hospes</b>; al ritorno ti lascia in Gran Vía Marqués del Turia 77."
    },
    "en": {}
   }
