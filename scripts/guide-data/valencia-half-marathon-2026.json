@@ -2,8 +2,8 @@
  "slug": "valencia-half-marathon-2026",
  "superhalfs": true,
  "updated_at": {
-  "it": "17 ottobre 2026",
-  "en": "17 October 2026"
+  "it": "19 ottobre 2026",
+  "en": "19 October 2026"
  },
  "hero_credit": "Medio Maratón Valencia Trinidad Alfonso Zurich · foto ufficiale dell'organizzatore",
  "it": {
@@ -386,7 +386,7 @@
     "blocchi": [
      {
       "tipo": "p",
-      "html": "<b>Consiglio KiRun</b>: alla vigilia bastano 20–30 minuti di corsa lenta con qualche allungo. Il posto giusto è il <b>Jardí del Túria</b>, il parco di 9 km nell'antico letto del fiume, {{hotel:sabato_turia}}: fondo piatto, ombra e nessun semaforo. Un'ottima alternativa è il lungomare della <b>Malvarrosa</b>."
+      "html": "<b>Consiglio KiRun</b>: alla vigilia bastano 20–30 minuti di corsa lenta con qualche allungo. Il posto giusto è il <b>Jardí del Túria</b>, il parco di 9 km nell'antico letto del fiume, {{hotel:sabato_turia}}: fondo piatto, ombra e nessun semaforo. Un'ottima alternativa è il lungomare della <b>Malvarrosa</b>. {{hotel:corsa_sabato}}"
      },
      {
       "tipo": "p",
@@ -914,7 +914,7 @@
     "blocchi": [
      {
       "tipo": "p",
-      "html": "<b>KiRun tip</b>: on race eve 20–30 minutes of easy running with a few strides is enough. The right place is the <b>Jardí del Túria</b>, the 9 km park in the old riverbed, {{hotel:sabato_turia}}: flat surface, shade and no traffic lights. The <b>Malvarrosa</b> seafront is a great alternative."
+      "html": "<b>KiRun tip</b>: on race eve 20–30 minutes of easy running with a few strides is enough. The right place is the <b>Jardí del Túria</b>, the 9 km park in the old riverbed, {{hotel:sabato_turia}}: flat surface, shade and no traffic lights. The <b>Malvarrosa</b> seafront is a great alternative. {{hotel:corsa_sabato}}"
      },
      {
       "tipo": "p",
@@ -1097,7 +1097,7 @@
        {
         "quando": "Sab 24",
         "titolo": "Scarico gambe e vigilia",
-        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che iniziano {{hotel:cac_distanza}}. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia, l'orario del trasferimento di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
+        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che iniziano {{hotel:cac_distanza}}. Corsa di gruppo facoltativa con lo staff: ritrovo alle <b>8:00 nella hall</b> o alle 8:10 davanti all'Hemisfèric. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 18:00 alle 19:00 lo staff è nella hall</b> per il punto della vigilia, l'orario del trasferimento di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
        },
        {
         "quando": "Dom 25",
@@ -1190,7 +1190,8 @@
        "La colazione a buffet è inclusa. La mattina della gara il buffet apre <b>dalle 5:30</b>, con una proposta pensata per chi corre. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
       ]
      }
-    ]
+    ],
+    "corsa_sabato": "Se vuoi correre in compagnia, lo staff KiRun ti aspetta sabato alle <b>8:00 nella hall dell'hotel</b> (oppure alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti) per la corsa facoltativa di scarico nei Giardini del Turia: 20–30 minuti lenti, poi ognuno per sé."
    },
    "en": {
     "assistenza_card": "<p>The KiRun staff are in the lobby of the Holiday Inn Express <b>on Friday, Saturday and Sunday from 18:00 to 19:00</b>; at any other time by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
@@ -1220,7 +1221,7 @@
        {
         "quando": "Sat 24",
         "titolo": "Shake-out and race eve",
-        "html": "<p>Morning: 20–30 minutes of easy running with a few strides in the <b>Turia Gardens</b>, which begin {{hotel:cac_distanza}}. If you do not have your bib yet, the Expo is open from 9:00 to 21:00: avoid 12:00–14:00 and 18:00–20:00. The Expo also hosts <b>La Placeta</b>, with running talks and the presentation of the elite athletes.</p><p><b>From 18:00 to 19:00 the staff are in the lobby</b> for the race-eve briefing, Sunday's transfer time and your last questions. Then an early, carb-based dinner and get your bib, wristband and kit ready. <b>Tonight daylight saving time ends</b>: at 3:00 the clocks go back to 2:00 and you get an extra hour of sleep.</p>"
+        "html": "<p>Morning: 20–30 minutes of easy running with a few strides in the <b>Turia Gardens</b>, which begin {{hotel:cac_distanza}}. Optional group run with the staff: meet at <b>8:00 in the lobby</b> or at 8:10 in front of the Hemisfèric. If you do not have your bib yet, the Expo is open from 9:00 to 21:00: avoid 12:00–14:00 and 18:00–20:00. The Expo also hosts <b>La Placeta</b>, with running talks and the presentation of the elite athletes.</p><p><b>From 18:00 to 19:00 the staff are in the lobby</b> for the race-eve briefing, Sunday's transfer time and your last questions. Then an early, carb-based dinner and get your bib, wristband and kit ready. <b>Tonight daylight saving time ends</b>: at 3:00 the clocks go back to 2:00 and you get an extra hour of sleep.</p>"
        },
        {
         "quando": "Sun 25",
@@ -1313,7 +1314,8 @@
        "Buffet breakfast is included. On race morning the buffet opens <b>from 5:30</b>, with a runner-friendly selection. Keep something tried and tested in your room anyway (bread, banana, energy bar)."
       ]
      }
-    ]
+    ],
+    "corsa_sabato": "If you would like company, the KiRun staff will be waiting on Saturday at <b>8:00 in the hotel lobby</b> (or at <b>8:10 in front of the Hemisfèric</b>, in the City of Arts) for the optional shake-out run in the Turia Gardens: 20–30 easy minutes, then everyone on their own."
    }
   },
   "hospes": {
@@ -1350,7 +1352,7 @@
        {
         "quando": "Sab 24",
         "titolo": "Scarico gambe e vigilia",
-        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che passano proprio accanto all'hotel. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 17:00 alle 17:30 lo staff KiRun è nella hall dell'Hospes</b> per il punto della vigilia, l'orario della navetta di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
+        "html": "<p>Mattina: 20–30 minuti di corsa lenta con qualche allungo nei <b>Giardini del Turia</b>, che passano proprio accanto all'hotel. Corsa di gruppo facoltativa con lo staff: ritrovo alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti. Se non hai ancora il pettorale, l'Expo è aperta dalle 9:00 alle 21:00: evita le 12:00–14:00 e le 18:00–20:00. All'Expo c'è anche <b>La Placeta</b>, con talk sul running e la presentazione degli atleti élite.</p><p><b>Dalle 17:00 alle 17:30 lo staff KiRun è nella hall dell'Hospes</b> per il punto della vigilia, l'orario della navetta di domenica e le ultime domande. Poi cena presto, a base di carboidrati, e preparazione di pettorale, braccialetto e abbigliamento. <b>Stanotte l'ora legale finisce</b>: alle 3:00 le lancette tornano alle 2:00 e si dorme un'ora in più.</p>"
        },
        {
         "quando": "Dom 25",
@@ -1442,7 +1444,8 @@
        "La colazione è inclusa. La mattina della gara il buffet apre <b>dalle 5:30</b>, con una proposta pensata per chi corre. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
       ]
      }
-    ]
+    ],
+    "corsa_sabato": "Se vuoi correre in compagnia, lo staff KiRun ti aspetta sabato alle <b>8:10 davanti all'Hemisfèric</b>, nella Città delle Arti (20–25 minuti a piedi lungo il Turia dall'hotel, o linea 10 da Alacant), per la corsa facoltativa di scarico nei Giardini del Turia: 20–30 minuti lenti, poi ognuno per sé."
    },
    "en": {}
   }
