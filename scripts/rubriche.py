@@ -34,14 +34,7 @@ CARDS = {
         "kicker": "MOTIVAZIONE",
     },
     # Campagna iscrizione newsletter (4 settimane dal 17/11/2026)
-    "newsletter-community-1": {
-        "template": "tip",
-        "hero": "sevilla-marathon-2027.jpg",
-        "kicker": "NEWSLETTER KIRUN",
-        "title": ["Entra nella", "community"],
-        "info1": "Offerte riservate e prevendite per gli iscritti",
-        "info2": "Iscriviti gratis su ki-run.it/newsletter",
-    },
+    # newsletter-community-1: disegnata da scripts/newsletter_card.py (niente foto)
     "newsletter-community-2": {
         "template": "tip",
         "hero": "prague-half-marathon-2027.jpg",
