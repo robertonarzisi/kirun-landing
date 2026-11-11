@@ -33,6 +33,39 @@ CARDS = {
         "quote": ["Il ritmo giusto", "è quello che puoi", "tenere anche domani."],
         "kicker": "MOTIVAZIONE",
     },
+    # Campagna iscrizione newsletter (4 settimane dal 17/11/2026)
+    "newsletter-community-1": {
+        "template": "tip",
+        "hero": "sevilla-marathon-2027.jpg",
+        "kicker": "NEWSLETTER KIRUN",
+        "title": ["Entra nella", "community"],
+        "info1": "Offerte riservate e prevendite per gli iscritti",
+        "info2": "Iscriviti gratis su ki-run.it/newsletter",
+    },
+    "newsletter-community-2": {
+        "template": "tip",
+        "hero": "prague-half-marathon-2027.jpg",
+        "kicker": "PREVENDITE RISERVATE",
+        "title": ["Il pettorale,", "prima degli altri"],
+        "info1": "Le nuove trasferte aprono prima agli iscritti",
+        "info2": "Iscriviti gratis su ki-run.it/newsletter",
+    },
+    "newsletter-community-3": {
+        "template": "tip",
+        "hero": "valencia-marathon-2026.jpg",
+        "kicker": "OFFERTE ESCLUSIVE",
+        "title": ["Solo per chi", "è iscritto"],
+        "info1": "Le offerte riservate arrivano via email, non qui",
+        "info2": "Iscriviti gratis su ki-run.it/newsletter",
+    },
+    "newsletter-community-4": {
+        "template": "tip",
+        "hero": "copenhagen-half-marathon-2026.jpg",
+        "kicker": "NEWSLETTER KIRUN",
+        "title": ["Un giovedì ogni", "due settimane"],
+        "info1": "Gare, viaggi, consigli, offerte e prevendite",
+        "info2": "Iscriviti gratis su ki-run.it/newsletter",
+    },
 }
 
 
