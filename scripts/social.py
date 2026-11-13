@@ -84,6 +84,16 @@ EVENTS = {
         "cta": "Prenota",
         "superhalfs": True,
     },
+    "berlin-half-marathon-2027": {
+        "kicker": "RUN + TRAVEL · MEZZA MARATONA",
+        "title": ["Berlin Half", "Marathon 2027"],
+        "info1": "2–5 aprile 2027 · 4 giorni / 3 notti",
+        "info2": "B&B Hotel Berlin-Alexanderplatz · staff KiRun",
+        "ribbon": None,
+        "ribbon_style": None,
+        "cta": "Prenota",
+        "superhalfs": True,
+    },
     "maratona-ravenna-2026": {
         "kicker": "RUN + TRAVEL · 42K · 21K · 10K",
         "title": ["Maratona di", "Ravenna 2026"],
