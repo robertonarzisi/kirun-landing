@@ -452,3 +452,8 @@ footer .credit a { color: var(--azzurro); }
   .guida .testo a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.75rem; color: var(--secondario); }
   .guida section { break-inside: avoid; }
 }
+
+/* link alla scheda ki-run.it in coda agli approfondimenti */
+.link-scheda { margin: 1.25rem 0 0; }
+.link-scheda a { color: var(--arancio); font-weight: 500; text-decoration: none; }
+.link-scheda a:hover { text-decoration: underline; }
