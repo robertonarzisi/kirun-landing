@@ -95,6 +95,8 @@
 
     
 
+    <div id="approfondimenti" data-src="/contenuti/berlin-half-marathon-2027.en.html" hidden></div>
+
     
     <section>
       <span class="etichetta">The fine print, written clearly</span>
@@ -152,6 +154,20 @@ Balance due by 31 January 2027.</p></details><details><summary>Trip cancellation
     });
     a.setAttribute('href', url.toString());
   });
+})();
+</script>
+
+<script>
+/* Approfondimenti per gara (percorso, programma, guida alla città, FAQ): file statico
+   /contenuti/<slug>.html nel repo, scritto a mano dalla scheda ki-run.it. Se il file non c'è
+   (404) la pagina resta com'è. Lo slug arriva dal segnaposto già usato per l'immagine hero. */
+(function () {
+  var box = document.getElementById('approfondimenti');
+  if (!box || !window.fetch) { return; }
+  fetch(box.getAttribute('data-src'), { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.text() : ''; })
+    .then(function (h) { if (h && h.indexOf('<section') !== -1) { box.insertAdjacentHTML('afterend', h); } box.remove(); })
+    .catch(function () {});
 })();
 </script>
 
