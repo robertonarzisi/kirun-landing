@@ -57,7 +57,7 @@
       <a class="cta" href="https://tally.so/r/LZ8yjl?event_key=maratona_ravenna_2026">Book now</a>
       <a class="cta-secondaria" href="#richiedi-info">Request more information</a>
       <span class="nota-card">Booking takes just a few minutes online.</span>
-      <span class="aggiornato">Prices and availability updated on 14 November 2026. On-request
+      <span class="aggiornato">Prices and availability updated on 15 November 2026. On-request
       services are added at the booking stage.</span>
     </div>
   </aside>
@@ -100,6 +100,8 @@
       <div class="testo"><p>Saturday, November 7: meeting in Biella at the parking lot of Stadio Lamarmora, pool side, and bus departure at 7:00 AM. Arrival in Ravenna, check-in at Hotel Cube, and bib collection at the Expò Marathon Village at Pala De André. Afternoon and evening free in the city center, among San Vitale, Galla Placidia, and the mosaics.</p><p>Sunday, November 8: breakfast at the hotel and transfer to the start at Pala De André. At 9:15 AM, the marathon and half marathon start, at 10:15 AM the 10 km Good Morning Ravenna. Finish for everyone at Museo MAR, in the city center. In the afternoon, after the race, bus departure for Biella: return expected around 8:00 PM.</p></div>
     </section>
     
+
+    <div id="approfondimenti" data-src="/contenuti/maratona-ravenna-2026.en.html" hidden></div>
 
     
     <section>
@@ -160,11 +162,25 @@
 })();
 </script>
 
+<script>
+/* Approfondimenti per gara (percorso, programma, guida alla città, FAQ): file statico
+   /contenuti/<slug>.html nel repo, scritto a mano dalla scheda ki-run.it. Se il file non c'è
+   (404) la pagina resta com'è. Lo slug arriva dal segnaposto già usato per l'immagine hero. */
+(function () {
+  var box = document.getElementById('approfondimenti');
+  if (!box || !window.fetch) { return; }
+  fetch(box.getAttribute('data-src'), { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.text() : ''; })
+    .then(function (h) { if (h && h.indexOf('<section') !== -1) { box.insertAdjacentHTML('afterend', h); } box.remove(); })
+    .catch(function () {});
+})();
+</script>
+
 <footer>
   <div class="footer-inner">
     <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun"> join the community</span>
     <span>KiRun is a KiboTours brand · <a href="https://ki-run.it">ki-run.it</a> · <a href="/cookie/#en">Cookies</a></span>
-    <span>Prices and availability updated on 14 November 2026. The travel contract with the
+    <span>Prices and availability updated on 15 November 2026. The travel contract with the
     full terms and conditions is sent before confirmation.</span>
   </div>
 </footer>
