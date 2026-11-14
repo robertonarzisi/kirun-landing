@@ -59,7 +59,7 @@
       <a class="cta" href="https://tally.so/r/WOqJLR?event_key=Valencia_half_marathon_2026">Prenota</a>
       <a class="cta-secondaria" href="#richiedi-info">Richiedi informazioni</a>
       <span class="nota-card">La prenotazione si completa online in pochi minuti.</span>
-      <span class="aggiornato">Prezzi e disponibilità aggiornati al 14 novembre 2026. I servizi
+      <span class="aggiornato">Prezzi e disponibilità aggiornati al 15 novembre 2026. I servizi
       su richiesta si aggiungono in fase di prenotazione.</span>
     </div>
   </aside>
@@ -96,6 +96,8 @@
     
 
     
+
+    <div id="approfondimenti" data-src="/contenuti/valencia-half-marathon-2026.html" hidden></div>
 
     
     <section>
@@ -156,11 +158,25 @@
 })();
 </script>
 
+<script>
+/* Approfondimenti per gara (percorso, programma, guida alla città, FAQ): file statico
+   /contenuti/<slug>.html nel repo, scritto a mano dalla scheda ki-run.it. Se il file non c'è
+   (404) la pagina resta com'è. Lo slug arriva dal segnaposto già usato per l'immagine hero. */
+(function () {
+  var box = document.getElementById('approfondimenti');
+  if (!box || !window.fetch) { return; }
+  fetch(box.getAttribute('data-src'), { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.text() : ''; })
+    .then(function (h) { if (h && h.indexOf('<section') !== -1) { box.insertAdjacentHTML('afterend', h); } box.remove(); })
+    .catch(function () {});
+})();
+</script>
+
 <footer>
   <div class="footer-inner">
     <span class="footer-brand"><img class="logo-footer" src="/assets/brand/logo-orizzontale-bianco.png" alt="KiRun"> entra nella community</span>
     <span>KiRun is a KiboTours brand · <a href="https://ki-run.it">ki-run.it</a> · <a href="/cookie/">Cookie</a></span>
-    <span>Prezzi e disponibilità aggiornati al 14 novembre 2026. Il contratto di viaggio con le
+    <span>Prezzi e disponibilità aggiornati al 15 novembre 2026. Il contratto di viaggio con le
     condizioni complete viene inviato prima della conferma.</span>
   </div>
 </footer>
