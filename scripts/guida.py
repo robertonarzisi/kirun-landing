@@ -47,6 +47,22 @@ ETICHETTE = {
            "community": "join the community", "credit": "Photo"},
 }
 
+# Bandiera accanto al link dell'altra lingua (SVG inline: le emoji bandiera su Windows diventano lettere).
+BANDIERE = {
+    "en": ("<svg class='bandiera' viewBox='0 0 60 30' width='21' height='14' aria-hidden='true' "
+           "style='vertical-align:-2px;margin-right:0.45em;border-radius:2px'>"
+           "<clipPath id='uk-t'><path d='M30,15h30v15zv15h-30zh-30v-15zv-15h30z'/></clipPath>"
+           "<path d='M0,0v30h60v-30z' fill='#012169'/>"
+           "<path d='M0,0 60,30M60,0 0,30' stroke='#fff' stroke-width='6'/>"
+           "<path d='M0,0 60,30M60,0 0,30' clip-path='url(#uk-t)' stroke='#C8102E' stroke-width='4'/>"
+           "<path d='M30,0v30M0,15h60' stroke='#fff' stroke-width='10'/>"
+           "<path d='M30,0v30M0,15h60' stroke='#C8102E' stroke-width='6'/></svg>"),
+    "it": ("<svg class='bandiera' viewBox='0 0 3 2' width='21' height='14' aria-hidden='true' "
+           "style='vertical-align:-2px;margin-right:0.45em;border-radius:2px'>"
+           "<path fill='#009246' d='M0 0h1v2H0z'/><path fill='#fff' d='M1 0h1v2H1z'/>"
+           "<path fill='#CE2B37' d='M2 0h1v2H2z'/></svg>"),
+}
+
 RE_TOKEN = re.compile(r"{{hotel:(\w+)}}")
 
 
@@ -163,6 +179,8 @@ def render(dati, hotel, lang):
                               for i, c in enumerate(d["hero"]["chips"])),
         "alt_lang_url": url_pagina(slug, alt_lang).replace("https://go.ki-run.it", "") if has_alt else "",
         "alt_lang_label": L["alt"],
+        "alt_flag": BANDIERE[alt_lang],
+        "alt_lang": alt_lang,
         "aside_html": aside(d, lang, d["sezioni"]),
         "sezioni_html": "".join(sezione(s, snippet) for s in d["sezioni"]),
         "aggiornato_label": L["aggiornato"],
