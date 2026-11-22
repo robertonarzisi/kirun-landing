@@ -1275,7 +1275,7 @@
       "tipo": "ul",
       "voci": [
        "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception.",
-       "La colazione a buffet è inclusa. L'orario della colazione di domenica te lo confermiamo in hotel; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+       "La colazione a buffet è inclusa. La mattina della gara è servita <b>dalle 5:45</b>: con la griglia a 300 metri hai tutto il tempo. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
       ]
      }
     ],
@@ -1296,7 +1296,7 @@
        {
         "quando": "Dom 6",
         "titolo": "La maratona",
-        "html": "<p>Resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
+        "html": "<p><b>Colazione dalle 5:45</b>, poi resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
        },
        {
         "quando": "Lun 7",
@@ -1404,7 +1404,7 @@
       "tipo": "ul",
       "voci": [
        "<b>Check-in</b> from 16:00, <b>check-out</b> by 12:00; luggage can be left at reception before and after.",
-       "Buffet breakfast is included. We will confirm Sunday's breakfast time at the hotel; keep something you have tested in your room anyway (bread, banana, a bar)."
+       "Buffet breakfast is included. On race morning it is served <b>from 5:45</b>: with your corral 300 metres away you have plenty of time. Keep something you have tested in your room anyway (bread, banana, a bar)."
       ]
      }
     ],
@@ -1472,7 +1472,7 @@
        {
         "quando": "Sun 6",
         "titolo": "The marathon",
-        "html": "<p>Stay at the hotel until a few minutes before entering your corral, about 300 metres away: we will show you the way. Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric and walk back (about 400 metres). <b>At 17:00 medal photo</b> on the Umbracle Terrace.</p>"
+        "html": "<p><b>Breakfast from 5:45</b>, then stay at the hotel until a few minutes before entering your corral, about 300 metres away: we will show you the way. Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric and walk back (about 400 metres). <b>At 17:00 medal photo</b> on the Umbracle Terrace.</p>"
        },
        {
         "quando": "Mon 7",
@@ -1569,30 +1569,58 @@
      }
     ],
     "chip_viaggio": "Volo charter: 4–7 dicembre",
-    "ib_viaggio": "Volo charter Malpensa – Valencia: ven 4 dicembre (indicativo 9:00 → 11:00), lun 7 dicembre (indicativo 18:00 → 20:00), con transfer",
+    "ib_viaggio": "Volo charter <b>HAT 6078</b> ven 4 dicembre, Malpensa T1 9:00 → Valencia 11:00, <b>ritrovo alle 7:00</b> ai banchi del check-in · <b>HAT 6079</b> lun 7 dicembre, Valencia 18:00 → Malpensa 20:00 · transfer inclusi",
     "intro_viaggio": "volo e trasferimenti, ",
-    "pacchetto_li": "<li>3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 4 al 7 dicembre.</li><li><b>Volo charter</b> Milano Malpensa – Valencia andata e ritorno, con ritrovo e assistenza KiRun in partenza a Malpensa.</li><li><b>Trasferimenti</b>: all'arrivo dall'aeroporto all'Expo (sosta di un'ora per pettorale e visita) e poi in hotel; lunedì dall'hotel all'aeroporto.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
+    "pacchetto_li": "<li>3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 4 al 7 dicembre.</li><li><b>Volo charter</b> Milano Malpensa – Valencia andata e ritorno (HAT 6078 e HAT 6079), con ritrovo e assistenza KiRun in partenza a Malpensa.</li><li><b>Trasferimenti</b>: all'arrivo dall'aeroporto all'Expo (sosta di un'ora per pettorale e visita) e poi in hotel; lunedì dall'hotel all'aeroporto.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
     "etichetta_viaggio": "Volo e trasferimenti",
     "titolo_viaggio": "Il volo charter da Malpensa",
     "sezione_viaggio": [
      {
       "tipo": "p",
-      "html": "Il volo charter collega <b>Milano Malpensa e Valencia</b>, andata e ritorno, ed è riservato al gruppo KiRun. Gli orari indicativi sono <b>partenza alle 9:00 e arrivo alle 11:00</b> venerdì 4 dicembre, <b>partenza alle 18:00 e arrivo alle 20:00</b> lunedì 7 dicembre: trattandosi di un charter, possono cambiare. Orari definitivi e punto di ritrovo a Malpensa te li confermiamo prima della partenza."
+      "html": "Il volo charter è riservato al gruppo KiRun: <b>Milano Malpensa – Valencia Manises</b> e ritorno. Gli orari sono locali, e Italia e Spagna hanno lo stesso fuso."
+     },
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Data",
+       "Volo",
+       "Tratta",
+       "Orario"
+      ],
+      "righe": [
+       [
+        "<b>Venerdì 4 dicembre</b>",
+        "HAT 6078",
+        "Malpensa (Terminal 1) → Valencia",
+        "<b>9:00 → 11:00</b>"
+       ],
+       [
+        "<b>Lunedì 7 dicembre</b>",
+        "HAT 6079",
+        "Valencia → Malpensa (Terminal 1)",
+        "<b>18:00 → 20:00</b>"
+       ]
+      ],
+      "nota": "Orari locali. Trattandosi di un volo charter possono cambiare: eventuali variazioni te le comunichiamo noi."
      },
      {
       "tipo": "fatti",
       "voci": [
        {
-        "k": "Venerdì 4 · Malpensa",
-        "v": "<b>Ritrovo e assistenza KiRun</b> in aeroporto per il check-in del gruppo. Volo per Valencia, orario indicativo 9:00 → 11:00."
+        "k": "Ritrovo a Malpensa",
+        "v": "<b>Venerdì 4 alle 7:00 al Terminal 1</b>, ai banchi del check-in: il numero dei banchi lo trovi sui monitor quando arrivi in aeroporto. Lo staff KiRun è lì per l'assistenza in partenza."
+       },
+       {
+        "k": "Check-in",
+        "v": "I banchi dedicati aprono <b>2 ore prima</b> della partenza e chiudono <b>45 minuti prima</b>: all'andata dalle 7:00 alle 8:15, al ritorno dalle 16:00 alle 17:15. Dopo la chiusura non si viene più accettati: non arrivare all'ultimo."
        },
        {
         "k": "All'arrivo",
-        "v": "<b>Transfer dall'aeroporto all'Expo 42K</b> di Feria Valencia, a pochi minuti dall'aeroporto: <b>sosta di un'ora</b> per ritirare pettorale e sacca e visitare l'Expo. Poi si prosegue verso gli hotel."
+        "v": "Valencia Manises, terminal principale. <b>Transfer dall'aeroporto all'Expo 42K</b> di Feria Valencia, a pochi minuti dall'aeroporto: <b>sosta di un'ora</b> per ritirare pettorale e sacca e visitare l'Expo. Poi si prosegue verso gli hotel."
        },
        {
         "k": "Lunedì 7 · ritorno",
-        "v": "Transfer dall'hotel all'aeroporto <b>ore 15:00 dalla hall dell'Holiday Inn Express</b>: ritrovo nella hall, conferma l'orario sul posto con i nostri assistenti. Volo per Malpensa, orario indicativo 18:00 → 20:00."
+        "v": "Transfer dall'hotel all'aeroporto <b>ore 15:00 dalla hall dell'Holiday Inn Express</b>: ritrovo nella hall, conferma l'orario sul posto con i nostri assistenti. Check-in al terminal principale di Valencia, volo HAT 6079 alle 18:00, arrivo a Malpensa alle 20:00."
        },
        {
         "k": "Documenti",
@@ -1607,7 +1635,7 @@
       "html": "<p>La sosta all'Expo è subito dopo l'atterraggio: tieni <b>documento d'identità</b> e <b>mail di conferma dell'iscrizione</b> (o il QR code, se arriva) a portata di mano, non in valigia.</p>"
      }
     ],
-    "assistenza_card": "<p>Lo staff KiRun è con te a <b>Malpensa</b> venerdì, nella hall dell'Holiday Inn Express <b>venerdì 18:00–19:00</b> e <b>sabato 18:45–19:45</b>; domenica mattina ti indichiamo la strada per la griglia; <b>lunedì transfer alle 15:00</b> dalla hall.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "assistenza_card": "<p>Lo staff KiRun è con te a <b>Malpensa</b> venerdì alle 7:00 (Terminal 1, banchi del check-in), nella hall dell'Holiday Inn Express <b>venerdì 18:00–19:00</b> e <b>sabato 18:45–19:45</b>; domenica mattina ti indichiamo la strada per la griglia; <b>lunedì transfer alle 15:00</b> dalla hall.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
     "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel venerdì 18:00–19:00 e sabato 18:45–19:45; lunedì transfer alle 15:00.",
     "expo_avviso": [
      {
@@ -1648,7 +1676,7 @@
       "tipo": "ul",
       "voci": [
        "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception. Lunedì il transfer per l'aeroporto parte alle 15:00 dalla hall.",
-       "La colazione a buffet è inclusa. L'orario della colazione di domenica te lo confermiamo in hotel; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+       "La colazione a buffet è inclusa. La mattina della gara è servita <b>dalle 5:45</b>: con la griglia a 300 metri hai tutto il tempo. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
       ]
      }
     ],
@@ -1659,7 +1687,7 @@
        {
         "quando": "Ven 4",
         "titolo": "Volo, Expo e hotel",
-        "html": "<p>Ritrovo e assistenza KiRun a <b>Malpensa</b>, volo charter per Valencia (orario indicativo 9:00 → 11:00). All'arrivo il transfer ti porta all'<b>Expo 42K</b> di Feria Valencia: un'ora di sosta per pettorale e sacca, poi in hotel. <b>Dalle 18:00 alle 19:00 lo staff è nella hall</b>.</p>"
+        "html": "<p><b>Ritrovo alle 7:00</b> al Terminal 1 di <b>Malpensa</b>, ai banchi del check-in (li trovi sui monitor), con l'assistenza KiRun; volo HAT 6078 alle 9:00, arrivo a Valencia alle 11:00. All'arrivo il transfer ti porta all'<b>Expo 42K</b> di Feria Valencia: un'ora di sosta per pettorale e sacca, poi in hotel. <b>Dalle 18:00 alle 19:00 lo staff è nella hall</b>.</p>"
        },
        {
         "quando": "Sab 5",
@@ -1669,12 +1697,12 @@
        {
         "quando": "Dom 6",
         "titolo": "La maratona",
-        "html": "<p>Resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
+        "html": "<p><b>Colazione dalle 5:45</b>, poi resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
        },
        {
         "quando": "Lun 7",
         "titolo": "Rientro",
-        "html": "<p>Check-out entro le 12:00 e bagaglio in reception. <b>Alle 15:00 transfer dall'hotel all'aeroporto</b>, ritrovo nella hall (conferma l'orario sul posto con i nostri assistenti); volo per Malpensa, orario indicativo 18:00 → 20:00.</p>"
+        "html": "<p>Check-out entro le 12:00 e bagaglio in reception. <b>Alle 15:00 transfer dall'hotel all'aeroporto</b>, ritrovo nella hall (conferma l'orario sul posto con i nostri assistenti); volo HAT 6079 alle 18:00, arrivo a Malpensa alle 20:00.</p>"
        }
       ]
      }
@@ -1691,7 +1719,7 @@
        [
         "<b>Venerdì 4</b>",
         "Aeroporto di Malpensa",
-        "Ritrovo e assistenza in partenza (orario e punto d'incontro te li comunichiamo prima del viaggio)"
+        "<b>7:00</b> ritrovo e assistenza al Terminal 1, ai banchi del check-in (numero sui monitor)"
        ],
        [
         "<b>Venerdì 4</b>",
@@ -1744,31 +1772,59 @@
    "it": {
     "nome_breve": "The Bank Hotel",
     "chip_viaggio": "Volo charter: 4–7 dicembre",
-    "ib_viaggio": "Volo charter Malpensa – Valencia: ven 4 dicembre (indicativo 9:00 → 11:00), lun 7 dicembre (indicativo 18:00 → 20:00), con transfer",
+    "ib_viaggio": "Volo charter <b>HAT 6078</b> ven 4 dicembre, Malpensa T1 9:00 → Valencia 11:00, <b>ritrovo alle 7:00</b> ai banchi del check-in · <b>HAT 6079</b> lun 7 dicembre, Valencia 18:00 → Malpensa 20:00 · transfer inclusi",
     "ib_hotel": "The Bank Hotel, Avinguda del Port 31, 46021 Valencia · check-out 12:00",
     "intro_viaggio": "volo e trasferimenti, ",
-    "pacchetto_li": "<li>3 notti con prima colazione al <b>The Bank Hotel</b>, dal 4 al 7 dicembre.</li><li><b>Volo charter</b> Milano Malpensa – Valencia andata e ritorno, con ritrovo e assistenza KiRun in partenza a Malpensa.</li><li><b>Trasferimenti</b>: all'arrivo dall'aeroporto all'Expo (sosta di un'ora per pettorale e visita) e poi in hotel; lunedì dall'hotel all'aeroporto.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
+    "pacchetto_li": "<li>3 notti con prima colazione al <b>The Bank Hotel</b>, dal 4 al 7 dicembre.</li><li><b>Volo charter</b> Milano Malpensa – Valencia andata e ritorno (HAT 6078 e HAT 6079), con ritrovo e assistenza KiRun in partenza a Malpensa.</li><li><b>Trasferimenti</b>: all'arrivo dall'aeroporto all'Expo (sosta di un'ora per pettorale e visita) e poi in hotel; lunedì dall'hotel all'aeroporto.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
     "etichetta_viaggio": "Volo e trasferimenti",
     "titolo_viaggio": "Il volo charter da Malpensa",
     "sezione_viaggio": [
      {
       "tipo": "p",
-      "html": "Il volo charter collega <b>Milano Malpensa e Valencia</b>, andata e ritorno, ed è riservato al gruppo KiRun. Gli orari indicativi sono <b>partenza alle 9:00 e arrivo alle 11:00</b> venerdì 4 dicembre, <b>partenza alle 18:00 e arrivo alle 20:00</b> lunedì 7 dicembre: trattandosi di un charter, possono cambiare. Orari definitivi e punto di ritrovo a Malpensa te li confermiamo prima della partenza."
+      "html": "Il volo charter è riservato al gruppo KiRun: <b>Milano Malpensa – Valencia Manises</b> e ritorno. Gli orari sono locali, e Italia e Spagna hanno lo stesso fuso."
+     },
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Data",
+       "Volo",
+       "Tratta",
+       "Orario"
+      ],
+      "righe": [
+       [
+        "<b>Venerdì 4 dicembre</b>",
+        "HAT 6078",
+        "Malpensa (Terminal 1) → Valencia",
+        "<b>9:00 → 11:00</b>"
+       ],
+       [
+        "<b>Lunedì 7 dicembre</b>",
+        "HAT 6079",
+        "Valencia → Malpensa (Terminal 1)",
+        "<b>18:00 → 20:00</b>"
+       ]
+      ],
+      "nota": "Orari locali. Trattandosi di un volo charter possono cambiare: eventuali variazioni te le comunichiamo noi."
      },
      {
       "tipo": "fatti",
       "voci": [
        {
-        "k": "Venerdì 4 · Malpensa",
-        "v": "<b>Ritrovo e assistenza KiRun</b> in aeroporto per il check-in del gruppo. Volo per Valencia, orario indicativo 9:00 → 11:00."
+        "k": "Ritrovo a Malpensa",
+        "v": "<b>Venerdì 4 alle 7:00 al Terminal 1</b>, ai banchi del check-in: il numero dei banchi lo trovi sui monitor quando arrivi in aeroporto. Lo staff KiRun è lì per l'assistenza in partenza."
+       },
+       {
+        "k": "Check-in",
+        "v": "I banchi dedicati aprono <b>2 ore prima</b> della partenza e chiudono <b>45 minuti prima</b>: all'andata dalle 7:00 alle 8:15, al ritorno dalle 16:00 alle 17:15. Dopo la chiusura non si viene più accettati: non arrivare all'ultimo."
        },
        {
         "k": "All'arrivo",
-        "v": "<b>Transfer dall'aeroporto all'Expo 42K</b> di Feria Valencia, a pochi minuti dall'aeroporto: <b>sosta di un'ora</b> per ritirare pettorale e sacca e visitare l'Expo. Poi si prosegue verso gli hotel."
+        "v": "Valencia Manises, terminal principale. <b>Transfer dall'aeroporto all'Expo 42K</b> di Feria Valencia, a pochi minuti dall'aeroporto: <b>sosta di un'ora</b> per ritirare pettorale e sacca e visitare l'Expo. Poi si prosegue verso gli hotel."
        },
        {
         "k": "Lunedì 7 · ritorno",
-        "v": "Transfer dall'hotel all'aeroporto <b>ore 15:30 dalla hall di The Bank</b>: ritrovo nella hall, conferma l'orario sul posto con i nostri assistenti. Volo per Malpensa, orario indicativo 18:00 → 20:00."
+        "v": "Transfer dall'hotel all'aeroporto <b>ore 15:30 dalla hall di The Bank</b>: ritrovo nella hall, conferma l'orario sul posto con i nostri assistenti. Check-in al terminal principale di Valencia, volo HAT 6079 alle 18:00, arrivo a Malpensa alle 20:00."
        },
        {
         "k": "Documenti",
@@ -1784,7 +1840,7 @@
      }
     ],
     "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall di The Bank</b> e agli appuntamenti qui sotto, e sempre al telefono e su WhatsApp.",
-    "assistenza_card": "<p>Lo staff KiRun è con te a <b>Malpensa</b> venerdì, nella hall di The Bank <b>venerdì 18:00–19:00</b> e <b>sabato 18:00–18:30</b>; domenica al telefono; <b>lunedì transfer alle 15:30</b> dalla hall.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "assistenza_card": "<p>Lo staff KiRun è con te a <b>Malpensa</b> venerdì alle 7:00 (Terminal 1, banchi del check-in), nella hall di The Bank <b>venerdì 18:00–19:00</b> e <b>sabato 18:00–18:30</b>; domenica al telefono; <b>lunedì transfer alle 15:30</b> dalla hall.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
     "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
     "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall di The Bank venerdì 18:00–19:00 e sabato 18:00–18:30; lunedì transfer alle 15:30.",
     "contatti_hotel": "The Bank Hotel (MYR Hotels), Avinguda del Port 31, 46021 Valencia",
@@ -1827,7 +1883,7 @@
       "tipo": "ul",
       "voci": [
        "<b>Check-out</b> entro le 12:00; per lasciare il bagaglio prima del check-in e dopo il check-out chiedi in reception. Lunedì il transfer per l'aeroporto parte alle 15:30 dalla hall.",
-       "La colazione è inclusa. Per l'orario della colazione di domenica chiedi in reception; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+       "La colazione è inclusa. La mattina della gara è servita <b>dalle 5:45</b>. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
       ]
      }
     ],
@@ -1854,7 +1910,7 @@
        {
         "quando": "Ven 4",
         "titolo": "Volo, Expo e hotel",
-        "html": "<p>Ritrovo e assistenza KiRun a <b>Malpensa</b>, volo charter per Valencia (orario indicativo 9:00 → 11:00). All'arrivo il transfer ti porta all'<b>Expo 42K</b> di Feria Valencia: un'ora di sosta per pettorale e sacca, poi in hotel. <b>Dalle 18:00 alle 19:00 lo staff è nella hall di The Bank</b>.</p>"
+        "html": "<p><b>Ritrovo alle 7:00</b> al Terminal 1 di <b>Malpensa</b>, ai banchi del check-in (li trovi sui monitor), con l'assistenza KiRun; volo HAT 6078 alle 9:00, arrivo a Valencia alle 11:00. All'arrivo il transfer ti porta all'<b>Expo 42K</b> di Feria Valencia: un'ora di sosta per pettorale e sacca, poi in hotel. <b>Dalle 18:00 alle 19:00 lo staff è nella hall di The Bank</b>.</p>"
        },
        {
         "quando": "Sab 5",
@@ -1864,12 +1920,12 @@
        {
         "quando": "Dom 6",
         "titolo": "La maratona",
-        "html": "<p>A piedi fino alla partenza alla Città delle Arti e delle Scienze (20–25 minuti). Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric. <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle. Lo staff è raggiungibile al telefono per tutta la giornata.</p>"
+        "html": "<p><b>Colazione dalle 5:45</b>, poi a piedi fino alla partenza alla Città delle Arti e delle Scienze (20–25 minuti). Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric. <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle. Lo staff è raggiungibile al telefono per tutta la giornata.</p>"
        },
        {
         "quando": "Lun 7",
         "titolo": "Rientro",
-        "html": "<p>Check-out entro le 12:00 e bagaglio in reception. <b>Alle 15:30 transfer dall'hotel all'aeroporto</b>, ritrovo nella hall (conferma l'orario sul posto con i nostri assistenti); volo per Malpensa, orario indicativo 18:00 → 20:00.</p>"
+        "html": "<p>Check-out entro le 12:00 e bagaglio in reception. <b>Alle 15:30 transfer dall'hotel all'aeroporto</b>, ritrovo nella hall (conferma l'orario sul posto con i nostri assistenti); volo HAT 6079 alle 18:00, arrivo a Malpensa alle 20:00.</p>"
        }
       ]
      }
@@ -1886,7 +1942,7 @@
        [
         "<b>Venerdì 4</b>",
         "Aeroporto di Malpensa",
-        "Ritrovo e assistenza in partenza (orario e punto d'incontro te li comunichiamo prima del viaggio)"
+        "<b>7:00</b> ritrovo e assistenza al Terminal 1, ai banchi del check-in (numero sui monitor)"
        ],
        [
         "<b>Venerdì 4</b>",
@@ -2040,7 +2096,7 @@
       "tipo": "ul",
       "voci": [
        "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception.",
-       "La colazione a buffet è inclusa. L'orario della colazione di domenica te lo confermiamo in hotel; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+       "La colazione a buffet è inclusa. La mattina della gara è servita <b>dalle 5:45</b>: con la griglia a 300 metri hai tutto il tempo. Tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
       ]
      }
     ],
@@ -2056,7 +2112,7 @@
        {
         "quando": "Dom 6",
         "titolo": "La maratona",
-        "html": "<p>Resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
+        "html": "<p><b>Colazione dalle 5:45</b>, poi resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
        },
        {
         "quando": "Lun 7",
@@ -2164,7 +2220,7 @@
       "tipo": "ul",
       "voci": [
        "<b>Check-in</b> from 16:00, <b>check-out</b> by 12:00; luggage can be left at reception before and after.",
-       "Buffet breakfast is included. We will confirm Sunday's breakfast time at the hotel; keep something you have tested in your room anyway (bread, banana, a bar)."
+       "Buffet breakfast is included. On race morning it is served <b>from 5:45</b>: with your corral 300 metres away you have plenty of time. Keep something you have tested in your room anyway (bread, banana, a bar)."
       ]
      }
     ],
@@ -2234,7 +2290,7 @@
        {
         "quando": "Sun 6",
         "titolo": "The marathon",
-        "html": "<p>Stay at the hotel until a few minutes before entering your corral, about 300 metres away: we will show you the way. Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric and walk back (about 400 metres). <b>At 17:00 medal photo</b> on the Umbracle Terrace.</p>"
+        "html": "<p><b>Breakfast from 5:45</b>, then stay at the hotel until a few minutes before entering your corral, about 300 metres away: we will show you the way. Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric and walk back (about 400 metres). <b>At 17:00 medal photo</b> on the Umbracle Terrace.</p>"
        },
        {
         "quando": "Mon 7",
