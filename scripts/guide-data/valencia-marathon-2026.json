@@ -1860,7 +1860,7 @@
     "sezione_hotel": [
      {
       "tipo": "p",
-      "html": "Il tuo soggiorno è al <b>The Bank Hotel</b> (MYR Hotels), Avinguda del Port 31, 46021 Valencia: un cinque stelle gran lusso nell'edificio che ospitava il centro dati del Banco de Valencia."
+      "html": "Il tuo soggiorno è al <b>The Bank Hotel</b> (MYR Hotels), Avinguda del Port 31, 46021 Valencia: il primo cinque stelle Gran Lusso nel cuore di Valencia, nell'edificio che ospitava il centro dati del Banco de Valencia, con terrazza panoramica e piscina sul tetto riservate agli ospiti."
      },
      {
       "tipo": "p",
@@ -1869,6 +1869,10 @@
      {
       "tipo": "link",
       "voci": [
+       {
+        "label": "The Bank Hotel – sito ufficiale MYR Hotels",
+        "url": "https://myrhotels.com/it/hotel-a-valencia/the-bank-hotel/"
+       },
        {
         "label": "Apri in Google Maps",
         "url": "https://www.google.com/maps/search/?api=1&query=The+Bank+Hotel+Avinguda+del+Port+31+Valencia"
