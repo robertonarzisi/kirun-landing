@@ -68,8 +68,9 @@ def compose_tip(name, card):
     hero = Image.open(os.path.join(HERO_DIR, card["hero"])).convert("RGB")
     canvas = Image.new("RGBA", (W, H))
     canvas.paste(crop_cover(hero, W, H).convert("RGBA"), (0, 0))
-    # velo più profondo dei post evento: qui il testo è il protagonista
-    canvas.alpha_composite(gradient_overlay((W, H), BLU_NOTTE, 0.18, 255))
+    # velo leggero solo sotto il testo (regola immagini KiRun 22/11/2026: luce chiara, mai
+    # spegnere la foto); prima era 0.18/255, un velo scuro profondo su tutta la card
+    canvas.alpha_composite(gradient_overlay((W, H), BLU_NOTTE, 0.45, 215))
     draw = ImageDraw.Draw(canvas)
     draw.rectangle([0, 0, W, 10], fill=ARANCIO)
     paste_logo(canvas, f"{BRAND}/logo-orizzontale-bianco.png", M, M - 8, 330)
