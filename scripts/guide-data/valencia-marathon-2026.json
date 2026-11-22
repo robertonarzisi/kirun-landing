@@ -1,0 +1,2298 @@
+{
+ "slug": "valencia-marathon-2026",
+ "updated_at": {
+  "it": "22 novembre 2026",
+  "en": "22 November 2026"
+ },
+ "it": {
+  "meta_description": "La guida KiRun per la Valencia Marathon 2026: {{hotel:nome_breve}}, assistenza dello staff, sabato KiRun, Expo 42K, griglie di partenza, percorso e mini guida della città.",
+  "hero": {
+   "eyebrow": "Guida del runner · Maratona",
+   "titolo": "Valencia Marathon 2026",
+   "strillo": "Uno dei percorsi più veloci del mondo: 42 chilometri piatti tra il mare, il Cabanyal e il centro storico, con partenza e arrivo alla Città delle Arti e delle Scienze e il traguardo sulla passerella blu che galleggia sull'acqua. Qui trovi tutto quello che serve per vivere bene il weekend, dall'arrivo al traguardo.",
+   "chips": [
+    "Gara: domenica 6 dicembre",
+    "{{hotel:chip_viaggio}}",
+    "{{hotel:nome_breve}}",
+    "42,195 km"
+   ]
+  },
+  "aside": {
+   "in_breve": [
+    {
+     "k": "Gara",
+     "v": "<b>Domenica 6 dicembre 2026</b>, partenze a ondate dalle 8:15 (cajones 1–3) alle 9:35 (cajón 11)"
+    },
+    {
+     "k": "Partenza e arrivo",
+     "v": "Città delle Arti e delle Scienze: partenza dal Pont de Montolivet, arrivo sulla passerella blu sul lago, davanti all'Hemisfèric"
+    },
+    {
+     "k": "Expo",
+     "v": "Expo 42K, Feria Valencia · gio 3 dicembre 17:00–21:00, ven 4 9:00–21:00, <b>sab 5 9:00–19:00</b> · niente ritiro la domenica"
+    },
+    {
+     "k": "Viaggio",
+     "v": "{{hotel:ib_viaggio}}"
+    },
+    {
+     "k": "Hotel",
+     "v": "{{hotel:ib_hotel}}"
+    },
+    {
+     "k": "Sabato KiRun",
+     "v": "8:30 corsa di gruppo dall'Holiday Inn Express · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria</a>"
+    },
+    {
+     "k": "Foto finisher",
+     "v": "Domenica alle <b>17:00</b> alla Terrazza dell'Umbracle, con la medaglia"
+    },
+    {
+     "k": "Tempo max",
+     "v": "5 ore e 30 minuti (tempo netto); al km 25 entro le 12:57"
+    },
+    {
+     "k": "Documenti",
+     "v": "Carta d'identità valida per l'espatrio"
+    }
+   ],
+   "link_ufficiali": [
+    {
+     "label": "Sito ufficiale Valencia Marathon",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/maraton/"
+    },
+    {
+     "label": "Regolamento 2026",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/regulations-valencia-marathon/"
+    },
+    {
+     "label": "Expo 42K e ritiro pettorale",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/expo42k/"
+    },
+    {
+     "label": "Mappa del percorso 2026 (PDF)",
+     "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/plano-recorrido-42k-2026.pdf"
+    },
+    {
+     "label": "Tabella dei passaggi 2026 (PDF)",
+     "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/tiempos-de-paso-42k-valencia-2026.pdf"
+    },
+    {
+     "label": "Servizi al corridore",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/race-services/"
+    },
+    {
+     "label": "Sacca del corridore e del finisher",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/runner-goodie-bag/"
+    },
+    {
+     "label": "Area del corridore (delega)",
+     "url": "https://tickets.valenciaciudaddelrunning.com/#/EN/servicios"
+    },
+    {
+     "label": "Iscrizione al walking tour KiRun",
+     "url": "https://tally.so/r/J1O2oK"
+    }
+   ],
+   "assistenza": "{{hotel:assistenza_card}}"
+  },
+  "sezioni": [
+   {
+    "id": "introduzione",
+    "etichetta": "Benvenuto a Valencia",
+    "titolo": "La maratona del record",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "La <b>Maratón Valencia Trinidad Alfonso Zurich</b>, organizzata dalla S.D. Correcaminos, è alla sua <b>46ª edizione</b> e ha la <b>Platinum Label</b> di World Athletics, il riconoscimento più alto per una corsa su strada. Porta al via fino a 36.000 runner da tutto il mondo e l'organizzatore la presenta come il circuito più veloce e piatto del mondo: per il 2026 l'obiettivo dichiarato è il record del mondo femminile."
+     },
+     {
+      "tipo": "p",
+      "html": "Il percorso è <b>quasi perfettamente piatto</b>, 16 metri appena tra il punto più basso e il più alto. Parte dal <b>Pont de Montolivet</b>, accanto alla Città delle Arti e delle Scienze, va subito verso il mare e la zona universitaria, gira nei quartieri a nord, torna verso la costa attraverso il <b>Cabanyal</b>, entra nel <b>centro storico</b> passando sotto le Torres de Serranos, fa un ampio giro a ovest fino al Bioparc e chiude sulla <b>passerella blu</b> che galleggia sul lago della Città delle Arti, davanti all'Hemisfèric."
+     },
+     {
+      "tipo": "p",
+      "html": "In questa guida trovi le informazioni pratiche per il weekend: {{hotel:intro_viaggio}}hotel, assistenza KiRun, il sabato con noi, ritiro del pettorale, griglie di partenza, percorso, il dopo gara e una mini guida alla città. Orari e regole vengono dal sito ufficiale (regolamento 2026, pagina dell'Expo, mappa e tabella dei passaggi 2026), letto il 22 novembre. La <b>Race Guide ufficiale 2026</b> non è ancora uscita: quando arriva aggiorniamo la guida. Controlla sempre i <b>link ufficiali</b> nel riquadro a lato."
+     },
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Il tuo pacchetto KiRun",
+      "html": "<ul>{{hotel:pacchetto_li}}</ul>"
+     }
+    ]
+   },
+   {
+    "id": "programma",
+    "etichetta": "Il weekend in sintesi",
+    "titolo": "Il programma dei quattro giorni",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "timeline_blocchi"
+     }
+    ]
+   },
+   {
+    "id": "viaggio",
+    "etichetta": "{{hotel:etichetta_viaggio}}",
+    "titolo": "{{hotel:titolo_viaggio}}",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "sezione_viaggio"
+     }
+    ]
+   },
+   {
+    "id": "assistenza",
+    "etichetta": "Siamo con te",
+    "titolo": "L'assistenza KiRun a Valencia",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "{{hotel:assistenza_intro}}"
+     },
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "assistenza_tabella"
+     },
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "I numeri dello staff",
+      "html": "{{hotel:numeri_staff}}"
+     }
+    ]
+   },
+   {
+    "id": "sabato",
+    "etichetta": "Sabato 5 dicembre",
+    "titolo": "Il sabato con KiRun",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "sabato_avviso"
+     },
+     {
+      "tipo": "h3",
+      "testo": "Ore 8:30 · Corsa di gruppo nel Parco del Turia"
+     },
+     {
+      "tipo": "p",
+      "html": "Partenza alle <b>8:30 dall'Holiday Inn Express Ciudad de las Ciencias</b> per il warm up: <b>30 minuti di corsa leggera</b> nei Giardini del Turia, che iniziano proprio alla Città delle Arti, e la <b>foto di gruppo</b>. Alla vigilia di una maratona è lo scarico giusto: niente ritmo, al massimo qualche allungo. {{hotel:sabato_corsa}}"
+     },
+     {
+      "tipo": "h3",
+      "testo": "Ore 11:00 · Walking tour del centro"
+     },
+     {
+      "tipo": "p",
+      "html": "Un walking tour in versione maratoneta, concentrato nel centro della città, alla scoperta del cuore della <b>Ciudad del Running</b>. La visita è un <b>omaggio KiRun</b>, ma l'<b>iscrizione è obbligatoria</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>iscriviti qui</b></a> (bastano nome e cognome, uno per ogni partecipante)."
+     },
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Appuntamento",
+        "v": "<b>Ore 11:00 alle Torres de Serranos</b>, la porta medievale sul lato nord del centro storico, in Plaça dels Furs · <a href='https://www.google.com/maps/search/?api=1&query=Torres+de+Serranos+Valencia' target='_blank' rel='noopener'>apri in Google Maps</a>"
+       },
+       {
+        "k": "Come arrivare",
+        "v": "Il trasferimento è in autonomia. {{hotel:tour_partenza}}"
+       },
+       {
+        "k": "Iscrizione",
+        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · obbligatoria, gratuita"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Il resto della giornata"
+     },
+     {
+      "tipo": "p",
+      "html": "Se non hai ancora il pettorale, ricorda che l'Expo <b>sabato chiude alle 19:00</b> (evita le fasce 12:00–14:00 e 17:00–19:00) e domenica non si ritira nulla. Poi pomeriggio leggero, <b>cena presto</b> e a base di carboidrati (prenota: il sabato della maratona i ristoranti sono pieni; e la paella a Valencia si mangia a pranzo, non a cena) e preparazione di pettorale e abbigliamento. {{hotel:sabato_sera}}"
+     }
+    ]
+   },
+   {
+    "id": "hotel",
+    "etichetta": "Dove dormi",
+    "titolo": "L'hotel",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "sezione_hotel"
+     }
+    ]
+   },
+   {
+    "id": "expo",
+    "etichetta": "Prima della gara",
+    "titolo": "L'Expo 42K e il ritiro del pettorale",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "Tutto comincia all'<b>Expo 42K</b> di <b>Feria Valencia</b>, il centro fieristico a nord-ovest della città, a pochi minuti dall'aeroporto: qui ritiri pettorale e sacca del corridore, e trovi gli stand di New Balance (marchio tecnico della gara), degli sponsor e dei principali marchi del running, con presentazioni e incontri. È l'unico posto dove si ritira il pettorale: <b>la domenica non si consegna nulla</b>."
+     },
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "expo_avviso"
+     },
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Dove",
+        "v": "<b>Feria Valencia</b> · Avinguda de les Fires s/n, 46035 Valencia · <a href='https://www.google.com/maps/search/?api=1&query=Feria+Valencia' target='_blank' rel='noopener'>apri in Google Maps</a>"
+       },
+       {
+        "k": "Orari",
+        "v": "Giovedì 3 dicembre <b>17:00–21:00</b> · venerdì 4 <b>9:00–21:00</b> · sabato 5 <b>9:00–19:00</b>. Fasce più affollate da evitare: 12:00–14:00 e 17:00–19:00."
+       },
+       {
+        "k": "Con i mezzi",
+        "v": "<b>Tram linea 4</b> fino all'ingresso principale della fiera; <b>bus EMT 62</b> (Benimàmet – Estació del Nord), ogni 10–15 minuti nei giorni feriali. Dall'aeroporto in taxi è una decina di minuti."
+       },
+       {
+        "k": "Dall'hotel",
+        "v": "{{hotel:expo_da_hotel}}"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Il ritiro del pettorale"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "Porta un <b>documento d'identità originale</b> e tieni a portata di mano la mail di conferma dell'iscrizione. Se l'organizzatore manda un <b>QR code</b> per il ritiro (per la mezza di ottobre è arrivato per email il giovedì prima della gara), controlla anche lo spam; se nei giorni prima della partenza non ti è arrivato nulla, scrivici.",
+       "Con il pettorale ricevi la <b>sacca del corridore</b> con i prodotti degli sponsor: frutta secca Importaco, latte Central Lechera Asturiana, ColaCao, barrette Nocilla, quinoa Brillante, patate Meléndez da microonde, chewing gum, caramelle e una bustina di vaselina Vithas.",
+       "Il <b>chip</b> è sul retro del pettorale: il regolamento chiede di verificarlo allo stand di controllo chip dell'Expo. Sempre sul retro vanno scritti <b>telefono di emergenza, eventuali patologie e gruppo sanguigno</b>.",
+       "<b>Non puoi venire all'Expo?</b> Il ritiro per delega si fa autorizzando un'altra persona dall'<a href='https://tickets.valenciaciudaddelrunning.com/#/EN/servicios' target='_blank' rel='noopener'>Area del corridore</a>. Se ne hai bisogno, <b>contattaci</b>: ti diciamo noi chi delegare.",
+       "Cambio di griglia e cambio nome sono possibili dall'Area del corridore fino al <b>26 novembre</b>, con un costo di 25 €; dal 27 novembre non si cambia più nulla, nemmeno all'Expo.",
+       "Porta da casa <b>quattro spille</b> per il pettorale."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "gara",
+    "etichetta": "Domenica 6 dicembre",
+    "titolo": "Il giorno della gara",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "Partenza e arrivo sono entrambi alla <b>Città delle Arti e delle Scienze</b>: si parte dal <b>Pont de Montolivet</b> e si arriva sulla passerella blu sul lago, davanti all'<b>Hemisfèric</b>. I cajones si allineano alle spalle della partenza; il deposito borse, l'incisione delle medaglie e l'area dopo l'arrivo sono sull'<b>Avinguda del Professor López Piñero</b>, accanto all'Umbracle."
+     },
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "gara_blocchi"
+     },
+     {
+      "tipo": "h3",
+      "testo": "Deposito borse"
+     },
+     {
+      "tipo": "p",
+      "html": "Il guardaroba ufficiale (6 €, 8.000 posti) si prenotava online fino al 1° novembre ed è <b>esaurito</b>: il giorno della gara non si può acquistare. Chi l'ha prenotato ha l'icona di una gruccia sul pettorale; è sull'Avinguda del Professor López Piñero, accanto all'Umbracle, uno zaino o un trolley da cabina a testa. {{hotel:deposito_nota}}"
+     },
+     {
+      "tipo": "h3",
+      "testo": "Cajones di partenza e pacer"
+     },
+     {
+      "tipo": "p",
+      "html": "La partenza è scaglionata in <b>nove ondate</b>, dalle 8:15 alle 9:35, e il tuo cajón dipende dal tempo accreditato all'iscrizione: è stampato sul pettorale. Sistemati nel tuo cajón: si può arretrare, mai avanzare. Il tempo ufficiale è quello <b>netto</b>, dal tuo passaggio sulla linea di partenza. L'orario di apertura dei cajones sarà nella Race Guide ufficiale: lo aggiungiamo appena esce."
+     },
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Cajón",
+       "Tempo accreditato",
+       "Partenza"
+      ],
+      "righe": [
+       [
+        "<span class='pallino' style='background:#F2E32B'></span>1 giallo · <span class='pallino' style='background:#1FA83A'></span>2 verde · <span class='pallino' style='background:#22B5E6'></span>3 azzurro",
+        "fino a 2h49:59",
+        "<b>8:15</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#E6007E'></span>4 fucsia",
+        "2h50:00 – 2h59:59",
+        "<b>8:25</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#F28C00'></span>5 arancione",
+        "3h00:00 – 3h11:59",
+        "<b>8:35</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#7A4BA6'></span>6 viola",
+        "3h12:00 – 3h19:59",
+        "<b>8:45</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#8B5A2B'></span>7 marrone",
+        "3h20:00 – 3h31:59",
+        "<b>8:55</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#9A9A9A'></span>8 grigio",
+        "3h32:00 – 3h42:59",
+        "<b>9:05</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#E30613'></span>9 rosso",
+        "3h43:00 – 3h55:59",
+        "<b>9:15</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#FFFFFF;border-color:#1D4F91'></span>10 bianco bordato di blu",
+        "3h56:00 – 4h09:59",
+        "<b>9:25</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#FFFFFF;border-color:#9A9A9A'></span>11 bianco",
+        "oltre 4h10:00",
+        "<b>9:35</b>"
+       ]
+      ],
+      "nota": "Fasce e orari dal <a href='https://www.valenciaciudaddelrunning.com/en/marathon/regulations-valencia-marathon/' target='_blank' rel='noopener'>regolamento 2026</a>; numeri e colori dei cajones dalla <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/plano-recorrido-42k-2026.pdf' target='_blank' rel='noopener'>mappa ufficiale 2026</a>."
+     },
+     {
+      "tipo": "p",
+      "html": "In gara ci sono i <b>pacer MSC</b> («Prácticos»), con un cartello ben visibile con il tempo finale: mettiti dietro quello del tuo obiettivo e lasciati portare. Il <b>tempo massimo</b> è di 5 ore e 30 minuti dal tuo passaggio sulla linea di partenza; chi passa al <b>km 25 dopo le 12:57</b> deve consegnare il pettorale e lasciare il percorso."
+     },
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Checklist della vigilia",
+      "html": "<ul><li>Pettorale sul davanti della maglia con <b>quattro spille</b>, chip sul retro: non piegarlo. Sul retro scrivi telefono di emergenza, patologie e gruppo sanguigno.</li><li>Scarpe e calze già usate in allenamento. All'alba di inizio dicembre a Valencia fa fresco: un vecchio strato da togliere prima del via.</li><li>Gel o integrazione già provati: sul percorso trovi acqua e Aquarius a ogni ristoro e i gel Enervit ai km 16,2, 25,8 e 34.</li><li>Telefono carico e un documento, se non li lasci in hotel.</li><li>{{hotel:checklist_hotel}}</li></ul>"
+     }
+    ]
+   },
+   {
+    "id": "percorso",
+    "etichetta": "42,195 km",
+    "titolo": "Il percorso",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "La distanza ufficiale è <b>42,195 km</b> su un tracciato quasi piatto: il punto più basso è a 1,8 metri sul mare, il più alto a 18 metri, <b>16,2 metri di dislivello</b> in tutto. Strade larghe e poche curve. I riferimenti qui sotto vengono dalla <b>tabella ufficiale dei passaggi 2026</b> e dalla mappa del percorso. {{hotel:percorso_hotel}}"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>km 0–4</b> · Dal <b>Pont de Montolivet</b> subito verso il mare: Avinguda de Balears, la zona del porto e della <b>Marina de València</b>, poi a nord dietro la spiaggia fino a Calle Eugenia Viñes, alla Malvarrosa.",
+       "<b>km 5–8</b> · L'<b>Avinguda dels Tarongers</b>, il grande viale della zona universitaria, verso l'interno fino a Plaza Emilio Attard.",
+       "<b>km 9–13</b> · Il giro a nord: Avinguda de Catalunya, Ronda Nord, Avinguda d'Alfahuir, poi di nuovo verso sud per Calle Dolores Marqués e Calle General Elio, fino ai <b>Jardins del Real</b> (Viveros).",
+       "<b>km 14–20</b> · Il Paseo de la Alameda, l'Avinguda d'Aragó accanto allo <b>stadio di Mestalla</b>, l'Avinguda de Blasco Ibáñez e Calle Ramón Llull, poi ancora l'Avinguda dels Tarongers verso il mare. Primo gel Enervit al km 16,2.",
+       "<b>km 21–25</b> · Il passaggio di metà gara è nel <b>Cabanyal</b>, in Calle de la Reina, il quartiere marinaro delle facciate di ceramica; poi l'<b>Avinguda del Port</b> (km 22–23), Calle Eduardo Boscà e Plaza Zaragoza. Al km 24,5 la prima assistenza rapida, al km 25 il cancello orario delle 12:57.",
+       "<b>km 26–31</b> · Verso il centro: secondo gel al km 25,8, di nuovo la Alameda, Calle Guadalaviar e <b>Calle Blanquerías</b>, sotto le <b>Torres de Serranos</b> (km 28), poi il cuore del centro storico tra Calle Pintor López e Calle Poeta Querol, e Calle Guillem de Castro (km 31).",
+       "<b>km 32–38</b> · Il giro largo a ovest: Gran Via Fernando el Católico, Calle Valle de la Ballestera accanto al <b>Bioparc</b> (km 33–34, terzo gel al km 34), Avinguda Tres Cruces, Calle Archiduque Carlos e Calle San José de Calasanz. È il tratto in cui la maratona comincia davvero: testa sul ritmo e sui ristori.",
+       "<b>km 39–42</b> · Il ritorno: Calle Xàtiva davanti alla <b>Estació del Nord</b> e alla Plaza de Toros, la Porta de la Mar (km 40), l'Avinguda Jacinto Benavente e la Città delle Arti e delle Scienze. Gli ultimi metri sono sulla <b>passerella blu</b> sul lago, davanti all'Hemisfèric."
+      ]
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Ristori</b> ai km 5,5 · 10 · 14,5 · 18,7 · 23 · 28,3 · 33,1 · 37,1 · 40,4 e all'arrivo, con acqua Aquabona in bottiglietta da 33 cl e Aquarius in bicchiere; dal km 23 anche frutta. A ogni ristoro ci sono bagni e servizio medico.",
+       "<b>Gel Enervit</b>, con e senza caffeina, ai km 16,2 · 25,8 · 34 (Red Point). <b>Assistenza rapida</b> della Farmacia Ribera, con vaselina e spray antidolorifico, ai km 24,5 · 29,5 · 34,2 e dopo l'arrivo.",
+       "<b>Tabella dei passaggi</b>: il PDF ufficiale indica per ogni chilometro l'orario di passaggio del primo e dell'ultimo runner. Giralo a chi ti viene a vedere: sa in che fascia oraria cercarti.",
+       "<b>Foto</b>: Marathon Photos scatta lungo il percorso; le foto si cercano per numero di pettorale su marathonphotos.live, dove si scarica gratis anche il diploma."
+      ]
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Mappa ufficiale del percorso 2026 con ristori e profilo (PDF)",
+        "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/plano-recorrido-42k-2026.pdf"
+       },
+       {
+        "label": "Tabella ufficiale dei passaggi 2026 (PDF)",
+        "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/tiempos-de-paso-42k-valencia-2026.pdf"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "arrivo",
+    "etichetta": "Dopo il traguardo",
+    "titolo": "L'arrivo e il dopo gara",
+    "blocchi": [
+     {
+      "tipo": "ul",
+      "voci": [
+       "Continua a camminare oltre la linea: nell'area dopo l'arrivo ricevi la <b>medaglia</b> (spetta a chi arriva entro il tempo massimo) e la <b>sacca del finisher</b> con barretta proteica Enervit, acqua Aquabona, Aquarius, banane delle Canarie e kaki.",
+       "<b>Incisione della medaglia</b>: se l'hai acquistata con l'iscrizione è segnata sul pettorale; altrimenti si paga sul posto, accanto al deposito borse sull'Avinguda del Professor López Piñero.",
+       "<b>Docce</b> per tutti i runner dalle 10:00 alle 17:00 alla piscina municipale di San Luis.",
+       "{{hotel:arrivo_rientro}}",
+       "<b>Ore 17:00 · foto con la medaglia</b>: ci ritroviamo alla <b>Terrazza dell'Umbracle</b>, alla Città delle Arti e delle Scienze, per la foto di gruppo KiRun con la medaglia al collo · <a href='https://www.google.com/maps/search/?api=1&query=L%27Umbracle+Valencia' target='_blank' rel='noopener'>apri in Google Maps</a>",
+       "Risultati ufficiali sul sito dell'organizzatore; foto e diploma su marathonphotos.live."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "citta",
+    "etichetta": "Oltre la gara",
+    "titolo": "Mini guida di Valencia",
+    "blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "Come muoversi"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "{{hotel:citta_metro}}",
+       "<b>Autobus EMT</b>: rete fitta, si paga a bordo con carta contactless; l'app EMT València mostra gli orari in tempo reale.",
+       "<b>A piedi e in bici</b>: il centro storico si gira a piedi; i Giardini del Turia collegano la Città delle Arti al centro in 30–40 minuti di passeggiata, e la città è piena di piste ciclabili (bici condivise Valenbisi).",
+       "<b>Taxi</b> alle fermate e con le app (Cabify, Uber, FREE NOW); tariffe contenute. Domenica mattina molte strade intorno al percorso sono chiuse."
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Cinque luoghi da non perdere"
+     },
+     {
+      "tipo": "schede",
+      "voci": [
+       {
+        "titolo": "Città delle Arti e delle Scienze",
+        "html": "<p>Il simbolo moderno di Valencia, firmato da Santiago Calatrava, {{hotel:cac_distanza}}: il Palau de les Arts, l'Hemisfèric, il Museo delle Scienze, l'Umbracle e l'<b>Oceanogràfic</b>, il più grande acquario d'Europa. Da vedere anche la sera, illuminata.</p>"
+       },
+       {
+        "titolo": "Centro storico",
+        "html": "<p>La Cattedrale con la torre del <b>Miguelete</b> (207 gradini e la vista migliore sulla città), la Plaza de la Virgen, la <b>Lonja de la Seda</b> patrimonio UNESCO e le torri medievali di Serranos e Quart. Il walking tour di sabato è il modo giusto per cominciare.</p>"
+       },
+       {
+        "titolo": "Mercado Central",
+        "html": "<p>Uno dei mercati coperti più grandi d'Europa, in un edificio modernista del 1928: oltre mille banchi di frutta, pesce, jamón e spezie. La domenica è chiuso: è il posto giusto per una colazione il giorno dopo la gara.</p>"
+       },
+       {
+        "titolo": "Giardini del Turia",
+        "html": "<p>Nove chilometri di parco nell'antico letto del fiume, dal Parco di Cabecera alla Città delle Arti: è dove corriamo insieme il sabato mattina e il posto giusto per una passeggiata defaticante dopo la gara.</p>"
+       },
+       {
+        "titolo": "Malvarrosa e Cabanyal",
+        "html": "<p>La spiaggia cittadina di sabbia fine e il quartiere marinaro con le facciate di ceramica, dove passi a metà gara: dopo la maratona, un pranzo vista mare sul Paseo Marítimo è il modo giusto di chiudere il weekend.</p>"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Tre piatti e una bevanda"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Paella valenciana</b>: quella originale, con pollo, coniglio, fagiolini e garrofó, nata proprio qui. Si mangia <b>a pranzo</b>, mai la sera: perfetta la domenica dopo la gara.",
+       "<b>Esgarraet</b>: peperoni arrostiti, baccalà e olio d'oliva, la tapa valenciana per eccellenza.",
+       "<b>Fideuà</b>: la «paella» di pasta corta con il pesce, nata nel quartiere del porto che attraversi nei primi chilometri.",
+       "<b>Horchata con fartons</b>: la bevanda fredda di chufa con i dolci allungati da inzuppare. Da provare in una horchatería storica del centro."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "pratiche",
+    "etichetta": "Prima di partire",
+    "titolo": "Informazioni pratiche per la Spagna",
+    "blocchi": [
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Documenti",
+        "v": "Basta la <b>carta d'identità valida per l'espatrio</b> (o il passaporto): serve anche all'Expo per il ritiro del pettorale. Nessun visto."
+       },
+       {
+        "k": "Valuta",
+        "v": "Euro. Le carte contactless sono accettate ovunque, anche su metro e bus: di contanti ne servono pochissimi."
+       },
+       {
+        "k": "Lingua",
+        "v": "Spagnolo e valenciano (la segnaletica è bilingue). Nei luoghi turistici l'inglese è compreso; con l'italiano ci si intende quasi sempre."
+       },
+       {
+        "k": "Elettricità",
+        "v": "Prese di tipo <b>C/F</b>, 230 V: come in Italia, <b>non serve l'adattatore</b> (le spine italiane a tre poli in linea possono non entrare: porta una spina schuko o a due poli)."
+       },
+       {
+        "k": "Telefono",
+        "v": "Prefisso +34. Il roaming nell'Unione Europea è incluso nelle offerte italiane: chiamate e dati come a casa."
+       },
+       {
+        "k": "Fuso orario",
+        "v": "Lo stesso dell'Italia."
+       },
+       {
+        "k": "Meteo",
+        "v": "A inizio dicembre a Valencia le giornate sono in genere miti e spesso soleggiate, ma la mattina presto fa fresco. Domenica 6 il sole sorge intorno alle 8:05 e tramonta intorno alle 17:40: alla prima partenza è appena giorno, e la foto delle 17:00 all'Umbracle cade nella luce del tramonto."
+       },
+       {
+        "k": "Festività",
+        "v": "Domenica 6 dicembre è la festa della Costituzione e martedì 8 l'Immacolata, festa nazionale: in quei giorni molti negozi sono chiusi."
+       },
+       {
+        "k": "Emergenze",
+        "v": "<b>112</b> per polizia, ambulanza e vigili del fuoco. Con la tessera sanitaria italiana (TEAM) hai diritto alle cure del servizio pubblico spagnolo. Farmacie segnalate dalla croce verde, molte aperte 24 ore."
+       },
+       {
+        "k": "Acqua e mance",
+        "v": "L'acqua del rubinetto è potabile ma molto calcarea: quasi tutti bevono quella in bottiglia. Al ristorante la mancia non è obbligatoria; si lascia qualche euro se il servizio è piaciuto."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "contatti",
+    "etichetta": "Chi chiamare",
+    "titolo": "Contatti utili",
+    "blocchi": [
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "KiRun",
+        "v": "{{hotel:contatti_kirun}}"
+       },
+       {
+        "k": "Walking tour",
+        "v": "Iscrizione obbligatoria su <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
+       },
+       {
+        "k": "Organizzatore",
+        "v": "S.D. Correcaminos · <a href='https://www.valenciaciudaddelrunning.com/en/contact/' target='_blank' rel='noopener'>modulo di contatto sul sito ufficiale</a>"
+       },
+       {
+        "k": "Expo",
+        "v": "Expo 42K, Feria Valencia, Avinguda de les Fires s/n, 46035 Valencia"
+       },
+       {
+        "k": "Hotel",
+        "v": "{{hotel:contatti_hotel}}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "en": {
+  "meta_description": "The KiRun guide to the Valencia Marathon 2026: {{hotel:nome_breve}}, KiRun staff support, the KiRun Saturday, Expo 42K, start corrals, course and a mini city guide.",
+  "hero": {
+   "eyebrow": "Runner's guide · Marathon",
+   "titolo": "Valencia Marathon 2026",
+   "strillo": "One of the fastest courses in the world: 42 flat kilometres between the sea, the Cabanyal and the old town, starting and finishing at the City of Arts and Sciences, with the finish line on the blue walkway floating over the water. Here is everything you need for a good weekend, from arrival to the finish.",
+   "chips": [
+    "Race: Sunday 6 December",
+    "{{hotel:chip_viaggio}}",
+    "{{hotel:nome_breve}}",
+    "42.195 km"
+   ]
+  },
+  "aside": {
+   "in_breve": [
+    {
+     "k": "Race",
+     "v": "<b>Sunday 6 December 2026</b>, wave starts from 8:15 (corrals 1–3) to 9:35 (corral 11)"
+    },
+    {
+     "k": "Start and finish",
+     "v": "City of Arts and Sciences: start on the Pont de Montolivet, finish on the blue walkway over the lake, in front of the Hemisfèric"
+    },
+    {
+     "k": "Expo",
+     "v": "Expo 42K, Feria Valencia · Thu 3 December 17:00–21:00, Fri 4 9:00–21:00, <b>Sat 5 9:00–19:00</b> · no bib collection on Sunday"
+    },
+    {
+     "k": "Travel",
+     "v": "{{hotel:ib_viaggio}}"
+    },
+    {
+     "k": "Hotel",
+     "v": "{{hotel:ib_hotel}}"
+    },
+    {
+     "k": "KiRun Saturday",
+     "v": "8:30 group run from the Holiday Inn Express · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required</a>"
+    },
+    {
+     "k": "Finisher photo",
+     "v": "Sunday at <b>17:00</b> on the Umbracle Terrace, with your medal"
+    },
+    {
+     "k": "Time limit",
+     "v": "5 hours 30 minutes (net time); km 25 by 12:57"
+    },
+    {
+     "k": "Documents",
+     "v": "Valid ID card or passport"
+    }
+   ],
+   "link_ufficiali": [
+    {
+     "label": "Valencia Marathon official website",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/maraton/"
+    },
+    {
+     "label": "2026 regulations",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/regulations-valencia-marathon/"
+    },
+    {
+     "label": "Expo 42K and bib collection",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/expo42k/"
+    },
+    {
+     "label": "2026 course map (PDF)",
+     "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/plano-recorrido-42k-2026.pdf"
+    },
+    {
+     "label": "2026 split times (PDF)",
+     "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/tiempos-de-paso-42k-valencia-2026.pdf"
+    },
+    {
+     "label": "Race services",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/race-services/"
+    },
+    {
+     "label": "Runner and finisher bags",
+     "url": "https://www.valenciaciudaddelrunning.com/en/marathon/runner-goodie-bag/"
+    },
+    {
+     "label": "Runner's Area (third-party collection)",
+     "url": "https://tickets.valenciaciudaddelrunning.com/#/EN/servicios"
+    },
+    {
+     "label": "KiRun walking tour registration",
+     "url": "https://tally.so/r/J1O2oK"
+    }
+   ],
+   "assistenza": "{{hotel:assistenza_card}}"
+  },
+  "sezioni": [
+   {
+    "id": "introduction",
+    "etichetta": "Welcome to Valencia",
+    "titolo": "The record-breaking marathon",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "The <b>Maratón Valencia Trinidad Alfonso Zurich</b>, organised by S.D. Correcaminos, reaches its <b>46th edition</b> and holds the World Athletics <b>Platinum Label</b>, the highest recognition for a road race. Up to 36,000 runners from all over the world line up, and the organiser calls it the fastest and flattest circuit in the world: for 2026 the stated goal is the women's world record."
+     },
+     {
+      "tipo": "p",
+      "html": "The course is <b>almost perfectly flat</b>, barely 16 metres between its lowest and highest points. It starts on the <b>Pont de Montolivet</b>, next to the City of Arts and Sciences, heads straight for the sea and the university district, loops through the northern neighbourhoods, returns to the coast through the <b>Cabanyal</b>, enters the <b>old town</b> under the Torres de Serranos, makes a wide loop west to the Bioparc and finishes on the <b>blue walkway</b> floating over the lake of the City of Arts, in front of the Hemisfèric."
+     },
+     {
+      "tipo": "p",
+      "html": "In this guide you will find the practical information for the weekend: hotel, KiRun support, the Saturday with us, bib collection, start corrals, course, after the race and a mini guide to the city. Times and rules come from the official website (2026 regulations, Expo page, 2026 course map and split times), checked on 22 November. The <b>official 2026 Race Guide</b> has not been published yet: we will update this guide when it comes out. Always check the <b>official links</b> in the side panel."
+     },
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Your KiRun package",
+      "html": "<ul>{{hotel:pacchetto_li}}</ul>"
+     }
+    ]
+   },
+   {
+    "id": "programme",
+    "etichetta": "The weekend at a glance",
+    "titolo": "The four-day programme",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "timeline_blocchi"
+     }
+    ]
+   },
+   {
+    "id": "travel",
+    "etichetta": "{{hotel:etichetta_viaggio}}",
+    "titolo": "{{hotel:titolo_viaggio}}",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "sezione_viaggio"
+     }
+    ]
+   },
+   {
+    "id": "support",
+    "etichetta": "We are with you",
+    "titolo": "KiRun support in Valencia",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "{{hotel:assistenza_intro}}"
+     },
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "assistenza_tabella"
+     },
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Staff numbers",
+      "html": "{{hotel:numeri_staff}}"
+     }
+    ]
+   },
+   {
+    "id": "saturday",
+    "etichetta": "Saturday 5 December",
+    "titolo": "Saturday with KiRun",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "sabato_avviso"
+     },
+     {
+      "tipo": "h3",
+      "testo": "8:30 · Group run in the Turia Park"
+     },
+     {
+      "tipo": "p",
+      "html": "We leave at <b>8:30 from the Holiday Inn Express Ciudad de las Ciencias</b> for a warm-up: <b>30 minutes of easy running</b> in the Turia Gardens, which begin right at the City of Arts, and a <b>group photo</b>. The day before a marathon this is the right shake-out: no pace, a few strides at most. {{hotel:sabato_corsa}}"
+     },
+     {
+      "tipo": "h3",
+      "testo": "11:00 · Walking tour of the centre"
+     },
+     {
+      "tipo": "p",
+      "html": "A walking tour, marathon-runner style, focused on the city centre, discovering the heart of the <b>Ciudad del Running</b>. The tour is <b>complimentary from KiRun</b>, but <b>registration is required</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>register here</b></a> (just first and last name, one form per person)."
+     },
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Meeting point",
+        "v": "<b>11:00 at the Torres de Serranos</b>, the medieval gate on the northern edge of the old town, in Plaça dels Furs · <a href='https://www.google.com/maps/search/?api=1&query=Torres+de+Serranos+Valencia' target='_blank' rel='noopener'>open in Google Maps</a>"
+       },
+       {
+        "k": "Getting there",
+        "v": "You make your own way there. {{hotel:tour_partenza}}"
+       },
+       {
+        "k": "Registration",
+        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · required, free"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "The rest of the day"
+     },
+     {
+      "tipo": "p",
+      "html": "If you do not have your bib yet, remember that the Expo <b>closes at 19:00 on Saturday</b> (avoid 12:00–14:00 and 17:00–19:00) and nothing is handed out on Sunday. Then an easy afternoon, an <b>early carb-based dinner</b> (book ahead: on marathon Saturday restaurants are full; and in Valencia paella is a lunch dish, not dinner) and getting your bib and kit ready. {{hotel:sabato_sera}}"
+     }
+    ]
+   },
+   {
+    "id": "hotel",
+    "etichetta": "Where you stay",
+    "titolo": "Your hotel",
+    "blocchi": [
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "sezione_hotel"
+     }
+    ]
+   },
+   {
+    "id": "expo",
+    "etichetta": "Before the race",
+    "titolo": "Expo 42K and bib collection",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "It all starts at the <b>Expo 42K</b> at <b>Feria Valencia</b>, the trade fair centre north-west of the city, a few minutes from the airport: this is where you collect your bib and runner's bag, with the stands of New Balance (the race's technical brand), the sponsors and the main running brands, plus presentations and talks. It is the only place to collect your bib: <b>nothing is handed out on Sunday</b>."
+     },
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "expo_avviso"
+     },
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Where",
+        "v": "<b>Feria Valencia</b> · Avinguda de les Fires s/n, 46035 Valencia · <a href='https://www.google.com/maps/search/?api=1&query=Feria+Valencia' target='_blank' rel='noopener'>open in Google Maps</a>"
+       },
+       {
+        "k": "Opening hours",
+        "v": "Thursday 3 December <b>17:00–21:00</b> · Friday 4 <b>9:00–21:00</b> · Saturday 5 <b>9:00–19:00</b>. Busiest times to avoid: 12:00–14:00 and 17:00–19:00."
+       },
+       {
+        "k": "By public transport",
+        "v": "<b>Tram line 4</b> to the main entrance of the fair; <b>EMT bus 62</b> (Benimàmet – Estació del Nord), every 10–15 minutes on weekdays. From the airport it is about ten minutes by taxi."
+       },
+       {
+        "k": "From the hotel",
+        "v": "{{hotel:expo_da_hotel}}"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Collecting your bib"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "Bring an <b>original ID document</b> and keep your registration confirmation email handy. If the organiser sends a <b>QR code</b> for collection (for the October half marathon it arrived by email on the Thursday before the race), check your spam folder too; if nothing has arrived in the days before you leave, write to us.",
+       "With your bib you get the <b>runner's bag</b> with sponsor products: Importaco nuts, Central Lechera Asturiana milk, ColaCao, Nocilla bars, Brillante quinoa, Meléndez microwave potatoes, chewing gum, sweets and a sachet of Vithas vaseline.",
+       "The <b>chip</b> is on the back of the bib: the regulations ask you to check it at the chip check stand at the Expo. Also on the back, write your <b>emergency phone number, any medical conditions and your blood group</b>.",
+       "<b>Can't make it to the Expo?</b> Someone else can collect your bib if you authorise them in the <a href='https://tickets.valenciaciudaddelrunning.com/#/EN/servicios' target='_blank' rel='noopener'>Runner's Area</a>. If you need this, <b>contact us</b> and we will tell you who to authorise.",
+       "Corral changes and name changes are possible in the Runner's Area until <b>26 November</b>, for 25 €; from 27 November nothing can be changed, not even at the Expo.",
+       "Bring <b>four safety pins</b> from home for your bib."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "race",
+    "etichetta": "Sunday 6 December",
+    "titolo": "Race day",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "Both start and finish are at the <b>City of Arts and Sciences</b>: you start on the <b>Pont de Montolivet</b> and finish on the blue walkway over the lake, in front of the <b>Hemisfèric</b>. The corrals line up behind the start; bag drop, medal engraving and the post-finish area are on <b>Avinguda del Professor López Piñero</b>, next to the Umbracle."
+     },
+     {
+      "tipo": "hotel_blocchi",
+      "chiave": "gara_blocchi"
+     },
+     {
+      "tipo": "h3",
+      "testo": "Bag drop"
+     },
+     {
+      "tipo": "p",
+      "html": "The official bag drop (6 €, 8,000 places) had to be booked online by 1 November and is <b>sold out</b>: it cannot be bought on race day. If you booked it, your bib shows a coat-hanger icon; it is on Avinguda del Professor López Piñero, next to the Umbracle, one backpack or cabin bag per runner. {{hotel:deposito_nota}}"
+     },
+     {
+      "tipo": "h3",
+      "testo": "Start corrals and pacers"
+     },
+     {
+      "tipo": "p",
+      "html": "The start is split into <b>nine waves</b>, from 8:15 to 9:35, and your corral depends on the time accredited at registration: it is printed on your bib. Go to your own corral: you may move back, never forward. The official time is <b>net time</b>, from when you cross the start line. Corral opening times will be in the official Race Guide: we will add them as soon as it is out."
+     },
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Corral",
+       "Accredited time",
+       "Start"
+      ],
+      "righe": [
+       [
+        "<span class='pallino' style='background:#F2E32B'></span>1 yellow · <span class='pallino' style='background:#1FA83A'></span>2 green · <span class='pallino' style='background:#22B5E6'></span>3 light blue",
+        "under 2:49:59",
+        "<b>8:15</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#E6007E'></span>4 fuchsia",
+        "2:50:00 – 2:59:59",
+        "<b>8:25</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#F28C00'></span>5 orange",
+        "3:00:00 – 3:11:59",
+        "<b>8:35</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#7A4BA6'></span>6 purple",
+        "3:12:00 – 3:19:59",
+        "<b>8:45</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#8B5A2B'></span>7 brown",
+        "3:20:00 – 3:31:59",
+        "<b>8:55</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#9A9A9A'></span>8 grey",
+        "3:32:00 – 3:42:59",
+        "<b>9:05</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#E30613'></span>9 red",
+        "3:43:00 – 3:55:59",
+        "<b>9:15</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#FFFFFF;border-color:#1D4F91'></span>10 white with blue border",
+        "3:56:00 – 4:09:59",
+        "<b>9:25</b>"
+       ],
+       [
+        "<span class='pallino' style='background:#FFFFFF;border-color:#9A9A9A'></span>11 white",
+        "over 4:10:00",
+        "<b>9:35</b>"
+       ]
+      ],
+      "nota": "Time bands and start times from the <a href='https://www.valenciaciudaddelrunning.com/en/marathon/regulations-valencia-marathon/' target='_blank' rel='noopener'>2026 regulations</a>; corral numbers and colours from the <a href='https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/plano-recorrido-42k-2026.pdf' target='_blank' rel='noopener'>official 2026 map</a>."
+     },
+     {
+      "tipo": "p",
+      "html": "The <b>MSC pacers</b> («Prácticos») run with a highly visible banner showing their finish time: get behind the one for your target and let them carry you. The <b>time limit</b> is 5 hours 30 minutes from when you cross the start line; anyone passing <b>km 25 after 12:57</b> must hand in their bib and leave the course."
+     },
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Race-eve checklist",
+      "html": "<ul><li>Bib on the front of your top with <b>four safety pins</b>, chip on the back: do not fold it. On the back write your emergency number, medical conditions and blood group.</li><li>Shoes and socks you have already trained in. At dawn in early December Valencia is chilly: an old layer to throw off before the start.</li><li>Gels or fuel you have already tested: on the course there are water and Aquarius at every aid station and Enervit gels at km 16.2, 25.8 and 34.</li><li>Charged phone and an ID, unless you leave them at the hotel.</li><li>{{hotel:checklist_hotel}}</li></ul>"
+     }
+    ]
+   },
+   {
+    "id": "course",
+    "etichetta": "42.195 km",
+    "titolo": "The course",
+    "blocchi": [
+     {
+      "tipo": "p",
+      "html": "The official distance is <b>42.195 km</b> on an almost flat course: the lowest point is 1.8 metres above sea level, the highest 18 metres, <b>16.2 metres of elevation difference</b> in total. Wide roads and few bends. The references below come from the <b>official 2026 split-time table</b> and the course map. {{hotel:percorso_hotel}}"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>km 0–4</b> · From the <b>Pont de Montolivet</b> straight towards the sea: Avinguda de Balears, the port and the <b>Marina de València</b>, then north behind the beach to Calle Eugenia Viñes, in Malvarrosa.",
+       "<b>km 5–8</b> · <b>Avinguda dels Tarongers</b>, the big avenue of the university district, inland to Plaza Emilio Attard.",
+       "<b>km 9–13</b> · The northern loop: Avinguda de Catalunya, Ronda Nord, Avinguda d'Alfahuir, then south again along Calle Dolores Marqués and Calle General Elio to the <b>Jardins del Real</b> (Viveros).",
+       "<b>km 14–20</b> · Paseo de la Alameda, Avinguda d'Aragó next to the <b>Mestalla stadium</b>, Avinguda de Blasco Ibáñez and Calle Ramón Llull, then Avinguda dels Tarongers again towards the sea. First Enervit gel at km 16.2.",
+       "<b>km 21–25</b> · Halfway is in the <b>Cabanyal</b>, on Calle de la Reina, the seafaring quarter with its tiled façades; then <b>Avinguda del Port</b> (km 22–23), Calle Eduardo Boscà and Plaza Zaragoza. First rapid assistance point at km 24.5, the 12:57 cut-off at km 25.",
+       "<b>km 26–31</b> · Towards the centre: second gel at km 25.8, the Alameda again, Calle Guadalaviar and <b>Calle Blanquerías</b>, under the <b>Torres de Serranos</b> (km 28), then the heart of the old town between Calle Pintor López and Calle Poeta Querol, and Calle Guillem de Castro (km 31).",
+       "<b>km 32–38</b> · The wide western loop: Gran Via Fernando el Católico, Calle Valle de la Ballestera next to the <b>Bioparc</b> (km 33–34, third gel at km 34), Avinguda Tres Cruces, Calle Archiduque Carlos and Calle San José de Calasanz. This is where the marathon really starts: focus on your pace and the aid stations.",
+       "<b>km 39–42</b> · The way back: Calle Xàtiva past the <b>Estació del Nord</b> and the bullring, Porta de la Mar (km 40), Avinguda Jacinto Benavente and the City of Arts and Sciences. The last metres are on the <b>blue walkway</b> over the lake, in front of the Hemisfèric."
+      ]
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Aid stations</b> at km 5.5 · 10 · 14.5 · 18.7 · 23 · 28.3 · 33.1 · 37.1 · 40.4 and at the finish, with Aquabona water in 33 cl bottles and Aquarius in cups; fruit too from km 23. Every aid station has toilets and medical staff.",
+       "<b>Enervit gels</b>, with and without caffeine, at km 16.2 · 25.8 · 34 (Red Points). <b>Rapid assistance</b> by Farmacia Ribera, with vaseline and pain-relief spray, at km 24.5 · 29.5 · 34.2 and after the finish.",
+       "<b>Split-time table</b>: the official PDF gives, for every kilometre, the passing time of the first and last runners. Send it to whoever is coming to watch: they will know when to look for you.",
+       "<b>Photos</b>: Marathon Photos shoots along the course; search by bib number on marathonphotos.live, where you can also download your certificate for free."
+      ]
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Official 2026 course map with aid stations and profile (PDF)",
+        "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/plano-recorrido-42k-2026.pdf"
+       },
+       {
+        "label": "Official 2026 split-time table (PDF)",
+        "url": "https://www.valenciaciudaddelrunning.com/wp-content/uploads/2026/11/tiempos-de-paso-42k-valencia-2026.pdf"
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "finish",
+    "etichetta": "After the finish line",
+    "titolo": "The finish and after the race",
+    "blocchi": [
+     {
+      "tipo": "ul",
+      "voci": [
+       "Keep walking past the line: in the post-finish area you receive your <b>medal</b> (for everyone finishing within the time limit) and the <b>finisher's bag</b> with an Enervit protein bar, Aquabona water, Aquarius, Canary Island bananas and persimmon.",
+       "<b>Medal engraving</b>: if you bought it with your entry it is marked on your bib; otherwise you pay on the spot, next to the bag drop on Avinguda del Professor López Piñero.",
+       "<b>Showers</b> for all runners from 10:00 to 17:00 at the San Luis municipal swimming pool.",
+       "{{hotel:arrivo_rientro}}",
+       "<b>17:00 · medal photo</b>: we meet on the <b>Umbracle Terrace</b>, at the City of Arts and Sciences, for the KiRun group photo with your medal round your neck · <a href='https://www.google.com/maps/search/?api=1&query=L%27Umbracle+Valencia' target='_blank' rel='noopener'>open in Google Maps</a>",
+       "Official results on the organiser's website; photos and certificate on marathonphotos.live."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "city",
+    "etichetta": "Beyond the race",
+    "titolo": "Mini guide to Valencia",
+    "blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "Getting around"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "{{hotel:citta_metro}}",
+       "<b>EMT buses</b>: a dense network, pay on board with a contactless card; the EMT València app shows real-time times.",
+       "<b>On foot and by bike</b>: the old town is best on foot; the Turia Gardens link the City of Arts to the centre in a 30–40 minute walk, and the city is full of cycle lanes (Valenbisi bike sharing).",
+       "<b>Taxis</b> at the ranks and through apps (Cabify, Uber, FREE NOW); fares are reasonable. On Sunday morning many streets around the course are closed."
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Five places not to miss"
+     },
+     {
+      "tipo": "schede",
+      "voci": [
+       {
+        "titolo": "City of Arts and Sciences",
+        "html": "<p>Valencia's modern landmark, designed by Santiago Calatrava, {{hotel:cac_distanza}}: the Palau de les Arts, the Hemisfèric, the Science Museum, the Umbracle and the <b>Oceanogràfic</b>, Europe's largest aquarium. Worth seeing at night too, lit up.</p>"
+       },
+       {
+        "titolo": "Old town",
+        "html": "<p>The Cathedral with the <b>Miguelete</b> tower (207 steps and the best view of the city), Plaza de la Virgen, the UNESCO-listed <b>Lonja de la Seda</b> and the medieval Serranos and Quart towers. Saturday's walking tour is the right way to start.</p>"
+       },
+       {
+        "titolo": "Mercado Central",
+        "html": "<p>One of Europe's largest covered markets, in a 1928 modernist building: over a thousand stalls of fruit, fish, jamón and spices. Closed on Sundays: the right place for breakfast the day after the race.</p>"
+       },
+       {
+        "titolo": "Turia Gardens",
+        "html": "<p>Nine kilometres of park in the old riverbed, from Cabecera Park to the City of Arts: where we run together on Saturday morning and the right place for a recovery walk after the race.</p>"
+       },
+       {
+        "titolo": "Malvarrosa and Cabanyal",
+        "html": "<p>The city beach with its fine sand and the seafaring quarter with tiled façades, where you pass at halfway: after the marathon, a seaside lunch on the Paseo Marítimo is the right way to end the weekend.</p>"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Three dishes and a drink"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Paella valenciana</b>: the original, with chicken, rabbit, green beans and garrofó, born right here. Eaten <b>at lunch</b>, never in the evening: perfect on Sunday after the race.",
+       "<b>Esgarraet</b>: roasted peppers, salt cod and olive oil, the Valencian tapa par excellence.",
+       "<b>Fideuà</b>: the short-noodle «paella» with seafood, born in the port district you run through in the first kilometres.",
+       "<b>Horchata with fartons</b>: the cold tiger-nut drink with long sweet buns for dipping. Try it in a historic horchatería in the centre."
+      ]
+     }
+    ]
+   },
+   {
+    "id": "practical",
+    "etichetta": "Before you leave",
+    "titolo": "Practical information for Spain",
+    "blocchi": [
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Documents",
+        "v": "EU citizens need a <b>valid ID card or passport</b>, also required at the Expo to collect your bib. Other nationalities: check the entry requirements for Spain."
+       },
+       {
+        "k": "Currency",
+        "v": "Euro. Contactless cards are accepted everywhere, including metro and buses: you need very little cash."
+       },
+       {
+        "k": "Language",
+        "v": "Spanish and Valencian (signs are bilingual). English is understood in tourist areas."
+       },
+       {
+        "k": "Electricity",
+        "v": "Type <b>C/F</b> sockets, 230 V. Travellers from the UK, Ireland and outside continental Europe need an adapter."
+       },
+       {
+        "k": "Phone",
+        "v": "Country code +34. Roaming within the EU is usually included in EU plans: check with your provider if you come from elsewhere."
+       },
+       {
+        "k": "Time zone",
+        "v": "Central European Time (UTC+1), the same as Italy and one hour ahead of the UK."
+       },
+       {
+        "k": "Weather",
+        "v": "In early December Valencia's days are usually mild and often sunny, but early mornings are chilly. On Sunday 6 the sun rises around 8:05 and sets around 17:40: it is just light at the first start, and the 17:00 photo at the Umbracle falls in the sunset light."
+       },
+       {
+        "k": "Public holidays",
+        "v": "Sunday 6 December is Constitution Day and Tuesday 8 is the Immaculate Conception, a national holiday: many shops are closed on those days."
+       },
+       {
+        "k": "Emergencies",
+        "v": "<b>112</b> for police, ambulance and fire brigade. With a European Health Insurance Card (EHIC/GHIC) you are entitled to treatment in the Spanish public health service. Pharmacies are marked with a green cross, many open 24 hours."
+       },
+       {
+        "k": "Water and tips",
+        "v": "Tap water is safe but very hard: most people drink bottled water. Tipping is not compulsory; leave a few euros if you liked the service."
+       }
+      ]
+     }
+    ]
+   },
+   {
+    "id": "contacts",
+    "etichetta": "Who to call",
+    "titolo": "Useful contacts",
+    "blocchi": [
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "KiRun",
+        "v": "{{hotel:contatti_kirun}}"
+       },
+       {
+        "k": "Walking tour",
+        "v": "Registration required at <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
+       },
+       {
+        "k": "Organiser",
+        "v": "S.D. Correcaminos · <a href='https://www.valenciaciudaddelrunning.com/en/contact/' target='_blank' rel='noopener'>contact form on the official website</a>"
+       },
+       {
+        "k": "Expo",
+        "v": "Expo 42K, Feria Valencia, Avinguda de les Fires s/n, 46035 Valencia"
+       },
+       {
+        "k": "Hotel",
+        "v": "{{hotel:contatti_hotel}}"
+       }
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ "hotels": {
+  "base": {
+   "slug": "valencia-marathon-2026",
+   "lingue": [
+    "it",
+    "en"
+   ],
+   "it": {
+    "nome_breve": "Holiday Inn Express Ciudad de las Ciencias",
+    "ib_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · check-in 16:00, check-out 12:00",
+    "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'Holiday Inn Express</b> e agli appuntamenti qui sotto, e sempre al telefono e su WhatsApp.",
+    "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+    "contatti_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>",
+    "expo_da_hotel": "In <b>taxi circa 20–25 minuti</b>. Con i mezzi: linea 10 della metro da Oceanogràfic ad Alacant, poi a piedi alla vicina Estació del Nord e bus EMT 62 fino alla fiera.",
+    "percorso_hotel": "<b>Partenza e arrivo sono a pochi minuti a piedi dal tuo hotel</b>: chi ti accompagna può vederti partire e arrivare.",
+    "arrivo_rientro": "<b>Rientro in hotel a piedi</b>: dall'uscita della zona runner all'Holiday Inn Express sono circa 400 metri, la strada te la indichiamo noi.",
+    "deposito_nota": "Dall'Holiday Inn Express non ti serve: lascia tutto in camera.",
+    "checklist_hotel": "Domenica mattina resti in camera fino a pochi minuti prima dell'entrata in griglia, a circa 300 metri: la strada te la indichiamo noi.",
+    "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
+    "tour_partenza": "Partenza di gruppo <b>dall'Holiday Inn Express alle 10:15</b>, con i mezzi pubblici o Uber.",
+    "sabato_sera": "<b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia e le ultime domande.",
+    "citta_metro": "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
+    "cac_distanza": "a cinque minuti dall'hotel",
+    "gara_blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "Dall'hotel alla griglia"
+     },
+     {
+      "tipo": "p",
+      "html": "L'Holiday Inn Express Ciudad de las Ciencias è in una <b>posizione privilegiata</b>: potrai rimanere in hotel fino a pochi minuti prima dell'entrata in griglia. Non è previsto il deposito borse, ma la tua camera è probabilmente più vicina all'accesso delle griglie e al ritiro della borsa di quanto non sia il deposito borse stesso."
+     },
+     {
+      "tipo": "p",
+      "html": "Ti indicheremo come accedere alla griglia, che è a <b>circa 300 metri</b> dall'hotel, e la strada per rientrare in hotel a piedi, che dal punto di uscita della zona runner dista <b>circa 400 metri</b>. Non dovrai utilizzare alcun mezzo di trasporto."
+     }
+    ],
+    "chip_viaggio": "Viaggio: 4–7 dicembre",
+    "ib_viaggio": "In autonomia, dal 4 al 7 dicembre",
+    "intro_viaggio": "come arrivare, ",
+    "pacchetto_li": "<li>3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 4 al 7 dicembre.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
+    "etichetta_viaggio": "Arrivare a Valencia",
+    "titolo_viaggio": "Come arrivare",
+    "sezione_viaggio": [
+     {
+      "tipo": "p",
+      "html": "Il viaggio fino a Valencia è in autonomia, con arrivo venerdì 4 dicembre (o prima, se vuoi passare all'Expo giovedì sera). L'aeroporto di Valencia è a ovest della città, vicino alla fiera dove si ritira il pettorale."
+     },
+     {
+      "tipo": "h3",
+      "testo": "Dall'aeroporto all'Expo e all'hotel"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Passa subito dall'Expo</b>: Feria Valencia è a una decina di minuti di taxi dall'aeroporto. Ritiri pettorale e sacca con calma e poi prosegui verso l'hotel.",
+       "<b>Taxi</b>: dal piazzale degli arrivi, 20–25 minuti fino all'hotel; è la soluzione più semplice con i bagagli.",
+       "<b>Metro</b>: linee <b>3 o 5</b> dalla stazione Aeroport fino a <b>Xàtiva</b> (circa 25 minuti), poi a piedi fino alla vicina stazione <b>Alacant</b> e linea <b>10</b> fino alla fermata <b>Oceanogràfic</b>, a pochi minuti a piedi dall'hotel. Biglietti alle macchinette o con carta contactless ai tornelli.",
+       "<b>Ripartenza</b>: check-out entro le 12:00 di lunedì 7; il bagaglio si lascia in reception. Per l'aeroporto calcola 20–25 minuti di taxi, di più nelle ore di punta."
+      ]
+     }
+    ],
+    "assistenza_card": "<p>Lo staff KiRun è nella hall dell'Holiday Inn Express <b>venerdì 18:00–19:00</b> e <b>sabato 18:45–19:45</b>; domenica mattina ti indichiamo la strada per la griglia; negli altri momenti al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel venerdì 18:00–19:00 e sabato 18:45–19:45.",
+    "expo_avviso": [
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Consiglio KiRun",
+      "html": "<p>Se arrivi giovedì o venerdì, <b>passa dall'Expo direttamente dall'aeroporto</b>: la fiera è a una decina di minuti di taxi, ritiri tutto e il weekend è già in discesa.</p>"
+     }
+    ],
+    "sabato_avviso": [],
+    "sezione_hotel": [
+     {
+      "tipo": "p",
+      "html": "Il tuo soggiorno è all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: un tre stelle moderno e funzionale a cinque minuti a piedi dalla <b>Città delle Arti e delle Scienze</b>, con camere climatizzate, Wi-Fi gratuito e colazione a buffet inclusa."
+     },
+     {
+      "tipo": "p",
+      "html": "Per la maratona è una <b>posizione privilegiata</b>: l'accesso alle griglie è a circa 300 metri dall'hotel, l'uscita della zona runner a circa 400. Il giorno della gara non ti serve nessun mezzo di trasporto."
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Holiday Inn Express Valencia Ciudad de las Ciencias – scheda su Visit Valencia",
+        "url": "https://www.visitvalencia.com/it/pianificate-il-vostro-viaggio-a-valencia/dove-alloggiare-a-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"
+       },
+       {
+        "label": "Apri in Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Check-in, check-out e colazione"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception.",
+       "La colazione a buffet è inclusa. L'orario della colazione di domenica te lo confermiamo in hotel; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+      ]
+     }
+    ],
+    "timeline_blocchi": [
+     {
+      "tipo": "timeline",
+      "voci": [
+       {
+        "quando": "Ven 4",
+        "titolo": "Arrivo e ritiro pettorale",
+        "html": "<p>Arrivo a Valencia in autonomia. Il pettorale si ritira all'<b>Expo 42K di Feria Valencia</b>, aperta venerdì dalle 9:00 alle 21:00 (giovedì 3 dalle 17:00 alle 21:00, se arrivi prima): dall'aeroporto ci arrivi in taxi in una decina di minuti, poi prosegui verso l'hotel. Camere pronte dalle 16:00. <b>Dalle 18:00 alle 19:00 lo staff KiRun è nella hall</b>.</p>"
+       },
+       {
+        "quando": "Sab 5",
+        "titolo": "Il sabato KiRun",
+        "html": "<p><b>8:30</b> partenza dalla hall per 30 minuti di corsa leggera e foto nel Parco del Turia. <b>10:15</b> partenza di gruppo dalla hall (mezzi pubblici o Uber) per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
+       },
+       {
+        "quando": "Dom 6",
+        "titolo": "La maratona",
+        "html": "<p>Resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
+       },
+       {
+        "quando": "Lun 7",
+        "titolo": "Rientro",
+        "html": "<p>Check-out entro le 12:00; il bagaglio si lascia in reception. Lo staff resta raggiungibile al telefono.</p>"
+       }
+      ]
+     }
+    ],
+    "assistenza_tabella": [
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Giorno",
+       "Dove",
+       "Cosa e quando"
+      ],
+      "righe": [
+       [
+        "<b>Venerdì 4</b>",
+        "Hall dell'hotel",
+        "<b>18:00–19:00</b>"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>8:30</b> partenza della corsa di gruppo"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>10:15</b> partenza di gruppo per il walking tour (Torres de Serranos alle 11:00)"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>18:45–19:45</b> punto della vigilia"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Hotel",
+        "Mattina: come raggiungere la griglia e la strada del rientro"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Terrazza dell'Umbracle",
+        "<b>17:00</b> foto con la medaglia"
+       ],
+       [
+        "<b>Lunedì 7</b>",
+        "Al telefono",
+        "Per tutta la giornata"
+       ]
+      ],
+      "nota": "Fuori da questi orari lo staff è sempre raggiungibile al telefono e su WhatsApp."
+     }
+    ]
+   },
+   "en": {
+    "nome_breve": "Holiday Inn Express Ciudad de las Ciencias",
+    "ib_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · check-in 16:00, check-out 12:00",
+    "intro_viaggio": "",
+    "etichetta_viaggio": "Getting to Valencia",
+    "titolo_viaggio": "Getting there",
+    "assistenza_intro": "The KiRun staff are with you all weekend: you will find us <b>in the lobby of the Holiday Inn Express</b> and at the meeting points below, and always by phone and WhatsApp.",
+    "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+    "contatti_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>",
+    "expo_da_hotel": "By <b>taxi about 20–25 minutes</b>. By public transport: metro line 10 from Oceanogràfic to Alacant, then walk to the nearby Estació del Nord and take EMT bus 62 to the fair.",
+    "percorso_hotel": "<b>The start and finish are a few minutes' walk from your hotel</b>: whoever is with you can see you start and finish.",
+    "arrivo_rientro": "<b>Walk back to the hotel</b>: from the runners' exit to the Holiday Inn Express it is about 400 metres, and we will show you the way.",
+    "deposito_nota": "From the Holiday Inn Express you do not need it: leave everything in your room.",
+    "checklist_hotel": "On Sunday morning you stay in your room until a few minutes before entering your corral, about 300 metres away: we will show you the way.",
+    "sabato_corsa": "Meet in the lobby a few minutes before, ready to run.",
+    "tour_partenza": "Group departure <b>from the Holiday Inn Express at 10:15</b>, by public transport or Uber.",
+    "sabato_sera": "<b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing and last questions.",
+    "citta_metro": "<b>Metro and tram</b> (Metrovalencia): from the hotel, line 10 from Oceanogràfic takes you to Alacant in the centre in about ten minutes; from there, Xàtiva station for the other lines. Pay with a contactless card at the gates or with the rechargeable card.",
+    "cac_distanza": "five minutes from the hotel",
+    "sezione_hotel": [
+     {
+      "tipo": "p",
+      "html": "You are staying at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: a modern, practical three-star hotel five minutes' walk from the <b>City of Arts and Sciences</b>, with air-conditioned rooms, free Wi-Fi and buffet breakfast included."
+     },
+     {
+      "tipo": "p",
+      "html": "For the marathon it is a <b>prime location</b>: the corral entrance is about 300 metres from the hotel and the runners' exit about 400 metres. On race day you will not need any transport."
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Holiday Inn Express Valencia Ciudad de las Ciencias – Visit Valencia page",
+        "url": "https://www.visitvalencia.com/en/plan-your-trip-to-valencia/accommodation-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"
+       },
+       {
+        "label": "Open in Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Check-in, check-out and breakfast"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Check-in</b> from 16:00, <b>check-out</b> by 12:00; luggage can be left at reception before and after.",
+       "Buffet breakfast is included. We will confirm Sunday's breakfast time at the hotel; keep something you have tested in your room anyway (bread, banana, a bar)."
+      ]
+     }
+    ],
+    "gara_blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "From the hotel to your corral"
+     },
+     {
+      "tipo": "p",
+      "html": "The Holiday Inn Express Ciudad de las Ciencias is in a <b>prime location</b>: you can stay at the hotel until a few minutes before entering your corral. There is no bag drop for you, but your room is probably closer to the corral entrance and to the post-race area than the bag drop itself."
+     },
+     {
+      "tipo": "p",
+      "html": "We will show you how to reach your corral, <b>about 300 metres</b> from the hotel, and the way back to the hotel on foot, <b>about 400 metres</b> from the runners' exit. You will not need any transport."
+     }
+    ],
+    "chip_viaggio": "Trip: 4–7 December",
+    "ib_viaggio": "Independent travel, 4 to 7 December",
+    "pacchetto_li": "<li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 4 to 7 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run and a <b>walking tour of the centre</b>, complimentary.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
+    "sezione_viaggio": [
+     {
+      "tipo": "p",
+      "html": "You travel to Valencia independently, arriving on Friday 4 December (or earlier, if you want to visit the Expo on Thursday evening). Valencia airport is west of the city, close to the fair where you collect your bib."
+     },
+     {
+      "tipo": "h3",
+      "testo": "From the airport to the Expo and the hotel"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Go to the Expo straight away</b>: Feria Valencia is about ten minutes by taxi from the airport. Collect your bib and bag in peace, then head to the hotel.",
+       "<b>Taxi</b>: from the arrivals rank, 20–25 minutes to the hotel; the easiest option with luggage.",
+       "<b>Metro</b>: lines <b>3 or 5</b> from Aeroport station to <b>Xàtiva</b> (about 25 minutes), then walk to the nearby <b>Alacant</b> station and take line <b>10</b> to <b>Oceanogràfic</b>, a few minutes' walk from the hotel. Tickets from the machines or with a contactless card at the gates.",
+       "<b>Leaving</b>: check-out by 12:00 on Monday 7; luggage can be left at reception. Allow 20–25 minutes by taxi to the airport, more at rush hour."
+      ]
+     }
+    ],
+    "assistenza_card": "<p>The KiRun staff are in the lobby of the Holiday Inn Express <b>on Friday 18:00–19:00</b> and <b>Saturday 18:45–19:45</b>; on Sunday morning we show you the way to your corral; at any other time by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> (phone and WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. In the hotel lobby on Friday 18:00–19:00 and Saturday 18:45–19:45.",
+    "expo_avviso": [
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "KiRun tip",
+      "html": "<p>If you arrive on Thursday or Friday, <b>go to the Expo straight from the airport</b>: the fair is about ten minutes away by taxi, you collect everything and the weekend is already downhill.</p>"
+     }
+    ],
+    "sabato_avviso": [],
+    "timeline_blocchi": [
+     {
+      "tipo": "timeline",
+      "voci": [
+       {
+        "quando": "Fri 4",
+        "titolo": "Arrival and bib collection",
+        "html": "<p>Independent arrival in Valencia. Bibs are collected at the <b>Expo 42K at Feria Valencia</b>, open on Friday from 9:00 to 21:00 (Thursday 3 from 17:00 to 21:00, if you arrive earlier): it is about ten minutes by taxi from the airport, then on to the hotel. Rooms ready from 16:00. <b>From 18:00 to 19:00 the KiRun staff are in the lobby</b>.</p>"
+       },
+       {
+        "quando": "Sat 5",
+        "titolo": "The KiRun Saturday",
+        "html": "<p><b>8:30</b> departure from the lobby for 30 minutes of easy running and a photo in the Turia Park. <b>10:15</b> group departure from the lobby (public transport or Uber) for the <b>11:00 walking tour</b> at the Torres de Serranos (registration required). The Expo closes at 19:00. <b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing; then an early dinner.</p>"
+       },
+       {
+        "quando": "Sun 6",
+        "titolo": "The marathon",
+        "html": "<p>Stay at the hotel until a few minutes before entering your corral, about 300 metres away: we will show you the way. Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric and walk back (about 400 metres). <b>At 17:00 medal photo</b> on the Umbracle Terrace.</p>"
+       },
+       {
+        "quando": "Mon 7",
+        "titolo": "Going home",
+        "html": "<p>Check-out by 12:00; luggage can be left at reception. The staff can still be reached by phone.</p>"
+       }
+      ]
+     }
+    ],
+    "assistenza_tabella": [
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Day",
+       "Where",
+       "What and when"
+      ],
+      "righe": [
+       [
+        "<b>Friday 4</b>",
+        "Hotel lobby",
+        "<b>18:00–19:00</b>"
+       ],
+       [
+        "<b>Saturday 5</b>",
+        "Hotel lobby",
+        "<b>8:30</b> group run departure"
+       ],
+       [
+        "<b>Saturday 5</b>",
+        "Hotel lobby",
+        "<b>10:15</b> group departure for the walking tour (Torres de Serranos at 11:00)"
+       ],
+       [
+        "<b>Saturday 5</b>",
+        "Hotel lobby",
+        "<b>18:45–19:45</b> race-eve briefing"
+       ],
+       [
+        "<b>Sunday 6</b>",
+        "Hotel",
+        "Morning: how to reach your corral and the way back"
+       ],
+       [
+        "<b>Sunday 6</b>",
+        "Umbracle Terrace",
+        "<b>17:00</b> medal photo"
+       ],
+       [
+        "<b>Monday 7</b>",
+        "By phone",
+        "All day"
+       ]
+      ],
+      "nota": "Outside these times the staff can always be reached by phone and WhatsApp."
+     }
+    ]
+   }
+  },
+  "hi_volo": {
+   "slug": "valencia-marathon-2026-volo-holiday-inn",
+   "lingue": [
+    "it"
+   ],
+   "hero_slug": "valencia-marathon-2026",
+   "it": {
+    "nome_breve": "Holiday Inn Express Ciudad de las Ciencias",
+    "ib_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · check-in 16:00, check-out 12:00",
+    "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'Holiday Inn Express</b> e agli appuntamenti qui sotto, e sempre al telefono e su WhatsApp.",
+    "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+    "contatti_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>",
+    "expo_da_hotel": "In <b>taxi circa 20–25 minuti</b>. Con i mezzi: linea 10 della metro da Oceanogràfic ad Alacant, poi a piedi alla vicina Estació del Nord e bus EMT 62 fino alla fiera.",
+    "percorso_hotel": "<b>Partenza e arrivo sono a pochi minuti a piedi dal tuo hotel</b>: chi ti accompagna può vederti partire e arrivare.",
+    "arrivo_rientro": "<b>Rientro in hotel a piedi</b>: dall'uscita della zona runner all'Holiday Inn Express sono circa 400 metri, la strada te la indichiamo noi.",
+    "deposito_nota": "Dall'Holiday Inn Express non ti serve: lascia tutto in camera.",
+    "checklist_hotel": "Domenica mattina resti in camera fino a pochi minuti prima dell'entrata in griglia, a circa 300 metri: la strada te la indichiamo noi.",
+    "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
+    "tour_partenza": "Partenza di gruppo <b>dall'Holiday Inn Express alle 10:15</b>, con i mezzi pubblici o Uber.",
+    "sabato_sera": "<b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia e le ultime domande.",
+    "citta_metro": "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
+    "cac_distanza": "a cinque minuti dall'hotel",
+    "gara_blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "Dall'hotel alla griglia"
+     },
+     {
+      "tipo": "p",
+      "html": "L'Holiday Inn Express Ciudad de las Ciencias è in una <b>posizione privilegiata</b>: potrai rimanere in hotel fino a pochi minuti prima dell'entrata in griglia. Non è previsto il deposito borse, ma la tua camera è probabilmente più vicina all'accesso delle griglie e al ritiro della borsa di quanto non sia il deposito borse stesso."
+     },
+     {
+      "tipo": "p",
+      "html": "Ti indicheremo come accedere alla griglia, che è a <b>circa 300 metri</b> dall'hotel, e la strada per rientrare in hotel a piedi, che dal punto di uscita della zona runner dista <b>circa 400 metri</b>. Non dovrai utilizzare alcun mezzo di trasporto."
+     }
+    ],
+    "chip_viaggio": "Volo charter: 4–7 dicembre",
+    "ib_viaggio": "Volo charter Malpensa – Valencia: ven 4 dicembre (indicativo 9:00 → 11:00), lun 7 dicembre (indicativo 18:00 → 20:00), con transfer",
+    "intro_viaggio": "volo e trasferimenti, ",
+    "pacchetto_li": "<li>3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 4 al 7 dicembre.</li><li><b>Volo charter</b> Milano Malpensa – Valencia andata e ritorno, con ritrovo e assistenza KiRun in partenza a Malpensa.</li><li><b>Trasferimenti</b>: all'arrivo dall'aeroporto all'Expo (sosta di un'ora per pettorale e visita) e poi in hotel; lunedì dall'hotel all'aeroporto.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
+    "etichetta_viaggio": "Volo e trasferimenti",
+    "titolo_viaggio": "Il volo charter da Malpensa",
+    "sezione_viaggio": [
+     {
+      "tipo": "p",
+      "html": "Il volo charter collega <b>Milano Malpensa e Valencia</b>, andata e ritorno, ed è riservato al gruppo KiRun. Gli orari indicativi sono <b>partenza alle 9:00 e arrivo alle 11:00</b> venerdì 4 dicembre, <b>partenza alle 18:00 e arrivo alle 20:00</b> lunedì 7 dicembre: trattandosi di un charter, possono cambiare. Orari definitivi e punto di ritrovo a Malpensa te li confermiamo prima della partenza."
+     },
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Venerdì 4 · Malpensa",
+        "v": "<b>Ritrovo e assistenza KiRun</b> in aeroporto per il check-in del gruppo. Volo per Valencia, orario indicativo 9:00 → 11:00."
+       },
+       {
+        "k": "All'arrivo",
+        "v": "<b>Transfer dall'aeroporto all'Expo 42K</b> di Feria Valencia, a pochi minuti dall'aeroporto: <b>sosta di un'ora</b> per ritirare pettorale e sacca e visitare l'Expo. Poi si prosegue verso gli hotel."
+       },
+       {
+        "k": "Lunedì 7 · ritorno",
+        "v": "Transfer dall'hotel all'aeroporto <b>ore 15:00 dalla hall dell'Holiday Inn Express</b>: ritrovo nella hall, conferma l'orario sul posto con i nostri assistenti. Volo per Malpensa, orario indicativo 18:00 → 20:00."
+       },
+       {
+        "k": "Documenti",
+        "v": "Carta d'identità valida per l'espatrio o passaporto: serve all'imbarco e di nuovo all'Expo, per il pettorale."
+       }
+      ]
+     },
+     {
+      "tipo": "box",
+      "stile": "attenzione",
+      "titolo": "Documento e conferma nel bagaglio a mano",
+      "html": "<p>La sosta all'Expo è subito dopo l'atterraggio: tieni <b>documento d'identità</b> e <b>mail di conferma dell'iscrizione</b> (o il QR code, se arriva) a portata di mano, non in valigia.</p>"
+     }
+    ],
+    "assistenza_card": "<p>Lo staff KiRun è con te a <b>Malpensa</b> venerdì, nella hall dell'Holiday Inn Express <b>venerdì 18:00–19:00</b> e <b>sabato 18:45–19:45</b>; domenica mattina ti indichiamo la strada per la griglia; <b>lunedì transfer alle 15:00</b> dalla hall.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel venerdì 18:00–19:00 e sabato 18:45–19:45; lunedì transfer alle 15:00.",
+    "expo_avviso": [
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Con il volo charter ci pensiamo noi",
+      "html": "<p>Dall'aeroporto il transfer si ferma all'Expo per <b>un'ora</b>, il tempo di ritirare pettorale e sacca e fare un giro tra gli stand; poi si prosegue verso gli hotel. Tieni documento e conferma d'iscrizione nel bagaglio a mano.</p>"
+     }
+    ],
+    "sabato_avviso": [],
+    "sezione_hotel": [
+     {
+      "tipo": "p",
+      "html": "Il tuo soggiorno è all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: un tre stelle moderno e funzionale a cinque minuti a piedi dalla <b>Città delle Arti e delle Scienze</b>, con camere climatizzate, Wi-Fi gratuito e colazione a buffet inclusa."
+     },
+     {
+      "tipo": "p",
+      "html": "Per la maratona è una <b>posizione privilegiata</b>: l'accesso alle griglie è a circa 300 metri dall'hotel, l'uscita della zona runner a circa 400. Il giorno della gara non ti serve nessun mezzo di trasporto."
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Holiday Inn Express Valencia Ciudad de las Ciencias – scheda su Visit Valencia",
+        "url": "https://www.visitvalencia.com/it/pianificate-il-vostro-viaggio-a-valencia/dove-alloggiare-a-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"
+       },
+       {
+        "label": "Apri in Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Check-in, check-out e colazione"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception. Lunedì il transfer per l'aeroporto parte alle 15:00 dalla hall.",
+       "La colazione a buffet è inclusa. L'orario della colazione di domenica te lo confermiamo in hotel; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+      ]
+     }
+    ],
+    "timeline_blocchi": [
+     {
+      "tipo": "timeline",
+      "voci": [
+       {
+        "quando": "Ven 4",
+        "titolo": "Volo, Expo e hotel",
+        "html": "<p>Ritrovo e assistenza KiRun a <b>Malpensa</b>, volo charter per Valencia (orario indicativo 9:00 → 11:00). All'arrivo il transfer ti porta all'<b>Expo 42K</b> di Feria Valencia: un'ora di sosta per pettorale e sacca, poi in hotel. <b>Dalle 18:00 alle 19:00 lo staff è nella hall</b>.</p>"
+       },
+       {
+        "quando": "Sab 5",
+        "titolo": "Il sabato KiRun",
+        "html": "<p><b>8:30</b> partenza dalla hall per 30 minuti di corsa leggera e foto nel Parco del Turia. <b>10:15</b> partenza di gruppo dalla hall (mezzi pubblici o Uber) per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
+       },
+       {
+        "quando": "Dom 6",
+        "titolo": "La maratona",
+        "html": "<p>Resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
+       },
+       {
+        "quando": "Lun 7",
+        "titolo": "Rientro",
+        "html": "<p>Check-out entro le 12:00 e bagaglio in reception. <b>Alle 15:00 transfer dall'hotel all'aeroporto</b>, ritrovo nella hall (conferma l'orario sul posto con i nostri assistenti); volo per Malpensa, orario indicativo 18:00 → 20:00.</p>"
+       }
+      ]
+     }
+    ],
+    "assistenza_tabella": [
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Giorno",
+       "Dove",
+       "Cosa e quando"
+      ],
+      "righe": [
+       [
+        "<b>Venerdì 4</b>",
+        "Aeroporto di Malpensa",
+        "Ritrovo e assistenza in partenza (orario e punto d'incontro te li comunichiamo prima del viaggio)"
+       ],
+       [
+        "<b>Venerdì 4</b>",
+        "Hall dell'hotel",
+        "<b>18:00–19:00</b>"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>8:30</b> partenza della corsa di gruppo"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>10:15</b> partenza di gruppo per il walking tour (Torres de Serranos alle 11:00)"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>18:45–19:45</b> punto della vigilia"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Hotel",
+        "Mattina: come raggiungere la griglia e la strada del rientro"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Terrazza dell'Umbracle",
+        "<b>17:00</b> foto con la medaglia"
+       ],
+       [
+        "<b>Lunedì 7</b>",
+        "Hall dell'hotel",
+        "<b>15:00</b> transfer per l'aeroporto (conferma l'orario sul posto con i nostri assistenti)"
+       ]
+      ],
+      "nota": "Fuori da questi orari lo staff è sempre raggiungibile al telefono e su WhatsApp."
+     }
+    ]
+   },
+   "en": {}
+  },
+  "bank_volo": {
+   "slug": "valencia-marathon-2026-volo-the-bank",
+   "lingue": [
+    "it"
+   ],
+   "hero_slug": "valencia-marathon-2026",
+   "it": {
+    "nome_breve": "The Bank Hotel",
+    "chip_viaggio": "Volo charter: 4–7 dicembre",
+    "ib_viaggio": "Volo charter Malpensa – Valencia: ven 4 dicembre (indicativo 9:00 → 11:00), lun 7 dicembre (indicativo 18:00 → 20:00), con transfer",
+    "ib_hotel": "The Bank Hotel, Avinguda del Port 31, 46021 Valencia · check-out 12:00",
+    "intro_viaggio": "volo e trasferimenti, ",
+    "pacchetto_li": "<li>3 notti con prima colazione al <b>The Bank Hotel</b>, dal 4 al 7 dicembre.</li><li><b>Volo charter</b> Milano Malpensa – Valencia andata e ritorno, con ritrovo e assistenza KiRun in partenza a Malpensa.</li><li><b>Trasferimenti</b>: all'arrivo dall'aeroporto all'Expo (sosta di un'ora per pettorale e visita) e poi in hotel; lunedì dall'hotel all'aeroporto.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
+    "etichetta_viaggio": "Volo e trasferimenti",
+    "titolo_viaggio": "Il volo charter da Malpensa",
+    "sezione_viaggio": [
+     {
+      "tipo": "p",
+      "html": "Il volo charter collega <b>Milano Malpensa e Valencia</b>, andata e ritorno, ed è riservato al gruppo KiRun. Gli orari indicativi sono <b>partenza alle 9:00 e arrivo alle 11:00</b> venerdì 4 dicembre, <b>partenza alle 18:00 e arrivo alle 20:00</b> lunedì 7 dicembre: trattandosi di un charter, possono cambiare. Orari definitivi e punto di ritrovo a Malpensa te li confermiamo prima della partenza."
+     },
+     {
+      "tipo": "fatti",
+      "voci": [
+       {
+        "k": "Venerdì 4 · Malpensa",
+        "v": "<b>Ritrovo e assistenza KiRun</b> in aeroporto per il check-in del gruppo. Volo per Valencia, orario indicativo 9:00 → 11:00."
+       },
+       {
+        "k": "All'arrivo",
+        "v": "<b>Transfer dall'aeroporto all'Expo 42K</b> di Feria Valencia, a pochi minuti dall'aeroporto: <b>sosta di un'ora</b> per ritirare pettorale e sacca e visitare l'Expo. Poi si prosegue verso gli hotel."
+       },
+       {
+        "k": "Lunedì 7 · ritorno",
+        "v": "Transfer dall'hotel all'aeroporto <b>ore 15:30 dalla hall di The Bank</b>: ritrovo nella hall, conferma l'orario sul posto con i nostri assistenti. Volo per Malpensa, orario indicativo 18:00 → 20:00."
+       },
+       {
+        "k": "Documenti",
+        "v": "Carta d'identità valida per l'espatrio o passaporto: serve all'imbarco e di nuovo all'Expo, per il pettorale."
+       }
+      ]
+     },
+     {
+      "tipo": "box",
+      "stile": "attenzione",
+      "titolo": "Documento e conferma nel bagaglio a mano",
+      "html": "<p>La sosta all'Expo è subito dopo l'atterraggio: tieni <b>documento d'identità</b> e <b>mail di conferma dell'iscrizione</b> (o il QR code, se arriva) a portata di mano, non in valigia.</p>"
+     }
+    ],
+    "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall di The Bank</b> e agli appuntamenti qui sotto, e sempre al telefono e su WhatsApp.",
+    "assistenza_card": "<p>Lo staff KiRun è con te a <b>Malpensa</b> venerdì, nella hall di The Bank <b>venerdì 18:00–19:00</b> e <b>sabato 18:00–18:30</b>; domenica al telefono; <b>lunedì transfer alle 15:30</b> dalla hall.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+    "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall di The Bank venerdì 18:00–19:00 e sabato 18:00–18:30; lunedì transfer alle 15:30.",
+    "contatti_hotel": "The Bank Hotel (MYR Hotels), Avinguda del Port 31, 46021 Valencia",
+    "expo_avviso": [
+     {
+      "tipo": "box",
+      "stile": "kirun",
+      "titolo": "Con il volo charter ci pensiamo noi",
+      "html": "<p>Dall'aeroporto il transfer si ferma all'Expo per <b>un'ora</b>, il tempo di ritirare pettorale e sacca e fare un giro tra gli stand; poi si prosegue verso gli hotel. Tieni documento e conferma d'iscrizione nel bagaglio a mano.</p>"
+     }
+    ],
+    "expo_da_hotel": "In <b>taxi</b>: la fiera è dall'altra parte della città, calcola almeno 20–25 minuti.",
+    "sabato_avviso": [],
+    "sabato_corsa": "Da The Bank raggiungi l'Holiday Inn Express (Calle Escritor Rafael Ferreres 22) in taxi.",
+    "tour_partenza": "Partenza di gruppo <b>da The Bank alle 10:30</b>, a piedi.",
+    "sabato_sera": "<b>Dalle 18:00 alle 18:30 lo staff è nella hall di The Bank</b> per il punto della vigilia e le ultime domande.",
+    "sezione_hotel": [
+     {
+      "tipo": "p",
+      "html": "Il tuo soggiorno è al <b>The Bank Hotel</b> (MYR Hotels), Avinguda del Port 31, 46021 Valencia: un cinque stelle gran lusso nell'edificio che ospitava il centro dati del Banco de Valencia."
+     },
+     {
+      "tipo": "p",
+      "html": "Il percorso della gara passa sull'<b>Avinguda del Port</b> tra il km 22 e il km 23: chi ti accompagna può fare il tifo vicino all'hotel. Le Torres de Serranos, dove comincia il walking tour di sabato, sono a circa mezz'ora a piedi."
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Apri in Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=The+Bank+Hotel+Avinguda+del+Port+31+Valencia"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Check-in, check-out e colazione"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Check-out</b> entro le 12:00; per lasciare il bagaglio prima del check-in e dopo il check-out chiedi in reception. Lunedì il transfer per l'aeroporto parte alle 15:30 dalla hall.",
+       "La colazione è inclusa. Per l'orario della colazione di domenica chiedi in reception; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+      ]
+     }
+    ],
+    "gara_blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "Da The Bank alla partenza"
+     },
+     {
+      "tipo": "p",
+      "html": "La partenza è alla Città delle Arti e delle Scienze, a circa 2 km dall'hotel: si va <b>a piedi</b>, in 20–25 minuti, ed è già riscaldamento. Esci con margine: domenica mattina molte strade intorno al percorso sono chiuse, meglio non contare sul taxi. L'orario di apertura dei cajones sarà nella Race Guide ufficiale: lo aggiungiamo appena esce. Domenica lo staff è raggiungibile al telefono e su WhatsApp."
+     }
+    ],
+    "deposito_nota": "Senza guardaroba, esci dall'hotel con l'essenziale e un vecchio strato da togliere prima del via.",
+    "checklist_hotel": "Domenica mattina calcola 20–25 minuti a piedi da The Bank alla partenza, più il tempo per entrare nel cajón.",
+    "percorso_hotel": "Chi ti accompagna può vederti passare sull'<b>Avinguda del Port</b> (km 22–23), vicino all'hotel, e poi spostarsi verso l'arrivo alla Città delle Arti.",
+    "arrivo_rientro": "<b>Rientro in hotel</b>: The Bank è a circa 2 km dall'area di arrivo, a piedi o in taxi. Fino al passaggio degli ultimi runner molte strade sono chiuse, compresa l'Avinguda del Port: taxi e auto possono dover fare giri lunghi.",
+    "citta_metro": "<b>Metro e tram</b> (Metrovalencia): la rete collega centro, porto e spiaggia; si paga con carta contactless ai tornelli o con la tessera ricaricabile. Per la Città delle Arti la fermata più comoda è Oceanogràfic, sulla linea 10.",
+    "cac_distanza": "a circa 2 km dall'hotel",
+    "timeline_blocchi": [
+     {
+      "tipo": "timeline",
+      "voci": [
+       {
+        "quando": "Ven 4",
+        "titolo": "Volo, Expo e hotel",
+        "html": "<p>Ritrovo e assistenza KiRun a <b>Malpensa</b>, volo charter per Valencia (orario indicativo 9:00 → 11:00). All'arrivo il transfer ti porta all'<b>Expo 42K</b> di Feria Valencia: un'ora di sosta per pettorale e sacca, poi in hotel. <b>Dalle 18:00 alle 19:00 lo staff è nella hall di The Bank</b>.</p>"
+       },
+       {
+        "quando": "Sab 5",
+        "titolo": "Il sabato KiRun",
+        "html": "<p><b>8:30</b> corsa di gruppo con partenza dall'Holiday Inn Express Ciudad de las Ciencias (da The Bank in taxi): 30 minuti leggeri e foto nel Parco del Turia. <b>10:30</b> partenza di gruppo a piedi da The Bank per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:00 alle 18:30 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
+       },
+       {
+        "quando": "Dom 6",
+        "titolo": "La maratona",
+        "html": "<p>A piedi fino alla partenza alla Città delle Arti e delle Scienze (20–25 minuti). Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric. <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle. Lo staff è raggiungibile al telefono per tutta la giornata.</p>"
+       },
+       {
+        "quando": "Lun 7",
+        "titolo": "Rientro",
+        "html": "<p>Check-out entro le 12:00 e bagaglio in reception. <b>Alle 15:30 transfer dall'hotel all'aeroporto</b>, ritrovo nella hall (conferma l'orario sul posto con i nostri assistenti); volo per Malpensa, orario indicativo 18:00 → 20:00.</p>"
+       }
+      ]
+     }
+    ],
+    "assistenza_tabella": [
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Giorno",
+       "Dove",
+       "Cosa e quando"
+      ],
+      "righe": [
+       [
+        "<b>Venerdì 4</b>",
+        "Aeroporto di Malpensa",
+        "Ritrovo e assistenza in partenza (orario e punto d'incontro te li comunichiamo prima del viaggio)"
+       ],
+       [
+        "<b>Venerdì 4</b>",
+        "Hall di The Bank",
+        "<b>18:00–19:00</b>"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Holiday Inn Express Ciudad de las Ciencias",
+        "<b>8:30</b> partenza della corsa di gruppo"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall di The Bank",
+        "<b>10:30</b> partenza di gruppo a piedi per il walking tour (Torres de Serranos alle 11:00)"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall di The Bank",
+        "<b>18:00–18:30</b> punto della vigilia"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Al telefono",
+        "Per tutta la giornata"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Terrazza dell'Umbracle",
+        "<b>17:00</b> foto con la medaglia"
+       ],
+       [
+        "<b>Lunedì 7</b>",
+        "Hall di The Bank",
+        "<b>15:30</b> transfer per l'aeroporto (conferma l'orario sul posto con i nostri assistenti)"
+       ]
+      ],
+      "nota": "Fuori da questi orari lo staff è sempre raggiungibile al telefono e su WhatsApp."
+     }
+    ]
+   },
+   "en": {}
+  },
+  "hi_5_8": {
+   "slug": "valencia-marathon-2026-5-8-dicembre",
+   "lingue": [
+    "it",
+    "en"
+   ],
+   "hero_slug": "valencia-marathon-2026",
+   "it": {
+    "nome_breve": "Holiday Inn Express Ciudad de las Ciencias",
+    "ib_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · check-in 16:00, check-out 12:00",
+    "assistenza_intro": "Lo staff KiRun è con te per tutto il weekend: ci trovi <b>nella hall dell'Holiday Inn Express</b> e agli appuntamenti qui sotto, e sempre al telefono e su WhatsApp.",
+    "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a><br><a href='tel:+393397150369'>+39 339 715 0369</a></p><p>Telefono e WhatsApp. Per le cose non urgenti: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+    "contatti_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>",
+    "expo_da_hotel": "In <b>taxi circa 20–25 minuti</b>. Con i mezzi: linea 10 della metro da Oceanogràfic ad Alacant, poi a piedi alla vicina Estació del Nord e bus EMT 62 fino alla fiera.",
+    "percorso_hotel": "<b>Partenza e arrivo sono a pochi minuti a piedi dal tuo hotel</b>: chi ti accompagna può vederti partire e arrivare.",
+    "arrivo_rientro": "<b>Rientro in hotel a piedi</b>: dall'uscita della zona runner all'Holiday Inn Express sono circa 400 metri, la strada te la indichiamo noi.",
+    "deposito_nota": "Dall'Holiday Inn Express non ti serve: lascia tutto in camera.",
+    "checklist_hotel": "Domenica mattina resti in camera fino a pochi minuti prima dell'entrata in griglia, a circa 300 metri: la strada te la indichiamo noi.",
+    "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
+    "tour_partenza": "Partenza di gruppo <b>dall'Holiday Inn Express alle 10:15</b>, con i mezzi pubblici o Uber.",
+    "sabato_sera": "<b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia e le ultime domande.",
+    "citta_metro": "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
+    "cac_distanza": "a cinque minuti dall'hotel",
+    "gara_blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "Dall'hotel alla griglia"
+     },
+     {
+      "tipo": "p",
+      "html": "L'Holiday Inn Express Ciudad de las Ciencias è in una <b>posizione privilegiata</b>: potrai rimanere in hotel fino a pochi minuti prima dell'entrata in griglia. Non è previsto il deposito borse, ma la tua camera è probabilmente più vicina all'accesso delle griglie e al ritiro della borsa di quanto non sia il deposito borse stesso."
+     },
+     {
+      "tipo": "p",
+      "html": "Ti indicheremo come accedere alla griglia, che è a <b>circa 300 metri</b> dall'hotel, e la strada per rientrare in hotel a piedi, che dal punto di uscita della zona runner dista <b>circa 400 metri</b>. Non dovrai utilizzare alcun mezzo di trasporto."
+     }
+    ],
+    "chip_viaggio": "Viaggio: 5–8 dicembre",
+    "ib_viaggio": "In autonomia, dal 5 all'8 dicembre · arrivando sabato, <b>pettorale entro le 19:00</b>",
+    "intro_viaggio": "come arrivare, ",
+    "pacchetto_li": "<li>3 notti con prima colazione all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, dal 5 all'8 dicembre.</li><li>Assistenza del nostro staff in hotel e al telefono per tutto il weekend (orari nella sezione Assistenza).</li><li>Il sabato KiRun: corsa di gruppo al mattino e <b>walking tour del centro</b>, in omaggio.</li><li>Programma di allenamento KiRun fino al giorno della gara.</li><li>Pettorale, se lo hai richiesto con il pacchetto.</li>",
+    "etichetta_viaggio": "Arrivare a Valencia",
+    "titolo_viaggio": "Come arrivare",
+    "sezione_viaggio": [
+     {
+      "tipo": "p",
+      "html": "Il viaggio fino a Valencia è in autonomia, con arrivo sabato 5 dicembre. L'aeroporto di Valencia è a ovest della città, vicino alla fiera dove si ritira il pettorale."
+     },
+     {
+      "tipo": "h3",
+      "testo": "Dall'aeroporto all'Expo e all'hotel"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Arrivi sabato: passa prima dall'Expo.</b> Il ritiro del pettorale chiude sabato alle <b>19:00</b> e domenica non si ritira nulla: dall'aeroporto vai direttamente a Feria Valencia in taxi (una decina di minuti) e poi in hotel.",
+       "<b>Taxi</b>: dal piazzale degli arrivi, 20–25 minuti fino all'hotel; è la soluzione più semplice con i bagagli.",
+       "<b>Metro</b>: linee <b>3 o 5</b> dalla stazione Aeroport fino a <b>Xàtiva</b> (circa 25 minuti), poi a piedi fino alla vicina stazione <b>Alacant</b> e linea <b>10</b> fino alla fermata <b>Oceanogràfic</b>, a pochi minuti a piedi dall'hotel. Biglietti alle macchinette o con carta contactless ai tornelli.",
+       "<b>Ripartenza</b>: check-out entro le 12:00 di martedì 8; il bagaglio si lascia in reception. Per l'aeroporto calcola 20–25 minuti di taxi, di più nelle ore di punta."
+      ]
+     }
+    ],
+    "assistenza_card": "<p>Lo staff KiRun è nella hall dell'Holiday Inn Express <b>sabato 18:45–19:45</b>; domenica mattina ti indichiamo la strada per la griglia; negli altri momenti al telefono.</p><p>Telefono e WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> · <a href='tel:+393397150369'>+39 339 715 0369</a> (telefono e WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. Nella hall dell'hotel sabato 18:45–19:45.",
+    "expo_avviso": [
+     {
+      "tipo": "box",
+      "stile": "attenzione",
+      "titolo": "Arrivi sabato: il pettorale si ritira entro le 19:00",
+      "html": "<p>Sabato l'Expo chiude alle <b>19:00</b> e domenica non si consegna nulla. Organizza l'arrivo per passare dalla fiera prima: dall'aeroporto è una decina di minuti di taxi. Se il volo arriva tardi o ha un ritardo, <b>contattaci subito</b>: ti diciamo noi chi delegare per il ritiro.</p>"
+     }
+    ],
+    "sabato_avviso": [
+     {
+      "tipo": "box",
+      "stile": "attenzione",
+      "titolo": "Se arrivi sabato",
+      "html": "<p>Corsa di gruppo e walking tour sono il sabato mattina: partecipa se arrivi in tempo. La priorità è il <b>pettorale, entro le 19:00</b> all'Expo.</p>"
+     }
+    ],
+    "sezione_hotel": [
+     {
+      "tipo": "p",
+      "html": "Il tuo soggiorno è all'<b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: un tre stelle moderno e funzionale a cinque minuti a piedi dalla <b>Città delle Arti e delle Scienze</b>, con camere climatizzate, Wi-Fi gratuito e colazione a buffet inclusa."
+     },
+     {
+      "tipo": "p",
+      "html": "Per la maratona è una <b>posizione privilegiata</b>: l'accesso alle griglie è a circa 300 metri dall'hotel, l'uscita della zona runner a circa 400. Il giorno della gara non ti serve nessun mezzo di trasporto."
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Holiday Inn Express Valencia Ciudad de las Ciencias – scheda su Visit Valencia",
+        "url": "https://www.visitvalencia.com/it/pianificate-il-vostro-viaggio-a-valencia/dove-alloggiare-a-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"
+       },
+       {
+        "label": "Apri in Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Check-in, check-out e colazione"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Check-in</b> dalle 16:00, <b>check-out</b> entro le 12:00; prima e dopo il bagaglio si lascia in reception.",
+       "La colazione a buffet è inclusa. L'orario della colazione di domenica te lo confermiamo in hotel; tieni comunque in camera qualcosa di collaudato (pane, banana, barretta)."
+      ]
+     }
+    ],
+    "timeline_blocchi": [
+     {
+      "tipo": "timeline",
+      "voci": [
+       {
+        "quando": "Sab 5",
+        "titolo": "Arrivo, Expo e sabato KiRun",
+        "html": "<p>Arrivo a Valencia in autonomia. <b>Il pettorale si ritira entro le 19:00</b> all'Expo 42K di Feria Valencia (domenica non si consegna nulla): dall'aeroporto vai prima lì, in taxi è una decina di minuti. Se arrivi in tempo, ti aspettano la corsa di gruppo delle <b>8:30</b> dalla hall e il <b>walking tour delle 11:00</b> alle Torres de Serranos (partenza di gruppo dalla hall alle 10:15, iscrizione obbligatoria). Camere pronte dalle 16:00. <b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia.</p>"
+       },
+       {
+        "quando": "Dom 6",
+        "titolo": "La maratona",
+        "html": "<p>Resti in hotel fino a pochi minuti prima di entrare in griglia, a circa 300 metri: la strada te la indichiamo noi. Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric e rientro a piedi (circa 400 metri). <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle.</p>"
+       },
+       {
+        "quando": "Lun 7",
+        "titolo": "Valencia da scoprire",
+        "html": "<p>Giornata libera per recuperare e girare la città: il Mercado Central, il centro storico, la spiaggia della Malvarrosa. Lo staff è raggiungibile al telefono.</p>"
+       },
+       {
+        "quando": "Mar 8",
+        "titolo": "Rientro",
+        "html": "<p>Check-out entro le 12:00; il bagaglio si lascia in reception. Martedì 8 è festa nazionale in Spagna (Immacolata): molti negozi sono chiusi.</p>"
+       }
+      ]
+     }
+    ],
+    "assistenza_tabella": [
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Giorno",
+       "Dove",
+       "Cosa e quando"
+      ],
+      "righe": [
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>8:30</b> partenza della corsa di gruppo"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>10:15</b> partenza di gruppo per il walking tour (Torres de Serranos alle 11:00)"
+       ],
+       [
+        "<b>Sabato 5</b>",
+        "Hall dell'hotel",
+        "<b>18:45–19:45</b> punto della vigilia"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Hotel",
+        "Mattina: come raggiungere la griglia e la strada del rientro"
+       ],
+       [
+        "<b>Domenica 6</b>",
+        "Terrazza dell'Umbracle",
+        "<b>17:00</b> foto con la medaglia"
+       ],
+       [
+        "<b>Lunedì 7 e martedì 8</b>",
+        "Al telefono",
+        "Per tutta la giornata"
+       ]
+      ],
+      "nota": "Fuori da questi orari lo staff è sempre raggiungibile al telefono e su WhatsApp."
+     }
+    ]
+   },
+   "en": {
+    "nome_breve": "Holiday Inn Express Ciudad de las Ciencias",
+    "ib_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · check-in 16:00, check-out 12:00",
+    "intro_viaggio": "",
+    "etichetta_viaggio": "Getting to Valencia",
+    "titolo_viaggio": "Getting there",
+    "assistenza_intro": "The KiRun staff are with you all weekend: you will find us <b>in the lobby of the Holiday Inn Express</b> and at the meeting points below, and always by phone and WhatsApp.",
+    "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+    "contatti_hotel": "Holiday Inn Express Valencia Ciudad de las Ciencias, Calle Escritor Rafael Ferreres 22, 46013 Valencia · <a href='tel:+34963162530'>+34 963 16 25 30</a>",
+    "expo_da_hotel": "By <b>taxi about 20–25 minutes</b>. By public transport: metro line 10 from Oceanogràfic to Alacant, then walk to the nearby Estació del Nord and take EMT bus 62 to the fair.",
+    "percorso_hotel": "<b>The start and finish are a few minutes' walk from your hotel</b>: whoever is with you can see you start and finish.",
+    "arrivo_rientro": "<b>Walk back to the hotel</b>: from the runners' exit to the Holiday Inn Express it is about 400 metres, and we will show you the way.",
+    "deposito_nota": "From the Holiday Inn Express you do not need it: leave everything in your room.",
+    "checklist_hotel": "On Sunday morning you stay in your room until a few minutes before entering your corral, about 300 metres away: we will show you the way.",
+    "sabato_corsa": "Meet in the lobby a few minutes before, ready to run.",
+    "tour_partenza": "Group departure <b>from the Holiday Inn Express at 10:15</b>, by public transport or Uber.",
+    "sabato_sera": "<b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing and last questions.",
+    "citta_metro": "<b>Metro and tram</b> (Metrovalencia): from the hotel, line 10 from Oceanogràfic takes you to Alacant in the centre in about ten minutes; from there, Xàtiva station for the other lines. Pay with a contactless card at the gates or with the rechargeable card.",
+    "cac_distanza": "five minutes from the hotel",
+    "sezione_hotel": [
+     {
+      "tipo": "p",
+      "html": "You are staying at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, Calle Escritor Rafael Ferreres 22, 46013 Valencia: a modern, practical three-star hotel five minutes' walk from the <b>City of Arts and Sciences</b>, with air-conditioned rooms, free Wi-Fi and buffet breakfast included."
+     },
+     {
+      "tipo": "p",
+      "html": "For the marathon it is a <b>prime location</b>: the corral entrance is about 300 metres from the hotel and the runners' exit about 400 metres. On race day you will not need any transport."
+     },
+     {
+      "tipo": "link",
+      "voci": [
+       {
+        "label": "Holiday Inn Express Valencia Ciudad de las Ciencias – Visit Valencia page",
+        "url": "https://www.visitvalencia.com/en/plan-your-trip-to-valencia/accommodation-valencia/hotel-express-holiday-inn-valencia-ciudad-ciencias"
+       },
+       {
+        "label": "Open in Google Maps",
+        "url": "https://www.google.com/maps/search/?api=1&query=Holiday+Inn+Express+Valencia+Ciudad+de+las+Ciencias"
+       }
+      ]
+     },
+     {
+      "tipo": "h3",
+      "testo": "Check-in, check-out and breakfast"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Check-in</b> from 16:00, <b>check-out</b> by 12:00; luggage can be left at reception before and after.",
+       "Buffet breakfast is included. We will confirm Sunday's breakfast time at the hotel; keep something you have tested in your room anyway (bread, banana, a bar)."
+      ]
+     }
+    ],
+    "gara_blocchi": [
+     {
+      "tipo": "h3",
+      "testo": "From the hotel to your corral"
+     },
+     {
+      "tipo": "p",
+      "html": "The Holiday Inn Express Ciudad de las Ciencias is in a <b>prime location</b>: you can stay at the hotel until a few minutes before entering your corral. There is no bag drop for you, but your room is probably closer to the corral entrance and to the post-race area than the bag drop itself."
+     },
+     {
+      "tipo": "p",
+      "html": "We will show you how to reach your corral, <b>about 300 metres</b> from the hotel, and the way back to the hotel on foot, <b>about 400 metres</b> from the runners' exit. You will not need any transport."
+     }
+    ],
+    "chip_viaggio": "Trip: 5–8 December",
+    "ib_viaggio": "Independent travel, 5 to 8 December · arriving on Saturday, <b>bib by 19:00</b>",
+    "pacchetto_li": "<li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 5 to 8 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run and a <b>walking tour of the centre</b>, complimentary.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
+    "sezione_viaggio": [
+     {
+      "tipo": "p",
+      "html": "You travel to Valencia independently, arriving on Saturday 5 December. Valencia airport is west of the city, close to the fair where you collect your bib."
+     },
+     {
+      "tipo": "h3",
+      "testo": "From the airport to the Expo and the hotel"
+     },
+     {
+      "tipo": "ul",
+      "voci": [
+       "<b>Arriving on Saturday: go to the Expo first.</b> Bib collection closes on Saturday at <b>19:00</b> and nothing is handed out on Sunday: take a taxi from the airport straight to Feria Valencia (about ten minutes), then to the hotel.",
+       "<b>Taxi</b>: from the arrivals rank, 20–25 minutes to the hotel; the easiest option with luggage.",
+       "<b>Metro</b>: lines <b>3 or 5</b> from Aeroport station to <b>Xàtiva</b> (about 25 minutes), then walk to the nearby <b>Alacant</b> station and take line <b>10</b> to <b>Oceanogràfic</b>, a few minutes' walk from the hotel. Tickets from the machines or with a contactless card at the gates.",
+       "<b>Leaving</b>: check-out by 12:00 on Tuesday 8; luggage can be left at reception. Allow 20–25 minutes by taxi to the airport, more at rush hour."
+      ]
+     }
+    ],
+    "assistenza_card": "<p>The KiRun staff are in the lobby of the Holiday Inn Express <b>on Saturday 18:45–19:45</b>; on Sunday morning we show you the way to your corral; at any other time by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+    "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> (phone and WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. In the hotel lobby on Saturday 18:45–19:45.",
+    "expo_avviso": [
+     {
+      "tipo": "box",
+      "stile": "attenzione",
+      "titolo": "Arriving on Saturday: collect your bib by 19:00",
+      "html": "<p>On Saturday the Expo closes at <b>19:00</b> and nothing is handed out on Sunday. Plan your arrival so you can go to the fair first: it is about ten minutes by taxi from the airport. If your flight lands late or is delayed, <b>contact us at once</b> and we will tell you who to authorise to collect it.</p>"
+     }
+    ],
+    "sabato_avviso": [
+     {
+      "tipo": "box",
+      "stile": "attenzione",
+      "titolo": "If you arrive on Saturday",
+      "html": "<p>The group run and the walking tour are on Saturday morning: join us if you arrive in time. The priority is your <b>bib, by 19:00</b> at the Expo.</p>"
+     }
+    ],
+    "timeline_blocchi": [
+     {
+      "tipo": "timeline",
+      "voci": [
+       {
+        "quando": "Sat 5",
+        "titolo": "Arrival, Expo and the KiRun Saturday",
+        "html": "<p>Independent arrival in Valencia. <b>Bibs must be collected by 19:00</b> at the Expo 42K at Feria Valencia (nothing is handed out on Sunday): go there first from the airport, about ten minutes by taxi. If you arrive in time, join the <b>8:30</b> group run from the lobby and the <b>11:00 walking tour</b> at the Torres de Serranos (group departure from the lobby at 10:15, registration required). Rooms ready from 16:00. <b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing.</p>"
+       },
+       {
+        "quando": "Sun 6",
+        "titolo": "The marathon",
+        "html": "<p>Stay at the hotel until a few minutes before entering your corral, about 300 metres away: we will show you the way. Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric and walk back (about 400 metres). <b>At 17:00 medal photo</b> on the Umbracle Terrace.</p>"
+       },
+       {
+        "quando": "Mon 7",
+        "titolo": "Discover Valencia",
+        "html": "<p>A free day to recover and explore: the Mercado Central, the old town, Malvarrosa beach. The staff can be reached by phone.</p>"
+       },
+       {
+        "quando": "Tue 8",
+        "titolo": "Going home",
+        "html": "<p>Check-out by 12:00; luggage can be left at reception. Tuesday 8 is a national holiday in Spain (Immaculate Conception): many shops are closed.</p>"
+       }
+      ]
+     }
+    ],
+    "assistenza_tabella": [
+     {
+      "tipo": "tabella",
+      "intestazione": [
+       "Day",
+       "Where",
+       "What and when"
+      ],
+      "righe": [
+       [
+        "<b>Saturday 5</b>",
+        "Hotel lobby",
+        "<b>8:30</b> group run departure"
+       ],
+       [
+        "<b>Saturday 5</b>",
+        "Hotel lobby",
+        "<b>10:15</b> group departure for the walking tour (Torres de Serranos at 11:00)"
+       ],
+       [
+        "<b>Saturday 5</b>",
+        "Hotel lobby",
+        "<b>18:45–19:45</b> race-eve briefing"
+       ],
+       [
+        "<b>Sunday 6</b>",
+        "Hotel",
+        "Morning: how to reach your corral and the way back"
+       ],
+       [
+        "<b>Sunday 6</b>",
+        "Umbracle Terrace",
+        "<b>17:00</b> medal photo"
+       ],
+       [
+        "<b>Monday 7 and Tuesday 8</b>",
+        "By phone",
+        "All day"
+       ]
+      ],
+      "nota": "Outside these times the staff can always be reached by phone and WhatsApp."
+     }
+    ]
+   }
+  }
+ }
+}
