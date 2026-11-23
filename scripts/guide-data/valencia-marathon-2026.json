@@ -1,7 +1,7 @@
 {
  "slug": "valencia-marathon-2026",
  "updated_at": {
-  "it": "22 novembre 2026",
+  "it": "23 novembre 2026",
   "en": "22 November 2026"
  },
  "it": {
@@ -1898,15 +1898,15 @@
      },
      {
       "tipo": "p",
-      "html": "La partenza è alla Città delle Arti e delle Scienze, a circa 2 km dall'hotel: si va <b>a piedi</b>, in 20–25 minuti, ed è già riscaldamento. Esci con margine: domenica mattina molte strade intorno al percorso sono chiuse, meglio non contare sul taxi. L'orario di apertura dei cajones sarà nella Race Guide ufficiale: lo aggiungiamo appena esce. Domenica lo staff è raggiungibile al telefono e su WhatsApp."
+      "html": "La partenza è alla Città delle Arti e delle Scienze, a poco più di 1 km dall'hotel: si va <b>a piedi</b>, in circa 15 minuti, ed è già riscaldamento. Esci con margine: domenica mattina molte strade intorno al percorso sono chiuse, meglio non contare sul taxi. L'orario di apertura dei cajones sarà nella Race Guide ufficiale: lo aggiungiamo appena esce. Domenica lo staff è raggiungibile al telefono e su WhatsApp."
      }
     ],
     "deposito_nota": "Senza guardaroba, esci dall'hotel con l'essenziale e un vecchio strato da togliere prima del via.",
-    "checklist_hotel": "Domenica mattina calcola 20–25 minuti a piedi da The Bank alla partenza, più il tempo per entrare nel cajón.",
+    "checklist_hotel": "Domenica mattina calcola circa 15 minuti a piedi da The Bank alla partenza, più il tempo per entrare nel cajón.",
     "percorso_hotel": "Chi ti accompagna può vederti passare sull'<b>Avinguda del Port</b> (km 22–23), vicino all'hotel, e poi spostarsi verso l'arrivo alla Città delle Arti.",
-    "arrivo_rientro": "<b>Rientro in hotel</b>: The Bank è a circa 2 km dall'area di arrivo, a piedi o in taxi. Fino al passaggio degli ultimi runner molte strade sono chiuse, compresa l'Avinguda del Port: taxi e auto possono dover fare giri lunghi.",
+    "arrivo_rientro": "<b>Rientro in hotel</b>: The Bank è a poco più di 1 km dall'area di arrivo, a piedi o in taxi. Fino al passaggio degli ultimi runner molte strade sono chiuse, compresa l'Avinguda del Port: taxi e auto possono dover fare giri lunghi.",
     "citta_metro": "<b>Metro e tram</b> (Metrovalencia): la rete collega centro, porto e spiaggia; si paga con carta contactless ai tornelli o con la tessera ricaricabile. Per la Città delle Arti la fermata più comoda è Oceanogràfic, sulla linea 10.",
-    "cac_distanza": "a circa 2 km dall'hotel",
+    "cac_distanza": "a poco più di 1 km dall'hotel",
     "timeline_blocchi": [
      {
       "tipo": "timeline",
@@ -1924,7 +1924,7 @@
        {
         "quando": "Dom 6",
         "titolo": "La maratona",
-        "html": "<p><b>Colazione dalle 5:45</b>, poi a piedi fino alla partenza alla Città delle Arti e delle Scienze (20–25 minuti). Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric. <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle. Lo staff è raggiungibile al telefono per tutta la giornata.</p>"
+        "html": "<p><b>Colazione dalle 5:45</b>, poi a piedi fino alla partenza alla Città delle Arti e delle Scienze (circa 15 minuti). Partenze a ondate dalle <b>8:15</b> alle <b>9:35</b>, arrivo sulla passerella blu davanti all'Hemisfèric. <b>Alle 17:00 foto con la medaglia</b> alla Terrazza dell'Umbracle. Lo staff è raggiungibile al telefono per tutta la giornata.</p>"
        },
        {
         "quando": "Lun 7",
