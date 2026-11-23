@@ -41,7 +41,7 @@
     },
     {
      "k": "Sabato KiRun",
-     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria entro il 28 novembre</a>"
+     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria entro domenica 29 novembre</a>"
     },
     {
      "k": "Foto finisher",
@@ -188,7 +188,7 @@
      },
      {
       "tipo": "p",
-      "html": "Un walking tour in versione maratoneta, concentrato nel centro della città, alla scoperta del cuore della <b>Ciudad del Running</b>. La visita è un <b>omaggio KiRun</b>, ma l'<b>iscrizione è obbligatoria, entro il 28 novembre</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>iscriviti qui</b></a> (bastano nome e cognome, uno per ogni partecipante)."
+      "html": "Un walking tour in versione maratoneta, concentrato nel centro della città, alla scoperta del cuore della <b>Ciudad del Running</b>. La visita è un <b>omaggio KiRun</b>, ma l'<b>iscrizione è obbligatoria, entro domenica 29 novembre</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>iscriviti qui</b></a> (bastano nome e cognome, uno per ogni partecipante)."
      },
      {
       "tipo": "fatti",
@@ -203,7 +203,7 @@
        },
        {
         "k": "Iscrizione",
-        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · obbligatoria entro il 28 novembre, gratuita"
+        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · obbligatoria entro domenica 29 novembre, gratuita"
        }
       ]
      },
@@ -568,7 +568,7 @@
        },
        {
         "k": "Walking tour",
-        "v": "Iscrizione obbligatoria entro il 28 novembre su <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
+        "v": "Iscrizione obbligatoria entro domenica 29 novembre su <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
        },
        {
         "k": "Organizzatore",
@@ -625,7 +625,7 @@
     },
     {
      "k": "KiRun Saturday",
-     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required by 28 November</a>"
+     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required by Sunday 29 November</a>"
     },
     {
      "k": "Finisher photo",
@@ -772,7 +772,7 @@
      },
      {
       "tipo": "p",
-      "html": "A walking tour, marathon-runner style, focused on the city centre, discovering the heart of the <b>Ciudad del Running</b>. The tour is <b>complimentary from KiRun</b>, but <b>registration is required, by 28 November</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>register here</b></a> (just first and last name, one form per person)."
+      "html": "A walking tour, marathon-runner style, focused on the city centre, discovering the heart of the <b>Ciudad del Running</b>. The tour is <b>complimentary from KiRun</b>, but <b>registration is required, by Sunday 29 November</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>register here</b></a> (just first and last name, one form per person)."
      },
      {
       "tipo": "fatti",
@@ -787,7 +787,7 @@
        },
        {
         "k": "Registration",
-        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · required by 28 November, free"
+        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · required by Sunday 29 November, free"
        }
       ]
      },
@@ -1152,7 +1152,7 @@
        },
        {
         "k": "Walking tour",
-        "v": "Registration required by 28 November at <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
+        "v": "Registration required by Sunday 29 November at <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
        },
        {
         "k": "Organiser",
@@ -1994,6 +1994,186 @@
    },
    "en": {}
   },
+  "bank": {
+ "slug": "valencia-marathon-2026-the-bank",
+ "lingue": [
+  "en"
+ ],
+ "hero_slug": "valencia-marathon-2026",
+ "it": {},
+ "en": {
+  "nome_breve": "The Bank Hotel",
+  "chip_viaggio": "Trip: 4–7 December",
+  "ib_viaggio": "Independent travel, 4 to 7 December",
+  "ib_hotel": "The Bank Hotel, Avinguda del Port 31, 46021 Valencia · check-out 12:00",
+  "intro_viaggio": "",
+  "pacchetto_li": "<li>3 nights with breakfast at <b>The Bank Hotel</b>, 4 to 7 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run and a <b>walking tour of the centre</b>, complimentary.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
+  "etichetta_viaggio": "Getting to Valencia",
+  "titolo_viaggio": "Getting there",
+  "sezione_viaggio": [
+   {
+    "tipo": "p",
+    "html": "You travel to Valencia independently, arriving on Friday 4 December (or earlier, if you want to visit the Expo on Thursday evening). Valencia airport is west of the city, close to the fair where you collect your bib."
+   },
+   {
+    "tipo": "h3",
+    "testo": "From the airport to the Expo and the hotel"
+   },
+   {
+    "tipo": "ul",
+    "voci": [
+     "<b>Go to the Expo straight away</b>: Feria Valencia is about ten minutes by taxi from the airport. Collect your bib and bag in peace, then head to the hotel.",
+     "<b>Taxi</b>: from the arrivals rank, allow 20–25 minutes to the hotel; the easiest option with luggage.",
+     "<b>Leaving</b>: check-out by 12:00 on Monday 7; ask reception about leaving your luggage. Allow 20–25 minutes by taxi to the airport, more at rush hour."
+    ]
+   }
+  ],
+  "assistenza_intro": "The KiRun staff are with you all weekend: you will find us <b>in the lobby of The Bank</b> and at the meeting points below, and always by phone and WhatsApp.",
+  "assistenza_card": "<p>The KiRun staff are in the lobby of The Bank <b>on Friday 18:00–19:00</b> and <b>Saturday 18:00–18:30</b>; on Sunday and at any other time by phone.</p><p>Phone and WhatsApp: <a href='tel:+393384154242'>+39 338 415 4242</a><br>Email: <a href='mailto:info@ki-run.it'>info@ki-run.it</a></p>",
+  "numeri_staff": "<p><a href='tel:+393384154242'>+39 338 415 4242</a></p><p>Phone and WhatsApp. For non-urgent matters: <a href='mailto:info@ki-run.it'>info@ki-run.it</a>.</p>",
+  "contatti_kirun": "<a href='tel:+393384154242'>+39 338 415 4242</a> (phone and WhatsApp) · <a href='mailto:info@ki-run.it'>info@ki-run.it</a>. In the lobby of The Bank on Friday 18:00–19:00 and Saturday 18:00–18:30.",
+  "contatti_hotel": "The Bank Hotel (MYR Hotels), Avinguda del Port 31, 46021 Valencia",
+  "expo_avviso": [
+   {
+    "tipo": "box",
+    "stile": "kirun",
+    "titolo": "KiRun tip",
+    "html": "<p>If you arrive on Thursday or Friday, <b>go to the Expo straight from the airport</b>: the fair is about ten minutes away by taxi, you collect everything and the weekend is already downhill.</p>"
+   }
+  ],
+  "expo_da_hotel": "By <b>taxi</b>: the fair is on the other side of the city, allow at least 20–25 minutes.",
+  "sabato_avviso": [],
+  "ib_sabato_corsa": "8:15 group run from The Bank",
+  "sabato_corsa": "<b>From The Bank we leave at 8:15 from the lobby</b>, heading for the Jardín del Turia: be there a few minutes before, ready to run.",
+  "tour_partenza": "Group departure <b>from The Bank at 10:30</b>, by taxi or public transport.",
+  "sabato_sera": "<b>From 18:00 to 18:30 the staff are in the lobby of The Bank</b> for the race-eve briefing and last questions.",
+  "sezione_hotel": [
+   {
+    "tipo": "p",
+    "html": "You are staying at <b>The Bank Hotel</b> (MYR Hotels), Avinguda del Port 31, 46021 Valencia: the first five-star Grand Luxury hotel in the heart of Valencia, in the building that once housed the Banco de Valencia data centre, with a panoramic terrace and rooftop pool reserved for guests."
+   },
+   {
+    "tipo": "p",
+    "html": "The race route runs along the <b>Avinguda del Port</b> between km 22 and km 23: whoever is with you can cheer near the hotel. The Torres de Serranos, where Saturday's walking tour starts, are about half an hour away on foot."
+   },
+   {
+    "tipo": "link",
+    "voci": [
+     {
+      "label": "The Bank Hotel – official MYR Hotels website",
+      "url": "https://myrhotels.com/en/hotels-in-valencia/the-bank-hotel/"
+     },
+     {
+      "label": "Open in Google Maps",
+      "url": "https://www.google.com/maps/search/?api=1&query=The+Bank+Hotel+Avinguda+del+Port+31+Valencia"
+     }
+    ]
+   },
+   {
+    "tipo": "h3",
+    "testo": "Check-in, check-out and breakfast"
+   },
+   {
+    "tipo": "ul",
+    "voci": [
+     "<b>Check-out</b> by 12:00; to leave your luggage before check-in and after check-out, ask at reception.",
+     "Breakfast is included. On race morning it is served <b>from 5:45</b>. Keep something you have tested in your room anyway (bread, banana, a bar)."
+    ]
+   }
+  ],
+  "gara_blocchi": [
+   {
+    "tipo": "h3",
+    "testo": "From The Bank to the start"
+   },
+   {
+    "tipo": "p",
+    "html": "The start is at the City of Arts and Sciences, just over 1 km from the hotel: you go <b>on foot</b>, in about 15 minutes, and it already counts as a warm-up. Leave with time to spare: on Sunday morning many streets around the route are closed, so do not count on a taxi. The corral opening time will be in the official Race Guide: we will add it as soon as it is out. On Sunday the staff can be reached by phone and WhatsApp."
+   }
+  ],
+  "deposito_nota": "Without a bag drop, leave the hotel with the essentials and an old layer to take off before the start.",
+  "checklist_hotel": "On Sunday morning allow about 15 minutes on foot from The Bank to the start, plus the time to enter your corral.",
+  "percorso_hotel": "Whoever is with you can see you go by on the <b>Avinguda del Port</b> (km 22–23), near the hotel, and then move to the finish at the City of Arts.",
+  "arrivo_rientro": "<b>Back to the hotel</b>: The Bank is just over 1 km from the finish area, on foot or by taxi. Until the last runners have passed many streets are closed, including the Avinguda del Port: taxis and cars may have to take long detours.",
+  "citta_metro": "<b>Metro and tram</b> (Metrovalencia): the network links the centre, the port and the beach; pay with a contactless card at the gates or with the rechargeable card. For the City of Arts the handiest stop is Oceanogràfic, on line 10.",
+  "cac_distanza": "just over 1 km from the hotel",
+  "timeline_blocchi": [
+   {
+    "tipo": "timeline",
+    "voci": [
+     {
+      "quando": "Fri 4",
+      "titolo": "Arrival and bib collection",
+      "html": "<p>Independent arrival in Valencia. Bibs are collected at the <b>Expo 42K at Feria Valencia</b>, open on Friday from 9:00 to 21:00 (Thursday 3 from 17:00 to 21:00, if you arrive earlier): it is about ten minutes by taxi from the airport, then on to the hotel. <b>From 18:00 to 19:00 the KiRun staff are in the lobby of The Bank</b>.</p>"
+     },
+     {
+      "quando": "Sat 5",
+      "titolo": "The KiRun Saturday",
+      "html": "<p><b>8:15</b> departure from The Bank towards the Jardín del Turia for the group run: 30 easy minutes and a photo in the Turia Park. <b>10:30</b> group departure from The Bank (taxi or public transport) for the <b>11:00 walking tour</b> at the Torres de Serranos (registration required). The Expo closes at 19:00. <b>From 18:00 to 18:30 the staff are in the lobby</b> for the race-eve briefing; then an early dinner.</p>"
+     },
+     {
+      "quando": "Sun 6",
+      "titolo": "The marathon",
+      "html": "<p><b>Breakfast from 5:45</b>, then on foot to the start at the City of Arts and Sciences (about 15 minutes). Wave starts from <b>8:15</b> to <b>9:35</b>, finish on the blue walkway in front of the Hemisfèric. <b>At 17:00 medal photo</b> on the Umbracle Terrace. The staff can be reached by phone all day.</p>"
+     },
+     {
+      "quando": "Mon 7",
+      "titolo": "Going home",
+      "html": "<p>Check-out by 12:00; ask reception about leaving your luggage. The staff can still be reached by phone.</p>"
+     }
+    ]
+   }
+  ],
+  "assistenza_tabella": [
+   {
+    "tipo": "tabella",
+    "intestazione": [
+     "Day",
+     "Where",
+     "What and when"
+    ],
+    "righe": [
+     [
+      "<b>Friday 4</b>",
+      "Lobby of The Bank",
+      "<b>18:00–19:00</b>"
+     ],
+     [
+      "<b>Saturday 5</b>",
+      "Lobby of The Bank",
+      "<b>8:15</b> departure for the group run, towards the Jardín del Turia"
+     ],
+     [
+      "<b>Saturday 5</b>",
+      "Lobby of The Bank",
+      "<b>10:30</b> group departure by taxi or public transport for the walking tour (Torres de Serranos at 11:00)"
+     ],
+     [
+      "<b>Saturday 5</b>",
+      "Lobby of The Bank",
+      "<b>18:00–18:30</b> race-eve briefing"
+     ],
+     [
+      "<b>Sunday 6</b>",
+      "By phone",
+      "All day"
+     ],
+     [
+      "<b>Sunday 6</b>",
+      "Umbracle Terrace",
+      "<b>17:00</b> medal photo"
+     ],
+     [
+      "<b>Monday 7</b>",
+      "By phone",
+      "All day"
+     ]
+    ],
+    "nota": "Outside these times the staff can always be reached by phone and WhatsApp."
+   }
+  ]
+ }
+},
   "hi_5_8": {
    "slug": "valencia-marathon-2026-5-8-dicembre",
    "lingue": [
