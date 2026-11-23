@@ -41,7 +41,7 @@
     },
     {
      "k": "Sabato KiRun",
-     "v": "8:30 corsa di gruppo dall'Holiday Inn Express · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria</a>"
+     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria</a>"
     },
     {
      "k": "Foto finisher",
@@ -625,7 +625,7 @@
     },
     {
      "k": "KiRun Saturday",
-     "v": "8:30 group run from the Holiday Inn Express · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required</a>"
+     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required</a>"
     },
     {
      "k": "Finisher photo",
@@ -1190,7 +1190,8 @@
     "arrivo_rientro": "<b>Rientro in hotel a piedi</b>: dall'uscita della zona runner all'Holiday Inn Express sono circa 400 metri, la strada te la indichiamo noi.",
     "deposito_nota": "Dall'Holiday Inn Express non ti serve: lascia tutto in camera.",
     "checklist_hotel": "Domenica mattina resti in camera fino a pochi minuti prima dell'entrata in griglia, a circa 300 metri: la strada te la indichiamo noi.",
-    "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
+    "ib_sabato_corsa": "8:30 corsa di gruppo dall'Holiday Inn Express",
+     "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
     "tour_partenza": "Partenza di gruppo <b>dall'Holiday Inn Express alle 10:15</b>, con i mezzi pubblici o Uber.",
     "sabato_sera": "<b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia e le ultime domande.",
     "citta_metro": "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
@@ -1369,7 +1370,8 @@
     "arrivo_rientro": "<b>Walk back to the hotel</b>: from the runners' exit to the Holiday Inn Express it is about 400 metres, and we will show you the way.",
     "deposito_nota": "From the Holiday Inn Express you do not need it: leave everything in your room.",
     "checklist_hotel": "On Sunday morning you stay in your room until a few minutes before entering your corral, about 300 metres away: we will show you the way.",
-    "sabato_corsa": "Meet in the lobby a few minutes before, ready to run.",
+    "ib_sabato_corsa": "8:30 group run from the Holiday Inn Express",
+     "sabato_corsa": "Meet in the lobby a few minutes before, ready to run.",
     "tour_partenza": "Group departure <b>from the Holiday Inn Express at 10:15</b>, by public transport or Uber.",
     "sabato_sera": "<b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing and last questions.",
     "citta_metro": "<b>Metro and tram</b> (Metrovalencia): from the hotel, line 10 from Oceanogràfic takes you to Alacant in the centre in about ten minutes; from there, Xàtiva station for the other lines. Pay with a contactless card at the gates or with the rechargeable card.",
@@ -1549,7 +1551,8 @@
     "arrivo_rientro": "<b>Rientro in hotel a piedi</b>: dall'uscita della zona runner all'Holiday Inn Express sono circa 400 metri, la strada te la indichiamo noi.",
     "deposito_nota": "Dall'Holiday Inn Express non ti serve: lascia tutto in camera.",
     "checklist_hotel": "Domenica mattina resti in camera fino a pochi minuti prima dell'entrata in griglia, a circa 300 metri: la strada te la indichiamo noi.",
-    "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
+    "ib_sabato_corsa": "8:30 corsa di gruppo dall'Holiday Inn Express",
+     "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
     "tour_partenza": "Partenza di gruppo <b>dall'Holiday Inn Express alle 10:15</b>, con i mezzi pubblici o Uber.",
     "sabato_sera": "<b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia e le ultime domande.",
     "citta_metro": "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
@@ -1854,7 +1857,8 @@
     ],
     "expo_da_hotel": "In <b>taxi</b>: la fiera è dall'altra parte della città, calcola almeno 20–25 minuti.",
     "sabato_avviso": [],
-    "sabato_corsa": "Da The Bank raggiungi l'Holiday Inn Express (Calle Escritor Rafael Ferreres 22) in taxi.",
+    "ib_sabato_corsa": "8:15 corsa di gruppo da The Bank",
+     "sabato_corsa": "<b>Da The Bank si parte alle 8:15 dalla hall</b>, in direzione del Jardín del Turia: fatti trovare qualche minuto prima, in tenuta da corsa.",
     "tour_partenza": "Partenza di gruppo <b>da The Bank alle 10:30</b>, a piedi.",
     "sabato_sera": "<b>Dalle 18:00 alle 18:30 lo staff è nella hall di The Bank</b> per il punto della vigilia e le ultime domande.",
     "sezione_hotel": [
@@ -1919,7 +1923,7 @@
        {
         "quando": "Sab 5",
         "titolo": "Il sabato KiRun",
-        "html": "<p><b>8:30</b> corsa di gruppo con partenza dall'Holiday Inn Express Ciudad de las Ciencias (da The Bank in taxi): 30 minuti leggeri e foto nel Parco del Turia. <b>10:30</b> partenza di gruppo a piedi da The Bank per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:00 alle 18:30 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
+        "html": "<p><b>8:15</b> partenza da The Bank in direzione del Jardín del Turia per la corsa di gruppo: 30 minuti leggeri e foto nel Parco del Turia. <b>10:30</b> partenza di gruppo a piedi da The Bank per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:00 alle 18:30 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
        },
        {
         "quando": "Dom 6",
@@ -1955,8 +1959,8 @@
        ],
        [
         "<b>Sabato 5</b>",
-        "Holiday Inn Express Ciudad de las Ciencias",
-        "<b>8:30</b> partenza della corsa di gruppo"
+        "Hall di The Bank",
+        "<b>8:15</b> partenza per la corsa di gruppo, in direzione del Jardín del Turia"
        ],
        [
         "<b>Sabato 5</b>",
@@ -2008,7 +2012,8 @@
     "arrivo_rientro": "<b>Rientro in hotel a piedi</b>: dall'uscita della zona runner all'Holiday Inn Express sono circa 400 metri, la strada te la indichiamo noi.",
     "deposito_nota": "Dall'Holiday Inn Express non ti serve: lascia tutto in camera.",
     "checklist_hotel": "Domenica mattina resti in camera fino a pochi minuti prima dell'entrata in griglia, a circa 300 metri: la strada te la indichiamo noi.",
-    "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
+    "ib_sabato_corsa": "8:30 corsa di gruppo dall'Holiday Inn Express",
+     "sabato_corsa": "Ritrovo nella hall qualche minuto prima, in tenuta da corsa.",
     "tour_partenza": "Partenza di gruppo <b>dall'Holiday Inn Express alle 10:15</b>, con i mezzi pubblici o Uber.",
     "sabato_sera": "<b>Dalle 18:45 alle 19:45 lo staff è nella hall</b> per il punto della vigilia e le ultime domande.",
     "citta_metro": "<b>Metro e tram</b> (Metrovalencia): dall'hotel la linea 10, fermata Oceanogràfic, porta in centro ad Alacant in una decina di minuti; da lì la stazione Xàtiva per le altre linee. Si paga con carta contactless ai tornelli o con la tessera ricaricabile.",
@@ -2189,7 +2194,8 @@
     "arrivo_rientro": "<b>Walk back to the hotel</b>: from the runners' exit to the Holiday Inn Express it is about 400 metres, and we will show you the way.",
     "deposito_nota": "From the Holiday Inn Express you do not need it: leave everything in your room.",
     "checklist_hotel": "On Sunday morning you stay in your room until a few minutes before entering your corral, about 300 metres away: we will show you the way.",
-    "sabato_corsa": "Meet in the lobby a few minutes before, ready to run.",
+    "ib_sabato_corsa": "8:30 group run from the Holiday Inn Express",
+     "sabato_corsa": "Meet in the lobby a few minutes before, ready to run.",
     "tour_partenza": "Group departure <b>from the Holiday Inn Express at 10:15</b>, by public transport or Uber.",
     "sabato_sera": "<b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing and last questions.",
     "citta_metro": "<b>Metro and tram</b> (Metrovalencia): from the hotel, line 10 from Oceanogràfic takes you to Alacant in the centre in about ten minutes; from there, Xàtiva station for the other lines. Pay with a contactless card at the gates or with the rechargeable card.",
