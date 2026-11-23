@@ -2,7 +2,7 @@
  "slug": "valencia-marathon-2026",
  "updated_at": {
   "it": "23 novembre 2026",
-  "en": "22 November 2026"
+  "en": "23 November 2026"
  },
  "it": {
   "meta_description": "La guida KiRun per la Valencia Marathon 2026: {{hotel:nome_breve}}, assistenza dello staff, sabato KiRun, Expo 42K, griglie di partenza, percorso e mini guida della città.",
@@ -41,7 +41,7 @@
     },
     {
      "k": "Sabato KiRun",
-     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria</a>"
+     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour alle Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>iscrizione obbligatoria entro il 28 novembre</a>"
     },
     {
      "k": "Foto finisher",
@@ -188,7 +188,7 @@
      },
      {
       "tipo": "p",
-      "html": "Un walking tour in versione maratoneta, concentrato nel centro della città, alla scoperta del cuore della <b>Ciudad del Running</b>. La visita è un <b>omaggio KiRun</b>, ma l'<b>iscrizione è obbligatoria</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>iscriviti qui</b></a> (bastano nome e cognome, uno per ogni partecipante)."
+      "html": "Un walking tour in versione maratoneta, concentrato nel centro della città, alla scoperta del cuore della <b>Ciudad del Running</b>. La visita è un <b>omaggio KiRun</b>, ma l'<b>iscrizione è obbligatoria, entro il 28 novembre</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>iscriviti qui</b></a> (bastano nome e cognome, uno per ogni partecipante)."
      },
      {
       "tipo": "fatti",
@@ -203,7 +203,7 @@
        },
        {
         "k": "Iscrizione",
-        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · obbligatoria, gratuita"
+        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · obbligatoria entro il 28 novembre, gratuita"
        }
       ]
      },
@@ -568,7 +568,7 @@
        },
        {
         "k": "Walking tour",
-        "v": "Iscrizione obbligatoria su <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
+        "v": "Iscrizione obbligatoria entro il 28 novembre su <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
        },
        {
         "k": "Organizzatore",
@@ -625,7 +625,7 @@
     },
     {
      "k": "KiRun Saturday",
-     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required</a>"
+     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required by 28 November</a>"
     },
     {
      "k": "Finisher photo",
@@ -772,7 +772,7 @@
      },
      {
       "tipo": "p",
-      "html": "A walking tour, marathon-runner style, focused on the city centre, discovering the heart of the <b>Ciudad del Running</b>. The tour is <b>complimentary from KiRun</b>, but <b>registration is required</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>register here</b></a> (just first and last name, one form per person)."
+      "html": "A walking tour, marathon-runner style, focused on the city centre, discovering the heart of the <b>Ciudad del Running</b>. The tour is <b>complimentary from KiRun</b>, but <b>registration is required, by 28 November</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>register here</b></a> (just first and last name, one form per person)."
      },
      {
       "tipo": "fatti",
@@ -787,7 +787,7 @@
        },
        {
         "k": "Registration",
-        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · required, free"
+        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · required by 28 November, free"
        }
       ]
      },
@@ -1152,7 +1152,7 @@
        },
        {
         "k": "Walking tour",
-        "v": "Registration required at <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
+        "v": "Registration required by 28 November at <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
        },
        {
         "k": "Organiser",
@@ -1859,7 +1859,7 @@
     "sabato_avviso": [],
     "ib_sabato_corsa": "8:15 corsa di gruppo da The Bank",
      "sabato_corsa": "<b>Da The Bank si parte alle 8:15 dalla hall</b>, in direzione del Jardín del Turia: fatti trovare qualche minuto prima, in tenuta da corsa.",
-    "tour_partenza": "Partenza di gruppo <b>da The Bank alle 10:30</b>, a piedi.",
+    "tour_partenza": "Partenza di gruppo <b>da The Bank alle 10:30</b>, in taxi o con i mezzi pubblici.",
     "sabato_sera": "<b>Dalle 18:00 alle 18:30 lo staff è nella hall di The Bank</b> per il punto della vigilia e le ultime domande.",
     "sezione_hotel": [
      {
@@ -1923,7 +1923,7 @@
        {
         "quando": "Sab 5",
         "titolo": "Il sabato KiRun",
-        "html": "<p><b>8:15</b> partenza da The Bank in direzione del Jardín del Turia per la corsa di gruppo: 30 minuti leggeri e foto nel Parco del Turia. <b>10:30</b> partenza di gruppo a piedi da The Bank per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:00 alle 18:30 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
+        "html": "<p><b>8:15</b> partenza da The Bank in direzione del Jardín del Turia per la corsa di gruppo: 30 minuti leggeri e foto nel Parco del Turia. <b>10:30</b> partenza di gruppo da The Bank (taxi o mezzi pubblici) per il <b>walking tour delle 11:00</b> alle Torres de Serranos (iscrizione obbligatoria). L'Expo chiude alle 19:00. <b>Dalle 18:00 alle 18:30 lo staff è nella hall</b> per il punto della vigilia; poi cena presto.</p>"
        },
        {
         "quando": "Dom 6",
@@ -1965,7 +1965,7 @@
        [
         "<b>Sabato 5</b>",
         "Hall di The Bank",
-        "<b>10:30</b> partenza di gruppo a piedi per il walking tour (Torres de Serranos alle 11:00)"
+        "<b>10:30</b> partenza di gruppo in taxi o con i mezzi pubblici per il walking tour (Torres de Serranos alle 11:00)"
        ],
        [
         "<b>Sabato 5</b>",
