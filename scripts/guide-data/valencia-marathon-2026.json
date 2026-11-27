@@ -2,7 +2,7 @@
  "slug": "valencia-marathon-2026",
  "updated_at": {
   "it": "23 novembre 2026",
-  "en": "23 November 2026"
+  "en": "27 November 2026"
  },
  "it": {
   "meta_description": "La guida KiRun per la Valencia Marathon 2026: {{hotel:nome_breve}}, assistenza dello staff, sabato KiRun, Expo 42K, griglie di partenza, percorso e mini guida della città.",
@@ -625,7 +625,7 @@
     },
     {
      "k": "KiRun Saturday",
-     "v": "{{hotel:ib_sabato_corsa}} · 11:00 walking tour at the Torres de Serranos, <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>registration required by Sunday 29 November</a>"
+     "v": "{{hotel:ib_sabato_corsa}}"
     },
     {
      "k": "Finisher photo",
@@ -672,10 +672,6 @@
     {
      "label": "Runner's Area (third-party collection)",
      "url": "https://tickets.valenciaciudaddelrunning.com/#/EN/servicios"
-    },
-    {
-     "label": "KiRun walking tour registration",
-     "url": "https://tally.so/r/J1O2oK"
     }
    ],
    "assistenza": "{{hotel:assistenza_card}}"
@@ -765,31 +761,6 @@
      {
       "tipo": "p",
       "html": "We leave at <b>8:30 from the Holiday Inn Express Ciudad de las Ciencias</b> for a warm-up: <b>30 minutes of easy running</b> in the Turia Gardens, which begin right at the City of Arts, and a <b>group photo</b>. The day before a marathon this is the right shake-out: no pace, a few strides at most. {{hotel:sabato_corsa}}"
-     },
-     {
-      "tipo": "h3",
-      "testo": "11:00 · Walking tour of the centre"
-     },
-     {
-      "tipo": "p",
-      "html": "A walking tour, marathon-runner style, focused on the city centre, discovering the heart of the <b>Ciudad del Running</b>. The tour is <b>complimentary from KiRun</b>, but <b>registration is required, by Sunday 29 November</b>: <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'><b>register here</b></a> (just first and last name, one form per person)."
-     },
-     {
-      "tipo": "fatti",
-      "voci": [
-       {
-        "k": "Meeting point",
-        "v": "<b>11:00 at the Torres de Serranos</b>, the medieval gate on the northern edge of the old town, in Plaça dels Furs · <a href='https://www.google.com/maps/search/?api=1&query=Torres+de+Serranos+Valencia' target='_blank' rel='noopener'>open in Google Maps</a>"
-       },
-       {
-        "k": "Getting there",
-        "v": "You make your own way there. {{hotel:tour_partenza}}"
-       },
-       {
-        "k": "Registration",
-        "v": "<a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a> · required by Sunday 29 November, free"
-       }
-      ]
      },
      {
       "tipo": "h3",
@@ -1055,7 +1026,7 @@
        },
        {
         "titolo": "Old town",
-        "html": "<p>The Cathedral with the <b>Miguelete</b> tower (207 steps and the best view of the city), Plaza de la Virgen, the UNESCO-listed <b>Lonja de la Seda</b> and the medieval Serranos and Quart towers. Saturday's walking tour is the right way to start.</p>"
+        "html": "<p>The Cathedral with the <b>Miguelete</b> tower (207 steps and the best view of the city), Plaza de la Virgen, the UNESCO-listed <b>Lonja de la Seda</b> and the medieval Serranos and Quart towers.</p>"
        },
        {
         "titolo": "Mercado Central",
@@ -1149,10 +1120,6 @@
        {
         "k": "KiRun",
         "v": "{{hotel:contatti_kirun}}"
-       },
-       {
-        "k": "Walking tour",
-        "v": "Registration required by Sunday 29 November at <a href='https://tally.so/r/J1O2oK' target='_blank' rel='noopener'>tally.so/r/J1O2oK</a>"
        },
        {
         "k": "Organiser",
@@ -1426,7 +1393,7 @@
     ],
     "chip_viaggio": "Trip: 4–7 December",
     "ib_viaggio": "Independent travel, 4 to 7 December",
-    "pacchetto_li": "<li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 4 to 7 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run and a <b>walking tour of the centre</b>, complimentary.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
+    "pacchetto_li": "<li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 4 to 7 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run in the Turia Park.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
     "sezione_viaggio": [
      {
       "tipo": "p",
@@ -1469,7 +1436,7 @@
        {
         "quando": "Sat 5",
         "titolo": "The KiRun Saturday",
-        "html": "<p><b>8:30</b> departure from the lobby for 30 minutes of easy running and a photo in the Turia Park. <b>10:15</b> group departure from the lobby (public transport or Uber) for the <b>11:00 walking tour</b> at the Torres de Serranos (registration required). The Expo closes at 19:00. <b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing; then an early dinner.</p>"
+        "html": "<p><b>8:30</b> departure from the lobby for 30 minutes of easy running and a photo in the Turia Park. The Expo closes at 19:00. <b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing; then an early dinner.</p>"
        },
        {
         "quando": "Sun 6",
@@ -1502,11 +1469,6 @@
         "<b>Saturday 5</b>",
         "Hotel lobby",
         "<b>8:30</b> group run departure"
-       ],
-       [
-        "<b>Saturday 5</b>",
-        "Hotel lobby",
-        "<b>10:15</b> group departure for the walking tour (Torres de Serranos at 11:00)"
        ],
        [
         "<b>Saturday 5</b>",
@@ -2007,7 +1969,7 @@
   "ib_viaggio": "Independent travel, 4 to 7 December",
   "ib_hotel": "The Bank Hotel, Avinguda del Port 31, 46021 Valencia · check-out 12:00",
   "intro_viaggio": "",
-  "pacchetto_li": "<li>3 nights with breakfast at <b>The Bank Hotel</b>, 4 to 7 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run and a <b>walking tour of the centre</b>, complimentary.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
+  "pacchetto_li": "<li>3 nights with breakfast at <b>The Bank Hotel</b>, 4 to 7 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run in the Turia Park.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
   "etichetta_viaggio": "Getting to Valencia",
   "titolo_viaggio": "Getting there",
   "sezione_viaggio": [
@@ -2054,7 +2016,7 @@
    },
    {
     "tipo": "p",
-    "html": "The race route runs along the <b>Avinguda del Port</b> between km 22 and km 23: whoever is with you can cheer near the hotel. The Torres de Serranos, where Saturday's walking tour starts, are about half an hour away on foot."
+    "html": "The race route runs along the <b>Avinguda del Port</b> between km 22 and km 23: whoever is with you can cheer near the hotel."
    },
    {
     "tipo": "link",
@@ -2109,7 +2071,7 @@
      {
       "quando": "Sat 5",
       "titolo": "The KiRun Saturday",
-      "html": "<p><b>8:15</b> departure from The Bank towards the Jardín del Turia for the group run: 30 easy minutes and a photo in the Turia Park. <b>10:30</b> group departure from The Bank (taxi or public transport) for the <b>11:00 walking tour</b> at the Torres de Serranos (registration required). The Expo closes at 19:00. <b>From 18:00 to 18:30 the staff are in the lobby</b> for the race-eve briefing; then an early dinner.</p>"
+      "html": "<p><b>8:15</b> departure from The Bank towards the Jardín del Turia for the group run: 30 easy minutes and a photo in the Turia Park. The Expo closes at 19:00. <b>From 18:00 to 18:30 the staff are in the lobby</b> for the race-eve briefing; then an early dinner.</p>"
      },
      {
       "quando": "Sun 6",
@@ -2142,11 +2104,6 @@
       "<b>Saturday 5</b>",
       "Lobby of The Bank",
       "<b>8:15</b> departure for the group run, towards the Jardín del Turia"
-     ],
-     [
-      "<b>Saturday 5</b>",
-      "Lobby of The Bank",
-      "<b>10:30</b> group departure by taxi or public transport for the walking tour (Torres de Serranos at 11:00)"
      ],
      [
       "<b>Saturday 5</b>",
@@ -2430,7 +2387,7 @@
     ],
     "chip_viaggio": "Trip: 5–8 December",
     "ib_viaggio": "Independent travel, 5 to 8 December · arriving on Saturday, <b>bib by 19:00</b>",
-    "pacchetto_li": "<li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 5 to 8 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run and a <b>walking tour of the centre</b>, complimentary.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
+    "pacchetto_li": "<li>3 nights with breakfast at the <b>Holiday Inn Express Valencia Ciudad de las Ciencias</b>, 5 to 8 December.</li><li>KiRun staff support at the hotel and by phone all weekend (times in the Support section).</li><li>The KiRun Saturday: morning group run in the Turia Park.</li><li>KiRun training programme up to race day.</li><li>Race bib, if you requested it with your package.</li>",
     "sezione_viaggio": [
      {
       "tipo": "p",
@@ -2465,7 +2422,7 @@
       "tipo": "box",
       "stile": "attenzione",
       "titolo": "If you arrive on Saturday",
-      "html": "<p>The group run and the walking tour are on Saturday morning: join us if you arrive in time. The priority is your <b>bib, by 19:00</b> at the Expo.</p>"
+      "html": "<p>The group run is on Saturday morning at 8:30: join us if you arrive in time. The priority is your <b>bib, by 19:00</b> at the Expo.</p>"
      }
     ],
     "timeline_blocchi": [
@@ -2475,7 +2432,7 @@
        {
         "quando": "Sat 5",
         "titolo": "Arrival, Expo and the KiRun Saturday",
-        "html": "<p>Independent arrival in Valencia. <b>Bibs must be collected by 19:00</b> at the Expo 42K at Feria Valencia (nothing is handed out on Sunday): go there first from the airport, about ten minutes by taxi. If you arrive in time, join the <b>8:30</b> group run from the lobby and the <b>11:00 walking tour</b> at the Torres de Serranos (group departure from the lobby at 10:15, registration required). Rooms ready from 16:00. <b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing.</p>"
+        "html": "<p>Independent arrival in Valencia. <b>Bibs must be collected by 19:00</b> at the Expo 42K at Feria Valencia (nothing is handed out on Sunday): go there first from the airport, about ten minutes by taxi. If you arrive in time, join the <b>8:30</b> group run from the lobby. Rooms ready from 16:00. <b>From 18:45 to 19:45 the staff are in the lobby</b> for the race-eve briefing.</p>"
        },
        {
         "quando": "Sun 6",
@@ -2508,11 +2465,6 @@
         "<b>Saturday 5</b>",
         "Hotel lobby",
         "<b>8:30</b> group run departure"
-       ],
-       [
-        "<b>Saturday 5</b>",
-        "Hotel lobby",
-        "<b>10:15</b> group departure for the walking tour (Torres de Serranos at 11:00)"
        ],
        [
         "<b>Saturday 5</b>",
